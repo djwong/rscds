@@ -1,0 +1,40 @@
+HTML=index.html \
+classes.html \
+people.html \
+demo.html \
+links.html \
+events.html \
+party.html \
+workshop.html \
+maps.html \
+pictures.html \
+movies.html
+
+FILES=content_bottom.jpg \
+content_top.jpg \
+dancing_feet.jpg \
+debbie.jpg \
+don.jpg \
+footer.jpg \
+header.jpg \
+lmae.jpg \
+logo_inv.gif \
+michael.jpg \
+middle.jpg \
+ruth_jappy.jpg \
+sidebar_top.jpg \
+sidebar_bottom.jpg \
+sidebar.jpg \
+style.css
+
+all: $(HTML)
+
+install: all
+	mkdir -p /Users/scd/Sites/
+	cp -pR $(HTML) $(FILES) /Users/scd/Sites/
+
+%.html: %.xhtml links.txt files.txt part0 part1 part2 part3
+	./build.sh $< $@
+
+clean:;
+	rm -rf $(HTML)

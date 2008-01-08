@@ -1,0 +1,80 @@
+body {
+	background-color: #680000;
+	margin: 0px;
+	font-family: Cambria, Georgia, Times New Roman, Times, serif;
+	color: #6F4714;
+}
+ul ul {
+	padding-left: 1em;
+}
+#site_logo {
+	float: left;
+	padding-right: 1em;
+}
+#page_header {
+	background: url(header.jpg);
+	height: 98px;
+}
+#banner1 {
+	color: white;
+	font-size: 1.6em;
+	margin: 0px;
+	font-weight: bold;
+	padding-top: 0.1em;
+}
+#banner2 {
+	color: white;
+	margin: 0px;
+	font-weight: bold;
+}
+#footer {
+	background: url(footer.jpg);
+	height: 74px;
+	color: #888888;
+	width: 100%;
+	margin-top: 1em;
+}
+#footer_text {
+	padding-top: 1.4em;
+	padding-left: 0.5em;
+}
+#content {
+	width: 544px;
+	background: url(middle.jpg) repeat-y;
+	margin-left: 1em;
+}
+#content_text {
+	margin-left: 2em;
+	margin-right: 2em;
+	text-align: center;
+}
+#content_top {
+	background: no-repeat url(content_top.jpg);
+	width: 544px;
+	height: 33px;
+}
+#content_bottom {
+	background: no-repeat url(content_bottom.jpg);
+	width: 544px;
+	height: 25px;
+}
+#nav {
+	position: absolute;
+	margin-left: 600px;
+	width: 233px;
+	background: url(sidebar.jpg) repeat-y;
+}
+#nav_top {
+	background: url(sidebar_top.jpg);
+	width: 233px;
+	height: 33px;
+}
+#nav_bottom {
+	background: url(sidebar_bottom.jpg);
+	width: 233px;
+	height: 33px;
+}
+#nav_text {
+	margin: 0px;
+	padding: 0px;
+}
