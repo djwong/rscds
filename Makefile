@@ -20,6 +20,7 @@ header.jpg \
 lmae.jpg \
 logo_inv.gif \
 michael.jpg \
+workshop_flyer_2008.pdf \
 middle.jpg \
 ruth_jappy.jpg \
 sidebar_top.jpg \
