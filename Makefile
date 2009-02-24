@@ -1,3 +1,5 @@
+DEST=/Users/scd/Sites/
+
 HTML=index.html \
 classes.html \
 people.html \
@@ -33,8 +35,8 @@ style.css
 all: $(HTML)
 
 install: all
-	mkdir -p /Users/scd/Sites/
-	cp -pR $(HTML) $(FILES) /Users/scd/Sites/
+	mkdir -p $(DEST)
+	cp -pR $(HTML) $(FILES) $(DEST)
 
 %.html: %.xhtml links.txt files.txt part0 part1 part2 part3
 	./build.sh $< $@
