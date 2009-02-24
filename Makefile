@@ -1,4 +1,4 @@
-DEST=/Users/scd/Sites/
+DEST=/Library/WebServer/Documents/scd/
 
 HTML=index.html \
 classes.html \
