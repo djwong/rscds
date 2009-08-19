@@ -1,4 +1,4 @@
-DEST=/Library/WebServer/Documents/scd/
+DEST=/home/djwong/rscds_website/
 
 HTML=index.html \
 classes.html \
