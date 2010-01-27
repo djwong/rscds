@@ -12,7 +12,8 @@ maps.html \
 pictures.html \
 movies.html
 
-FILES=content_bottom.jpg \
+FILES=ball_minicrib_2010.pdf \
+content_bottom.jpg \
 content_top.jpg \
 dancing_feet.jpg \
 debbie.jpg \
