@@ -20,6 +20,8 @@ debbie.jpg \
 don.jpg \
 footer.jpg \
 header.jpg \
+hogcribs10.pdf \
+hogflyer10.pdf \
 lmae.jpg \
 logo_inv.gif \
 michael.jpg \
