@@ -39,7 +39,7 @@ ul ul {
 	padding-left: 0.5em;
 }
 #content {
-	width: 544px;
+	width: 710px;
 	background: url(middle.jpg) repeat-y;
 	margin-left: 1em;
 }
@@ -50,17 +50,17 @@ ul ul {
 }
 #content_top {
 	background: no-repeat url(content_top.jpg);
-	width: 544px;
+	width: 710px;
 	height: 33px;
 }
 #content_bottom {
 	background: no-repeat url(content_bottom.jpg);
-	width: 544px;
+	width: 710px;
 	height: 25px;
 }
 #nav {
 	position: absolute;
-	margin-left: 600px;
+	margin-left: 766px;
 	width: 233px;
 	background: url(sidebar.jpg) repeat-y;
 }
