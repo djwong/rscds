@@ -30,6 +30,7 @@ workshop_flyer_2009.pdf \
 workshop_flyer_2011.pdf \
 workshop_registration_2009.pdf \
 workshop_registration_2010.pdf \
+workshop_registration_2011.pdf \
 vancouver_dance_2009.pdf \
 middle.jpg \
 ruth_jappy.jpg \
