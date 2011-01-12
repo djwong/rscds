@@ -37,7 +37,8 @@ ruth_jappy.jpg \
 sidebar_top.jpg \
 sidebar_bottom.jpg \
 sidebar.jpg \
-style.css
+style.css \
+DD11flyer.pdf
 
 all: $(HTML)
 
