@@ -14,6 +14,7 @@ movies.html
 
 FILES=ball_minicrib_2010.pdf \
 ball_minicrib_2011.pdf \
+ball_minicrib_2012.pdf \
 content_bottom.jpg \
 content_top.jpg \
 dancing_feet.jpg \
