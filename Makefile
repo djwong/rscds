@@ -19,6 +19,7 @@ content_bottom.jpg \
 content_top.jpg \
 dancing_feet.jpg \
 debbie.jpg \
+dinner_dance_2012.pdf \
 don.jpg \
 footer.jpg \
 header.jpg \
