@@ -21,6 +21,7 @@ dancing_feet.jpg \
 debbie.jpg \
 dinner_dance_2012.pdf \
 don.jpg \
+fifth_tuesday_mixer.pdf \
 footer.jpg \
 header.jpg \
 hogcribs10.pdf \
