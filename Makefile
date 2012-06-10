@@ -29,6 +29,7 @@ hogflyer10.pdf \
 lmae.jpg \
 logo_inv.gif \
 michael.jpg \
+picnicflyer12.pdf \
 workshop_flyer_2008.pdf \
 workshop_flyer_2009.pdf \
 workshop_flyer_2011.pdf \
