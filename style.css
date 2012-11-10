@@ -78,3 +78,9 @@ ul ul {
 	margin: 0px;
 	padding: 0px;
 }
+#news {
+	text-align: left;
+}
+#news li {
+	margin-bottom: 0.4em;
+}
