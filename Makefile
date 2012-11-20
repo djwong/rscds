@@ -45,6 +45,8 @@ sidebar_top.jpg \
 sidebar_bottom.jpg \
 sidebar.jpg \
 style.css \
+turkey_2012.pdf \
+betwixt_2012.pdf \
 DD11flyer.pdf
 
 all: $(HTML)
