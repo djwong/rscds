@@ -58,10 +58,13 @@ body {
 	background-color: #680000;
 	margin: 0px;
 	font-family: "Linux Libertine O", serif;
-	color: #6F4714;
+	color: #53350f;
 }
 ul ul {
 	padding-left: 1em;
+}
+#footer_text a {
+	color: #888888;
 }
 #site_logo {
 	float: left;
