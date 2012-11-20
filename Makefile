@@ -12,6 +12,19 @@ maps.html \
 pictures.html \
 movies.html
 
+FONTS=LinLibertine_Bd.eot \
+LinLibertine_Bd.otf \
+LinLibertine_Bd.ttf \
+LinLibertine_BI.eot \
+LinLibertine_BI.otf \
+LinLibertine_BI.ttf \
+LinLibertine_It.eot \
+LinLibertine_It.otf \
+LinLibertine_It.ttf \
+LinLibertine_Re.eot \
+LinLibertine_Re.otf \
+LinLibertine_Re.ttf
+
 FILES=ball_minicrib_2010.pdf \
 ball_minicrib_2011.pdf \
 nov_2012_crib.pdf \
@@ -54,7 +67,7 @@ all: $(HTML)
 
 install: all
 	mkdir -p $(DEST)
-	cp -pR $(HTML) $(FILES) $(DEST)
+	cp -pR $(HTML) $(FILES) $(FONTS) $(DEST)
 
 %.html: %.xhtml links.txt files.txt part0 part1 part2 part3
 	./build.sh $< $@
