@@ -51,6 +51,7 @@ workshop_registration_2009.pdf \
 workshop_registration_2010.pdf \
 workshop_registration_2011.pdf \
 workshop_registration_2012.pdf \
+workshop_registration_2013.pdf \
 vancouver_dance_2009.pdf \
 middle.jpg \
 ruth_jappy.jpg \
