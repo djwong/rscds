@@ -29,6 +29,7 @@ FILES=ball_minicrib_2010.pdf \
 ball_minicrib_2011.pdf \
 nov_2012_crib.pdf \
 ball_minicrib_2012.pdf \
+ball_minicrib_2013.pdf \
 content_bottom.jpg \
 content_top.jpg \
 dancing_feet.jpg \
