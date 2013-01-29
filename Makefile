@@ -12,16 +12,13 @@ maps.html \
 pictures.html \
 movies.html
 
-FONTS=LinLibertine_Bd.eot \
+FONTS=\
 LinLibertine_Bd.otf \
 LinLibertine_Bd.ttf \
-LinLibertine_BI.eot \
 LinLibertine_BI.otf \
 LinLibertine_BI.ttf \
-LinLibertine_It.eot \
 LinLibertine_It.otf \
 LinLibertine_It.ttf \
-LinLibertine_Re.eot \
 LinLibertine_Re.otf \
 LinLibertine_Re.ttf
 
@@ -60,6 +57,7 @@ sidebar_top.jpg \
 sidebar_bottom.jpg \
 sidebar.jpg \
 style.css \
+fonts.css \
 turkey_2012.pdf \
 betwixt_2012.pdf \
 ball_program_2013.pdf \
