@@ -32,6 +32,7 @@ content_top.jpg \
 dancing_feet.jpg \
 debbie.jpg \
 dinner_dance_2012.pdf \
+dinner_dance_2013.pdf \
 don.jpg \
 fifth_tuesday_mixer.pdf \
 footer.jpg \
