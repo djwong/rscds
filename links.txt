@@ -3,6 +3,7 @@
         <li><a href="index.html">Home</a></li>
         <li><a href="classes.html">Classes</a></li>
         <li><a href="people.html">People</a></li>
+	<li><a href="dances.html">Dances</a></li>
         <li><a href="demo.html">Demonstrations</a></li>
         <li><a href="events.html">Events</a>
           <ul>

@@ -10,7 +10,8 @@ party.html \
 workshop.html \
 maps.html \
 pictures.html \
-movies.html
+movies.html \
+dances.html
 
 FONTS=\
 LinLibertine_Bd.otf \
