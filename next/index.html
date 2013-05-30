@@ -2,14 +2,53 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
+	<link rel="icon" href="rscds_logo-128.png"/>
+	<link rel="apple-touch-icon-precomposed" href="rscds_logo-144.png"/>
 	<title>RSCDS - Portland, Ore.</title>
 	<style>
+/* General layout */
 body {
 	margin: 0px;
 	padding: 0px;
 	border: 0px;
 	font-family: "Linux Biolinum O", "Linux Biolinum", sans-serif;
 }
+.container {
+	overflow: hidden;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+.container > h1 {
+	text-align: center;
+}
+.container > p {
+	padding-bottom: 2em;
+	padding-left: 25%;
+	padding-right: 25%;
+	text-align: center;
+}
+.five-up {
+	width: 20%;
+	float: left;
+	text-align: center;
+}
+.three-up {
+	width: 33%;
+	float: left;
+	text-align: center;
+}
+.left {
+	text-align: left;
+}
+
+/* Specific body parts */
+#logo {
+	position: absolute;
+	left: 8px;
+	top: 8px;
+	z-index: 1000;
+}
+
 #links {
 	background: #99c1e4;
 	padding: 0px;
@@ -17,20 +56,27 @@ body {
 	border: 0px;
 	display: block;
 }
+#links > .container {
+	margin-left: 144px;
+}
 .linkbox {
-	width: 20%;
+	width: 25%;
 	float: left;
 	text-align: center;
-	padding-top: 1em;
 }
 .linkbox > a {
 	padding: 1em;
+	color: black;
+	display: inline-block;
+}
+.linkbox > a:hover {
+	background: #f0f0f0;
+	color: black;
+	border-left: 1px solid #a0a0a0;
+	border-right: 1px solid #a0a0a0;
 }
 
 #pictures {
-	hxight: 315px;
-	bxckground: url('http://www.youthweekendwest.com/group_pic.jpg');
-	bxckground-size: cover;
 	padding: 0px;
 	position: relative;
 }
@@ -84,47 +130,26 @@ body {
 	padding-bottom: 2em;
 	padding-top: 1em;
 }
-.five-up {
-	width: 20%;
-	float: left;
-	text-align: center;
-}
+
 #contact {
 	background: #0079c1;
 	color: white;
 	padding-bottom: 4em;
 	padding-top: 2em;
 }
-.container {
-	overflow: hidden;
-	margin-left: 2em;
-	margin-right: 2em;
-}
-.container > h1 {
-	text-align: center;
-}
-.container > p {
-	padding-bottom: 2em;
-	padding-left: 25%;
-	padding-right: 25%;
-	text-align: center;
-}
-.three-up {
-	width: 33%;
-	float: left;
-	text-align: center;
-}
-.left {
-	text-align: left;
+#contact  a {
+	color: white;
 }
 	</style>
 </head>
 <body>
 	<header id="links">
+		<div id="logo">
+			<a href="/"><img src="branch_logo.png" width="100" height="128" alt="Branch Logo"/></a>
+		</div>
 		<div class="container">
 			<div class="linkbox"><a class="nav_link" href="">About</a></div>
-			<div class="linkbox"><a class="nav_link" href="">Dunno</a></div>
-			<div class="linkbox"><a class="nav_link" href=""><img src="http://www.rscds.org/images/stories/rscds_90th_logo.jpg" width="105" height="105" alt="LOGO"/></a></div>
+			<div class="linkbox"><a class="nav_link" href="">Events</a></div>
 			<div class="linkbox"><a class="nav_link" href="">Local Dances</a></div>
 			<div class="linkbox"><a class="nav_link" href="">Ghillie Gazette</a></div>
 		</div>
@@ -214,22 +239,23 @@ body {
 		<div class="container">
 			<div class="three-up left">
 <div style="font-weight: bold;">RSCDS - Portland, Ore.</div>
-<div>[FB] [G+] [SF]</div>
-<div>&copy; 2013 djwong</div>
+<div>[<a href="http://www.facebook.com/RscdsPortlandOregon">FB</a>] [G+] [SF]</div>
+<div>&copy; 2013 RSCDS Portland Branch</div>
 			</div>
 			<div class="three-up left">
 <div style="font-weight: bold;">Dance With Us</div>
-<div>Class</div>
-<div>Party</div>
-<div>Workshop and Ball</div>
-<div>Demonstrations</div>
+<div><a href="classes.html">Class</a></div>
+<div><a href="party.html">Party</a></div>
+<div><a href="workshop.html">Workshop and Ball</a></div>
+<div><a href="demo.html">Demonstrations</a></div>
 			</div>
 			<div class="three-up left">
 <div style="font-weight: bold;">Dance With Others</div>
-<div>Seattle - Ft. Worden</div>
-<div>SW Washington - Dinner Dance</div>
-<div>Oregon High Desert - Ball</div>
-<div>San Francisco - Asilomar</div>
+<div><a href="http://www.youthweekendwest.com/">Youth Weekend West</a></div>
+<div><a href="http://www.rscds-seattle.org/">Seattle</a> - <a href="http://www.rscds-seattle.org/ftworden/">Ft. Worden</a></div>
+<div><a href="http://www.vancouverusa-scd.org/">SW Washington</a> - <a href="http://www.rscds-swws.org/2013-dinnerdance-among-stars-flyer.pdf">Dinner Dance</a></div>
+<div><a href="http://hdccd.azurewebsites.net/">Oregon High Desert</a> - <a href="http://hdccd.azurewebsites.net/ball/HdccdFlyerRegistrationAndBriefs2012.pdf">Ball</a></div>
+<div><a href="http://www.rscds-sf.org/">San Francisco</a> - <a href="http://www.rscds-sf.org/asilomar/pdf/AsilomarApplication.7.pdf">Asilomar</a></div>
 			</div>
 		</div>
 	</footer>

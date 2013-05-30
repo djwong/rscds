@@ -66,14 +66,22 @@ ball_program_2013.pdf \
 DD11flyer.pdf \
 princess_bride_collection.pdf \
 minicrib_april_2013.pdf \
-dance_april_2013.pdf \
-next.html
+dance_april_2013.pdf
+
+NEXT_FILES=next/index.html \
+next/branch_logo.png \
+next/rscds_logo-128.png \
+next/rscds_logo-144.png
 
 all: $(HTML)
 
-install: all
+install: all install-next
 	mkdir -p $(DEST)
 	cp -pR $(HTML) $(FILES) $(FONTS) $(DEST)
+
+install-next: $(NEXT_FILES)
+	mkdir -p $(DEST)/next/
+	cp -pR $(NEXT_FILES) $(DEST)/next/
 
 %.html: %.xhtml links.txt files.txt part0 part1 part2 part3
 	./build.sh $< $@
