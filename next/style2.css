@@ -1,4 +1,7 @@
 /* General layout */
+* {
+	line-height: 1.25em;
+}
 body {
 	margin: 0px;
 	padding: 0px;
@@ -129,12 +132,14 @@ img {
 }
 
 #contact {
-	line-height: 1.4em;
 	background: #0079c1;
 	color: white;
 	padding-bottom: 4em;
 	padding-top: 2em;
 }
-#contact  a {
+#contact div {
+	line-height: 1.4em;
+}
+#contact a {
 	color: white;
 }
