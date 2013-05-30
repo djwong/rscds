@@ -72,7 +72,12 @@ NEXT_FILES=next/index.html \
 next/branch_logo.png \
 next/rscds_logo-128.png \
 next/rscds_logo-144.png \
-next/style2.css
+next/style2.css \
+next/ball.png \
+next/class.png \
+next/demo.png \
+next/party.png \
+next/travel.png
 
 all: $(HTML)
 
@@ -89,3 +94,4 @@ install-next: $(NEXT_FILES)
 
 clean:;
 	rm -rf $(HTML)
+
