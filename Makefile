@@ -71,7 +71,8 @@ dance_april_2013.pdf
 NEXT_FILES=next/index.html \
 next/branch_logo.png \
 next/rscds_logo-128.png \
-next/rscds_logo-144.png
+next/rscds_logo-144.png \
+next/style2.css
 
 all: $(HTML)
 
