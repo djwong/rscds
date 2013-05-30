@@ -1,0 +1,140 @@
+/* General layout */
+body {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font-family: "Linux Biolinum O", "Linux Biolinum", sans-serif;
+}
+.container {
+	overflow: hidden;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+.container > h1 {
+	text-align: center;
+}
+.container > p {
+	padding-bottom: 2em;
+	padding-left: 25%;
+	padding-right: 25%;
+	text-align: center;
+}
+.five-up {
+	width: 20%;
+	float: left;
+	text-align: center;
+}
+.three-up {
+	width: 33%;
+	float: left;
+	text-align: center;
+}
+.left {
+	text-align: left;
+}
+img {
+	border: 0px;
+}
+
+/* Specific body parts */
+#logo {
+	position: absolute;
+	left: 8px;
+	top: 8px;
+	z-index: 1000;
+}
+
+#links {
+	background: #99c1e4;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	display: block;
+}
+#links > .container {
+	margin-left: 144px;
+}
+.linkbox {
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+.linkbox > a {
+	padding: 1em;
+	color: black;
+	display: inline-block;
+}
+.linkbox > a:hover {
+	background: #f0f0f0;
+	color: black;
+	border-left: 1px solid #a0a0a0;
+	border-right: 1px solid #a0a0a0;
+}
+
+#pictures {
+	padding: 0px;
+	position: relative;
+}
+.pic_container {
+	overflow: hidden;
+	margin: 0px;
+}
+#pic {
+	background: #0079c1;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	y-index: 21;
+}
+.pic_slider {
+	position: absolute;
+	width: 60px;
+	height: 100%;
+	opacity: 0.25;
+	transition: background-color linear 0.1s;
+}
+.pic_slider:hover {
+	background-color: #000000;
+	transition: background-color linear 0.1s;
+}
+#prev_pic {
+	top: 0px;
+	float: left;
+	left: 0px;
+}
+#next_pic {
+	top: 0px;
+	float: right;
+	right: 0px;
+}
+
+#participate {
+	padding-top: 2em;
+	padding-bottom: 4em;
+}
+.p_section > div {
+	padding-left: 0.3em;
+	padding-right: 0.3em;
+}
+.p_section > .ps_header {
+	font-weight: bold;
+}
+.p_section > .ps_icon {
+	border-radius: 500px;
+}
+#people {
+	background: #99c1e4;
+	padding-bottom: 2em;
+	padding-top: 1em;
+}
+
+#contact {
+	line-height: 1.4em;
+	background: #0079c1;
+	color: white;
+	padding-bottom: 4em;
+	padding-top: 2em;
+}
+#contact  a {
+	color: white;
+}
