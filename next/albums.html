@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<link rel="icon" href="rscds_logo-128.png"/>
+	<link rel="apple-touch-icon-precomposed" href="rscds_logo-144.png"/>
+	<link rel="stylesheet" type="text/css" href="style2.css"/>
+	<title>Album Test</title>
+	<style>
+#u_c {
+	padding: 4em;
+	background: #0079c1;
+	overflow: hidden;
+}
+#u_c div {
+	opacity: 0;
+	position: absolute;
+	left: 0px;
+	top: 30px;
+	height: 315px;
+	width: 851px;
+	background: #ffe0e0;
+	transition: opacity linear 0.1s;
+}
+	</style>
+	<script>
+var layers = null;
+var current_layer = 0;
+function prev() {
+	c = current_layer - 1;
+	if (c < 0)
+		c = layers.length - 1;
+	set_layer(c);
+}
+function set_layer(c) {
+	layers[current_layer].style.transitionDelay = "0.1s";
+	layers[c].style.transitionDelay = "0s";
+	layers[c].style.zIndex = 1;
+	layers[current_layer].style.zIndex = 0;
+	layers[c].style.opacity = 1.0;
+	layers[current_layer].style.opacity = 0.0;
+	current_layer = c;
+}
+function next() {
+	c = current_layer + 1;
+	if (c >= layers.length)
+		c = 0;
+	set_layer(c);
+}
+function load() {
+	var x = document.getElementById("u_c");
+	layers = x.children;
+	for (i = 0; i < layers.length; i++) {
+		if (x.children[i].style.opacity > 0.5) {
+			current_layer = i;
+			break;
+		}
+	}
+}
+	</script>
+</head>
+<body onload="load();">
+<div id="ctl">
+	<input type="button" value="prev" onclick="prev();"></input>
+	<input type="button" value="next" onclick="next();"></input>
+</div>
+<div id="u_c">
+	<div style="opacity: 1.0;">One</div>
+	<div style="background: #e0ffe0; top: 60px;">Two</div>
+	<div style="background: #e0e0ff; top: 90px;">Three</div>
+	<div style="background: #ffffe0; top: 120px;">Four</div>
+	<div style="background: #e0ffff; top: 150px;">Five</div>
+</div>
+</body>
+</html>

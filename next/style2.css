@@ -48,17 +48,19 @@ img {
 }
 
 #links {
-position: absolute;
-z-index: 1000;
-top: 0px;
-left: 0px;
-right: 0px;
-background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.0));
-	xbackground: #99c1e4;
+	background: #0079c1;
 	padding: 0px;
 	margin: 0px;
 	border: 0px;
 	display: block;
+}
+#links[type = "embedded"] {
+	position: absolute;
+	z-index: 1000;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.0));
 }
 #links > .container {
 	margin-left: 144px;
@@ -93,7 +95,6 @@ background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.0));
 	left: 0px;
 	right: 0px;
 	top: 0px;
-	y-index: 21;
 }
 .pic_slider {
 	position: absolute;
