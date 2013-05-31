@@ -20,54 +20,70 @@
 	height: 315px;
 	width: 851px;
 	background: #ffe0e0;
-	transition: opacity linear 0.1s;
 }
 	</style>
 	<script>
-var layers = null;
-var current_layer = 0;
-function prev() {
-	c = current_layer - 1;
-	if (c < 0)
-		c = layers.length - 1;
-	set_layer(c);
-}
-function set_layer(c) {
-	layers[current_layer].style.transitionDelay = "0.1s";
-	layers[c].style.transitionDelay = "0s";
-	layers[c].style.zIndex = 1;
-	layers[current_layer].style.zIndex = 0;
-	layers[c].style.opacity = 1.0;
-	layers[current_layer].style.opacity = 0.0;
-	current_layer = c;
-}
-function next() {
-	c = current_layer + 1;
-	if (c >= layers.length)
-		c = 0;
-	set_layer(c);
-}
-function load() {
-	var x = document.getElementById("u_c");
-	layers = x.children;
-	for (i = 0; i < layers.length; i++) {
-		if (x.children[i].style.opacity > 0.5) {
-			current_layer = i;
-			break;
+var flipper = null;
+function Flipper(id, z_index, transition_length)
+{
+	this.element = document.getElementById("u_c");
+	this.layers = this.element.children;
+	this.current = 0;
+	this.z_index = z_index;
+	this.transition_length = transition_length;
+	for (i = 0; i < this.layers.length; i++) {
+		this.layers[i].style.transition = "opacity linear " + transition_length;
+		if (this.layers[i].style.zIndex == this.z_index) {
+			this.layers[i].style.opacity = 1.0;
+			this.current = i;
+		} else {
+			this.layers[i].style.zIndex = this.z_index - 1;
+			this.layers[i].style.opacity = 0.0;
 		}
 	}
+}
+Flipper.prototype.previous = function()
+{
+	c = this.current - 1;
+	if (c < 0)
+		c = this.layers.length - 1;
+	this.set_layer(c);
+}
+Flipper.prototype.set_layer = function(c)
+{
+	this.layers[this.current].style.transitionDelay = this.transition_length;
+	this.layers[c].style.transitionDelay = "0s";
+
+	this.layers[c].style.zIndex = 1;
+	this.layers[this.current].style.zIndex = 0;
+
+	this.layers[c].style.opacity = 1.0;
+	this.layers[this.current].style.opacity = 0.0;
+
+	this.current = c;
+}
+Flipper.prototype.next = function()
+{
+	c = this.current + 1;
+	if (c >= this.layers.length)
+		c = 0;
+	this.set_layer(c);
+}
+
+function load() {
+	flipper = new Flipper("u_c", 1, "0.1s");
 }
 	</script>
 </head>
 <body onload="load();">
 <div id="ctl">
-	<input type="button" value="prev" onclick="prev();"></input>
-	<input type="button" value="next" onclick="next();"></input>
+	<input type="button" value="prev" onclick="flipper.previous();"></input>
+	<input type="button" value="next" onclick="flipper.next();"></input>
 </div>
 <div id="u_c">
-	<div style="opacity: 1.0;">One</div>
+	<div style="">One</div>
 	<div style="background: #e0ffe0; top: 60px;">Two</div>
-	<div style="background: #e0e0ff; top: 90px;">Three</div>
+	<div style="z-index: 1; opacity: 1.0; background: #e0e0ff; top: 90px;">Three</div>
 	<div style="background: #ffffe0; top: 120px;">Four</div>
 	<div style="background: #e0ffff; top: 150px;">Five</div>
 </div>
