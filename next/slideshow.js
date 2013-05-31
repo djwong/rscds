@@ -155,7 +155,7 @@ function resizer()
 	else if (typeof(document.body.offsetWidth) != "undefined")
 		win_width = document.body.offsetWidth;
 
-	var height = Math.floor(win_width / 2.7);
+	var height = Math.floor(win_width / 1.82);
 	if (height > 500)
 		height = 500;
 	var slides = get_slides();
