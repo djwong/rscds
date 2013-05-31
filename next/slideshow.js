@@ -147,7 +147,15 @@ Slider.prototype.slideTo = function(c)
 
 function resizer()
 {
-	var height = (window.innerWidth / 2.7);
+	var win_width;
+	if (typeof(window.innerWidth) != "undefined")
+		win_width = window.innerWidth;
+	else if (typeof(document.documentElement.offsetWidth) != "undefined")
+		win_width = document.documentElement.offsetWidth;
+	else if (typeof(document.body.offsetWidth) != "undefined")
+		win_width = document.body.offsetWidth;
+
+	var height = Math.floor(win_width / 2.7);
 	if (height > 500)
 		height = 500;
 	var slides = get_slides();
@@ -159,8 +167,9 @@ function createSlides(element)
 	var slides = [
 {caption: "Youth Weekend 2013", img: "http://www.youthweekendwest.com/group_pic.jpg", url: "http://youthweekendwest.com/"},
 {caption: "2008 Ball", img: "http://djwong.org/photography/oregon/rscds_ball_2008/dsc_0052.jpg", url: "http://djwong.org/photography/oregon/rscds_ball_2008/"},
-{caption: "2007 Ball", img: "http://djwong.org/photography/oregon/rscds_ball_2007/mmc_3772.jpg", url: "http://djwong.org/photography/oregon/rscds_ball_2007/"},
 {caption: "Rose Festival, 2007", img: "http://djwong.org/photography/oregon/portland/rose_fest_2007/img_0304.jpg", url: "http://djwong.org/photography/oregon/portland/rose_fest_2007/"},
+{caption: "2007 Ball", img: "http://djwong.org/photography/oregon/rscds_ball_2007/mmc_3772.jpg", url: "http://djwong.org/photography/oregon/rscds_ball_2007/"},
+{caption: "2006 Ball", img: "http://djwong.org/photography/oregon/portland/rscds_ball06/a3110316.jpg", url: "http://djwong.org/photography/oregon/portland/rscds_ball06/"},
 {stop: 1}
 	];
 
@@ -191,5 +200,5 @@ function load() {
 	slider = new Slider(document.getElementById("ss_cont"), "ss_item", "block");
 	resizer();
 	addEventHandler(window, "resize", resizer);
-	setInterval(function() {slider.next();}, 5000);
+	setInterval(function() {slider.next();}, 15000);
 }
