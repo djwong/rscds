@@ -161,9 +161,10 @@ function createSlides(element)
 {caption: "2008 Ball", img: "http://djwong.org/photography/oregon/rscds_ball_2008/dsc_0052.jpg", url: "http://djwong.org/photography/oregon/rscds_ball_2008/"},
 {caption: "2007 Ball", img: "http://djwong.org/photography/oregon/rscds_ball_2007/mmc_3772.jpg", url: "http://djwong.org/photography/oregon/rscds_ball_2007/"},
 {caption: "Rose Festival, 2007", img: "http://djwong.org/photography/oregon/portland/rose_fest_2007/img_0304.jpg", url: "http://djwong.org/photography/oregon/portland/rose_fest_2007/"},
+{stop: 1}
 	];
 
-	for (var l = 0; l < slides.length; l++) {
+	for (var l = 0; l < slides.length - 1; l++) {
 		captionElement = document.createTextNode(slides[l].caption);
 		captionDiv = document.createElement("a");
 		captionDiv.href = slides[l].url;
