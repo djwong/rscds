@@ -2,7 +2,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<link rel="icon" href="rscds_logo-128.png"/>
-	<link rel="apple-touch-icon-precomposed" href="rscds_logo-144.png"/>
+	<link rel="icon" href="images/rscds_logo-128.png"/>
+	<link rel="apple-touch-icon-precomposed" href="images/rscds_logo-144.png"/>
 	<link rel="stylesheet" type="text/css" href="style2.css"/>
-	<title>RSCDS - Portland, Ore.</title>
