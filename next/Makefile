@@ -18,7 +18,7 @@ scripts/cribs.sed: cribs.d
 
 install: all
 	mkdir -p $(DEST)
-	cp -pRl $(HTML) $(JS) $(CSS) $(BLOBS) $(DEST)
+	cp -Rlf $(HTML) $(JS) $(CSS) $(BLOBS) $(DEST)
 
 $(REGULAR_HTML): regular_nav.txt
 $(FANCY_HTML): fancy_nav.txt
