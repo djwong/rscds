@@ -1,3 +1,5 @@
+/* Fonts */
+
 /* General layout */
 * {
 	line-height: 1.25em;
@@ -13,21 +15,6 @@ body {
 	padding-right: 2em;
 }
 #regular_body > h1 {
-	text-align: center;
-}
-
-.container {
-	overflow: hidden;
-	margin-left: 2em;
-	margin-right: 2em;
-}
-.container > h1 {
-	text-align: center;
-}
-.container > p {
-	padding-bottom: 2em;
-	padding-left: 25%;
-	padding-right: 25%;
 	text-align: center;
 }
 .five-up {
@@ -50,7 +37,7 @@ img {
 	font-size: 75%;
 }
 
-/* Specific body parts */
+/* Page Headers */
 #logo {
 	position: absolute;
 	left: 8px;
@@ -91,6 +78,36 @@ img {
 	color: black;
 	border-left: 1px solid #a0a0a0;
 	border-right: 1px solid #a0a0a0;
+}
+
+/* Page footer */
+#contact {
+	background: #0079c1;
+	color: white;
+	padding-bottom: 4em;
+	padding-top: 2em;
+}
+#contact div {
+	line-height: 1.4em;
+}
+#contact a {
+	color: white;
+}
+
+/* Front page stuff */
+.container {
+	overflow: hidden;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+.container > h1 {
+	text-align: center;
+}
+.container > p {
+	padding-bottom: 2em;
+	padding-left: 25%;
+	padding-right: 25%;
+	text-align: center;
 }
 
 #pictures {
@@ -179,17 +196,4 @@ img {
 	background: #99c1e4;
 	padding-bottom: 2em;
 	padding-top: 1em;
-}
-
-#contact {
-	background: #0079c1;
-	color: white;
-	padding-bottom: 4em;
-	padding-top: 2em;
-}
-#contact div {
-	line-height: 1.4em;
-}
-#contact a {
-	color: white;
 }
