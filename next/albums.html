@@ -7,6 +7,14 @@
 	<link rel="stylesheet" type="text/css" href="style2.css"/>
 	<script type="text/javascript" src="slideshow.js"> </script>
 	<title>Album Test</title>
+	<style>
+.fubar {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	text-shadow: black 0px 0px 8px;
+}
+	</style>
 </head>
 <body onload="load();">
 <div id="ctl">
@@ -14,8 +22,12 @@
 	<input type="button" value="next" onclick="slider.next();"></input>
 </div>
 <hr>
-<div id="ss_cont">
+<div class="ss_container" id="ss_cont">
+	<a href="javascript:slider.previous();" class="ss_previous ss_nav">&#9665;</a>
+	<a href="javascript:slider.next();" class="ss_next ss_nav">&#9655;</a>
 </div>
+
 <hr>
+<div class="fubar">KADJGLKGJ</div>
 </body>
 </html>

@@ -38,6 +38,9 @@ body {
 img {
 	border: 0px;
 }
+.email {
+	font-size: 75%;
+}
 
 /* Specific body parts */
 #logo {
@@ -86,39 +89,36 @@ img {
 	padding: 0px;
 	position: relative;
 }
-.pic_container {
-	overflow: hidden;
-	margin: 0px;
-}
-#pic {
-	background: #0079c1;
-	left: 0px;
-	right: 0px;
-	top: 0px;
-}
-.pic_slider {
-	position: absolute;
-	width: 60px;
-	height: 100%;
-	opacity: 0.25;
-	transition: background-color linear 0.1s;
-}
-.pic_slider:hover {
-	background-color: #000000;
-	transition: background-color linear 0.1s;
-}
-#prev_pic {
-	top: 0px;
-	float: left;
-	left: 0px;
-}
-#next_pic {
-	top: 0px;
-	float: right;
-	right: 0px;
+.ss_container {
+	position: relative;
 }
 .ss_item {
 	display: none;
+}
+.ss_nav {
+	z-index: 2;
+	top: 50%;
+	margin-top: -0.7em;
+	height: 1.4em;
+	width: 1.4em;
+	position: absolute;
+	font-size: 36pt;
+	color: #c0c0c0;
+	text-decoration: none;
+	text-align: center;
+	text-shadow: black 0px 0px 8px;
+	cursor: pointer;
+	transition: color linear 0.1s;
+}
+.ss_nav:hover {
+	color: white;
+	transition: color linear 0.1s;
+}
+.ss_previous {
+	left: 0.25em;
+}
+.ss_next {
+	right: 0.25em;
 }
 .slide {
 	width: 100%;
@@ -130,12 +130,27 @@ img {
 	position: relative;
 }
 .slide > a {
+	font-size: 110%;
 	position: absolute;
-	bottom: 3px;
-	right: 3px;
-	color: white;
+	bottom: 0px;
+	right: 0px;
+	color: #e0e0e0;
 	text-shadow: 2px 2px 2px rgb(0, 0, 0);
 	text-decoration: none;
+	padding: 0.2em;
+	transition: color linear 0.1s;
+}
+.slide > a > span {
+	text-decoration: underline;
+}
+.slide > a:hover {
+	color: white;
+	transition: color linear 0.1s;
+}
+
+#regular_body {
+	padding-top: 2em;
+	padding-bottom: 4em;
 }
 
 #participate {
@@ -149,7 +164,7 @@ img {
 .p_section > .ps_header {
 	font-weight: bold;
 }
-.p_section > .ps_icon {
+.p_section .ps_icon {
 	border-radius: 500px;
 }
 #people {

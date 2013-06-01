@@ -79,7 +79,10 @@ next/demo.png \
 next/party.png \
 next/travel.png \
 next/albums.html \
-next/slideshow.js
+next/slideshow.js \
+next/classes.html \
+next/djwong.jpg \
+next/juzix.jpg
 
 all: $(HTML)
 

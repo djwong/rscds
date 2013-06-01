@@ -95,7 +95,7 @@ function get_slides()
 	return res;
 }
 
-function Slider(element, classname, displayStyle)
+function Slider(element, classname, displayStyle, interval)
 {
 	children = element.children;
 
@@ -103,6 +103,8 @@ function Slider(element, classname, displayStyle)
 	this.current = -1;
 	this.layers = new Array();
 	this.displayStyle = displayStyle;
+	this.interval = interval;
+	this.autoNext = null;
 
 	for (l = 0; l < children.length; l++) {
 		if (children[l].className == classname) {
@@ -120,14 +122,41 @@ function Slider(element, classname, displayStyle)
 		this.current = 0;
 		this.layers[0].style.display = this.displayStyle;
 	}
+
+	var that = this;
+	var prevBtn = document.createElement("a");
+	prevBtn.className = "ss_previous ss_nav";
+	prevBtn.innerHTML = "&#9664;";
+	prevBtn.onclick = function() {that.previous();};
+	this.element.appendChild(prevBtn);
+
+	var nextBtn = document.createElement("a");
+	nextBtn.className = "ss_next ss_nav";
+	nextBtn.innerHTML = "&#9654;";
+	nextBtn.onclick = function() {that.next();};
+	this.element.appendChild(nextBtn);
+
+	if (this.interval)
+		this.autoNext = setInterval(function() {that._next();}, this.interval);
 }
 
-Slider.prototype.next = function()
+Slider.prototype._next = function()
 {
 	c = this.current + 1;
 	if (c >= this.layers.length)
 		c = 0;
 	this.slideTo(c);
+}
+
+Slider.prototype.next = function()
+{
+	this._next();
+	if (this.autoNext)
+		clearInterval(this.autoNext);
+	if (this.interval) {
+		var that = this;
+		this.autoNext = setInterval(function() {that._next();}, this.interval);
+	}
 }
 
 Slider.prototype.previous = function()
@@ -136,10 +165,17 @@ Slider.prototype.previous = function()
 	if (c < 0)
 		c = this.layers.length - 1;
 	this.slideTo(c);
+	if (this.autoNext)
+		clearInterval(this.autoNext);
+	if (this.interval) {
+		var that = this;
+		this.autoNext = setInterval(function() {that._next();}, this.interval);
+	}
 }
 
 Slider.prototype.slideTo = function(c)
 {
+	var that = this;
 	this.layers[c].style.display = this.displayStyle;
 	this.layers[this.current].style.display = "none";
 	this.current = c;
@@ -174,31 +210,33 @@ function createSlides(element)
 	];
 
 	for (var l = 0; l < slides.length - 1; l++) {
-		captionElement = document.createTextNode(slides[l].caption);
-		captionDiv = document.createElement("a");
-		captionDiv.href = slides[l].url;
-		captionDiv.appendChild(captionElement);
-		
-		slideDiv = document.createElement("div");
+		var linkSpan = document.createElement("span");
+		linkSpan.appendChild(document.createTextNode("More"));
+
+		var captionLink = document.createElement("a");
+		captionLink.href = slides[l].url;
+		captionLink.appendChild(document.createTextNode(slides[l].caption + " ["));
+		captionLink.appendChild(linkSpan);
+		captionLink.appendChild(document.createTextNode("]"));
+
+		var slideDiv = document.createElement("div");
 		slideDiv.className = "slide";
 		imgurl = "url('" + slides[l].img + "')";
 		slideDiv.style.backgroundImage = imgurl;
-		slideDiv.appendChild(captionDiv);
+		slideDiv.appendChild(captionLink);
 
-		itemDiv = document.createElement("div");
+		var itemDiv = document.createElement("div");
 		itemDiv.className = "ss_item";
 
 		itemDiv.appendChild(slideDiv);
 		element.appendChild(itemDiv);
-		addEventHandler(slideDiv, "onclick", function() {alert(slides[l].url);});
 	}
 }
 
 var slider = null;
-function load() {
+function load_main() {
 	createSlides(document.getElementById("ss_cont"));
-	slider = new Slider(document.getElementById("ss_cont"), "ss_item", "block");
 	resizer();
+	slider = new Slider(document.getElementById("ss_cont"), "ss_item", "block", 30000);
 	addEventHandler(window, "resize", resizer);
-	setInterval(function() {slider.next();}, 15000);
 }
