@@ -2,7 +2,7 @@
 		<div class="container">
 			<div class="three-up left">
 <div style="font-weight: bold;">RSCDS - Portland, Ore.</div>
-<div>[<a href="http://www.facebook.com/RscdsPortlandOregon">FB</a>] [G+] [SF]</div>
+<div>[<a href="http://www.facebook.com/RscdsPortlandOregon">FB</a>] [<a href="http://rscdsportland.shutterfly.com/">SF</a>]</div>
 <div>&copy; 2013 RSCDS Portland Branch</div>
 			</div>
 			<div class="three-up left">
@@ -19,6 +19,7 @@
 <div><a href="http://www.vancouverusa-scd.org/">SW Washington</a> - <a href="http://www.rscds-swws.org/2013-dinnerdance-among-stars-flyer.pdf">Dinner Dance</a></div>
 <div><a href="http://hdccd.azurewebsites.net/">Oregon High Desert</a> - <a href="http://hdccd.azurewebsites.net/ball/HdccdFlyerRegistrationAndBriefs2012.pdf">Ball</a></div>
 <div><a href="http://www.rscds-sf.org/">San Francisco</a> - <a href="http://www.rscds-sf.org/asilomar/pdf/AsilomarApplication.7.pdf">Asilomar</a></div>
+<div><a href="http://www.rscdsvancouver.org/">Vancouver, BC</a></div>
 			</div>
 		</div>
 	</div>

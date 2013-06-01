@@ -8,3 +8,5 @@
 /%FOOT%/d
 /%BODY%/r templates/body.txt
 /%BODY%/d
+s/%OPEN_CONTENT%/	<div id="regular_body">/g
+s/%CLOSE_CONTENT%/	<\/div>/g

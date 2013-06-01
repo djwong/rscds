@@ -1,7 +1,7 @@
 DEST=/home/djwong/rscds_website/next/
 
 FANCY_HTML=index.html
-REGULAR_HTML=classes.html
+REGULAR_HTML=classes.html party.html
 HTML=$(REGULAR_HTML) $(FANCY_HTML)
 CRAP=fancy_nav.txt regular_nav.txt slide_data.js
 JS=slideshow.js

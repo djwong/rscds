@@ -27,8 +27,8 @@ Scottish country dancing looks like.</div>
 figures, and techniques to have a fun time.</div>
 			</div>
 			<div class="five-up p_section">
-<img class="ps_icon" src="images/party.png" height="100" width="100"/>
-<div class="ps_header">Party</div>
+<a href="party.html"><img class="ps_icon" src="images/party.png" height="100" width="100"/></a>
+<div class="ps_header"><a href="party.html">Party</a></div>
 <div>Test your new skills once a month when the branch holds its monthly dance
 party!</div>
 			</div>
@@ -60,21 +60,21 @@ dance with them!</div>
 the rest of the branch, whether you're a dancer, an organizer, or a
 spectator.</p>
 			<div class="five-up p_section">
-<img class="ps_icon" src="http://portlandscottishdancers.org/don.jpg" height="128" width="128"/>
+<img class="ps_icon" src="../don.jpg" height="128" width="128"/>
 <div class="ps_header">Don Gertz</div>
 <div>Teacher</div>
 <div>503-692-5963</div>
 <div class="email">dlgertz at frontier dot com</div>
 			</div>
 			<div class="five-up p_section">
-<img class="ps_icon" src="http://portlandscottishdancers.org/debbie.jpg" height="128" width="128"/>
+<img class="ps_icon" src="../debbie.jpg" height="128" width="128"/>
 <div class="ps_header">Debbie McRobert</div>
 <div>Teacher</div>
 <div>503-620-3034</div>
 <div class="email">mdmcrob at frontier dot com</div>
 			</div>
 			<div class="five-up p_section">
-<img class="ps_icon" src="http://portlandscottishdancers.org/lmae.jpg" height="128" width="128"/>
+<img class="ps_icon" src="../lmae.jpg" height="128" width="128"/>
 <div class="ps_header">Linda Mae Dennis</div>
 <div>Teacher</div>
 <div>360-609-0623</div>

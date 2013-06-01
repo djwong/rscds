@@ -8,6 +8,14 @@ body {
 	border: 0px;
 	font-family: "Linux Biolinum O", "Linux Biolinum", sans-serif;
 }
+#regular_body {
+	padding-left: 2em;
+	padding-right: 2em;
+}
+#regular_body > h1 {
+	text-align: center;
+}
+
 .container {
 	overflow: hidden;
 	margin-left: 2em;
