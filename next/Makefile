@@ -3,12 +3,18 @@ DEST=/home/djwong/rscds_website/next/
 FANCY_HTML=index.html
 REGULAR_HTML=classes.html party.html
 HTML=$(REGULAR_HTML) $(FANCY_HTML)
-CRAP=fancy_nav.txt regular_nav.txt slide_data.js
+CRAP=fancy_nav.txt regular_nav.txt slide_data.js cribs.d scripts/cribs.sed
 JS=slideshow.js
 CSS=style2.css
 BLOBS=images
 
 all: $(HTML) $(JS)
+
+include cribs.d
+cribs.d:
+	./configure_programs
+
+scripts/cribs.sed: cribs.d
 
 install: all
 	mkdir -p $(DEST)
@@ -32,5 +38,8 @@ slideshow.js: slideshow.js.in scripts/js.sed slide_data.js
 slide_data.js: data/slides.csv scripts/slides.awk
 	awk -f scripts/slides.awk < $< > $@
 
+%.crib: %.txt
+	./scripts/crib.py $<
+
 clean:;
-	rm -rf $(HTML) $(CRAP) $(JS)
+	rm -rf $(HTML) $(CRAP) $(JS) $(CRIB_SHEETS)

@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo 'CRIB_SHEETS=\' > cribs.d
+rm -rf scripts/cribs.sed
+for i in cribs/*.txt; do
+	tag="%CRIB_$(basename "$(echo "${i}" | sed -e 's/.txt//g')")%"
+	crib_name="$(echo "${i}" | sed -e 's/.txt/.crib/g')"
+	echo "${crib_name} \\" >> cribs.d
+	echo "/${tag}/r ${crib_name}" >> scripts/cribs.sed
+	echo "/${tag}/d" >> scripts/cribs.sed
+done
+echo >> cribs.d
+
+exit 0
