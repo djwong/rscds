@@ -66,8 +66,19 @@ function addEventHandler(node, eventName, lambda)
 		node.attachEvent("on" + eventName, lambda);
 	return cookie;
 }
+function getIEVersion() {
+	var rv = -1; // Return value assumes failure.
 
-function get_slides()
+	if (navigator.appName == 'Microsoft Internet Explorer') {
+		var ua = navigator.userAgent;
+		var re = new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})");
+		if (re.exec(ua) != null)
+			rv = parseFloat(RegExp.$1);
+	}
+
+    return rv;
+}
+function getSlides()
 {
 	/* shiny new html5 thing */
 	if (document.getElementsByClassName) {
@@ -123,16 +134,26 @@ function Slider(element, classname, displayStyle, interval)
 		this.layers[0].style.display = this.displayStyle;
 	}
 
+	/* Stupid hack: IE8 and below can't handle our nice Unicode. */
+	var useUnicode = true;
+	var ie = getIEVersion();
+	if (ie >= 0 && ie <= 8.0)
+		useUnicode = false;
+
 	var that = this;
 	var prevBtn = document.createElement("a");
 	prevBtn.className = "ss_previous ss_nav";
 	prevBtn.innerHTML = "&#9664;";
+	if (!useUnicode)
+		prevBtn.innerHTML = "&lt;";
 	prevBtn.onclick = function() {that.previous();};
 	this.element.appendChild(prevBtn);
 
 	var nextBtn = document.createElement("a");
 	nextBtn.className = "ss_next ss_nav";
 	nextBtn.innerHTML = "&#9654;";
+	if (!useUnicode)
+		nextBtn.innerHTML = "&gt;";
 	nextBtn.onclick = function() {that.next();};
 	this.element.appendChild(nextBtn);
 
@@ -194,7 +215,7 @@ function resizer()
 	var height = Math.floor(win_width / 1.82);
 	if (height > 500)
 		height = 500;
-	var slides = get_slides();
+	var slides = getSlides();
 	Array.prototype.forEach.call(slides, function(s) {s.style.height = height + "px";});
 	
 }
