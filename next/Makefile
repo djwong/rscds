@@ -12,7 +12,7 @@ all: $(HTML) $(JS)
 
 include cribs.d
 cribs.d:
-	./configure_programs
+	scripts/configure_cribs
 
 scripts/cribs.sed: cribs.d
 
