@@ -1,0 +1,7 @@
+Name: Gramachie
+Format: 8x32S, 3c/4c set
+Source: RSCDS MMM 1
+1–8	1c+2c set, cross RH, repeat
+9–16	1c lead down the middle for 3, up for 3, cast off to face 1cnrs (2c up)
+17–24	1c set to and turn corners, finish between corners
+25–32	2c+1c+3c advance and retire; 1c turn BH 1½
