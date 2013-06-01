@@ -1,0 +1,49 @@
+#!/bin/bash
+
+# Convert a WOFF file to @font-face CSS for Safari/Firefox/Opera/Chrome
+FONT="$1"
+
+if [ -z "$FONT" -o "$FONT" = "--help" ]; then
+	echo "Usage: $0 woff_file"
+	exit 0
+fi
+
+LONG_FAMILY="$(fontforge -script "$(dirname "$0")/fontname.pe" "${FONT}" 2> /dev/null)"
+if [ -z "${LONG_FAMILY}" ]; then
+	echo "${FONT}: Unable to retrieve font info!" > /dev/stderr
+	exit 1
+fi
+FAMILY="$(echo "${LONG_FAMILY}" | sed -e 's/:.*$//g')"
+ATTRIBUTES="$(echo "${LONG_FAMILY}" | sed -e 's/^.*://g')"
+IS_ITALIC="$(echo "${ATTRIBUTES}" | egrep -ci "(oblique|italic)")"
+IS_BOLD="$(echo "${ATTRIBUTES}" | grep -ci bold)"
+
+echo "@font-face {"
+echo "  font-family: \"${FAMILY}\";"
+echo -n "  font-style: "
+if [ "${IS_ITALIC}" -gt 0 ]; then
+	echo -en "italic"
+else
+	echo -en "normal"
+fi
+echo ";"
+echo -n "  font-weight: "
+if [ "${IS_BOLD}" -gt 0 ]; then
+	echo -en "bold"
+else
+	echo -en "normal"
+fi
+echo ";"
+echo -en "  src: local(\"${FAMILY}"
+if [ "${IS_BOLD}" -gt 0 ]; then
+	echo -en " Bold"
+fi
+if [ "${IS_ITALIC}" -gt 0 ]; then
+	echo -en " Italic"
+fi
+echo "\"),"
+echo -n "       url(\"${FONT}\") format(\"woff\")"
+echo ";"
+echo "}"
+
+exit 0

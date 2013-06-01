@@ -6,10 +6,11 @@ HTML=$(REGULAR_HTML) $(FANCY_HTML)
 CRAP=fancy_nav.txt regular_nav.txt slide_data.js cribs.d scripts/cribs.sed
 JS=slideshow.js
 CSS=style2.css
-BLOBS=images
+BLOBS=images fonts
 
-all: $(HTML) $(JS)
+all: $(HTML) $(JS) $(CSS)
 
+include fonts.mk
 include cribs.d
 cribs.d:
 	scripts/configure_cribs
@@ -38,8 +39,11 @@ slideshow.js: slideshow.js.in scripts/js.sed slide_data.js
 slide_data.js: data/slides.csv scripts/slides.awk
 	awk -f scripts/slides.awk < $< > $@
 
+style2.css: style2.css.in scripts/css.sed fonts.css
+	sed -f scripts/css.sed < $< > $@
+
 %.crib: %.txt
 	./scripts/crib.py $<
 
 clean:;
-	rm -rf $(HTML) $(CRAP) $(JS) $(CRIB_SHEETS)
+	rm -rf $(HTML) $(CRAP) $(JS) $(CRIB_SHEETS) $(CLEAN) $(CSS)

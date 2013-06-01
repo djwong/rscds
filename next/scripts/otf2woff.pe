@@ -1,0 +1,8 @@
+#!/usr/bin/fontforge
+
+# This file needs to have .sh extension for some reason.
+# It is NOT a shell script... unless you consider fontforge a shell?
+
+Open($1);
+Generate($1:r+".woff");
+Quit(0);
