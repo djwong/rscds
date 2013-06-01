@@ -68,35 +68,24 @@ princess_bride_collection.pdf \
 minicrib_april_2013.pdf \
 dance_april_2013.pdf
 
-NEXT_FILES=next/index.html \
-next/branch_logo.png \
-next/rscds_logo-128.png \
-next/rscds_logo-144.png \
-next/style2.css \
-next/ball.png \
-next/class.png \
-next/demo.png \
-next/party.png \
-next/travel.png \
-next/albums.html \
-next/slideshow.js \
-next/classes.html \
-next/djwong.jpg \
-next/juzix.jpg
-
-all: $(HTML)
+all: $(HTML) all-next
 
 install: all install-next
 	mkdir -p $(DEST)
 	cp -pR $(HTML) $(FILES) $(FONTS) $(DEST)
 
-install-next: $(NEXT_FILES)
-	mkdir -p $(DEST)/next/
-	cp -pR $(NEXT_FILES) $(DEST)/next/
+all-next:
+	$(MAKE) -C next/ all
+
+install-next:
+	$(MAKE) -C next/ install
+
+clean-next:
+	$(MAKE) -C next/ clean
 
 %.html: %.xhtml links.txt files.txt part0 part1 part2 part3
 	./build.sh $< $@
 
-clean:;
+clean: clean-next
 	rm -rf $(HTML)
 
