@@ -66,6 +66,10 @@ function addEventHandler(node, eventName, lambda)
 		node.attachEvent("on" + eventName, lambda);
 	return cookie;
 }
+function addWindowEventHandler(eventName, lambda)
+{
+	return addEventHandler(window, eventName, lambda);
+}
 function getIEVersion() {
 	var rv = -1; // Return value assumes failure.
 
@@ -221,14 +225,7 @@ function resizer()
 }
 function createSlides(element)
 {
-	var slides = [
-{caption: "Youth Weekend 2013", img: "http://www.youthweekendwest.com/group_pic.jpg", url: "http://youthweekendwest.com/"},
-{caption: "2008 Ball", img: "http://djwong.org/photography/oregon/rscds_ball_2008/dsc_0052.jpg", url: "http://djwong.org/photography/oregon/rscds_ball_2008/"},
-{caption: "Rose Festival, 2007", img: "http://djwong.org/photography/oregon/portland/rose_fest_2007/img_0304.jpg", url: "http://djwong.org/photography/oregon/portland/rose_fest_2007/"},
-{caption: "2007 Ball", img: "http://djwong.org/photography/oregon/rscds_ball_2007/mmc_3772.jpg", url: "http://djwong.org/photography/oregon/rscds_ball_2007/"},
-{caption: "2006 Ball", img: "http://djwong.org/photography/oregon/portland/rscds_ball06/a3110316.jpg", url: "http://djwong.org/photography/oregon/portland/rscds_ball06/"},
-{stop: 1}
-	];
+	%SLIDE_DATA%
 
 	for (var l = 0; l < slides.length - 1; l++) {
 		var linkSpan = document.createElement("span");

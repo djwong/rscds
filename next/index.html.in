@@ -1,0 +1,97 @@
+%HEAD%
+	<script type="text/javascript" src="slideshow.js"> </script>
+	<script type="text/javascript">
+addWindowEventHandler("load", function() {load_main();});
+	</script>
+%BODY%
+%FANCY_NAVIGATION%
+	<div id="pictures">
+		<div class="ss_container" id="ss_cont"></div>
+	</div>
+	<div id="participate">
+		<div class="container">
+			<h1>We are passionate Scottish Country Dancers!</h1>
+			<p>Located in Portland, Oregon, we teach and dance the
+social dances of Scotland and promote socialization with nearby RSCDS
+branches.</p>
+			<div class="five-up p_section">
+<img class="ps_icon" src="images/demo.png" height="100" width="100"/>
+<div class="ps_header">Demo</div>
+<div>Experienced dancers can be hired to come to your event to show you what
+Scottish country dancing looks like.</div>
+			</div>
+			<div class="five-up p_section">
+<a href="classes.html"><img class="ps_icon" src="images/class.png" height="100" width="100"/></a>
+<div class="ps_header"><a href="classes.html">Class</a></div>
+<div>Come to our weekly classes in Lake Oswego and we will teach you the steps,
+figures, and techniques to have a fun time.</div>
+			</div>
+			<div class="five-up p_section">
+<img class="ps_icon" src="images/party.png" height="100" width="100"/>
+<div class="ps_header">Party</div>
+<div>Test your new skills once a month when the branch holds its monthly dance
+party!</div>
+			</div>
+			<div class="five-up p_section">
+<img class="ps_icon" src="images/ball.png" height="100" width="100"/>
+<div class="ps_header">Dance</div>
+<div>Once a year, dancers from all over the Pacific Northwest travel to
+Portland to foster inter-branch socialization and dances.</div>
+			</div>
+			<div class="five-up p_section">
+<img class="ps_icon" src="images/travel.png" height="100" width="100"/>
+<div class="ps_header">Travel</div>
+<div>Your can take your dancing skills to RSCDS branches around the world and
+dance with them!</div>
+			</div>
+		</div>
+		<div class="container" style="padding-top: 2em;">
+			<div class="five-up">Contact Victoria MacKenzie, 360-258-2037.</div>
+			<div class="five-up">Next: June 3rd.</div>
+			<div class="five-up">Next: 12 Oct. 2013.</div>
+			<div class="five-up">Next: March 2014</div>
+			<div class="five-up">Next: TAC Summer School</div>
+		</div>
+	</div>
+	<div id="people">
+		<div class="container">
+			<h1>We Bring You Scottish Country Dancing!</h1>
+			<p>Here are a few people who can help you connect with
+the rest of the branch, whether you're a dancer, an organizer, or a
+spectator.</p>
+			<div class="five-up p_section">
+<img class="ps_icon" src="http://portlandscottishdancers.org/don.jpg" height="128" width="128"/>
+<div class="ps_header">Don Gertz</div>
+<div>Teacher</div>
+<div>503-692-5963</div>
+<div class="email">dlgertz at frontier dot com</div>
+			</div>
+			<div class="five-up p_section">
+<img class="ps_icon" src="http://portlandscottishdancers.org/debbie.jpg" height="128" width="128"/>
+<div class="ps_header">Debbie McRobert</div>
+<div>Teacher</div>
+<div>503-620-3034</div>
+<div class="email">mdmcrob at frontier dot com</div>
+			</div>
+			<div class="five-up p_section">
+<img class="ps_icon" src="http://portlandscottishdancers.org/lmae.jpg" height="128" width="128"/>
+<div class="ps_header">Linda Mae Dennis</div>
+<div>Teacher</div>
+<div>360-609-0623</div>
+<div class="email">lmae at comcast dot net</div>
+			</div>
+			<div class="five-up p_section">
+<img class="ps_icon" src="images/juzix.jpg" height="128" width="128"/>
+<div class="ps_header">Richard Juzix</div>
+<div>Teacher</div>
+<div class="email">richardal at msn dot com </div>
+			</div>
+			<div class="five-up p_section">
+<img class="ps_icon" src="images/djwong.jpg" height="128" width="128"/>
+<div class="ps_header">Darrick Wong</div>
+<div>Webmaster</div>
+<div class="email">djwong dot rscds at djwong dot org</div>
+			</div>
+		</div>
+	</div>
+%FOOT%
