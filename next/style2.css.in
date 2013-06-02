@@ -59,6 +59,7 @@ img {
 	left: 0px;
 	right: 0px;
 	background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.0));
+	background: -webkit-linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.0));
 }
 #links > .container {
 	margin-left: 144px;
