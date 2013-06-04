@@ -1,4 +1,6 @@
 DEST=/home/djwong/rscds_website/next/
+FONTFORGE=fontforge
+TOOLS=$(FONTFORGE) mkdir cp sed python
 
 FANCY_HTML=index.html
 REGULAR_HTML=classes.html party.html
@@ -8,7 +10,10 @@ JS=slideshow.js
 CSS=style2.css
 BLOBS=images fonts
 
-all: $(HTML) $(JS) $(CSS)
+all: build_check $(HTML) $(JS) $(CSS)
+
+build_check:;
+	@bash -c "type $(TOOLS) > /dev/null"
 
 include fonts.mk
 include cribs.d

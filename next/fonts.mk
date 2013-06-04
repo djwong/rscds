@@ -1,4 +1,3 @@
-FONTFORGE=fontforge
 OTF_FONTS=\
 fonts/LinBiolinum_RB.otf \
 fonts/LinBiolinum_RI.otf \
