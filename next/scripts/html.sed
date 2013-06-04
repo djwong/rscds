@@ -19,3 +19,5 @@ s/%CLOSE_CONTENT%/	<\/div>/g
 /%NEXT_BALL_SUMMARY%/d
 /%NEXT_TRAVEL_SUMMARY%/r next_travel_summary.html
 /%NEXT_TRAVEL_SUMMARY%/d
+/%NEXT_DANCE_CRIB%/r next_dance_crib.html
+/%NEXT_DANCE_CRIB%/d

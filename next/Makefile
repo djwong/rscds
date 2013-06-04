@@ -6,7 +6,7 @@ FANCY_HTML=index.html
 REGULAR_HTML=classes.html party.html
 HTML=$(REGULAR_HTML) $(FANCY_HTML)
 CRAP=fancy_nav.txt regular_nav.txt slide_data.js cribs.d events.d scripts/cribs.sed
-JS=slideshow.js
+JS=site2.js
 CSS=style2.css
 BLOBS=images fonts
 
@@ -45,7 +45,7 @@ regular_nav.txt: templates/navigation.txt.in
 %.html: %.html.in scripts/html.sed
 	sed -f scripts/html.sed < $< > $@
 
-slideshow.js: slideshow.js.in scripts/js.sed slide_data.js
+site2.js: site2.js.in scripts/js.sed slide_data.js
 	sed -f scripts/js.sed < $< > $@
 
 slide_data.js: data/slides.csv scripts/slides.awk

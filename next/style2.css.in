@@ -95,6 +95,61 @@ img {
 	color: white;
 }
 
+/* Crib stuff */
+.crib_ctl {
+	padding-right: 0.4em;
+	cursor: pointer;
+}
+.crib_steps {
+	display: none;
+}
+.crib_steps td {
+	padding-bottom: 0.1em;
+}
+.crib_header td {
+	padding-top: 0.2em;
+}
+.crib_header {
+	border: 1px solid gray;
+}
+.crib_interlude {
+	text-align: center;
+}
+.crib_interlude td {
+	padding-top: 0.2em;
+}
+.crib_table {
+	width: 100%;
+}
+.crib_step_table tr td {
+	vertical-align: top;
+}
+.crib_step_bars {
+	white-space: pre;
+	padding-left: 1em;
+	padding-right: 2em;
+}
+.crib_name {
+	font-weight: bold;
+	cursor: pointer;
+}
+@media print {
+	.crib_youtube {
+		display: none;
+	}
+	.crib_dropdown {
+		display: none;
+	}
+	.crib_ctl {
+		display: none;
+	}
+	.crib_steps {
+		display: table-row;
+		/* horrible hack for ie6/7 */
+		display: block;
+	}
+}
+
 /* Front page stuff */
 .container {
 	overflow: hidden;

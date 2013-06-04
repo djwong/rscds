@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 
 # Take a crib description file and generate an interactive HTML crib sheet.
 # CSS/JS are still required.  This is NOT QUITE the same script as was on the
@@ -22,11 +22,15 @@
 # wherein the "name of dance" above has been converted to lowercase, the
 # spaces replaced with underscores, and all non alphanumeric letters removed.
 # Hence, "Postie's Jig" becomes "dances/posties_jig.txt".
+#
+# Look for anything with "crib_" in the name in style2.css and site2.js,
+# if you're trying to extract the crib generator code.
 
 import sys
 import cgi
+import hashlib
 
-def write_dance(dance_name, dance_number, output):
+def write_dance(dance_name, output):
 	dance_fname = 'dances/'
 	for letter in dance_name.lower():
 		if letter.isalnum():
@@ -39,7 +43,11 @@ def write_dance(dance_name, dance_number, output):
 	notes = None
 	youtube = None
 	endnote = None
-	with file(dance_fname) as dancefile:
+	alg = hashlib.sha1()
+	dance_id = '%s:%s' % (dance_fname, output.name)
+	alg.update(dance_id.encode('utf-8'))
+	dance_id = alg.hexdigest()
+	with open(dance_fname) as dancefile:
 		for danceline in dancefile:
 			if danceline[0] == '#':
 				continue
@@ -65,8 +73,8 @@ def write_dance(dance_name, dance_number, output):
 					youtube_str = '<span class="crib_youtube">&nbsp;[<a href="http://www.youtube.com/watch?v=%s">video</a>]</span>' % youtube
 				else:
 					youtube_str = ''
-				output.write('<tr class="crib_header" onclick="crib_toggle(\'crib%d\');"><td><span id="crib%d_ctl" class="crib_ctl">&#9654;</span><span class="crib_name">%s</span> (%s)%s</td><td>%s</td></tr>\n' % (dance_number, dance_number, cgi.escape(name), cgi.escape(fmt), youtube_str, cgi.escape(source)))
-				output.write('<tr id="crib%d" class="crib_steps"><td colspan="2">\n' % dance_number)
+				output.write('<tr class="crib_header" onclick="crib_toggle(\'crib_%s\');"><td><span id="crib_%s_ctl" class="crib_ctl">&#9654;</span><span class="crib_name">%s</span> (%s)%s</td><td>%s</td></tr>\n' % (dance_id, dance_id, cgi.escape(name), cgi.escape(fmt), youtube_str, cgi.escape(source)))
+				output.write('<tr id="crib_%s" class="crib_steps"><td colspan="2">\n' % dance_id)
 				if notes != None:
 					output.write('	<p>%s</p>\n' % cgi.escape(notes))
 				output.write('	<table class="crib_step_table">\n')
@@ -80,7 +88,6 @@ def write_dance(dance_name, dance_number, output):
 
 def generate_crib(cribfile, output):
 	'''Given an input cribfile, generate an output.'''
-	global dance_number
 
 	output.write('<table class="crib_table">\n')
 	for cribline in cribfile:
@@ -89,22 +96,20 @@ def generate_crib(cribfile, output):
 		elif cribline[:3] == "I: ":
 			output.write('<tr class="crib_interlude"><td colspan="2">' + cgi.escape(cribline[3:].strip()) + '</td></tr>\n')
 		elif cribline[:3] == "D: ":
-			write_dance(cribline[3:].strip(), dance_number, output)
-			dance_number = dance_number + 1
+			write_dance(cribline[3:].strip(), output)
 	output.write('</table>\n');
 
-dance_number = 0
 if __name__ == '__main__':
 	if len(sys.argv) == 1 or len(sys.argv) > 1 and sys.argv[1] == "--help":
-		print "Usage: %s template [templates...]" % sys.argv[0]
+		print("Usage: %s template [templates...]" % sys.argv[0])
 		sys.exit(0)
 
 	for fname in sys.argv[1:]:
-		with file(fname, "r") as cribfile:
+		with open(fname, "r") as cribfile:
 			dot_location = fname.rfind('.')
 			if dot_location >= 0:
 				outfname = fname[:dot_location] + ".crib"
 			else:
 				outfname = fname + ".crib"
-			with file(outfname, "w") as output:
+			with open(outfname, "w") as output:
 				generate_crib(cribfile, output)

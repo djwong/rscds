@@ -5,6 +5,7 @@ import json
 import datetime
 import sys
 import inspect
+import crib
 
 EVENT_TYPES = {'class', 'dance', 'workshop', 'ball', 'demo'}
 
@@ -109,6 +110,15 @@ class event_queries:
 		'''When and where are the next dances?'''
 		for evt in events.dances(starts_after = datetime.datetime.now(), is_local = True):
 			print('%s at %s' % (event_queries.__format_date(evt['start']), evt['location']))
+			return
+
+	def next_dance_crib(events):
+		'''Generate a crib of the next dance.'''
+		for evt in events.dances(starts_after = datetime.datetime.now(), is_local = True):
+			if 'crib' in evt:
+				crib.generate_crib(open('cribs/' + evt['crib']), sys.stdout)
+			else:
+				print('We are sorry, but there is no posted program yet.  Please check back later.')
 			return
 
 	def next_ball_summary(events):

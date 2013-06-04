@@ -1,5 +1,5 @@
 [
-{"start": "2013/5/3 19:00", "local": false, "type": "workshop", "name": "Youth Weekend West", "location": "The Academy, Vancouver, WA"},
+{"start": "2013/5/3 19:00", "local": false, "type": "workshop", "name": "Youth Weekend West", "location": "The Academy, Vancouver, WA", "crib": "yww2013_ceilidh.txt"},
 {"start": "2013/5/4 18:00", "local": false, "type": "ball", "name": "Dinner Dance", "location": "St. Luke's, Vancouver, WA"},
 {"start": "2013/6/3 19:30", "type": "class", "name": "Farewell to the Baxters", "location": "Waluga Lodge"},
 {"start": "2013/6/10 19:30", "type": "class", "location": "Waluga Lodge"},
