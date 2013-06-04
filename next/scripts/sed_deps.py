@@ -41,7 +41,7 @@ def main():
 		if collecting_rules:
 			extract_subst_from_sed(rules, open(arg))
 		else:
-			sys.stdout.write('%s:' % arg)
+			sys.stdout.write('%s:' % arg[:-3])
 			for dep in iterate_deps(rules, open(arg)):
 				sys.stdout.write(' %s' % dep)
 			sys.stdout.write('\n')
