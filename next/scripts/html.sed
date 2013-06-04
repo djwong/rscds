@@ -1,3 +1,4 @@
+# All substitution keys (%HEAD%) must be on a separate line!
 /%HEAD%/r templates/head.txt
 /%HEAD%/d
 /%FANCY_NAVIGATION%/r fancy_nav.txt
@@ -10,3 +11,11 @@
 /%BODY%/d
 s/%OPEN_CONTENT%/	<div id="regular_body">/g
 s/%CLOSE_CONTENT%/	<\/div>/g
+/%NEXT_CLASS_SUMMARY%/r next_class_summary.html
+/%NEXT_CLASS_SUMMARY%/d
+/%NEXT_DANCE_SUMMARY%/r next_dance_summary.html
+/%NEXT_DANCE_SUMMARY%/d
+/%NEXT_BALL_SUMMARY%/r next_ball_summary.html
+/%NEXT_BALL_SUMMARY%/d
+/%NEXT_TRAVEL_SUMMARY%/r next_travel_summary.html
+/%NEXT_TRAVEL_SUMMARY%/d

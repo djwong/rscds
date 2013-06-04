@@ -48,10 +48,22 @@ dance with them!</div>
 		</div>
 		<div class="container" style="padding-top: 2em;">
 			<div class="five-up">Contact Victoria MacKenzie, 360-258-2037.</div>
-			<div class="five-up">Next: June 3rd.</div>
-			<div class="five-up">Next: 12 Oct. 2013.</div>
-			<div class="five-up">Next: March 2014</div>
-			<div class="five-up">Next: TAC Summer School</div>
+			<div class="five-up">
+Next:
+%NEXT_CLASS_SUMMARY%
+			</div>
+			<div class="five-up">
+Next:
+%NEXT_DANCE_SUMMARY%
+			</div>
+			<div class="five-up">
+Next:
+%NEXT_BALL_SUMMARY%
+			</div>
+			<div class="five-up">
+Upcoming:<br />
+%NEXT_TRAVEL_SUMMARY%
+			</div>
 		</div>
 	</div>
 	<div id="people">

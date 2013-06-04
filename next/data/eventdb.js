@@ -1,0 +1,21 @@
+[
+{"start": "2013/5/3 19:00", "local": false, "type": "workshop", "name": "Youth Weekend West", "location": "The Academy, Vancouver, WA"},
+{"start": "2013/5/4 18:00", "local": false, "type": "ball", "name": "Dinner Dance", "location": "St. Luke's, Vancouver, WA"},
+{"start": "2013/6/3 19:30", "type": "class", "name": "Farewell to the Baxters", "location": "Waluga Lodge"},
+{"start": "2013/6/10 19:30", "type": "class", "location": "Waluga Lodge"},
+{"start": "2013/6/17 19:30", "type": "class", "location": "Waluga Lodge"},
+{"start": "2013/6/22 00:00", "type": "dance", "local": false, "name": "Puget Sound Crossroads", "location": "Anacortes, WA"},
+{"start": "2013/6/24 19:30", "type": "class", "location": "Waluga Lodge"},
+{"start": "2013/7/1 19:30", "type": "class", "location": "Waluga Lodge"},
+{"start": "2013/7/8 19:30", "type": "class", "location": "Waluga Lodge"},
+{"start": "2013/7/8 19:00", "type": "workshop", "local": false, "name": "Pinewoods", "location": "Boston", "url": "http://www.rscdsboston.org/events-pinewoods.html"},
+{"start": "2013/7/15 19:30", "type": "class", "location": "Waluga Lodge"},
+{"start": "2013/7/20 9:00", "type": "demo", "location": "Portland Highland Games", "name": "Highland Games Demo"},
+{"start": "2013/7/28 17:00", "type": "workshop", "local": false, "name": "TAC Summer School", "location": "New Brunswick", "url": "http://www.tac-rscds.org/summer-school"},
+{"start": "2013/9/6 17:00", "type": "workshop", "local": false, "name": "Ft. Worden", "location": "Washington", "url": "http://www.rscds-seattle.org/ftworden/"},
+{"start": "2013/10/12 19:30", "type": "dance", "location": "Waluga Lodge"},
+{"start": "2013/11/9 19:30", "type": "dance", "location": "Waluga Lodge"},
+{"start": "2013/12/14 19:30", "type": "dance", "location": "Waluga Lodge"},
+{"start": "2014/3/8 19:00", "type": "ball", "location": "Christ Episcopal Church, Lake Oswego"},
+{}
+]

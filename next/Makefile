@@ -5,7 +5,7 @@ TOOLS=$(FONTFORGE) mkdir cp sed python
 FANCY_HTML=index.html
 REGULAR_HTML=classes.html party.html
 HTML=$(REGULAR_HTML) $(FANCY_HTML)
-CRAP=fancy_nav.txt regular_nav.txt slide_data.js cribs.d scripts/cribs.sed
+CRAP=fancy_nav.txt regular_nav.txt slide_data.js cribs.d events.d scripts/cribs.sed
 JS=slideshow.js
 CSS=style2.css
 BLOBS=images fonts
@@ -20,6 +20,10 @@ include cribs.d
 scripts/cribs.sed: cribs.d
 cribs.d:
 	scripts/configure_cribs
+
+include events.d
+events.d:
+	scripts/events.py data/eventdb.js makedep > $@
 
 include sed.d
 sed.d:
