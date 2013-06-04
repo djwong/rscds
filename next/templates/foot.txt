@@ -2,7 +2,11 @@
 		<div class="container">
 			<div class="three-up left">
 <div style="font-weight: bold;">RSCDS - Portland, Ore.</div>
-<div>[<a href="http://www.facebook.com/RscdsPortlandOregon">FB</a>] [<a href="http://rscdsportland.shutterfly.com/">SF</a>]</div>
+<div>
+[<a href="http://www.facebook.com/RscdsPortlandOregon">FB</a>]
+[<a href="http://rscdsportland.shutterfly.com/">SF</a>]
+[<a href="https://github.com/djwong/rscds">GH</a>]
+</div>
 <div>&copy; 2013 RSCDS Portland Branch</div>
 			</div>
 			<div class="three-up left">

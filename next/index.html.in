@@ -1,6 +1,5 @@
 %HEAD%
 	<title>RSCDS - Portland, Oregon</title>
-	<script type="text/javascript" src="slideshow.js"> </script>
 	<script type="text/javascript">
 addWindowEventHandler("load", function() {load_main();});
 	</script>
@@ -34,8 +33,8 @@ figures, and techniques to have a fun time.</div>
 party!</div>
 			</div>
 			<div class="five-up p_section">
-<img class="ps_icon" src="images/ball.png" height="100" width="100" alt="Dance"/>
-<div class="ps_header">Dance</div>
+<img class="ps_icon" src="images/ball.png" height="100" width="100" alt="Ball"/>
+<div class="ps_header">Formal Ball</div>
 <div>Once a year, dancers from all over the Pacific Northwest travel to
 Portland to foster inter-branch socialization and dances.</div>
 			</div>
