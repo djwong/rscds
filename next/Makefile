@@ -17,10 +17,13 @@ build_check:;
 
 include fonts.mk
 include cribs.d
+scripts/cribs.sed: cribs.d
 cribs.d:
 	scripts/configure_cribs
 
-scripts/cribs.sed: cribs.d
+include sed.d
+sed.d:
+	scripts/sed_deps.py scripts/*.sed : $(shell find . -name "*.in" | sed -e 's/^..//g') > $@
 
 install: all
 	mkdir -p $(DEST)
@@ -35,7 +38,7 @@ fancy_nav.txt: templates/navigation.txt.in
 regular_nav.txt: templates/navigation.txt.in
 	sed -e 's/%FANCY%//g' < $< > $@
 
-%.html: %.html.in scripts/html.sed templates/head.txt templates/foot.txt templates/body.txt templates/navigation.txt.in
+%.html: %.html.in scripts/html.sed
 	sed -f scripts/html.sed < $< > $@
 
 slideshow.js: slideshow.js.in scripts/js.sed slide_data.js
