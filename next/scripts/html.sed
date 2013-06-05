@@ -21,3 +21,5 @@ s/%CLOSE_CONTENT%/	<\/div>/g
 /%NEXT_TRAVEL_SUMMARY%/d
 /%NEXT_DANCE_CRIB%/r next_dance_crib.html
 /%NEXT_DANCE_CRIB%/d
+/%PORTLAND_BALL_CRIB%/r portland_ball_crib.html
+/%PORTLAND_BALL_CRIB%/d

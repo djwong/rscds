@@ -3,14 +3,17 @@ FONTFORGE=fontforge
 TOOLS=$(FONTFORGE) mkdir cp sed python python3
 
 FANCY_HTML=index.html
-REGULAR_HTML=classes.html party.html
+REGULAR_HTML=classes.html party.html workshop.html
 HTML=$(REGULAR_HTML) $(FANCY_HTML)
-CRAP=fancy_nav.txt regular_nav.txt slide_data.js cribs.d events.d scripts/cribs.sed
+DEPS=cribs.d events.d sed.d
+CLEAN=fancy_nav.txt regular_nav.txt slide_data.js scripts/cribs.sed
 JS=site2.js
 CSS=style2.css
 BLOBS=images fonts
 
 all: build_check $(HTML) $(JS) $(CSS)
+
+dep: $(DEPS)
 
 build_check:;
 	@bash -c "type $(TOOLS) > /dev/null"
@@ -58,4 +61,4 @@ style2.css: style2.css.in scripts/css.sed fonts.css
 	./scripts/crib.py $<
 
 clean:;
-	rm -rf $(HTML) $(CRAP) $(JS) $(CRIB_SHEETS) $(CLEAN) $(CSS)
+	rm -rf $(HTML) $(CRAP) $(JS) $(CRIB_SHEETS) $(CLEAN) $(CSS) $(DEPS)

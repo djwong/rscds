@@ -25,6 +25,7 @@ EVENT_TYPES = {'class', 'dance', 'workshop', 'ball', 'demo'}
 # local:	Is this a local event? (True/False, default is True)
 # cribfile:	Name of a crib file describing the dances for this event.
 # url:		URL describing this event.
+# ready:	Is this event ready for display? (True/False, default is True)
 class event_database:
 	'''Load and query events.'''
 	def __init__(self):
@@ -50,6 +51,10 @@ class event_database:
 			entry['start'] = datetime.datetime.strptime(entry['start'], date_format)
 			if 'end' in entry:
 				entry['end'] = datetime.datetime.strptime(entry['end'], date_format)
+			if 'ready' in entry:
+				entry['ready'] = bool(entry['ready'])
+			else:
+				entry['ready'] = True
 			if 'local' in entry:
 				entry['local'] = bool(entry['local'])
 			else:
@@ -125,6 +130,16 @@ class event_queries:
 		'''When and where is the next ball?'''
 		for evt in events.balls(starts_after = datetime.datetime.now(), is_local = True):
 			print('%s at %s' % (event_queries.__format_date(evt['start']), evt['location']))
+			return
+
+	def portland_ball_crib(events):
+		'''Generate a crib of the most recent complete Portland ball.'''
+		ready_balls = [x for x in events.balls() if (x['local'] and x['ready'])]
+		for evt in sorted(ready_balls, key = lambda x: x['start']):
+			if 'crib' in evt:
+				crib.generate_crib(open('cribs/' + evt['crib']), sys.stdout)
+			else:
+				print('We are sorry, but there is no posted program yet.  Please check back later.')
 			return
 
 	def next_travel_summary(events):
