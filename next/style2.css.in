@@ -47,6 +47,11 @@ img {
 	font-size: 75%;
 }
 
+/* Calendar */
+.regular_event {
+	color: #808080;
+}
+
 /* Page Headers */
 #logo {
 	position: absolute;

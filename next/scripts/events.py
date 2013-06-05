@@ -181,7 +181,10 @@ class event_queries:
 			loc = ''
 			if 'location' in evt:
 				loc = ', %s' % evt['location']
-			print("\t<li>%s (%s%s)</li>" % (url, evt['start'].strftime('%m/%d'), loc))
+			style = ''
+			if evt['type'] == 'class':
+				style = ' class="regular_event"'
+			print("\t<li%s>%s (%s%s)</li>" % (style, url, evt['start'].strftime('%m/%d'), loc))
 			last_date = evt['start']
 
 		if list_open:
