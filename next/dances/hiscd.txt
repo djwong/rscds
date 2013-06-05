@@ -2,6 +2,7 @@ Name: Happiness is Scottish Country Dancing
 Format: 8x32R
 Youtube: ikisCc6rYv0
 Source: Lisbeth and Douglas Henderson
+BARS
 1-8	1s turn RH (moving down) to end BtoB Lady facing up (2s step up), 2s+1s+3s set (Double Triangle formation), 1L+2L also 1M+3M turn RH & 1s pass RSh to end facing 1st corners
 9-16	1s dance 'Hello-Goodbye' setting
 17-24	1s turn RH to end BtoB Man facing up, 2s+1s+3s set (Double Triangle), 1M+2L also 1L+3M turn RH & 1s pass RSh to 2nd place own sides

@@ -1,6 +1,7 @@
 Name: The Piper and the Penguin
 Format: 88R Square Set
 Source: Roy Goldring (2002)
+BARS
 1-8	Ladies dance RSh round their corners, dance RH across ending in centre
 9-16	Ladies dance LSh round their partners, dance LH across and back to places
 17-24	Men dance RSh round their partners, dance RH across ending in centre

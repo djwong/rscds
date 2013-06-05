@@ -2,6 +2,7 @@ Name: A Trip to the Drakensberg
 Format: 8x40J, 3c/4c set
 Source: RSCDS Bk 38
 Youtube: Z-8sNuH33xw
+BARS
 1-8	1s set, cast off 2 places, dance up to the top
 9-16	1s+2s Poussette (1s finish facing 1st corners)
 17-24	1s dance ½ reel of 4 with 1st corners, pass LSh, dance ½ reel of 4 with 2nd corners (finish 2nd place opposite side)

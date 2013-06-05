@@ -2,6 +2,7 @@ Name: The Australian Ladies
 Format: 8x32R
 Source: R M Campbell Glasgow Assembly
 Youtube: TxG4i8u06QQ
+BARS
 1-8	1s cross, cast down to 3rd place & 3s+1s dance RH across.
 9-16	1s lead up to top, cross, cast to 2nd place & 2s+1s dance LH across.
 17-24	2s & 3s set & cross RH as 1s cross RH & cast to right, 2s+3s set on sides & change pls RH as 1s cross RH up/down centre & cast to right

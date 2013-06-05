@@ -40,9 +40,9 @@ def write_dance(dance_name, output):
 	dance_fname = dance_fname + '.txt'
 	in_instructions = False
 	source = ''
-	notes = None
 	youtube = None
 	endnote = None
+	notes = []
 	alg = hashlib.sha1()
 	dance_id = '%s:%s' % (dance_fname, output.name)
 	alg.update(dance_id.encode('utf-8'))
@@ -61,13 +61,11 @@ def write_dance(dance_name, output):
 				fmt = danceline[8:]
 			elif danceline.startswith("Source: "):
 				source = danceline[8:]
-			elif danceline.startswith("Notes: "):
-				notes = danceline[7:]
 			elif danceline.startswith("Youtube: "):
 				youtube = danceline[9:]
 			elif danceline.startswith("Endnote: "):
 				endnote = danceline[9:]
-			else:
+			elif danceline == 'BARS':
 				in_instructions = True
 				if youtube != None:
 					youtube_str = '<span class="crib_youtube">&nbsp;[<a href="http://www.youtube.com/watch?v=%s">video</a>]</span>' % youtube
@@ -75,11 +73,11 @@ def write_dance(dance_name, output):
 					youtube_str = ''
 				output.write('<tr class="crib_header" onclick="crib_toggle(\'crib_%s\');"><td><span id="crib_%s_ctl" class="crib_ctl">&#9654;</span><span class="crib_name">%s</span> (%s)%s</td><td>%s</td></tr>\n' % (dance_id, dance_id, cgi.escape(name), cgi.escape(fmt), youtube_str, cgi.escape(source)))
 				output.write('<tr id="crib_%s" class="crib_steps"><td colspan="2">\n' % dance_id)
-				if notes != None:
-					output.write('	<p>%s</p>\n' % cgi.escape(notes))
 				output.write('	<table class="crib_step_table">\n')
-				x = danceline.partition('	')
-				output.write('	<tr><td class="crib_step_bars">%s</td><td>%s</td></tr>\n' % (cgi.escape(x[0]), cgi.escape(x[2])))
+				for note in notes:
+					output.write('	<tr><td class="crib_note" colspan="2">%s</td></tr>\n' % cgi.escape(note))
+			else:
+				notes.append(danceline)
 		if in_instructions:
 			output.write('	</table>\n')
 			if endnote != None:

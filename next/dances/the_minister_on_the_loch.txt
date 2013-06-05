@@ -2,6 +2,7 @@ Name: The Minister on the Loch
 Format: 3x32S
 Source: R Goldring 24 G & S Dances
 Youtube: ztYP8o3rIgs
+BARS
 1- 8	1s+2s dance Diamond Poussette
 9-16	1s dance down for 2 steps, turn 2H, dance up to top & turn 2H
 17-24	1s+3s dance double Fig of 8 round 2s with 1s casting to start

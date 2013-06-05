@@ -2,7 +2,8 @@ Name: Balquidder Strathspey
 Format: 8x32S, 3c/4c set
 Source: Rutherford  RSCDS Bk 24
 Youtube: qTkvO2h0wSE
- 1- 8	1s cross down & dance reflection reels of 3 on opposite sides
+BARS
+1- 8	1s cross down & dance reflection reels of 3 on opposite sides
  9-16	1s dance reels of 3 on own sides
 17-24	1s dance down 1 place & set to each other, dance up & cast to face 1st corners
 25-32	1s turn 1st corners RH & partner LH, 2nd corner RH & partners LH

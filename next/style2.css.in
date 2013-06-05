@@ -139,6 +139,9 @@ img {
 	padding-left: 1em;
 	padding-right: 2em;
 }
+.crib_note {
+	padding-left: 1em;
+}
 .crib_name {
 	font-weight: bold;
 	cursor: pointer;

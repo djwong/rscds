@@ -2,6 +2,7 @@ Name: The Millville Grange
 Source: Ron Wallace
 Format: 8x32S
 Youtube: QIuVlxbmVAM
+BARS
 1-8	1s set adv, turn BH, dance NH between 3s and cast up to 2nd place. 2s+1s+3s dance in with left foot on bar 8 and join RH facing up
 9-16	2s+1s+3s dance 3 couple allemande. 1s turn RH on 7-8 to end 1W between 3s facing 3W, 1M between 2s facing 2M
 17-22	Dance RS reels of 3 across (6 bars)

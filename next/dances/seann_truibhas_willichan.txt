@@ -2,6 +2,7 @@ Name: Seann Truibhas Willichan
 Format: 8x32S
 Source: T Wilson RSCDS Bk 27
 Youtube: 4IeabB2B1UE
+BARS
 1-8	1s cast & dance down behind own lines, turn outwards & dance back to top
 9-16	1L+2M set & change places RH while 1M+2L change places & set & repeat
 17-24	1s lead down for 2 steps, turn RH, lead up to top & cast to 2nd place

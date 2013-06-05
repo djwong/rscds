@@ -2,7 +2,8 @@ Name: Delvine Side
 Youtube: 445n3D6KCK8
 Format: 8x32S, 3c/4c set
 Source: W Campbell  RSCDS Bk 2
- 1- 8	1s+2s set & cross passing RSh, set & cross back passing RSh
+BARS
+1- 8	1s+2s set & cross passing RSh, set & cross back passing RSh
  9-16	1s lead down the middle & back for Allemande
 17-24	1s+2s dance Allemande 1s end facing 1st corners
 25-32	1s turn 1st corner 2H, pass partner RSh, turn 2nd corner 2H & cross passing RSh to 2nd place on own sides
