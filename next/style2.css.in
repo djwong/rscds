@@ -22,8 +22,18 @@ body {
 	float: left;
 	text-align: center;
 }
+.four-up {
+	width: 25%;
+	float: left;
+	text-align: center;
+}
 .three-up {
 	width: 33%;
+	float: left;
+	text-align: center;
+}
+.two-up {
+	width: 50%;
 	float: left;
 	text-align: center;
 }
@@ -242,7 +252,7 @@ img {
 	padding-left: 0.3em;
 	padding-right: 0.3em;
 }
-.p_section > .ps_header {
+.ps_header {
 	font-weight: bold;
 }
 .p_section .ps_icon {

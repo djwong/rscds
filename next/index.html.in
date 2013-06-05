@@ -73,36 +73,23 @@ the rest of the branch, whether you're a dancer, an organizer, or a
 spectator.</p>
 			<div class="five-up p_section">
 <img class="ps_icon" src="../don.jpg" height="128" width="128" alt="Don Gertz"/>
-<div class="ps_header">Don Gertz</div>
-<div>Teacher</div>
-<div>503-692-5963</div>
-<div class="email">dlgertz at frontier dot com</div>
+%DON_CONTACT%
 			</div>
 			<div class="five-up p_section">
 <img class="ps_icon" src="../debbie.jpg" height="128" width="128" alt="Debbie McRobert"/>
-<div class="ps_header">Debbie McRobert</div>
-<div>Teacher</div>
-<div>503-620-3034</div>
-<div class="email">mdmcrob at frontier dot com</div>
+%DEBBIE_CONTACT%
 			</div>
 			<div class="five-up p_section">
 <img class="ps_icon" src="../lmae.jpg" height="128" width="128" alt="Linda Mae Dennis"/>
-<div class="ps_header">Linda Mae Dennis</div>
-<div>Teacher</div>
-<div>360-609-0623</div>
-<div class="email">lmae at comcast dot net</div>
+%LMAE_CONTACT%
 			</div>
 			<div class="five-up p_section">
 <img class="ps_icon" src="images/juzix.jpg" height="128" width="128" alt="Richard Juzix"/>
-<div class="ps_header">Richard Juzix</div>
-<div>Teacher</div>
-<div class="email">richardal at msn dot com </div>
+%RICHARD_CONTACT%
 			</div>
 			<div class="five-up p_section">
 <img class="ps_icon" src="images/djwong.jpg" height="128" width="128" alt="Darrick J. Wong"/>
-<div class="ps_header">Darrick J. Wong</div>
-<div>Webmaster</div>
-<div class="email">djwong dot rscds at djwong dot org</div>
+%WEBMASTER_CONTACT%
 			</div>
 		</div>
 	</div>

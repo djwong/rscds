@@ -142,7 +142,7 @@ class event_queries:
 	def portland_ball_crib(events):
 		'''Generate a crib of the most recent complete Portland ball.'''
 		ready_balls = [x for x in events.balls() if (x['local'] and x['ready'])]
-		for evt in sorted(ready_balls, key = lambda x: x['start']):
+		for evt in ready_balls:
 			if 'crib' in evt:
 				crib.generate_crib(open('cribs/' + evt['crib']), sys.stdout)
 			else:
