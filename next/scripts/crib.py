@@ -30,6 +30,7 @@
 import sys
 import cgi
 import hashlib
+import uuid
 
 def write_dance(dance_name, output):
 	dance_fname = 'dances/'
@@ -45,8 +46,7 @@ def write_dance(dance_name, output):
 	endnote = None
 	notes = []
 	alg = hashlib.sha1()
-	dance_id = '%s:%s' % (dance_fname, output.name)
-	alg.update(dance_id.encode('utf-8'))
+	alg.update(str(uuid.uuid4()).encode('utf-8'))
 	dance_id = alg.hexdigest()
 	with open(dance_fname) as dancefile:
 		for danceline in dancefile:
