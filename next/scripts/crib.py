@@ -87,9 +87,9 @@ def write_dance(dance_name, output):
 def generate_crib(cribfile, output):
 	'''Given an input cribfile, generate an output.'''
 
-	output.write('<p class="crib_dropdown">Click on the name of a dance ')
-	output.write('to see its crib sheet.  The complete crib will print ')
-	output.write('on your printer.</p>\n')
+	#output.write('<p class="crib_dropdown">Click on the name of a dance ')
+	#output.write('to see its crib sheet.  The complete crib will print ')
+	#output.write('on your printer.</p>\n')
 	output.write('<table class="crib_table">\n')
 	for cribline in cribfile:
 		if cribline[0] == '#':
