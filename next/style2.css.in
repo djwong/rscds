@@ -14,8 +14,16 @@ body {
 	padding-left: 2em;
 	padding-right: 2em;
 }
-#regular_body > h1 {
+#regular_body h1 {
 	text-align: center;
+}
+.skinny_box {
+	max-width: 10in;
+	margin: 0px auto;
+}
+#skinny_contact_box {
+	padding-left: 3em;
+	transition: padding-left linear 0.1s;
 }
 .five-up {
 	width: 20%;
@@ -174,10 +182,10 @@ img {
 	margin-left: 2em;
 	margin-right: 2em;
 }
-.container > h1 {
+.container h1 {
 	text-align: center;
 }
-.container > p {
+.container p {
 	padding-bottom: 2em;
 	padding-left: 25%;
 	padding-right: 25%;
@@ -334,5 +342,9 @@ img {
 	.container > p {
 		padding-left: 1em;
 		padding-right: 1em;
+	}
+	#skinny_contact_box {
+		padding-left: 0px;
+		transition: padding-left linear 0.1s;
 	}
 }

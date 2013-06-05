@@ -10,6 +10,7 @@ addWindowEventHandler("load", function() {load_main();});
 	</div>
 	<div id="participate">
 		<div class="container">
+		<div class="skinny_box">
 			<h1>We are passionate Scottish Country Dancers!</h1>
 			<p>Located in Portland, Oregon, we teach and dance the
 social dances of Scotland and promote socialization with nearby RSCDS
@@ -71,9 +72,11 @@ Upcoming:<br />
 </div>
 			</div>
 		</div>
+		</div>
 	</div>
 	<div id="people">
 		<div class="container">
+		<div class="skinny_box">
 			<h1>We Bring You Scottish Country Dancing!</h1>
 			<p>Here are a few people who can help you connect with
 the rest of the branch, whether you're a dancer, an organizer, or a
@@ -93,6 +96,7 @@ spectator.</p>
 			<div class="five-up p_section">
 %WEBMASTER_CONTACT%
 			</div>
+		</div>
 		</div>
 	</div>
 %FOOT%

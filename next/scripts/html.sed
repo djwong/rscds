@@ -9,8 +9,8 @@
 /%FOOT%/d
 /%BODY%/r templates/body.txt
 /%BODY%/d
-s/%OPEN_CONTENT%/	<div id="regular_body">/g
-s/%CLOSE_CONTENT%/	<\/div>/g
+s/%OPEN_CONTENT%/	<div id="regular_body"><div class="skinny_box">/g
+s/%CLOSE_CONTENT%/	<\/div><\/div>/g
 /%NEXT_CLASS_SUMMARY%/r next_class_summary.html
 /%NEXT_CLASS_SUMMARY%/d
 /%NEXT_DANCE_SUMMARY%/r next_dance_summary.html

@@ -1,6 +1,7 @@
 	<div id="contact">
 		<div class="container">
-			<div class="three-up left">
+			<div id="skinny_contact_box">
+				<div class="three-up left">
 <div style="font-weight: bold;">RSCDS - Portland, Ore.</div>
 <div>
 [<a href="http://www.facebook.com/RscdsPortlandOregon">FB</a>]
@@ -9,15 +10,15 @@
 </div>
 <div>&copy; 2006-2013 RSCDS Portland Branch</div>
 <div>Email the <a href="mailto:djwong dot rscds at djwong dot org">webmaster</a>.</div>
-			</div>
-			<div class="three-up left">
+				</div>
+				<div class="three-up left">
 <div style="font-weight: bold;">Dance With Us</div>
 <div><a href="classes.html">Class</a></div>
 <div><a href="party.html">Party</a></div>
 <div><a href="workshop.html">Workshop and Ball</a></div>
 <div><a href="demo.html">Demonstrations</a></div>
-			</div>
-			<div class="three-up left">
+				</div>
+				<div class="three-up left">
 <div style="font-weight: bold;">Dance With Others</div>
 <div><a href="http://www.youthweekendwest.com/">Youth Weekend West</a></div>
 <div><a href="http://www.rscds-seattle.org/">Seattle</a> - <a href="http://www.rscds-seattle.org/ftworden/">Ft. Worden</a></div>
@@ -25,6 +26,7 @@
 <div><a href="http://hdccd.azurewebsites.net/">Oregon High Desert</a> - <a href="http://hdccd.azurewebsites.net/ball/HdccdFlyerRegistrationAndBriefs2012.pdf">Ball</a></div>
 <div><a href="http://www.rscds-sf.org/">San Francisco</a> - <a href="http://www.rscds-sf.org/asilomar/pdf/AsilomarApplication.7.pdf">Asilomar</a></div>
 <div><a href="http://www.rscdsvancouver.org/">Vancouver, BC</a></div>
+				</div>
 			</div>
 		</div>
 	</div>
