@@ -13,10 +13,11 @@
 # Name: <name of dance>
 # Format: <what kind of dance -- 8x32R, 4x32S, etc>
 # Source: <where you got it from>
-# <bars>	<steps>
-#
-# Note: Any line not starting with Name:/Format:/Source: is assumed to be
-# the start of dance figure instructions.
+# Youtube: <the youtube video id>
+# Endnote: Notes to put at the end 
+# <other key: value pairs which are copied verbatim>
+# BARS
+# <bars>\tab	<steps>
 #
 # Dance crib files should be dances/<filename_of_dance>.txt
 # wherein the "name of dance" above has been converted to lowercase, the
@@ -84,33 +85,47 @@ def write_dance(dance_name, output):
 				output.write('<p>%s</p>\n' % cgi.escape(endnote))
 			output.write('</td></tr>\n')
 
-def generate_crib(cribfile, output):
-	'''Given an input cribfile, generate an output.'''
+def generate_crib(cribfd, outfd):
+	'''Given an input crib file, generate an output.'''
 
-	#output.write('<p class="crib_dropdown">Click on the name of a dance ')
-	#output.write('to see its crib sheet.  The complete crib will print ')
-	#output.write('on your printer.</p>\n')
-	output.write('<table class="crib_table">\n')
-	for cribline in cribfile:
+	outfd.write('<table class="crib_table">\n')
+	for cribline in cribfd:
 		if cribline[0] == '#':
 			continue
 		elif cribline[:3] == "I: ":
-			output.write('<tr class="crib_interlude"><td colspan="2">' + cgi.escape(cribline[3:].strip()) + '</td></tr>\n')
+			outfd.write('<tr class="crib_interlude"><td colspan="2">' + cgi.escape(cribline[3:].strip()) + '</td></tr>\n')
 		elif cribline[:3] == "D: ":
-			write_dance(cribline[3:].strip(), output)
-	output.write('</table>\n');
+			write_dance(cribline[3:].strip(), outfd)
+	outfd.write('</table>\n');
 
+def inject_cribs(templatefd, outfd):
+	'''Given a template file full of CRIB: statements, paste in the cribs.'''
+
+	for line in templatefd:
+		if not line[:5] == "CRIB:":
+			outfd.write(line)
+			continue
+		crib_fname = line[5:].strip()
+		generate_crib(open(crib_fname), outfd)
+
+def print_help():
+	print("Usage: %s [-i template outfile|-g templates...]" % sys.argv[0])
+	sys.exit(0)
+
+# Main code
 if __name__ == '__main__':
-	if len(sys.argv) == 1 or len(sys.argv) > 1 and sys.argv[1] == "--help":
-		print("Usage: %s template [templates...]" % sys.argv[0])
-		sys.exit(0)
+	if len(sys.argv) == 1 or '--help' in sys.argv:
+		print_help()
 
-	for fname in sys.argv[1:]:
-		with open(fname, "r") as cribfile:
+	if sys.argv[1] == '-i' and len(sys.argv) == 4:
+		inject_cribs(open(sys.argv[2]), open(sys.argv[3], 'w'))
+	elif sys.argv[1] == '-g' and len(sys.argv) > 2:
+		for fname in sys.argv[2:]:
 			dot_location = fname.rfind('.')
 			if dot_location >= 0:
 				outfname = fname[:dot_location] + ".crib"
 			else:
 				outfname = fname + ".crib"
-			with open(outfname, "w") as output:
-				generate_crib(cribfile, output)
+			generate_crib(open(fname), open(outfname, 'w'))
+	else:
+		print_help()
