@@ -65,7 +65,7 @@ style2.css: style2.css.in scripts/css.sed fonts.css
 	sed -f scripts/css.sed < $< > $@
 
 %.crib: %.txt
-	./scripts/crib.py $<
+	./scripts/crib.py -g $<
 
 clean:;
 	rm -rf $(HTML) $(CRAP) $(JS) $(CRIB_SHEETS) $(CLEAN) $(CSS) $(DEPS)
