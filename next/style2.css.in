@@ -255,7 +255,7 @@ img {
 .ps_header {
 	font-weight: bold;
 }
-.p_section .ps_icon {
+.ps_icon {
 	border-radius: 500px;
 }
 #people {

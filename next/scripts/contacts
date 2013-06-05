@@ -2,7 +2,7 @@
 
 if [ "$1" = "-d" ]; then
 	# Generate make dependencies.
-	cat data/people.csv | while IFS=, read tag name role phone email url crap; do
+	cat data/people.csv | while IFS=, read tag name role phone email imgurl crap; do
 		if [ "${tag:0:1}" = "#" ]; then
 			continue
 		fi
@@ -15,11 +15,22 @@ if [ "$1" = "-d" ]; then
 fi
 
 # Otherwise, generate html
-cat data/people.csv | while IFS=, read tag name role phone email url crap; do
+cat data/people.csv | while IFS=, read tag name role phone email imgurl crap; do
 	if [ "${tag:0:1}" = "#" ]; then
 		continue
 	fi
-cat > "${tag}.html" << ENDL
+	fname="${tag}.html"
+	rm -rf "${fname}"
+	if [ ! -z "${imgurl}" ]; then
+		cat >> "${fname}" << ENDL
+<img class="ps_icon" src="${imgurl}" height="128" width="128" alt="${name}"/>
+ENDL
+	else
+		cat >> "${fname}" << ENDL
+<img class="ps_icon" src="images/nopic.png" height="128" width="128" alt="${name}"/>
+ENDL
+	fi
+	cat >> "${fname}" << ENDL
 <div class="ps_header">${name}, ${role}</div>
 <div>${phone}</div>
 <div class="email">${email}</div>
