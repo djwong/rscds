@@ -51,3 +51,5 @@ s/%CLOSE_CONTENT%/	<\/div>/g
 /%RICHARD_CONTACT%/d
 /%VMAC_CONTACT%/r vmac.html
 /%VMAC_CONTACT%/d
+/%ALL_CRIBS%/r has_crib.html
+/%ALL_CRIBS%/d

@@ -7,7 +7,7 @@ import sys
 import inspect
 import crib
 
-EVENT_TYPES = {'class', 'dance', 'workshop', 'ball', 'demo'}
+EVENT_TYPES = {'class', 'dance', 'workshop', 'ball', 'demo', 'hidden'}
 
 # Event db schema: The file format is JSON.
 # The whole file is an array full of event objects.
@@ -50,7 +50,10 @@ class event_database:
 				date_format = entry['date_format']
 			else:
 				date_format = '%Y/%m/%d %H:%M'
-			entry['start'] = datetime.datetime.strptime(entry['start'], date_format)
+			if entry['start'] is None:
+				entry['start'] = datetime.datetime.min
+			else:
+				entry['start'] = datetime.datetime.strptime(entry['start'], date_format)
 			if 'end' in entry:
 				entry['end'] = datetime.datetime.strptime(entry['end'], date_format)
 			if 'ready' in entry:
@@ -182,6 +185,22 @@ class event_queries:
 		if list_open:
 			print("\t</ul>")
 
+	def has_crib(events):
+		'''Anything with a crib.'''
+		for evt in sorted(events.events, key = lambda x: x['start'], reverse = True):
+			if 'crib' not in evt:
+				continue
+			print("<h2>%s</h2>" % evt['name'])
+			loc = ''
+			if 'location' in evt:
+				loc = '%s on ' % evt['location']
+			date = ''
+			if evt['start'] != datetime.datetime.min:
+				date = evt['start'].strftime('%d %B %Y')
+			if loc != '' and date != '':
+				print("<p>%s%s</p>" % (loc, date))
+			crib.generate_crib(open('cribs/' + evt['crib']), sys.stdout)
+
 	def dump(events):
 		print(repr(events))
 
@@ -203,6 +222,12 @@ class event_queries:
 			print('%s.html: %s' % (func, events.dbfile))
 			print('\t%s %s %s > $@' % (sys.argv[0], events.dbfile, func))
 			print('')
+
+		crib_dep = '%s: ' % events.dbfile
+		for e in events.events:
+			if 'crib' in e:
+				crib_dep = crib_dep + ' cribs/%s.crib' % e['crib'][:-4]
+		print(crib_dep)
 
 def main():
 	if len(sys.argv) != 3 or '--help' in sys.argv:
