@@ -3,7 +3,7 @@ FONTFORGE=fontforge
 TOOLS=$(FONTFORGE) mkdir cp sed python python3
 
 FANCY_HTML=index.html
-REGULAR_HTML=classes.html party.html workshop.html
+REGULAR_HTML=classes.html party.html workshop.html demo.html
 HTML=$(REGULAR_HTML) $(FANCY_HTML)
 DEPS=cribs.d events.d sed.d
 CLEAN=fancy_nav.txt regular_nav.txt slide_data.js scripts/cribs.sed
