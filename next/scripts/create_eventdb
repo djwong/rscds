@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo '[' > data/eventdb.js
+cat data/dance_events.js data/big_events.js data/class_events.js data/travel_events.js >> data/eventdb.js
+cat >> data/eventdb.js << ENDL
+{}
+]
+ENDL
+
+exit 0

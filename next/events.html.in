@@ -1,0 +1,14 @@
+%HEAD%
+	<title>Event Calendar</title>
+%BODY%
+%NAVIGATION%
+%OPEN_CONTENT%
+<h1>Upcoming Events</h1>
+
+<p>Here is a list of the Scottish country dance events that we know of.  If
+you'd like us to list your event, please contact the webmaster.</p>
+
+%UPCOMING_EVENTS%
+
+%CLOSE_CONTENT%
+%FOOT%

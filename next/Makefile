@@ -3,10 +3,10 @@ FONTFORGE=fontforge
 TOOLS=$(FONTFORGE) mkdir cp sed python python3
 
 FANCY_HTML=index.html
-REGULAR_HTML=classes.html party.html workshop.html demo.html
+REGULAR_HTML=classes.html party.html workshop.html demo.html events.html
 HTML=$(REGULAR_HTML) $(FANCY_HTML)
 DEPS=cribs.d events.d sed.d
-CLEAN=fancy_nav.txt regular_nav.txt slide_data.js scripts/cribs.sed
+CLEAN=fancy_nav.txt regular_nav.txt slide_data.js scripts/cribs.sed data/eventdb.js
 JS=site2.js
 CSS=style2.css
 BLOBS=images fonts
@@ -25,12 +25,15 @@ cribs.d:
 	scripts/configure_cribs
 
 include events.d
-events.d:
+events.d: data/eventdb.js
 	scripts/events.py data/eventdb.js makedep > $@
 
 include sed.d
 sed.d:
 	scripts/sed_deps.py scripts/*.sed : $(shell find . -name "*.in" | sed -e 's/^..//g') > $@
+
+data/eventdb.js: data/dance_events.js data/big_events.js data/class_events.js data/travel_events.js
+	scripts/create_eventdb
 
 install: all
 	mkdir -p $(DEST)

@@ -17,10 +17,11 @@ EVENT_TYPES = {'class', 'dance', 'workshop', 'ball', 'demo'}
 # Keys are as follows:
 # start:	The start date/time of the event, in YYYY/MM/DD HH:MM format. (required)
 # type:		One of EVENT_TYPES above. (required)
+# name:		The name of the event. (required)
+#
 # end:		The end date/time of the event, in YYYY/MM/DD HH:MM format.
 # date_format:	A Python strptime format string, if "start" and "end" are in a
 #		different format.
-# name:		The name of the event.
 # location:	Where the event is happening.
 # local:	Is this a local event? (True/False, default is True)
 # cribfile:	Name of a crib file describing the dances for this event.
@@ -43,6 +44,7 @@ class event_database:
 				continue
 			assert "start" in entry, "All entries must have a start date/time."
 			assert "type" in entry, "All entries must have a type."
+			assert "name" in entry, "All entries must have a name."
 			assert entry['type'] in EVENT_TYPES, "All events must be either a class, dance, workshop, or ball."
 			if 'date_format' in entry:
 				date_format = entry['date_format']
@@ -60,6 +62,7 @@ class event_database:
 			else:
 				entry['local'] = True
 			self.events.append(entry)
+		self.events.sort(key = lambda x: x['start'])
 
 	def __repr__(self):
 		return repr(self.events)
@@ -78,6 +81,10 @@ class event_database:
 			   (is_local is None or evt['local'] == is_local) and \
 			   event_database.event_start_satisfies(evt, starts_before, starts_after):
 				yield evt
+
+	def all_upcoming(self):
+		'''Iterate over all upcoming events.'''
+		return self.iterate_events(None, None, datetime.datetime.now(), None)
 
 	def classes(self, starts_before = None, starts_after = None, is_local = None):
 		'''Iterate over class events.'''
@@ -149,6 +156,31 @@ class event_queries:
 			if 'url' in evt:
 				url = '<a href="%s">%s</a>' % (evt['url'], evt['name'])
 			print('%s (%s), %s<br />' % (url, evt['location'], event_queries.__format_date(evt['start'])))
+
+	def upcoming_events(events):
+		'''All upcoming events that we know about.'''
+		last_date = None
+		list_open = False
+		for evt in events.all_upcoming():
+			if last_date is None or \
+			   last_date.year != evt['start'].year or \
+			   last_date.month != evt['start'].month:
+				if list_open:
+					print("\t</ul>")
+				print("<h2>%s</h2>" % evt['start'].strftime('%B %Y'))
+				print("\t<ul>")
+				list_open = True
+			url = evt['name']
+			if 'url' in evt:
+				url = '<a href="%s">%s</a>' % (evt['url'], evt['name'])
+			loc = ''
+			if 'location' in evt:
+				loc = ', %s' % evt['location']
+			print("\t<li>%s (%s%s)</li>" % (url, evt['start'].strftime('%m/%d'), loc))
+			last_date = evt['start']
+
+		if list_open:
+			print("\t</ul>")
 
 	def dump(events):
 		print(repr(events))
