@@ -77,7 +77,7 @@ img {
 	background: -webkit-linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.0));
 }
 #links > .container {
-	margin-left: 144px;
+	margin-left: 116px;
 }
 .linkbox {
 	width: 25%;
@@ -274,4 +274,62 @@ img {
 #ps_travel {
 	text-align: left;
 	margin: 0px;
+}
+
+/* Alterations when in printing mode */
+@media print {
+	#links .container {
+		display: none;
+	}
+	#pictures {
+		display: none;
+	}
+	#people {
+		padding: 0px;
+	}
+	#participate {
+		padding: 0px;
+	}
+	#logo_img {
+		width: 50px;
+		height: 64px;
+	}
+	#contact {
+		display: none;
+	}
+	#regular_body {
+		padding: 0px;
+	}
+}
+
+.five-up, .four-up, .three-up, .two-up {
+	transition: width linear 0.1s;
+}
+.linkbox {
+	transition: width linear 0.1s;
+}
+
+/* Alterations when in narrow mode */
+@media screen and (max-width: 480px) {
+	.linkbox {
+		transition: width linear 0.1s;
+		float: none;
+		width: 100%;
+	}
+	.linkbox > a {
+		padding-top: 0.3em;
+		padding-bottom: 0.3em;
+	}
+}
+@media screen and (max-width: 600px) {
+	.five-up, .four-up, .three-up, .two-up {
+		transition: width linear 0.1s;
+		float: none;
+		width: 100%;
+		padding-bottom: 2em;
+	}
+	.container > p {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
 }
