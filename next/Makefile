@@ -3,7 +3,7 @@ FONTFORGE=fontforge
 TOOLS=$(FONTFORGE) mkdir cp sed python python3
 
 FANCY_HTML=index.html
-REGULAR_HTML=classes.html party.html workshop.html demo.html events.html history.html gazette.html
+REGULAR_HTML=classes.html party.html workshop.html demo.html events.html history.html gazette.html dances.html
 HTML=$(REGULAR_HTML) $(FANCY_HTML)
 DEPS=cribs.d events.d sed.d
 CLEAN=fancy_nav.txt regular_nav.txt slide_data.js scripts/cribs.sed data/eventdb.js
@@ -29,7 +29,7 @@ events.d: data/eventdb.js
 	scripts/events.py data/eventdb.js makedep > $@
 
 include sed.d
-sed.d:
+sed.d: scripts/cribs.sed scripts/css.sed scripts/html.sed scripts/js.sed
 	scripts/sed_deps.py scripts/*.sed : $(shell find . -name "*.in" | sed -e 's/^..//g') > $@
 
 include people.d
@@ -52,8 +52,8 @@ fancy_nav.txt: templates/navigation.txt.in
 regular_nav.txt: templates/navigation.txt.in
 	sed -e 's/%FANCY%//g' < $< > $@
 
-%.html: %.html.in scripts/html.sed
-	sed -f scripts/html.sed < $< > $@
+%.html: %.html.in scripts/html.sed scripts/cribs.sed
+	sed -f scripts/html.sed -f scripts/cribs.sed < $< > $@
 
 site2.js: site2.js.in scripts/js.sed slide_data.js
 	sed -f scripts/js.sed < $< > $@

@@ -1,0 +1,23 @@
+%HEAD%
+	<title>Local Dances</title>
+%BODY%
+%NAVIGATION%
+%OPEN_CONTENT%
+<h1>Dances</h1>
+
+<p>Did you know that our local activities go well beyond just dancing?  Some of
+the local dancers have written Scottish Country dances, if you'd like to give
+them a try!</p>
+
+<h2>Princess Bride Collection</h2>
+
+<p>Also see the <a href="../princess_bride_collection.pdf">original booklet</a>.
+
+%CRIB_princess_bride_collection%
+
+<h2>Miscellany</h2>
+
+%CRIB_misc_dances%
+
+%CLOSE_CONTENT%
+%FOOT%
