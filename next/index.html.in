@@ -17,51 +17,57 @@ branches.</p>
 			<div class="five-up p_section">
 <a href="demo.html"><img class="ps_icon" src="images/demo.png" height="100" width="100" alt="Demonstration"/></a>
 <div class="ps_header"><a href="demo.html">Demonstration</a></div>
-<div>Experienced dancers can be hired to come to your event to show you what
+<div class="ps_body">Experienced dancers can be hired to come to your event to show you what
 Scottish country dancing looks like.</div>
+
+<div class="ps_next">
+Contact Victoria MacKenzie, 360-258-2037.
+</div>
+
 			</div>
 			<div class="five-up p_section">
 <a href="classes.html"><img class="ps_icon" src="images/class.png" height="100" width="100" alt="Class"/></a>
 <div class="ps_header"><a href="classes.html">Class</a></div>
-<div>Come to our weekly classes in Lake Oswego, Ore., or Vancouver, Wash., and
+<div class="ps_body">Come to our weekly classes in Lake Oswego, Ore., or Vancouver, Wash., and
 we will teach you the steps, figures, and techniques to have a fun time.</div>
+
+<div class="ps_next">
+Next:
+%NEXT_CLASS_SUMMARY%
+</div>
 			</div>
 			<div class="five-up p_section">
 <a href="party.html"><img class="ps_icon" src="images/party.png" height="100" width="100" alt="Party"/></a>
 <div class="ps_header"><a href="party.html">Party</a></div>
-<div>Test your new skills when the branch holds its (roughly) monthly dance
+<div class="ps_body">Test your new skills when the branch holds its (roughly) monthly dance
 parties!</div>
+
+<div class="ps_next">
+Next:
+%NEXT_DANCE_SUMMARY%
+</div>
 			</div>
 			<div class="five-up p_section">
 <a href="workshop.html"><img class="ps_icon" src="images/ball.png" height="100" width="100" alt="Ball"/></a>
 <div class="ps_header"><a href="workshop.html">Workshop &amp; Ball</a></div>
-<div>Once a year, dancers from all over the Pacific Northwest travel to
+<div class="ps_body">Once a year, dancers from all over the Pacific Northwest travel to
 Portland to foster inter-branch socialization and dances.</div>
+
+<div class="ps_next">
+Next:
+%NEXT_BALL_SUMMARY%
+</div>
 			</div>
 			<div class="five-up p_section">
 <img class="ps_icon" src="images/travel.png" height="100" width="100" alt="Travel"/>
 <div class="ps_header">Travel</div>
-<div>Your can take your dancing skills to RSCDS branches around the world and
+<div class="ps_body">Your can take your dancing skills to RSCDS branches around the world and
 dance with them!</div>
-			</div>
-		</div>
-		<div class="container" style="padding-top: 2em;">
-			<div class="five-up">Contact Victoria MacKenzie, 360-258-2037.</div>
-			<div class="five-up">
-Next:
-%NEXT_CLASS_SUMMARY%
-			</div>
-			<div class="five-up">
-Next:
-%NEXT_DANCE_SUMMARY%
-			</div>
-			<div class="five-up">
-Next:
-%NEXT_BALL_SUMMARY%
-			</div>
-			<div class="five-up">
+
+<div class="ps_next">
 Upcoming:<br />
 %NEXT_TRAVEL_SUMMARY%
+</div>
 			</div>
 		</div>
 	</div>
