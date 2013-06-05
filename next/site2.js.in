@@ -246,6 +246,12 @@ function createSlides(element)
 	%SLIDE_DATA%
 
 	for (var l = 0; l < slides.length - 1; l++) {
+		var img = document.createElement("img");
+		img.src = slides[l].img;
+		img.style.width = "1px";
+		img.style.height = "1px";
+		document.getElementById("pictures").appendChild(img);
+
 		var linkSpan = document.createElement("span");
 		linkSpan.appendChild(document.createTextNode("More"));
 
