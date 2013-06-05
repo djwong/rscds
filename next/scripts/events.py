@@ -154,11 +154,13 @@ class event_queries:
 
 	def next_travel_summary(events):
 		'''When and where are the next three non-local events?'''
+		print('<ul id="ps_travel">')
 		for evt in list(events.nonlocal_events(starts_after = datetime.datetime.now()))[:3]:
 			url = '%s' % evt['name']
 			if 'url' in evt:
 				url = '<a href="%s">%s</a>' % (evt['url'], evt['name'])
-			print('%s (%s), %s<br />' % (url, evt['location'], event_queries.__format_date(evt['start'])))
+			print('<li>%s (%s), %s</li>' % (url, evt['location'], event_queries.__format_date(evt['start'])))
+		print('</ul>')
 
 	def upcoming_events(events):
 		'''All upcoming events that we know about.'''
@@ -195,9 +197,9 @@ class event_queries:
 			if 'location' in evt:
 				loc = '%s on ' % evt['location']
 			date = ''
-			if evt['start'] != datetime.datetime.min:
+			if evt['start'] > datetime.datetime.min:
 				date = evt['start'].strftime('%d %B %Y')
-			if loc != '' and date != '':
+			if loc != '' or date != '':
 				print("<p>%s%s</p>" % (loc, date))
 			crib.generate_crib(open('cribs/' + evt['crib']), sys.stdout)
 
