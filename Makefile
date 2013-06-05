@@ -66,7 +66,8 @@ ball_program_2013.pdf \
 DD11flyer.pdf \
 princess_bride_collection.pdf \
 minicrib_april_2013.pdf \
-dance_april_2013.pdf
+dance_april_2013.pdf \
+picnicflyer13.pdf
 
 all: $(HTML) all-next
 
