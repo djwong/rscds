@@ -17,7 +17,7 @@
 <div><a href="party.html">Party</a></div>
 <div><a href="workshop.html">Workshop and Ball</a></div>
 <div><a href="demo.html">Demonstrations</a></div>
-<div><a href="events.html">Calendar</a></div>
+<div><a href="old_programs.html">Old Programs</a></div>
 				</div>
 				<div class="three-up left">
 <div style="font-weight: bold;">Dance With Others</div>
