@@ -118,6 +118,7 @@ img {
 	color: white;
 	padding-bottom: 4em;
 	padding-top: 2em;
+	transition: padding-bottom linear 0.1s;
 }
 #contact div {
 	line-height: 1.4em;
@@ -365,5 +366,12 @@ img {
 		transition: padding-left linear 0.1s, padding-right linear 0.1s;
 		padding-left: 1em;
 		padding-right: 1em;
+	}
+	#contact {
+		transition: padding-bottom linear 0.1s;
+		padding-bottom: 0px;
+	}
+	#contact .three-up {
+		padding-bottom: 2em;
 	}
 }
