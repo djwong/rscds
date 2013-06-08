@@ -9,7 +9,7 @@ DEPS=cribs.d events.d sed.d
 CLEAN=fancy_nav.txt regular_nav.txt slide_data.js scripts/cribs.sed data/eventdb.js
 JS=site2.js
 CSS=style2.css
-BLOBS=images fonts
+BLOBS=images fonts slides
 
 all: build_check $(HTML) $(JS) $(CSS)
 
