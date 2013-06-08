@@ -235,8 +235,8 @@ function resizer()
 		win_width = document.body.offsetWidth;
 
 	var height = Math.floor(win_width / 1.82);
-	if (height > 500)
-		height = 500;
+	if (height > 577)
+		height = 577;
 	var slides = getSlides();
 	Array.prototype.forEach.call(slides, function(s) {s.style.height = height + "px";});
 	
@@ -283,10 +283,24 @@ function createSlides(element)
 	}
 }
 
+function slideshow_key(evt, slider) {
+	if (evt.keyCode == 39) {
+		/* right arrow */
+		slider.next();
+		return true;
+	} else if (evt.keyCode == 37) {
+		/* left arrow */
+		slider.previous();
+		return true;
+	}
+	return false;
+}
+
 var slider = null;
 function load_main() {
 	createSlides(document.getElementById("ss_cont"));
 	resizer();
 	slider = new Slider(document.getElementById("ss_cont"), "ss_item", "block", 30000);
 	addEventHandler(window, "resize", resizer);
+	addEventHandler(window, "keypress", function(evt) {slideshow_key(evt, slider);});
 }
