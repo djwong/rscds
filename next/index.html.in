@@ -1,7 +1,7 @@
 %HEAD%
 	<title>RSCDS - Portland, Oregon</title>
 	<script type="text/javascript">
-addWindowEventHandler("load", function() {load_main();});
+addWindowEventHandler("load", load_main);
 	</script>
 %BODY%
 %FANCY_NAVIGATION%

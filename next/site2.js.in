@@ -100,18 +100,18 @@ function getIEVersion() {
 
     return rv;
 }
-function getSlides()
+function myGetElementsByClassName(className)
 {
 	/* shiny new html5 thing */
 	if (document.getElementsByClassName) {
-		return document.getElementsByClassName("slide");
+		return document.getElementsByClassName(className);
 	}
 
 	var res = Array();
 	/* use xpath */
 	if (document.evaluate) {
 		var node = null;
-		var nodes = document.evaluate("//*[@class = 'slide']", document, null, 0, null);
+		var nodes = document.evaluate("//*[@class = '" + className + "']", document, null, 0, null);
 		while ((node = nodes.iterateNext())) {
 			res.push(node);
 		}
@@ -121,13 +121,27 @@ function getSlides()
 	/* shitty slow way for ie */
 	var nodes = document.getElementsByTagName("*");
 	for (var l = 0; l < nodes.length; l++) {
-		if (nodes[l].className == 'slide') {
+		if (nodes[l].className == className) {
 			res.push(nodes[l]);
 		}
 	}
 	return res;
 }
-
+function decryptEmailAddr(addr)
+{
+	var x = addr.replace(" at ", "@");
+	x = x.replace(" dot ", ".");
+	x = x.replace("%20at%20", "@");
+	x = x.replace("%20dot%20", ".");
+	return x;
+}
+function fixEmailAddrs()
+{
+	var email_texts = myGetElementsByClassName("email");
+	Array.prototype.forEach.call(email_texts, function (s) {s.innerHTML = decryptEmailAddr(s.innerHTML);});
+	var email_links = myGetElementsByClassName("link_email");
+	Array.prototype.forEach.call(email_links, function (s) {s.href = decryptEmailAddr(s.href);});
+}
 function Slider(element, classname, displayStyle, interval)
 {
 	children = element.children;
@@ -237,7 +251,7 @@ function resizer()
 	var height = Math.floor(win_width / 1.82);
 	if (height > 577)
 		height = 577;
-	var slides = getSlides();
+	var slides = myGetElementsByClassName("slide");
 	Array.prototype.forEach.call(slides, function(s) {s.style.height = height + "px";});
 	
 }
@@ -297,10 +311,18 @@ function slideshow_key(evt, slider) {
 }
 
 var slider = null;
-function load_main() {
+function load_main()
+{
 	createSlides(document.getElementById("ss_cont"));
 	resizer();
 	slider = new Slider(document.getElementById("ss_cont"), "ss_item", "block", 30000);
 	addEventHandler(window, "resize", resizer);
 	addEventHandler(window, "keydown", function(evt) {slideshow_key(evt, slider);});
+	fixEmailAddrs();
 }
+
+function load_standard()
+{
+	fixEmailAddrs();
+}
+addWindowEventHandler("load", load_standard);
