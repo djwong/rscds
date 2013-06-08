@@ -118,7 +118,7 @@ class event_queries:
 	def next_class_summary(events):
 		'''When and where are the next classes?'''
 		for evt in events.classes(starts_after = datetime.datetime.now(), is_local = True):
-			print('%s (%s, %s' % (evt['name'], event_queries.__format_date(evt['start']), evt['location']))
+			print('%s<br />(%s, %s)' % (evt['name'], event_queries.__format_date(evt['start']), evt['location']))
 			return
 
 	def next_dance_summary(events):
@@ -127,7 +127,7 @@ class event_queries:
 			url = evt['name']
 			if 'url' in evt:
 				url = '<a href="%s">%s</a>' % (evt['url'], url)
-			print('%s (%s, %s)' % (url, event_queries.__format_date(evt['start']), evt['location']))
+			print('%s<br />(%s, %s)' % (url, event_queries.__format_date(evt['start']), evt['location']))
 			return
 
 	def next_dance_crib(events):
@@ -145,7 +145,7 @@ class event_queries:
 			url = evt['name']
 			if 'url' in evt:
 				url = '<a href="%s">%s</a>' % (evt['url'], url)
-			print('%s (%s, %s)' % (url, event_queries.__format_date(evt['start']), evt['location']))
+			print('%s<br />(%s, %s)' % (url, event_queries.__format_date(evt['start']), evt['location']))
 			return
 
 	def portland_ball_crib(events):
@@ -165,7 +165,7 @@ class event_queries:
 			url = '%s' % evt['name']
 			if 'url' in evt:
 				url = '<a href="%s">%s</a>' % (evt['url'], evt['name'])
-			print('<li>%s (%s, %s)</li>' % (url, event_queries.__format_date(evt['start']), evt['location']))
+			print('<li>%s<br />(%s, %s)</li>' % (url, event_queries.__format_date(evt['start']), evt['location']))
 		print('</ul>')
 
 	def upcoming_events(events):
