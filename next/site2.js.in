@@ -302,5 +302,5 @@ function load_main() {
 	resizer();
 	slider = new Slider(document.getElementById("ss_cont"), "ss_item", "block", 30000);
 	addEventHandler(window, "resize", resizer);
-	addEventHandler(window, "keypress", function(evt) {slideshow_key(evt, slider);});
+	addEventHandler(window, "keydown", function(evt) {slideshow_key(evt, slider);});
 }
