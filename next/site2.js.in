@@ -88,6 +88,7 @@ function addWindowEventHandler(eventName, lambda)
 {
 	return addEventHandler(window, eventName, lambda);
 }
+
 function getIEVersion() {
 	var rv = -1; // Return value assumes failure.
 
@@ -100,6 +101,7 @@ function getIEVersion() {
 
     return rv;
 }
+
 function myGetElementsByClassName(className)
 {
 	/* shiny new html5 thing */
@@ -127,6 +129,7 @@ function myGetElementsByClassName(className)
 	}
 	return res;
 }
+
 function decryptEmailAddr(addr)
 {
 	var x = addr.replace(" at ", "@");
@@ -135,6 +138,7 @@ function decryptEmailAddr(addr)
 	x = x.replace("%20dot%20", ".");
 	return x;
 }
+
 function fixEmailAddrs()
 {
 	var email_texts = myGetElementsByClassName("email");
@@ -142,6 +146,7 @@ function fixEmailAddrs()
 	var email_links = myGetElementsByClassName("link_email");
 	Array.prototype.forEach.call(email_links, function (s) {s.href = decryptEmailAddr(s.href);});
 }
+
 function Slider(element, classname, displayStyle, interval)
 {
 	children = element.children;
@@ -259,12 +264,16 @@ function createSlides(element)
 {
 	%SLIDE_DATA%
 
+	var hiddenSlideDiv = document.createElement("div");
+	hiddenSlideDiv.id = "hidden_slides";
+	document.getElementById("pictures").appendChild(hiddenSlideDiv);
+
 	for (var l = 0; l < slides.length - 1; l++) {
 		var img = document.createElement("img");
 		img.src = slides[l].img;
 		img.style.width = "1px";
 		img.style.height = "1px";
-		document.getElementById("pictures").appendChild(img);
+		hiddenSlideDiv.appendChild(img);
 
 		var slideDiv = document.createElement("div");
 		slideDiv.className = "slide";

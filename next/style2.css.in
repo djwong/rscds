@@ -239,6 +239,11 @@ img {
 	background-position: center center;
 	position: relative;
 }
+#hidden_slides {
+	position: absolute;
+	top: -3000px;
+	left: 0px;
+}
 .slide_caption {
 	font-size: 110%;
 	position: absolute;
