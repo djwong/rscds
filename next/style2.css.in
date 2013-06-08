@@ -239,15 +239,17 @@ img {
 	background-position: center center;
 	position: relative;
 }
-.slide > a {
+.slide_caption {
 	font-size: 110%;
 	position: absolute;
 	bottom: 0px;
 	right: 0px;
 	color: #e0e0e0;
 	text-shadow: 2px 2px 2px rgb(0, 0, 0);
-	text-decoration: none;
 	padding: 0.2em;
+}
+.slide > a {
+	text-decoration: none;
 	transition: color linear 0.1s;
 }
 .slide > a > span {

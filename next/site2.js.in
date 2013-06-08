@@ -252,20 +252,28 @@ function createSlides(element)
 		img.style.height = "1px";
 		document.getElementById("pictures").appendChild(img);
 
-		var linkSpan = document.createElement("span");
-		linkSpan.appendChild(document.createTextNode("More"));
-
-		var captionLink = document.createElement("a");
-		captionLink.href = slides[l].url;
-		captionLink.appendChild(document.createTextNode(slides[l].caption + " ["));
-		captionLink.appendChild(linkSpan);
-		captionLink.appendChild(document.createTextNode("]"));
-
 		var slideDiv = document.createElement("div");
 		slideDiv.className = "slide";
 		imgurl = "url('" + slides[l].img + "')";
 		slideDiv.style.backgroundImage = imgurl;
-		slideDiv.appendChild(captionLink);
+
+		if (slides[l].url.length > 0) {
+			var linkSpan = document.createElement("span");
+			linkSpan.appendChild(document.createTextNode("More"));
+
+			var captionLink = document.createElement("a");
+			captionLink.className = "slide_caption";
+			captionLink.href = slides[l].url;
+			captionLink.appendChild(document.createTextNode(slides[l].caption + " ["));
+			captionLink.appendChild(linkSpan);
+			captionLink.appendChild(document.createTextNode("]"));
+			slideDiv.appendChild(captionLink);
+		} else {
+			var caption = document.createElement("span");
+			caption.className = "slide_caption";
+			caption.appendChild(document.createTextNode(slides[l].caption));
+			slideDiv.appendChild(caption);
+		}
 
 		var itemDiv = document.createElement("div");
 		itemDiv.className = "ss_item";
