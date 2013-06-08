@@ -11,6 +11,9 @@ body {
 	font-family: "Linux Biolinum O", "Linux Biolinum", sans-serif;
 }
 #regular_body {
+	transition: padding-left linear 0.1s, padding-right linear 0.1s;
+	padding-top: 2em;
+	padding-bottom: 4em;
 	padding-left: 2em;
 	padding-right: 2em;
 }
@@ -255,11 +258,6 @@ img {
 	transition: color linear 0.1s;
 }
 
-#regular_body {
-	padding-top: 2em;
-	padding-bottom: 4em;
-}
-
 #participate {
 	padding-top: 2em;
 	padding-bottom: 4em;
@@ -343,8 +341,17 @@ img {
 		padding-left: 1em;
 		padding-right: 1em;
 	}
+	.container {
+		margin-left: 1em;
+		margin-right: 1em;
+	}
 	#skinny_contact_box {
 		padding-left: 0px;
 		transition: padding-left linear 0.1s;
+	}
+	#regular_body {
+		transition: padding-left linear 0.1s, padding-right linear 0.1s;
+		padding-left: 1em;
+		padding-right: 1em;
 	}
 }
