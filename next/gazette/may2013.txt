@@ -1,4 +1,7 @@
-May 2013
+{{http://static.moinmo.in/logos/moinmoin.png}}
+{{{#!wiki comment
+pubdate = May 2013
+}}}
 
 <<TableOfContents()>>
 
@@ -202,3 +205,7 @@ she has pulmonary fibrosis. So we will continue to miss her fun and smiling
 personality on Monday nights. Be sure to send healing thoughts her way.  he's
 going to being trying some other treatments to help with her illness. You can
 still view her lovely art work at www.juneclapp.com.
+
+== YWW Ceilidh Program ==
+Here's the program for the Youth Weekend Ceilidh.
+%CRIB_yww2013_ceilidh%

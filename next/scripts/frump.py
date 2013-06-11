@@ -25,7 +25,7 @@ page_template = u'''%%HEAD%%
 %%NAVIGATION%%
 %%OPEN_CONTENT%%
 <div id="gazette">
-<h1>The Ghillie Gazette</h1>
+<h1>The Ghillie Gazette, %(date_str)s</h1>
 <p>The newsletter of the Portland Oregon Branch of the R.S.C.D.S. $1.00 -- Free to Members.</p>
 %(pagehtml)s
 </div>
@@ -99,8 +99,9 @@ General syntax: moin [options] export frump input_file output_file
 		outputdir = '/'
 		with open(self._input_file, 'r') as fd:
 			for line in fd:
-				date_str = line
-				break
+				if line.startswith("pubdate ="):
+					date_str = line[10:]
+					break
 
 		# Insert config dir or the current directory to the start of the path.
 		config_dir = self.options.config_dir
