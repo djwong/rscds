@@ -168,6 +168,12 @@ class event_queries:
 			print('<li>%s<br />(%s, %s)</li>' % (url, event_queries.__format_date(evt['start']), evt['location']))
 		print('</ul>')
 
+	def next_event(events):
+		'''The next event.'''
+		for evt in events.all_upcoming():
+			print(evt)
+			return
+
 	def upcoming_events(events):
 		'''All upcoming events that we know about.'''
 		last_date = None

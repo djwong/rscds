@@ -8,12 +8,12 @@ FANCY_HTML=index.html
 REGULAR_HTML=classes.html party.html workshop.html demo.html events.html history.html gazette/index.html dances.html old_programs.html
 HTML=$(REGULAR_HTML) $(FANCY_HTML)
 DEPS=cribs.d events.d sed.d people.d
-CLEAN=fancy_nav.txt regular_nav.txt slide_data.js scripts/cribs.sed data/eventdb.js $(MOINMOIN_DIR)/MoinMoin/script/export/frump.py
+CLEAN=fancy_nav.txt regular_nav.txt slide_data.js scripts/cribs.sed data/eventdb.js $(MOINMOIN_DIR)/MoinMoin/script/export/frump.py data/next_event.js
 JS=site2.js
 CSS=style2.css
 BLOBS=images fonts slides
 
-all: build_check $(HTML) $(JS) $(CSS)
+all: build_check calendar_check $(HTML) $(JS) $(CSS)
 
 dep: $(DEPS)
 
@@ -30,8 +30,16 @@ include people.d
 $(DEPS) dep:
 	./configure
 
-data/eventdb.js: data/dance_events.js data/big_events.js data/class_events.js data/travel_events.js data/hidden_events.js
+data/eventdb.js: data/dance_events.js data/big_events.js data/class_events.js data/travel_events.js data/hidden_events.js data/next_event.js
 	scripts/create_eventdb
+
+data/next_event.js:
+	scripts/create_eventdb
+	scripts/events.py data/eventdb.js next_event > $@
+
+.PHONY: calendar_check
+calendar_check: data/eventdb.js
+	@scripts/touch_next_event
 
 install: all
 	mkdir -p $(DEST)
