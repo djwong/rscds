@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# If either file is missing, regenerate
+if [ ! -r data/eventdb.js -o ! -r data/next_event.js ]; then
+	scripts/create_eventdb
+	scripts/events.py data/eventdb.js next_event > data/next_event.js
+	exit 0
+fi
+
+# Otherwise do a hash comparison
+old_hash="$(cat data/next_event.js | sha1sum)"
+new_hash="$(scripts/events.py data/eventdb.js next_event | sha1sum)"
+
+if [ "${new_hash}" != "${old_hash}" ]; then
+	scripts/events.py data/eventdb.js next_event > data/next_event.js
+fi
+exit 0
