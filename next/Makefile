@@ -1,10 +1,11 @@
 DEST=/home/djwong/rscds_website/next/
 MOINMOIN_DIR=../../moin-1.9.7/
+FRUMP_SCRIPT=$(MOINMOIN_DIR)/MoinMoin/script/export/frump.py
 FONTFORGE=fontforge
 TOOLS=$(FONTFORGE) mkdir cp sed python python3
 
 FANCY_HTML=index.html
-REGULAR_HTML=classes.html party.html workshop.html demo.html events.html history.html gazette.html dances.html old_programs.html
+REGULAR_HTML=classes.html party.html workshop.html demo.html events.html history.html gazette/index.html dances.html old_programs.html
 HTML=$(REGULAR_HTML) $(FANCY_HTML)
 DEPS=cribs.d events.d sed.d
 CLEAN=fancy_nav.txt regular_nav.txt slide_data.js scripts/cribs.sed data/eventdb.js $(MOINMOIN_DIR)/MoinMoin/script/export/frump.py
@@ -55,6 +56,7 @@ regular_nav.txt: templates/navigation.txt.in
 
 %.html: %.html.in scripts/html.sed scripts/cribs.sed
 	sed -f scripts/html.sed -f scripts/cribs.sed < $< > $@
+	scripts/fix_rel_paths $@
 
 site2.js: site2.js.in scripts/js.sed slide_data.js
 	sed -f scripts/js.sed < $< > $@
@@ -69,10 +71,10 @@ style2.css: style2.css.in scripts/css.sed fonts.css
 	./scripts/crib.py -g $<
 
 all: gazette/may2013.html
-gazette/%.html.in: gazette/%.txt
+gazette/%.html.in: gazette/%.txt $(FRUMP_SCRIPT)
 	$(MOINMOIN_DIR)/MoinMoin/script/moin.py export frump $< $@
 
-$(MOINMOIN_DIR)/MoinMoin/script/export/frump.py: scripts/frump.py
+$(FRUMP_SCRIPT): scripts/frump.py
 	cp -pRdu $< $@
 
 clean:;
