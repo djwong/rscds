@@ -1,4 +1,5 @@
 DEST=/home/djwong/rscds_website/next/
+MOINMOIN_DIR=../../moin-1.9.7/
 FONTFORGE=fontforge
 TOOLS=$(FONTFORGE) mkdir cp sed python python3
 
@@ -6,7 +7,7 @@ FANCY_HTML=index.html
 REGULAR_HTML=classes.html party.html workshop.html demo.html events.html history.html gazette.html dances.html old_programs.html
 HTML=$(REGULAR_HTML) $(FANCY_HTML)
 DEPS=cribs.d events.d sed.d
-CLEAN=fancy_nav.txt regular_nav.txt slide_data.js scripts/cribs.sed data/eventdb.js
+CLEAN=fancy_nav.txt regular_nav.txt slide_data.js scripts/cribs.sed data/eventdb.js $(MOINMOIN_DIR)/MoinMoin/script/export/frump.py
 JS=site2.js
 CSS=style2.css
 BLOBS=images fonts slides
@@ -66,6 +67,13 @@ style2.css: style2.css.in scripts/css.sed fonts.css
 
 %.crib: %.txt
 	./scripts/crib.py -g $<
+
+all: gazette/may2013.html
+gazette/%.html.in: gazette/%.txt
+	$(MOINMOIN_DIR)/MoinMoin/script/moin.py export frump $< $@
+
+$(MOINMOIN_DIR)/MoinMoin/script/export/frump.py: scripts/frump.py
+	cp -pRdu $< $@
 
 clean:;
 	rm -rf $(HTML) $(CRAP) $(JS) $(CRIB_SHEETS) $(CLEAN) $(CSS) $(DEPS)
