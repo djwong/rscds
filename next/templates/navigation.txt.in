@@ -1,12 +1,11 @@
 	<div id="links"%FANCY%>
 		<div id="logo">
-			<a href="index.html"><img id="logo_img" src="images/branch_logo.png" width="100" height="128" alt="Branch Logo"/></a>
+			<a href="index.html"><img id="logo_img" src="%ROOT_PATH%images/branch_logo.png" width="100" height="128" alt="Branch Logo"/></a>
 		</div>
 		<div class="container">
-			<div class="linkbox"><a href="history.html">About</a></div>
-			<div class="linkbox"><a href="events.html">Event Calendar</a></div>
-			<div class="linkbox"><a href="dances.html">Local Dances</a></div>
-			<div class="linkbox"><a href="gazette.html">Ghillie Gazette</a></div>
+			<div class="linkbox"><a href="%ROOT_PATH%history.html">About</a></div>
+			<div class="linkbox"><a href="%ROOT_PATH%events.html">Event Calendar</a></div>
+			<div class="linkbox"><a href="%ROOT_PATH%dances.html">Local Dances</a></div>
+			<div class="linkbox"><a href="%ROOT_PATH%gazette/index.html">Ghillie Gazette</a></div>
 		</div>
 	</div>
-
