@@ -1,0 +1,7 @@
+#!/bin/bash
+
+scripts/create_eventdb
+scripts/configure_cribs
+scripts/events.py data/eventdb.js makedep > events.d
+scripts/sed_deps.py scripts/*.sed : $(find . -name "*.in" | sed -e 's/^..//g') > sed.d
+scripts/contacts -d > people.d
