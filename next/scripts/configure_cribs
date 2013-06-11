@@ -7,7 +7,7 @@ for i in cribs/*.txt; do
 	crib_name="$(echo "${i}" | sed -e 's/.txt/.crib/g')"
 	echo "${crib_name} \\" >> cribs.d
 	echo "/${tag}/r ${crib_name}" >> scripts/cribs.sed
-	echo "/${tag}/d" >> scripts/cribs.sed
+	echo "s/${tag}//g" >> scripts/cribs.sed
 done
 echo >> cribs.d
 

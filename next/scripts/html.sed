@@ -1,55 +1,55 @@
 # All substitution keys (%HEAD%) must be on a separate line!
 /%HEAD%/r templates/head.txt
-/%HEAD%/d
+s/%HEAD%//g
 /%FANCY_NAVIGATION%/r fancy_nav.txt
-/%FANCY_NAVIGATION%/d
+s/%FANCY_NAVIGATION%//g
 /%NAVIGATION%/r regular_nav.txt
-/%NAVIGATION%/d
+s/%NAVIGATION%//g
 /%FOOT%/r templates/foot.txt
-/%FOOT%/d
+s/%FOOT%//g
 /%BODY%/r templates/body.txt
-/%BODY%/d
+s/%BODY%//g
 s/%OPEN_CONTENT%/	<div id="regular_body"><div class="skinny_box">/g
 s/%CLOSE_CONTENT%/	<\/div><\/div>/g
 /%NEXT_CLASS_SUMMARY%/r next_class_summary.html
-/%NEXT_CLASS_SUMMARY%/d
+s/%NEXT_CLASS_SUMMARY%//g
 /%NEXT_DANCE_SUMMARY%/r next_dance_summary.html
-/%NEXT_DANCE_SUMMARY%/d
+s/%NEXT_DANCE_SUMMARY%//g
 /%NEXT_BALL_SUMMARY%/r next_ball_summary.html
-/%NEXT_BALL_SUMMARY%/d
+s/%NEXT_BALL_SUMMARY%//g
 /%NEXT_TRAVEL_SUMMARY%/r next_travel_summary.html
-/%NEXT_TRAVEL_SUMMARY%/d
+s/%NEXT_TRAVEL_SUMMARY%//g
 /%NEXT_DANCE_CRIB%/r next_dance_crib.html
-/%NEXT_DANCE_CRIB%/d
+s/%NEXT_DANCE_CRIB%//g
 /%PORTLAND_BALL_CRIB%/r portland_ball_crib.html
-/%PORTLAND_BALL_CRIB%/d
+s/%PORTLAND_BALL_CRIB%//g
 /%UPCOMING_EVENTS%/r upcoming_events.html
-/%UPCOMING_EVENTS%/d
+s/%UPCOMING_EVENTS%//g
 /%CHAIR_CONTACT%/r linda.html
-/%CHAIR_CONTACT%/d
+s/%CHAIR_CONTACT%//g
 /%VICE_CHAIR_CONTACT%/r holly.html
-/%VICE_CHAIR_CONTACT%/d
+s/%VICE_CHAIR_CONTACT%//g
 /%SECRETARY_CONTACT%/r chris.html
-/%SECRETARY_CONTACT%/d
+s/%SECRETARY_CONTACT%//g
 /%TREASURER_CONTACT%/r pat.html
-/%TREASURER_CONTACT%/d
+s/%TREASURER_CONTACT%//g
 /%AT_LARGE_CONTACT%/r sally.html
-/%AT_LARGE_CONTACT%/d
+s/%AT_LARGE_CONTACT%//g
 /%TEACHER_COORDINATOR_CONTACT%/r don.html
-/%TEACHER_COORDINATOR_CONTACT%/d
+s/%TEACHER_COORDINATOR_CONTACT%//g
 /%NEWSLETTER_CONTACT%/r lmae.html
-/%NEWSLETTER_CONTACT%/d
+s/%NEWSLETTER_CONTACT%//g
 /%WEBMASTER_CONTACT%/r djwong.html
-/%WEBMASTER_CONTACT%/d
+s/%WEBMASTER_CONTACT%//g
 /%DON_CONTACT%/r don.html
-/%DON_CONTACT%/d
+s/%DON_CONTACT%//g
 /%DEBBIE_CONTACT%/r debbie.html
-/%DEBBIE_CONTACT%/d
+s/%DEBBIE_CONTACT%//g
 /%LMAE_CONTACT%/r lmae.html
-/%LMAE_CONTACT%/d
+s/%LMAE_CONTACT%//g
 /%RICHARD_CONTACT%/r richard.html
-/%RICHARD_CONTACT%/d
+s/%RICHARD_CONTACT%//g
 /%VMAC_CONTACT%/r vmac.html
-/%VMAC_CONTACT%/d
+s/%VMAC_CONTACT%//g
 /%ALL_CRIBS%/r has_crib.html
-/%ALL_CRIBS%/d
+s/%ALL_CRIBS%//g

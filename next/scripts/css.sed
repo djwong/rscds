@@ -1,2 +1,2 @@
-/%%FONT_CSS%%/r fonts.css
-/%%FONT_CSS%%/d
+/%FONT_CSS%/r fonts.css
+s/%FONT_CSS%//g
