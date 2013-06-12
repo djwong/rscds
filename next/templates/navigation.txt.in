@@ -6,6 +6,6 @@
 			<div class="linkbox"><a href="%ROOT_PATH%history.html">About</a></div>
 			<div class="linkbox"><a href="%ROOT_PATH%events.html">Event Calendar</a></div>
 			<div class="linkbox"><a href="%ROOT_PATH%dances.html">Local Dances</a></div>
-			<div class="linkbox"><a href="%ROOT_PATH%gazette/index.html">Ghillie Gazette</a></div>
+			<div class="linkbox"><a href="%ROOT_PATH%members.html">Members</a></div>
 		</div>
 	</div>
