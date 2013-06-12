@@ -77,6 +77,8 @@ img {
 #gazette .artwork {
 	display: block;
 	margin: 0px auto;
+	max-width: 100%;
+	height: auto;
 }
 #gazette h1, h2 {
 	font-family: "Linux Biolinum O", "Linux Biolinum", sans-serif;
