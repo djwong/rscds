@@ -7,7 +7,9 @@ GG_OTF_FONTS=\
 fonts/LinLibertine_RBI.otf \
 fonts/LinLibertine_RB.otf \
 fonts/LinLibertine_RI.otf \
-fonts/LinLibertine_R.otf
+fonts/LinLibertine_R.otf \
+fonts/SourceCodePro-Bold.otf \
+fonts/SourceCodePro-Regular.otf
 
 WOFF_FONTS=$(subst otf,woff,$(OTF_FONTS))
 GG_WOFF_FONTS=$(subst otf,woff,$(GG_OTF_FONTS))
