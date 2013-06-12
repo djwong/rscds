@@ -60,6 +60,7 @@ img {
 
 /* Ghillie Gazette */
 #gazette {
+	font-family: "Linux Libertine O", "Linux Libertine", serif;
 	max-width: 8in;
 	margin: 0px auto;
 }
@@ -73,6 +74,12 @@ img {
 #gazette .artwork {
 	display: block;
 	margin: 0px auto;
+}
+#gazette h1, h2 {
+	font-family: "Linux Biolinum O", "Linux Biolinum", sans-serif;
+}
+#gazette h2 {
+	border-bottom: 1px solid gray;
 }
 
 /* Calendar */

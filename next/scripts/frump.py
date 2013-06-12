@@ -25,8 +25,8 @@ page_template = u'''%%HEAD%%
 %%NAVIGATION%%
 %%OPEN_CONTENT%%
 <div id="gazette">
-<h1>The Ghillie Gazette, %(date_str)s</h1>
-<p class="tagline">The newsletter of the Portland Oregon Branch of the R.S.C.D.S. $1.00 -- Free to Members.</p>
+<h1>The Ghillie Gazette</h1>
+<p class="tagline">The %(date_str)s newsletter of the Portland Oregon Branch of the R.S.C.D.S.</p>
 %(pagehtml)s
 </div>
 %%CLOSE_CONTENT%%

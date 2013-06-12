@@ -2,7 +2,7 @@
 <img class="artwork" src="../images/gg_may_2013.png" alt="Artwork" width="550" height="547"/>
 }}}
 {{{#!wiki comment
-pubdate = May 2013
+pubdate = May/June 2013
 }}}
 
 <<TableOfContents()>>
@@ -209,6 +209,9 @@ personality on Monday nights. Be sure to send healing thoughts her way.  he's
 going to being trying some other treatments to help with her illness. You can
 still view her lovely art work at www.juneclapp.com.
 
-== YWW Ceilidh Program ==
-Here's the program for the Youth Weekend Ceilidh.
+== Youth Weekend West Ceilidh Program ==
+Here's the program for the Youth Weekend Ceilidh.  (N.B.: The original GG had
+the May dance program on it, but seeing as all the May events are past and this
+one was handy, Darrick put this in here instead.)
+
 %CRIB_yww2013_ceilidh%
