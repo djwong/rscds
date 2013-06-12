@@ -15,6 +15,8 @@ s/%CLOSE_CONTENT%/	<\/div><\/div>/g
 s/%NEXT_CLASS_SUMMARY%//g
 /%NEXT_DANCE_SUMMARY%/r next_dance_summary.html
 s/%NEXT_DANCE_SUMMARY%//g
+/%NEXT_DANCE_SUMMARY_ONELINE%/r next_dance_summary_oneline.html
+s/%NEXT_DANCE_SUMMARY_ONELINE%//g
 /%NEXT_BALL_SUMMARY%/r next_ball_summary.html
 s/%NEXT_BALL_SUMMARY%//g
 /%NEXT_TRAVEL_SUMMARY%/r next_travel_summary.html
@@ -53,3 +55,5 @@ s/%RICHARD_CONTACT%//g
 s/%VMAC_CONTACT%//g
 /%ALL_CRIBS%/r has_crib.html
 s/%ALL_CRIBS%//g
+/%GAZETTE_INDEX%/r gazette_index.html
+s/%GAZETTE_INDEX%//g
