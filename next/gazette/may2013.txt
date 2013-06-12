@@ -1,5 +1,5 @@
 {{{#!html
-<img class="artwork" src="../images/gg_may_2013.png" alt="Artwork" width="550" height="547"/>
+<img class="artwork" src="../images/gg_may_2013.jpg" alt="Artwork" width="550" height="547"/>
 }}}
 {{{#!wiki comment
 pubdate = May/June 2013
