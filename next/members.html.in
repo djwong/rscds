@@ -1,0 +1,20 @@
+%HEAD%
+	<title>Members</title>
+%BODY%
+%NAVIGATION%
+%OPEN_CONTENT%
+<h1>Membership</h1>
+
+<p>For continuing information about events and other activities in the Portland
+branch, please check out our newsletter, The Ghillie Gazette.  It is published
+about every other month.  To subscribe, please become a member of our branch.
+Online issues are available below.</p>
+
+<h1>Ghillie Gazette</h1>
+
+<p>Here are archives of our online newsletter.</p>
+
+%GAZETTE_INDEX%
+
+%CLOSE_CONTENT%
+%FOOT%

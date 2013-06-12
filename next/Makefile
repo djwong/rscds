@@ -1,43 +1,66 @@
+.SUFFIXES:
 DEST=/home/djwong/rscds_website/next/
+MOINMOIN_DIR=../../moin-1.9.7/
+FRUMP_SCRIPT=$(MOINMOIN_DIR)/MoinMoin/script/export/frump.py
 FONTFORGE=fontforge
 TOOLS=$(FONTFORGE) mkdir cp sed python python3
 
 FANCY_HTML=index.html
-REGULAR_HTML=classes.html party.html workshop.html demo.html events.html history.html gazette.html dances.html old_programs.html
+REGULAR_HTML=classes.html party.html workshop.html demo.html events.html history.html gazette/index.html members.html dances.html old_programs.html
 HTML=$(REGULAR_HTML) $(FANCY_HTML)
-DEPS=cribs.d events.d sed.d
-CLEAN=fancy_nav.txt regular_nav.txt slide_data.js scripts/cribs.sed data/eventdb.js
+DEPS=cribs.d events.d sed.d people.d gazette.d
+CLEAN=fancy_nav.txt regular_nav.txt slide_data.js scripts/cribs.sed data/eventdb.js $(MOINMOIN_DIR)/MoinMoin/script/export/frump.py data/next_event.js gazette/index.html.in
 JS=site2.js
 CSS=style2.css
 BLOBS=images fonts slides
 
-all: build_check $(HTML) $(JS) $(CSS)
+all: build_all
+
+# Don't let anything depend on a $(...) list until after the includes.  If you
+# compose rules that use vars before the 'include's finish *creating* the vars,
+# the build will probably not work.
+include fonts.mk
+include cribs.d
+include events.d
+include sed.d
+include people.d
+include gazette.d
+
+build_all: build_check calendar_check $(HTML) $(JS) $(CSS) $(GAZETTES)
 
 dep: $(DEPS)
 
 build_check:;
 	@bash -c "type $(TOOLS) > /dev/null"
 
-include fonts.mk
-include cribs.d
-scripts/cribs.sed: cribs.d
+events.d: data/eventdb.js
+	scripts/events.py data/eventdb.js makedep > events.d
+
+sed.d: scripts/css.sed scripts/html.sed scripts/js.sed
+	scripts/sed_deps.py scripts/*.sed : $(shell find . -name "*.in" | sed -e 's/^..//g') > sed.d
+
+people.d: data/people.csv
+	scripts/contacts -d > people.d
+
+gazette.d:
+	scripts/create_gazette_index dep gazette_index.html > gazette.d
+
+scripts/cribs.sed:
+	scripts/configure_cribs
+
 cribs.d:
 	scripts/configure_cribs
 
-include events.d
-events.d: data/eventdb.js
-	scripts/events.py data/eventdb.js makedep > $@
-
-include sed.d
-sed.d: scripts/cribs.sed scripts/css.sed scripts/html.sed scripts/js.sed
-	scripts/sed_deps.py scripts/*.sed : $(shell find . -name "*.in" | sed -e 's/^..//g') > $@
-
-include people.d
-people.d: data/people.csv
-	scripts/contacts -d > $@
-
-data/eventdb.js: data/dance_events.js data/big_events.js data/class_events.js data/travel_events.js data/hidden_events.js
+data/eventdb.js: data/dance_events.js data/big_events.js data/class_events.js data/travel_events.js data/hidden_events.js data/next_event.js
 	scripts/create_eventdb
+
+data/next_event.js:
+	scripts/create_eventdb
+	scripts/events.py data/eventdb.js next_event > $@
+
+.PHONY: calendar_check
+calendar_check: data/eventdb.js
+	@scripts/touch_next_event
 
 install: all
 	mkdir -p $(DEST)
@@ -54,6 +77,11 @@ regular_nav.txt: templates/navigation.txt.in
 
 %.html: %.html.in scripts/html.sed scripts/cribs.sed
 	sed -f scripts/html.sed -f scripts/cribs.sed < $< > $@
+	scripts/fix_rel_paths $@
+
+gazette/index.html.in: members.html.in
+	cp -pRdu $< $@
+
 
 site2.js: site2.js.in scripts/js.sed slide_data.js
 	sed -f scripts/js.sed < $< > $@
@@ -67,5 +95,14 @@ style2.css: style2.css.in scripts/css.sed fonts.css
 %.crib: %.txt
 	./scripts/crib.py -g $<
 
+gazette/%.html.in: gazette/%.txt $(FRUMP_SCRIPT)
+	$(MOINMOIN_DIR)/MoinMoin/script/moin.py export frump $< $@
+
+$(FRUMP_SCRIPT): scripts/frump.py
+	cp -pRdu $< $@
+
 clean:;
-	rm -rf $(HTML) $(CRAP) $(JS) $(CRIB_SHEETS) $(CLEAN) $(CSS) $(DEPS)
+	rm -rf $(HTML) $(CRAP) $(JS) $(CRIB_SHEETS) $(CLEAN) $(CSS) $(GAZETTES)
+
+distclean: clean
+	rm -rf $(DEPS)

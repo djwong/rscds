@@ -14,4 +14,4 @@ fonts.css: $(WOFF_FROM_OTF_FONTS)
 	for fon in $(WOFF_FROM_OTF_FONTS); do scripts/woff2css $$fon; done >> $@
 
 %.woff: %.otf
-	$(FONTFORGE) -script scripts/otf2woff.pe $<
+	$(FONTFORGE) -script scripts/otf2woff.pe $< 2> /dev/null

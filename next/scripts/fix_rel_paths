@@ -1,0 +1,22 @@
+#!/bin/bash
+
+FILE="$1"
+
+if [ -z "${FILE}" -o "${FILE}" = "--help" ]; then
+	echo "Usage: $0 file"
+	exit 0
+fi
+
+if [ "${FILE:0:1}" = "/" ]; then
+	echo "${FILE}: Don't know how to calculate relative path."
+	exit 1
+fi
+
+DIR="$(dirname "${FILE}")/"
+if [ "${DIR}" = "./" ]; then
+	REPLACE=
+else
+	REPLACE="$(echo "${DIR}" | sed -e 's/[^\/]*\//..\//g')"
+fi
+
+exec sed -e "s|%ROOT_PATH%|${REPLACE}|g" -i "${FILE}"

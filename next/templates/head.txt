@@ -3,7 +3,7 @@
 <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta name="viewport" content="initial-scale=1.0, user-scalable=yes"/>
-	<link rel="icon" href="images/rscds_logo-128.png"/>
-	<link rel="apple-touch-icon-precomposed" href="images/rscds_logo-144.png"/>
-	<link rel="stylesheet" type="text/css" href="style2.css"/>
-	<script type="text/javascript" src="site2.js"> </script>
+	<link rel="icon" href="%ROOT_PATH%images/rscds_logo-128.png"/>
+	<link rel="apple-touch-icon-precomposed" href="%ROOT_PATH%images/rscds_logo-144.png"/>
+	<link rel="stylesheet" type="text/css" href="%ROOT_PATH%style2.css"/>
+	<script type="text/javascript" src="%ROOT_PATH%site2.js"> </script>
