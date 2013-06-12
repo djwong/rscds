@@ -1,18 +1,33 @@
 #!/bin/bash
 
+if [ -e scripts/cribs.sed ]; then
+	old_hash="$(cat scripts/cribs.sed | sha1sum)"
+fi
+
 echo 'CRIB_SHEETS=\' > cribs.d
-rm -rf scripts/cribs.sed
+rm -rf scripts/cribs.sed.new
 for i in cribs/*.txt; do
 	tag="%CRIB_$(basename "$(echo "${i}" | sed -e 's/.txt//g')")%"
 	crib_name="$(echo "${i}" | sed -e 's/.txt/.crib/g')"
 	echo "${crib_name} \\" >> cribs.d
-	echo "/${tag}/r ${crib_name}" >> scripts/cribs.sed
-	echo "s/${tag}//g" >> scripts/cribs.sed
+	echo "/${tag}/r ${crib_name}" >> scripts/cribs.sed.new
+	echo "s/${tag}//g" >> scripts/cribs.sed.new
 done
 echo >> cribs.d
 
 for i in cribs/*.txt; do
 	scripts/crib_deps.py "${i}" >> cribs.d
 done
+
+if [ -z "${old_hash}" ]; then
+	mv scripts/cribs.sed.new scripts/cribs.sed
+else
+	new_hash="$(cat scripts/cribs.sed.new | sha1sum)"
+	if [ "${new_hash}" != "${old_hash}" ]; then
+		mv scripts/cribs.sed.new scripts/cribs.sed
+	else
+		rm -rf scripts/cribs.sed.new
+	fi
+fi
 
 exit 0
