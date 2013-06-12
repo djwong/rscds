@@ -74,7 +74,7 @@ $(REGULAR_HTML) $(GAZETTE_HTML): regular_nav.txt
 $(FANCY_HTML): fancy_nav.txt
 
 fancy_nav.txt: templates/navigation.txt.in
-	sed -e 's/%FANCY%/ type="embedded"/g' < $< > $@
+	sed -e 's/%FANCY%/ class="embedded"/g' < $< > $@
 
 regular_nav.txt: templates/navigation.txt.in
 	sed -e 's/%FANCY%//g' < $< > $@

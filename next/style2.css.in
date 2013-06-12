@@ -102,7 +102,7 @@ img {
 	border: 0px;
 	display: block;
 }
-#links[type = "embedded"] {
+#links.embedded {
 	position: absolute;
 	z-index: 1000;
 	top: 0px;
