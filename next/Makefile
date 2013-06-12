@@ -1,3 +1,4 @@
+.SUFFIXES:
 DEST=/home/djwong/rscds_website/next/
 MOINMOIN_DIR=../../moin-1.9.7/
 FRUMP_SCRIPT=$(MOINMOIN_DIR)/MoinMoin/script/export/frump.py
@@ -8,18 +9,16 @@ FANCY_HTML=index.html
 REGULAR_HTML=classes.html party.html workshop.html demo.html events.html history.html gazette/index.html members.html dances.html old_programs.html
 HTML=$(REGULAR_HTML) $(FANCY_HTML)
 DEPS=cribs.d events.d sed.d people.d gazette.d
-CLEAN=fancy_nav.txt regular_nav.txt slide_data.js scripts/cribs.sed data/eventdb.js $(MOINMOIN_DIR)/MoinMoin/script/export/frump.py data/next_event.js
+CLEAN=fancy_nav.txt regular_nav.txt slide_data.js scripts/cribs.sed data/eventdb.js $(MOINMOIN_DIR)/MoinMoin/script/export/frump.py data/next_event.js gazette/index.html.in
 JS=site2.js
 CSS=style2.css
 BLOBS=images fonts slides
 
-all: build_check calendar_check $(HTML) $(JS) $(CSS) $(GAZETTES)
+all: build_all
 
-dep: $(DEPS)
-
-build_check:;
-	@bash -c "type $(TOOLS) > /dev/null"
-
+# Don't let anything depend on a $(...) list until after the includes.  If you
+# compose rules that use vars before the 'include's finish *creating* the vars,
+# the build will probably not work.
 include fonts.mk
 include cribs.d
 include events.d
@@ -27,9 +26,30 @@ include sed.d
 include people.d
 include gazette.d
 
-.PHONY: dep
-$(DEPS) dep:
-	./configure
+build_all: build_check calendar_check $(HTML) $(JS) $(CSS) $(GAZETTES)
+
+dep: $(DEPS)
+
+build_check:;
+	@bash -c "type $(TOOLS) > /dev/null"
+
+events.d: data/eventdb.js
+	scripts/events.py data/eventdb.js makedep > events.d
+
+sed.d: scripts/css.sed scripts/html.sed scripts/js.sed
+	scripts/sed_deps.py scripts/*.sed : $(shell find . -name "*.in" | sed -e 's/^..//g') > sed.d
+
+people.d: data/people.csv
+	scripts/contacts -d > people.d
+
+gazette.d:
+	scripts/create_gazette_index dep gazette_index.html > gazette.d
+
+scripts/cribs.sed:
+	scripts/configure_cribs
+
+cribs.d:
+	scripts/configure_cribs
 
 data/eventdb.js: data/dance_events.js data/big_events.js data/class_events.js data/travel_events.js data/hidden_events.js data/next_event.js
 	scripts/create_eventdb
@@ -58,6 +78,10 @@ regular_nav.txt: templates/navigation.txt.in
 %.html: %.html.in scripts/html.sed scripts/cribs.sed
 	sed -f scripts/html.sed -f scripts/cribs.sed < $< > $@
 	scripts/fix_rel_paths $@
+
+gazette/index.html.in: members.html.in
+	cp -pRdu $< $@
+
 
 site2.js: site2.js.in scripts/js.sed slide_data.js
 	sed -f scripts/js.sed < $< > $@
