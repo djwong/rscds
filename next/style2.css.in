@@ -86,6 +86,9 @@ img {
 #gazette h2 {
 	border-bottom: 1px solid gray;
 }
+#gazette .email {
+	font-size: 100%;
+}
 
 /* Calendar */
 .regular_event {

@@ -13,6 +13,7 @@ import sys, os, time, codecs, shutil, re, errno
 from MoinMoin import config, wikiutil, Page, user
 from MoinMoin import script
 from MoinMoin.action import AttachFile
+from MoinMoin.formatter.text_html import Formatter
 
 url_prefix_static = "."
 logo_html = '<img src="logo.png">'
@@ -35,14 +36,37 @@ page_template = u'''%%HEAD_GG%%
 
 class FSPage(Page.Page):
 	'''Load pages from the filesystem.'''
-	def __init__(self, request, fname):
+	def __init__(self, request, fname, **kw):
 		'''Store the filename of the input, pass the rest through to Page.'''
-		super(FSPage, self).__init__(request, fname)
 		self._real_fname = fname
+		Page.Page.__init__(self, request, fname, **kw)
 
 	def get_rev(self, use_underlay=-1, rev=0):
 		'''Just pump the passed-in filename straight to the wiki engine.'''
 		return (self._real_fname, 1, False)
+
+class CustomHtmlFormatter(Formatter):
+	'''Regular HTML formatter... except that we obscure email links.'''
+	def __init__(self, request, **kw):
+		self._in_mailto = False
+		Formatter.__init__(self, request, **kw)
+
+	def url(self, on, url='', css=None, **kw):
+		if on == 0:
+			self._in_mailto = False
+		if url.startswith('mailto:'):
+			self._in_mailto = True
+			url = url.replace('@', ' at ')
+			url = url.replace('.', ' dot ')
+			css = 'link_email'
+		return Formatter.url(self, on, url, css, **kw)
+
+	def text(self, text, **kw):
+		if self._in_mailto:
+			text = text.replace('@', ' at ')
+			text = text.replace('.', ' dot ')
+			return Formatter.text(self, text, css = 'email', **kw)
+		return Formatter.text(self, text, **kw)
 
 def _attachment(request, pagename, filename, outputdir, **kw):
 	filename = filename.encode(config.charset)
@@ -97,6 +121,7 @@ General syntax: moin [options] export frump input_file output_file
 		""" moin-dump's main code. """
 
 		outputdir = '/'
+		date_str = ''
 		with open(self._input_file, 'r') as fd:
 			for line in fd:
 				if line.startswith("pubdate ="):
@@ -151,7 +176,7 @@ General syntax: moin [options] export frump input_file output_file
 			try:
 				pagehtml = ''
 				request.url = urlbase + pagename # add current pagename to url base
-				page = FSPage(request, pagename)
+				page = FSPage(request, pagename, formatter = CustomHtmlFormatter(request, store_pagelinks=1))
 				request.page = page
 				try:
 					request.reset()
