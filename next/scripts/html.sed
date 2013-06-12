@@ -1,12 +1,12 @@
 # All substitution keys (%HEAD%) must be on a separate line!
 /%HEAD%/r templates/head.txt
-s/%HEAD%//g
+/%HEAD%/d
 /%FANCY_NAVIGATION%/r fancy_nav.txt
 s/%FANCY_NAVIGATION%//g
 /%NAVIGATION%/r regular_nav.txt
 s/%NAVIGATION%//g
 /%FOOT%/r templates/foot.txt
-s/%FOOT%//g
+/%FOOT%/d
 /%BODY%/r templates/body.txt
 s/%BODY%//g
 s/%OPEN_CONTENT%/	<div id="regular_body"><div class="skinny_box">/g
