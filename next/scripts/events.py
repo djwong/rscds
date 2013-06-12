@@ -130,6 +130,15 @@ class event_queries:
 			print('%s<br />(%s, %s)' % (url, event_queries.__format_date(evt['start']), evt['location']))
 			return
 
+	def next_dance_summary_oneline(events):
+		'''When and where are the next dances?  (Single line version)'''
+		for evt in events.dances(starts_after = datetime.datetime.now(), is_local = True):
+			url = evt['name']
+			if 'url' in evt:
+				url = '<a href="%s">%s</a>' % (evt['url'], url)
+			print('%s (%s, %s)' % (url, event_queries.__format_date(evt['start']), evt['location']))
+			return
+
 	def next_dance_crib(events):
 		'''Generate a crib of the next dance.'''
 		for evt in events.dances(starts_after = datetime.datetime.now(), is_local = True):
