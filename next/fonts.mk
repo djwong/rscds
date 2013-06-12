@@ -27,6 +27,7 @@ fonts_gg.css: $(GG_WOFF_FONTS)
 	echo '/*' > $@
 	echo ' * Font loading clauses auto-generated.' >> $@
 	echo ' * Get the Linux Libertine font at http://linuxlibertine.sourceforge.net/' >> $@
+	echo ' * Get the Source Code Pro font at http://sourceforge.net/projects/sourcecodepro.adobe/' >> $@
 	echo ' */' >> $@
 	for fon in $(GG_WOFF_FONTS); do scripts/woff2css $$fon; done >> $@
 
