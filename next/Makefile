@@ -6,8 +6,10 @@ FONTFORGE=fontforge
 TOOLS=$(FONTFORGE) mkdir cp sed python python3
 
 FANCY_HTML=index.html
-REGULAR_HTML=classes.html party.html workshop.html demo.html events.html history.html gazette/index.html members.html dances.html old_programs.html
-HTML=$(REGULAR_HTML) $(FANCY_HTML)
+REGULAR_HTML=classes.html party.html workshop.html demo.html events.html history.html members.html dances.html old_programs.html
+GAZETTE_HTML=gazette/index.html
+HTML=$(REGULAR_HTML) $(FANCY_HTML) $(GAZETTE_HTML)
+TOP_HTML=$(REGULAR_HTML) $(FANCY_HTML)
 DEPS=cribs.d events.d sed.d people.d gazette.d
 CLEAN=fancy_nav.txt regular_nav.txt slide_data.js scripts/cribs.sed data/eventdb.js $(MOINMOIN_DIR)/MoinMoin/script/export/frump.py data/next_event.js gazette/index.html.in
 JS=site2.js
@@ -64,9 +66,11 @@ calendar_check: data/eventdb.js
 
 install: all
 	mkdir -p $(DEST)
-	cp -Rlf $(HTML) $(JS) $(CSS) $(BLOBS) $(DEST)
+	cp -Rlf $(TOP_HTML) $(JS) $(CSS) $(BLOBS) $(DEST)
+	mkdir -p $(DEST)/gazette/
+	cp -Rlf $(GAZETTE_HTML) $(GAZETTES) $(DEST)/gazette/
 
-$(REGULAR_HTML): regular_nav.txt
+$(REGULAR_HTML) $(GAZETTE_HTML): regular_nav.txt
 $(FANCY_HTML): fancy_nav.txt
 
 fancy_nav.txt: templates/navigation.txt.in

@@ -32,7 +32,7 @@ if [ "${deps}" -gt 0 ]; then
 	echo
 
 	# Everything we need to build
-	echo -n "GAZETTES += ${FILE}"
+	echo -n "GAZETTES +="
 	for i in gazette/*.txt; do
 		html_url="$(echo "$i" | sed -e 's/.txt$/.html/g')"
 		echo -n " ${html_url}"
