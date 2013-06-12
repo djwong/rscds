@@ -1,4 +1,6 @@
-{{http://static.moinmo.in/logos/moinmoin.png}}
+{{{#!html
+<img class="artwork" src="../images/gg_may_2013.png" alt="Artwork" width="550" height="547"/>
+}}}
 {{{#!wiki comment
 pubdate = May 2013
 }}}

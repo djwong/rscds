@@ -58,6 +58,23 @@ img {
 	font-size: 75%;
 }
 
+/* Ghillie Gazette */
+#gazette {
+	max-width: 8in;
+	margin: 0px auto;
+}
+#gazette .table-of-contents-heading {
+	font-size: 120%;
+	font-weight: bold;
+}
+#gazette .tagline {
+	text-align: center;
+}
+#gazette .artwork {
+	display: block;
+	margin: 0px auto;
+}
+
 /* Calendar */
 .regular_event {
 	color: #808080;
