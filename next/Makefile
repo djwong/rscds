@@ -13,7 +13,7 @@ TOP_HTML=$(REGULAR_HTML) $(FANCY_HTML)
 DEPS=cribs.d events.d sed.d people.d gazette.d
 CLEAN=fancy_nav.txt regular_nav.txt slide_data.js scripts/cribs.sed data/eventdb.js $(MOINMOIN_DIR)/MoinMoin/script/export/frump.py data/next_event.js gazette/index.html.in
 JS=site2.js
-CSS=style2.css
+CSS=style2.css fonts_gg.css
 BLOBS=images fonts slides files
 
 all: build_all
@@ -86,6 +86,12 @@ regular_nav.txt: templates/navigation.txt.in
 gazette/index.html.in: members.html.in
 	cp -pRdu $< $@
 
+templates/head.txt: templates/head.txt.in
+	cp -pRdu $< $@
+
+templates/head_gg.txt: templates/head.txt.in templates/head_gg.txt.in
+	cp -pRdu $< $@
+	cat templates/head_gg.txt.in >> $@
 
 site2.js: site2.js.in scripts/js.sed slide_data.js
 	sed -f scripts/js.sed < $< > $@

@@ -1,6 +1,8 @@
 # All substitution keys (%HEAD%) must be on a separate line!
 /%HEAD%/r templates/head.txt
 /%HEAD%/d
+/%HEAD_GG%/r templates/head_gg.txt
+/%HEAD_GG%/d
 /%FANCY_NAVIGATION%/r fancy_nav.txt
 s/%FANCY_NAVIGATION%//g
 /%NAVIGATION%/r regular_nav.txt

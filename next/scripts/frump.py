@@ -19,7 +19,7 @@ logo_html = '<img src="logo.png">'
 HTML_SUFFIX = ".html"
 
 # Be careful about the %...% escaping here
-page_template = u'''%%HEAD%%
+page_template = u'''%%HEAD_GG%%
 	<title>%(date_str)s Ghillie Gazette</title>
 %%BODY%%
 %%NAVIGATION%%
