@@ -100,7 +100,7 @@ General syntax: moin [options] export frump input_file output_file
 		with open(self._input_file, 'r') as fd:
 			for line in fd:
 				if line.startswith("pubdate ="):
-					date_str = line[10:]
+					date_str = line[10:].strip()
 					break
 
 		# Insert config dir or the current directory to the start of the path.
