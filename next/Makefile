@@ -14,7 +14,7 @@ DEPS=cribs.d events.d sed.d people.d gazette.d
 CLEAN=fancy_nav.txt regular_nav.txt slide_data.js scripts/cribs.sed data/eventdb.js $(MOINMOIN_DIR)/MoinMoin/script/export/frump.py data/next_event.js gazette/index.html.in
 JS=site2.js
 CSS=style2.css
-BLOBS=images fonts slides
+BLOBS=images fonts slides files
 
 all: build_all
 
