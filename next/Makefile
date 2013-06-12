@@ -5,15 +5,15 @@ FONTFORGE=fontforge
 TOOLS=$(FONTFORGE) mkdir cp sed python python3
 
 FANCY_HTML=index.html
-REGULAR_HTML=classes.html party.html workshop.html demo.html events.html history.html gazette/index.html dances.html old_programs.html
+REGULAR_HTML=classes.html party.html workshop.html demo.html events.html history.html gazette/index.html members.html dances.html old_programs.html
 HTML=$(REGULAR_HTML) $(FANCY_HTML)
-DEPS=cribs.d events.d sed.d people.d
+DEPS=cribs.d events.d sed.d people.d gazette.d
 CLEAN=fancy_nav.txt regular_nav.txt slide_data.js scripts/cribs.sed data/eventdb.js $(MOINMOIN_DIR)/MoinMoin/script/export/frump.py data/next_event.js
 JS=site2.js
 CSS=style2.css
 BLOBS=images fonts slides
 
-all: build_check calendar_check $(HTML) $(JS) $(CSS)
+all: build_check calendar_check $(HTML) $(JS) $(CSS) $(GAZETTES)
 
 dep: $(DEPS)
 
@@ -25,6 +25,7 @@ include cribs.d
 include events.d
 include sed.d
 include people.d
+include gazette.d
 
 .PHONY: dep
 $(DEPS) dep:
@@ -70,7 +71,6 @@ style2.css: style2.css.in scripts/css.sed fonts.css
 %.crib: %.txt
 	./scripts/crib.py -g $<
 
-all: gazette/may2013.html
 gazette/%.html.in: gazette/%.txt $(FRUMP_SCRIPT)
 	$(MOINMOIN_DIR)/MoinMoin/script/moin.py export frump $< $@
 
@@ -78,4 +78,7 @@ $(FRUMP_SCRIPT): scripts/frump.py
 	cp -pRdu $< $@
 
 clean:;
-	rm -rf $(HTML) $(CRAP) $(JS) $(CRIB_SHEETS) $(CLEAN) $(CSS) $(DEPS)
+	rm -rf $(HTML) $(CRAP) $(JS) $(CRIB_SHEETS) $(CLEAN) $(CSS) $(GAZETTES)
+
+distclean: clean
+	rm -rf $(DEPS)
