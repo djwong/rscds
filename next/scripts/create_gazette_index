@@ -1,0 +1,57 @@
+#!/bin/bash
+
+print_help() {
+	echo "Usage: $0 [dep] outfile"
+	echo "Generates either a gazette index, or if 'dep' is specified, make dependencies."
+}
+
+if [ "$1" = "--help" ]; then
+	print_help
+	exit 0
+fi
+
+deps=0
+if [ "$1" = "dep" ]; then
+	deps=1
+	shift
+fi
+
+FILE="$1"
+if [ -z "${FILE}" ]; then
+	print_help
+	exit 1
+fi
+
+if [ "${deps}" -gt 0 ]; then
+	echo -n "CLEAN +="
+	for i in gazette/*.txt; do
+		html_url="$(echo "$i" | sed -e 's/.txt$/.html.in/g')"
+		echo -n " ${html_url}"
+	done
+	echo
+	echo -n "GAZETTES += ${FILE}"
+	for i in gazette/*.txt; do
+		html_url="$(echo "$i" | sed -e 's/.txt$/.html/g')"
+		echo -n " ${html_url}"
+	done
+	echo
+	echo -n "${FILE}:"
+	for i in gazette/*.txt; do
+		echo -n " $i"
+	done
+	echo
+	echo -e "\t$0 ${FILE}"
+else
+	YEAR=
+	echo "<ul>" > "${FILE}"
+	for i in gazette/*.txt; do
+		pubdate_str="$(grep 'pubdate =' "$i" | awk '{printf("%s %s\n", $3, $4);}')"
+		year="$(echo "${pubdate_str}" | awk '{print $2}')"
+		month="$(echo "${pubdate_str}" | awk '{print $1}')"
+		html_url="$(echo "$i" | sed -e 's/.txt$/.html/g')"
+		echo "<li><a href="%ROOT_PATH%${html_url}">${month}, ${year}</a></li>" >> "${FILE}"
+	done
+	echo "</ul>" >> "${FILE}"
+fi
+
+exit 0
