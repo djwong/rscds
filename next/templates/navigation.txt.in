@@ -3,7 +3,7 @@
 			<a href="%ROOT_PATH%index.html"><img id="logo_img" src="%ROOT_PATH%images/branch_logo.png" width="100" height="128" alt="Branch Logo"/></a>
 		</div>
 		<div class="container">
-			<div class="linkbox"><a href="%ROOT_PATH%history.html">About</a></div>
+			<div class="linkbox"><a href="%ROOT_PATH%about.html">About</a></div>
 			<div class="linkbox"><a href="%ROOT_PATH%events.html">Event Calendar</a></div>
 			<div class="linkbox"><a href="%ROOT_PATH%dances.html">Local Dances</a></div>
 			<div class="linkbox"><a href="%ROOT_PATH%members.html">Members</a></div>

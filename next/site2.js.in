@@ -324,7 +324,7 @@ function load_main()
 {
 	createSlides(document.getElementById("ss_cont"));
 	resizer();
-	slider = new Slider(document.getElementById("ss_cont"), "ss_item", "block", 30000);
+	slider = new Slider(document.getElementById("ss_cont"), "ss_item", "block", 15000);
 	addEventHandler(window, "resize", resizer);
 	addEventHandler(window, "keydown", function(evt) {slideshow_key(evt, slider);});
 	fixEmailAddrs();
