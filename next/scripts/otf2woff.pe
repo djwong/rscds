@@ -4,5 +4,17 @@
 # It is NOT a shell script... unless you consider fontforge a shell?
 
 Open($1);
+
+# Strip out everything except 0 - 255 (latin-1 and latin-15)
+a = Array(256);
+i = 0;
+while (i < 256)
+	a[i] = i++;
+endloop
+Select(a);
+SelectInvert();
+DetachAndRemoveGlyphs()
+
+# Dump a woff
 Generate($1:r+".woff");
 Quit(0);
