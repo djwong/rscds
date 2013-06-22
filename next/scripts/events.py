@@ -70,10 +70,14 @@ class event_database:
 	def __repr__(self):
 		return repr(self.events)
 
+	def today():
+		'''Returns today as a datetime.'''
+		return datetime.datetime.now().replace(hour = 0, minute = 0, second = 0, microsecond = 0)
+
 	def event_start_satisfies(evt, before, after):
 		'''Does the start of this event fit between these dates?'''
-		if (before is None or evt['start'] < before) and \
-		   (after is None or evt['start'] > after):
+		if (before is None or evt['start'] <= before) and \
+		   (after is None or evt['start'] >= after):
 			return True
 		return False
 
@@ -87,7 +91,7 @@ class event_database:
 
 	def all_upcoming(self):
 		'''Iterate over all upcoming events.'''
-		return self.iterate_events(None, None, datetime.datetime.now(), None)
+		return self.iterate_events(None, None, event_database.today(), None)
 
 	def classes(self, starts_before = None, starts_after = None, is_local = None):
 		'''Iterate over class events.'''
@@ -110,20 +114,20 @@ class event_queries:
 
 	def __format_date(d):
 		'''Format the dates all nice.'''
-		now = datetime.datetime.now()
+		now = event_database.today()
 		if now.year != d.year:
 			return d.strftime('%m/%d/%Y')
 		return d.strftime('%m/%d')
 
 	def next_class_summary(events):
 		'''When and where are the next classes?'''
-		for evt in events.classes(starts_after = datetime.datetime.now(), is_local = True):
+		for evt in events.classes(starts_after = event_database.today(), is_local = True):
 			print('%s<br />(%s, %s)' % (evt['name'], event_queries.__format_date(evt['start']), evt['location']))
 			return
 
 	def next_dance_summary(events):
 		'''When and where are the next dances?'''
-		for evt in events.dances(starts_after = datetime.datetime.now(), is_local = True):
+		for evt in events.dances(starts_after = event_database.today(), is_local = True):
 			url = evt['name']
 			if 'url' in evt:
 				url = '<a href="%s">%s</a>' % (evt['url'], url)
@@ -132,7 +136,7 @@ class event_queries:
 
 	def next_dance_summary_oneline(events):
 		'''When and where are the next dances?  (Single line version)'''
-		for evt in events.dances(starts_after = datetime.datetime.now(), is_local = True):
+		for evt in events.dances(starts_after = event_database.today(), is_local = True):
 			url = evt['name']
 			if 'url' in evt:
 				url = '<a href="%s">%s</a>' % (evt['url'], url)
@@ -141,7 +145,7 @@ class event_queries:
 
 	def next_dance_crib(events):
 		'''Generate a crib of the next dance.'''
-		for evt in events.dances(starts_after = datetime.datetime.now(), is_local = True):
+		for evt in events.dances(starts_after = event_database.today(), is_local = True):
 			if 'crib' in evt:
 				crib.generate_crib(open('cribs/' + evt['crib']), sys.stdout)
 			else:
@@ -150,7 +154,7 @@ class event_queries:
 
 	def next_ball_summary(events):
 		'''When and where is the next ball?'''
-		for evt in events.balls(starts_after = datetime.datetime.now(), is_local = True):
+		for evt in events.balls(starts_after = event_database.today(), is_local = True):
 			url = evt['name']
 			if 'url' in evt:
 				url = '<a href="%s">%s</a>' % (evt['url'], url)
@@ -170,7 +174,7 @@ class event_queries:
 	def next_travel_summary(events):
 		'''When and where are the next three non-local events?'''
 		print('<ul id="ps_travel">')
-		for evt in list(events.nonlocal_events(starts_after = datetime.datetime.now()))[:3]:
+		for evt in list(events.nonlocal_events(starts_after = event_database.today()))[:3]:
 			url = '%s' % evt['name']
 			if 'url' in evt:
 				url = '<a href="%s">%s</a>' % (evt['url'], evt['name'])
