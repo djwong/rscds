@@ -132,10 +132,10 @@ function myGetElementsByClassName(className)
 
 function decryptEmailAddr(addr)
 {
-	var x = addr.replace(" at ", "@");
-	x = x.replace(" dot ", ".");
-	x = x.replace("%20at%20", "@");
-	x = x.replace("%20dot%20", ".");
+	var x = addr.replace(/ at /g, "@");
+	x = x.replace(/ dot /g, ".");
+	x = x.replace(/%20at%20/g, "@");
+	x = x.replace(/%20dot%20/g, ".");
 	return x;
 }
 
