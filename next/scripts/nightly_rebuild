@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TOPDIR="$(dirname "$0")"
+TOPDIR="$(readlink -m "$(dirname "$0")/../")"
 cd "${TOPDIR}"
 ./scripts/touch_next_event
 exec make -s install
