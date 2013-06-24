@@ -7,7 +7,7 @@ TOOLS=$(FONTFORGE) mkdir cp sed python python3
 
 FANCY_HTML=index.html
 REGULAR_HTML=classes.html party.html workshop.html demo.html events.html about.html members.html dances.html past_programs.html
-GAZETTE_HTML=gazette/index.html
+GAZETTE_HTML=gazette/index.html gazette/.htaccess
 HTML=$(REGULAR_HTML) $(FANCY_HTML) $(GAZETTE_HTML)
 TOP_HTML=$(REGULAR_HTML) $(FANCY_HTML)
 DEPS=cribs.d events.d sed.d people.d gazette.d
@@ -85,6 +85,9 @@ regular_nav.txt: templates/navigation.txt.in
 
 gazette/index.html.in: members.html.in
 	cp -pRdu $< $@
+
+gazette/.htaccess: gazette/htaccess.in
+	sed -e 's|%DEST%|$(DEST)/gazette/|g' < $< > $@
 
 templates/head.txt: templates/head.txt.in
 	cp -pRdu $< $@

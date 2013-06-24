@@ -1,0 +1,6 @@
+AuthType Basic
+AuthName "Ghillie Gazette"
+# (Following line optional)
+AuthBasicProvider file
+AuthUserFile %DEST%/.users
+Require user roaring
