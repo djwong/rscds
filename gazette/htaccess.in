@@ -4,3 +4,7 @@ AuthName "Ghillie Gazette"
 AuthBasicProvider file
 AuthUserFile %DEST%/.users
 Require user roaring
+
+<Files ".users">
+	Deny from all
+</Files>
