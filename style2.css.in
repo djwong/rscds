@@ -67,6 +67,18 @@ img {
 	max-width: 8in;
 	margin: 0px auto;
 }
+#gazette .u {
+	text-decoration: underline;
+}
+#gazette li {
+	margin-bottom: 0.4em;
+}
+#gazette .table-of-contents li {
+	margin-bottom: 0px;
+}
+#gazette li p {
+	margin: 0px;
+}
 #gazette .table-of-contents-heading {
 	font-size: 120%;
 	font-weight: bold;
@@ -85,6 +97,10 @@ img {
 }
 #gazette h2 {
 	border-bottom: 1px solid gray;
+	margin-bottom: 0px;
+}
+#gazette h2 + span + p {
+	margin-top: 0.2em;
 }
 #gazette .email {
 	font-size: 100%;
