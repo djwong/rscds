@@ -57,6 +57,10 @@ else
 	YEAR=
 	echo "<ul>" > "${FILE}"
 	for i in gazette/*.txt; do
+		is_hidden="$(grep -c 'noindex' "$i")"
+		if [ "${is_hidden}" -gt 0 ]; then
+			continue
+		fi
 		pubdate_str="$(grep 'pubdate =' "$i" | awk '{printf("%s %s\n", $3, $4);}')"
 		year="$(echo "${pubdate_str}" | awk '{print $2}')"
 		month="$(echo "${pubdate_str}" | awk '{print $1}')"
