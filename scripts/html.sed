@@ -59,3 +59,5 @@ s/%VMAC_CONTACT%//g
 s/%ALL_CRIBS%//g
 /%GAZETTE_INDEX%/r gazette_index.html
 s/%GAZETTE_INDEX%//g
+/%LAST_FIVE_NEWS%/r last_five_news.html
+s/%LAST_FIVE_NEWS%//g

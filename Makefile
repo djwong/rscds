@@ -53,7 +53,7 @@ scripts/cribs.sed:
 cribs.d:
 	scripts/configure_cribs
 
-data/eventdb.js: data/dance_events.js data/big_events.js data/class_events.js data/travel_events.js data/hidden_events.js data/next_event.js
+data/eventdb.js: data/dance_events.js data/big_events.js data/class_events.js data/travel_events.js data/hidden_events.js data/next_event.js data/news_events.js
 	scripts/create_eventdb
 
 data/next_event.js:
@@ -63,12 +63,20 @@ data/next_event.js:
 .PHONY: calendar_check
 calendar_check: data/eventdb.js
 	@scripts/touch_next_event
+	@# create events.d
+	@scripts/events.py data/eventdb.js makedep > events.d
+	@# create gazette.d
+	@scripts/create_gazette_index dep gazette_index.html > gazette.d
+	@# create cribs.d
+	@scripts/configure_cribs
 
+# Only hardlink the blobs, not the generated content.
 install: all
 	mkdir -p $(DEST)
-	cp -Rlf $(TOP_HTML) $(JS) $(CSS) $(BLOBS) $(DEST)
+	cp -Rlf $(BLOBS) $(DEST)
+	cp -Rf $(TOP_HTML) $(JS) $(CSS) $(DEST)
 	mkdir -p $(DEST)/gazette/
-	cp -Rlf $(GAZETTE_HTML) $(GAZETTES) $(DEST)/gazette/
+	cp -Rf $(GAZETTE_HTML) $(GAZETTES) $(DEST)/gazette/
 
 $(REGULAR_HTML) $(GAZETTE_HTML): regular_nav.txt
 $(FANCY_HTML): fancy_nav.txt

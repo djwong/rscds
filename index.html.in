@@ -95,4 +95,12 @@ spectator.</p>
 		</div>
 		</div>
 	</div>
+	<div id="participate">
+		<div class="container">
+		<div class="skinny_box">
+			<h1>What Have We Been Up To Lately?</h1>
+%LAST_FIVE_NEWS%
+		</div>
+		</div>
+	</div>
 %FOOT%

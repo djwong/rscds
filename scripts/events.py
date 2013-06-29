@@ -7,7 +7,8 @@ import sys
 import inspect
 import crib
 
-EVENT_TYPES = {'class', 'dance', 'workshop', 'ball', 'demo', 'hidden'}
+EVENT_TYPES = {'class', 'dance', 'workshop', 'ball', 'demo', 'hidden', 'news'}
+CALENDAR_TYPES = {'class', 'dance', 'workshop', 'ball', 'demo', 'hidden'}
 
 # Event db schema: The file format is JSON.
 # The whole file is an array full of event objects.
@@ -83,9 +84,21 @@ class event_database:
 
 	def iterate_events(self, evt_type, starts_before, starts_after, is_local):
 		'''Iterate over events, given criteria.'''
+		global CALENDAR_TYPES
+
 		for evt in self.events:
-			if (evt_type is None or evt['type'] == evt_type) and \
+			if evt['type'] in CALENDAR_TYPES and \
+			   (evt_type is None or evt['type'] == evt_type) and \
 			   (is_local is None or evt['local'] == is_local) and \
+			   event_database.event_start_satisfies(evt, starts_before, starts_after):
+				yield evt
+
+	def iterate_news(self, starts_before, starts_after):
+		'''Iterate over news items, given criteria.'''
+		global CALENDAR_EVENTS
+
+		for evt in self.events:
+			if evt['type'] == 'news' and \
 			   event_database.event_start_satisfies(evt, starts_before, starts_after):
 				yield evt
 
@@ -230,6 +243,17 @@ class event_queries:
 			if loc != '' or date != '':
 				print("<p>%s%s</p>" % (loc, date))
 			crib.generate_crib(open('cribs/' + evt['crib']), sys.stdout)
+
+	def last_five_news(events):
+		'''Last five events.'''
+		n = 0
+		print("<ul>\n")
+		for evt in sorted(events.iterate_news(starts_before = event_database.today(), starts_after = None), key = lambda x: x['start'], reverse = True):
+			print("<li><b>(%s) %s</b>: %s</li>\n" % (event_queries.__format_date(evt['start']), evt['name'], evt['details']))
+			n += 1
+			if n > 5:
+				break
+		print("</ul>\n")
 
 	def dump(events):
 		print(repr(events))
