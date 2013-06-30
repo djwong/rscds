@@ -248,7 +248,8 @@ class event_queries:
 		'''Last five events.'''
 		n = 0
 		print("<ul>\n")
-		for evt in sorted(events.iterate_news(starts_before = event_database.today(), starts_after = None), key = lambda x: x['start'], reverse = True):
+		before_date = event_database.today().replace(hour = 23, minute = 59, second = 59)
+		for evt in sorted(events.iterate_news(starts_before = before_date, starts_after = None), key = lambda x: x['start'], reverse = True):
 			print("<li><b>(%s) %s</b>: %s</li>\n" % (event_queries.__format_date(evt['start']), evt['name'], evt['details']))
 			n += 1
 			if n > 5:
