@@ -3,7 +3,6 @@
 }}}
 {{{#!wiki comment
 pubdate = July/August 2013
-noindex
 }}}
 
 <<TableOfContents()>>
