@@ -57,7 +57,7 @@ body {
 img {
 	border: 0px;
 }
-.email {
+.p_section .email {
 	font-size: 75%;
 }
 
