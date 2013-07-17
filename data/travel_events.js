@@ -11,6 +11,6 @@
 {"start": "2013/8/31 19:30", "type": "dance", "local": false, "name": "32nd Annual Jean Patrick Memorial Dance", "location": "Pleasanton, Calif.", "url": "http://www.rscds-sf.org/JPMD/JPMD.php"},
 {"start": "2013/8/31 19:30", "type": "dance", "local": false, "name": "Third Fall Frolic", "location": "Vancouver, B.C.", "url": "http://www.rscdsvancouver.org/20130831p%20West%20End.pdf"},
 {"start": "2013/9/6 9:00", "type": "workshop", "local": false, "name": "Ft. Worden Workshop", "location": "Fort Worden, Wash.", "url": "http://www.rscds-seattle.org/ftworden/"},
-{"start": "2013/9/6 19:00", "type": "ball", "local": false, "name": "Ft. Worden Ball", "location": "Fort Worden, Wash.", "url": "http://www.rscds-seattle.org/ftworden/"},
+{"start": "2013/9/7 19:00", "type": "ball", "local": false, "name": "Ft. Worden Ball", "location": "Fort Worden, Wash.", "url": "http://www.rscds-seattle.org/ftworden/"},
 {"start": "2013/10/05 19:00", "type": "ball", "local": false, "name": "High Desert Ball", "location": "Redmond, Ore."},
 {"start": "2013/11/01 9:00", "type": "ball", "local": false, "name": "Asilomar Workshop and Ball", "location": "Monterey, Calif.", "url": "http://asilomar.rscds-sf.org/"},
