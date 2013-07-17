@@ -29,6 +29,8 @@ s/%NEXT_DANCE_CRIB%//g
 s/%PORTLAND_BALL_CRIB%//g
 /%UPCOMING_EVENTS%/r upcoming_events.html
 s/%UPCOMING_EVENTS%//g
+/%UPCOMING_EVENTS_SHORT%/r upcoming_events_short.html
+s/%UPCOMING_EVENTS_SHORT%//g
 /%CHAIR_CONTACT%/r linda.html
 s/%CHAIR_CONTACT%//g
 /%VICE_CHAIR_CONTACT%/r holly.html

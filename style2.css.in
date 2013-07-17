@@ -105,6 +105,23 @@ img {
 #gazette .email {
 	font-size: 100%;
 }
+.gazette_calendar_body {
+	-moz-column-count: 2; /* Firefox */
+	-webkit-column-count: 2; /* Safari and Chrome */
+	column-count: 2;
+}
+.gazette_calendar_body h3 {
+	margin: 0px;
+}
+#gazette_calendar {
+	display: none;
+}
+
+@media print {
+	#gazette_calendar {
+		display: block;
+	}
+}
 
 /* Calendar */
 .regular_event {

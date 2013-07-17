@@ -29,6 +29,13 @@ page_template = u'''%%HEAD_GG%%
 <h1>The Ghillie Gazette</h1>
 <p class="tagline">The %(date_str)s newsletter of the Portland Oregon Branch of the R.S.C.D.S.</p>
 %(pagehtml)s
+<div id="gazette_calendar">
+<h2>Upcoming Events</h2>
+<p>Here's a list of events coming up in the next ninety days.</p>
+<div class="gazette_calendar_body">
+%%UPCOMING_EVENTS_SHORT%%
+</div>
+</div>
 </div>
 %%CLOSE_CONTENT%%
 %%FOOT%%

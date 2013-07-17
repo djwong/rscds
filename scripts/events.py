@@ -102,6 +102,12 @@ class event_database:
 			   event_database.event_start_satisfies(evt, starts_before, starts_after):
 				yield evt
 
+	def next_3mo_events(self):
+		'''Iterate over all upcoming events.'''
+		y = datetime.timedelta(days = 90)
+		d = event_database.today()
+		return self.iterate_events(None, d + y, d, None)
+
 	def all_upcoming(self):
 		'''Iterate over all upcoming events.'''
 		return self.iterate_events(None, None, event_database.today(), None)
@@ -200,17 +206,24 @@ class event_queries:
 			print(evt)
 			return
 
+	def upcoming_events_short(events):
+		'''All upcoming events in the next 90 days.'''
+		return event_queries.upcoming_events_generator(events.next_3mo_events(), 3)
+
 	def upcoming_events(events):
 		'''All upcoming events that we know about.'''
+		return event_queries.upcoming_events_generator(events.all_upcoming(), 2)
+
+	def upcoming_events_generator(event_iterator, heading_level):
 		last_date = None
 		list_open = False
-		for evt in events.all_upcoming():
+		for evt in event_iterator:
 			if last_date is None or \
 			   last_date.year != evt['start'].year or \
 			   last_date.month != evt['start'].month:
 				if list_open:
 					print("\t</ul>")
-				print("<h2>%s</h2>" % evt['start'].strftime('%B %Y'))
+				print("<h%d>%s</h%d>" % (heading_level, evt['start'].strftime('%B %Y'), heading_level))
 				print("\t<ul>")
 				list_open = True
 			url = evt['name']
