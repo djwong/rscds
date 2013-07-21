@@ -6,7 +6,7 @@ FONTFORGE=fontforge
 TOOLS=$(FONTFORGE) mkdir cp sed python python3
 
 FANCY_HTML=index.html
-REGULAR_HTML=classes.html party.html workshop.html demo.html events.html about.html members.html dances.html past_programs.html new_index.html
+REGULAR_HTML=classes.html party.html workshop.html demo.html events.html about.html members.html dances.html past_programs.html
 GAZETTE_HTML=gazette/index.html gazette/.htaccess
 HTML=$(REGULAR_HTML) $(FANCY_HTML) $(GAZETTE_HTML)
 TOP_HTML=$(REGULAR_HTML) $(FANCY_HTML)
