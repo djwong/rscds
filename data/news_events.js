@@ -2,3 +2,4 @@
 {"start": "2013/03/09 23:59", "type": "news", "name": "Successful ball!", "details": "Thank you all who made the 34th ball such a huge success!"},
 {"start": "2013/05/05 11:30", "type": "news", "name": "Youth Weekend a Blast!", "details": "We greatly enjoyed hosting everyone for Youth Weekend.  Thank you all for participating!"},
 {"start": "2013/06/30 11:30", "type": "news", "name": "July 2013 Ghillie Gazette Published", "details": "The <a href=\"http://portlandscottishdancers.org/gazette/july2013.html\">summer issue</a> is now available."},
+{"start": "2013/07/20 22:09", "type": "news", "name": "Portland Highland Games", "details": "See the newspaper photo of the <a href=\"http://photos.oregonlive.com/photo-essay/2013/07/2013_highland_games.html#photo-13117698\">MacKenzie clan</a> at the highland games."},
