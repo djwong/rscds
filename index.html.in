@@ -2,7 +2,7 @@
 	<title>RSCDS - Portland, Oregon</title>
 	<script src="jquery.slides.js"></script>
 	<script type="text/javascript">
-addWindowEventHandler("load", load_new_main);
+$(document).ready(load_new_main);
 	</script>
 %BODY%
 %FANCY_NAVIGATION%

@@ -17,20 +17,6 @@ function crib_toggle(id)
 	}
 }
 
-function addEventHandler(node, eventName, lambda)
-{
-	var cookie = {node: node, event: eventName, func: lambda};
-	if (node.addEventListener)
-		node.addEventListener(eventName, lambda, false);
-	else if (node.attachEvent)
-		node.attachEvent("on" + eventName, lambda);
-	return cookie;
-}
-function addWindowEventHandler(eventName, lambda)
-{
-	return addEventHandler(window, eventName, lambda);
-}
-
 function decryptEmailAddr(addr)
 {
 	var x = addr.replace(/ at /g, "@");
@@ -45,6 +31,7 @@ function fixEmailAddrs()
 	$('.email').each(function (idx) {$(this).text(decryptEmailAddr($(this).text()));});
 	$('.link_email').each(function (idx) {$(this).attr('href', decryptEmailAddr($(this).attr('href')));});
 }
+$(document).ready(fixEmailAddrs);
 
 function createNewSlides(element)
 {
@@ -75,51 +62,43 @@ function createNewSlides(element)
 	}
 }
 
-function slideshow_key(evt, slider) {
+function slideshow_key(evt) {
 	if (evt.keyCode == 39) {
 		/* right arrow */
-		slider.next();
-		return true;
+		$('.slidesjs-next').click()
+		evt.preventDefault();
 	} else if (evt.keyCode == 37) {
 		/* left arrow */
-		slider.previous();
-		return true;
+		$('.slidesjs-previous').click()
+		evt.preventDefault();
 	}
-	return false;
+	// allow event to propagate
 }
 
 function load_new_main()
 {
 	createNewSlides("#slidesjs_slides");
-	$(function() {
-		$('#slidesjs_slides').slidesjs({
-			navigation: {
-				effect: "fade"
-			},
-			pagination: {
-				effect: "fade"
-			},
-			play: {
-				active: false,
-				auto: true,
-				interval: 15000,
-				swap: true,
-				effect: "fade",
-				pauseOnHover: true,
-				restartDelay: 15000
-			},
-			effect: {
-				fade: {
-					speed: 1000
-				}
+	$('#slidesjs_slides').slidesjs({
+		navigation: {
+			effect: "fade"
+		},
+		pagination: {
+			effect: "fade"
+		},
+		play: {
+			active: false,
+			auto: true,
+			interval: 15000,
+			swap: true,
+			effect: "fade",
+			pauseOnHover: true,
+			restartDelay: 15000
+		},
+		effect: {
+			fade: {
+				speed: 1000
 			}
-		});
+		}
 	});
-	// addEventHandler(window, "keydown", function(evt) {slideshow_key(evt, slider);});
+	$(window).keydown(slideshow_key);
 }
-
-function load_standard()
-{
-	fixEmailAddrs();
-}
-addWindowEventHandler("load", load_standard);
