@@ -478,6 +478,10 @@ a.slidesjs-stop {
 	transition: color 0.1s linear 0s;
 }
 
+.slidesjs-navigation:hover {
+	color: white;
+}
+
 .slidesjs-pagination {
 	padding: 0.2em;
 	position: absolute;
