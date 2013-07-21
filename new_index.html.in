@@ -1,149 +1,14 @@
 %HEAD%
 	<title>RSCDS - Portland, Oregon</title>
 
-	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 	<script src="jquery.slides.js"></script>
-	<script>
-function createSlides(element)
-{
-	
-	var slides = [
-		{caption: "Drum Major Sandy MacKenzie at the 2013 Highland Games", img: "http://portlandscottishdancers.org/slides/phga_2013.jpg", url: "http://photos.oregonlive.com/photo-essay/2013/07/2013_highland_games.html#photo-13117698"},
-		{caption: "Baxter Farewell, 6/2013", img: "http://portlandscottishdancers.org/slides/baxter_farewell.jpg", url: ""},
-		{caption: "Vancouver Dinner Dance 2013", img: "http://portlandscottishdancers.org/slides/dinner_dance_2013.jpg", url: "http://www.rscds-swws.org/"},
-		{caption: "Youth Weekend 2013", img: "http://portlandscottishdancers.org/slides/yww_group.jpg", url: "http://youthweekendwest.com/"},
-		{caption: "Portland Ball 2013", img: "http://portlandscottishdancers.org/slides/ball_2013.jpg", url: "https://www.facebook.com/media/set/?set=a.10200251457463262.1073741825.1057683504&type=3"},
-		{caption: "TAC Summer School 2012", img: "http://portlandscottishdancers.org/slides/tac_2012.jpg", url: "https://www.facebook.com/media/set/?set=a.10100560596497036.2538693.11512063&type=3"},
-		{caption: "Portland Ball 2012", img: "http://portlandscottishdancers.org/slides/ball_2012.jpg", url: "https://www.facebook.com/media/set/?set=a.1978973930209.55984.1718970430&type=3"},
-		{caption: "Highland Games 2011", img: "http://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-ash3/282419_234695516552635_2777667_n.jpg", url: "http://www.facebook.com/media/set/?set=a.234690619886458.61041.141476192541235&type=3"},
-		{caption: "Vicky and Sandy MacKenzie, 2011", img: "https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-ash4/200731_10150182117772652_5618282_n.jpg", url: "https://www.facebook.com/media/set/?set=a.10150182116287652.342796.501057651&type=3"},
-		{caption: "Portland Ball 2008", img: "http://djwong.org/photography/oregon/rscds_ball_2008/dsc_0052.jpg", url: "http://djwong.org/photography/oregon/rscds_ball_2008/"},
-		{caption: "Rose Festival 2007", img: "http://djwong.org/photography/oregon/portland/rose_fest_2007/img_0304.jpg", url: "http://djwong.org/photography/oregon/portland/rose_fest_2007/"},
-		{caption: "Portland Ball 2007", img: "http://djwong.org/photography/oregon/rscds_ball_2007/mmc_3772.jpg", url: "http://djwong.org/photography/oregon/rscds_ball_2007/"},
-		{caption: "Portland Ball 2006", img: "http://djwong.org/photography/oregon/portland/rscds_ball06/a3110316.jpg", url: "http://djwong.org/photography/oregon/portland/rscds_ball06/"},
-		{stop: 1}
-	];
-
-	var sc = $('#slides');
-	for (idx in slides) {
-		var slide = slides[idx];
-		if (slide.stop)
-			break;
-
-		var s = $('<div>');
-		s.addClass('slidesjs_slide');
-		url = "url('" + slide.img + "')";
-		s.css('background-image', url);
-		sc.append(s);
-
-		var c = $('<div>');
-		c.addClass('slidesjs_caption');
-		if (slide.url.length > 0) {
-			var l = $('<a>');
-			l.attr('href', slide.url);
-			l.text(slide.caption);
-			c.append(l);
-		} else {
-			c.text(slide.caption);
-		}
-		s.append(c);
-	}
-}
+	<script type="text/javascript">
+addWindowEventHandler("load", load_new_main);
 	</script>
-
-	<style>
-#slides {
-	display: none
-}
-
-a.slidesjs-next,
-a.slidesjs-previous,
-a.slidesjs-play,
-a.slidesjs-stop {
-	text-decoration: none;
-	color: gray;
-}
-
-.slidesjs-previous {
-	left: 0.25em;
-}
-
-.slidesjs-next {
-	right: 0.25em;
-}
-
-.slidesjs-navigation {
-	z-index: 200;
-	top: 50%;
-	margin-top: -0.7em;
-	height: 1.4em;
-	width: 1.4em;
-	position: absolute;
-	font-size: 36pt;
-	color: rgb(192, 192, 192);
-	text-decoration: none;
-	text-align: center;
-	text-shadow: 0px 0px 8px black;
-	cursor: pointer;
-	transition: color 0.1s linear 0s;
-}
-
-.slidesjs-pagination {
-	padding: 0.2em;
-	position: absolute;
-	left: 0px;
-	z-index: 200;
-	bottom: 0px;
-	margin: 0px;
-	list-style: none;
-}
-
-.slidesjs-pagination li {
-	float: left;
-	margin: 0 1px;
-}
-
-.slidesjs-pagination li a {
-	text-decoration: none;
-	display: block;
-	float: left;
-	overflow: hidden;
-	color: black;
-	opacity: 0.75;
-}
-
-.slidesjs_container {
-	margin: 0 auto;
-	width: auto;
-	position: relative;
-}
-
-.slidesjs_slide {
-	height: 100%;
-	width: 100%;
-	background-size: 100% auto;
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-color: red;
-}
-.slidesjs_caption {
-	position: absolute;
-	bottom: 0px;
-	right: 0px;
-	color: white;
-	text-shadow: 2px 2px 2px black;
-	padding: 0.2em;
-	color: white;
-}
-.slidesjs_caption a {
-	color: white;
-	text-decoration: none;
-}
-	</style>
 %BODY%
 %FANCY_NAVIGATION%
 	<div class="slidesjs_container">
-		<div id="slides">
+		<div id="slidesjs_slides">
 		</div>
 	</div>
 	<div id="participate">
@@ -241,31 +106,4 @@ spectator.</p>
 		</div>
 		</div>
 	</div>
-	<script>
-	createSlides(document.getElementById("slides"));
-	$(function() {
-		$('#slides').slidesjs({
-			navigation: {
-				effect: "fade"
-			},
-			pagination: {
-				effect: "fade"
-			},
-			play: {
-				active: false,
-				auto: true,
-				interval: 5000,
-				swap: true,
-				effect: "fade",
-				pauseOnHover: true,
-				restartDelay: 5000
-			},
-			effect: {
-				fade: {
-					speed: 1000
-				}
-			}
-		});
-	});
-	</script>
 %FOOT%

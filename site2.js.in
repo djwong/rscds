@@ -260,6 +260,37 @@ function resizer()
 	Array.prototype.forEach.call(slides, function(s) {s.style.height = height + "px";});
 	
 }
+
+function createNewSlides(element)
+{
+	%SLIDE_DATA%
+
+	var sc = $(element);
+	for (idx in slides) {
+		var slide = slides[idx];
+		if (slide.stop)
+			break;
+
+		var s = $('<div>');
+		s.addClass('slidesjs_slide');
+		url = "url('" + slide.img + "')";
+		s.css('background-image', url);
+		sc.append(s);
+
+		var c = $('<div>');
+		c.addClass('slidesjs_caption');
+		if (slide.url.length > 0) {
+			var l = $('<a>');
+			l.attr('href', slide.url);
+			l.text(slide.caption);
+			c.append(l);
+		} else {
+			c.text(slide.caption);
+		}
+		s.append(c);
+	}
+}
+
 function createSlides(element)
 {
 	%SLIDE_DATA%
@@ -328,6 +359,35 @@ function load_main()
 	addEventHandler(window, "resize", resizer);
 	addEventHandler(window, "keydown", function(evt) {slideshow_key(evt, slider);});
 	fixEmailAddrs();
+}
+
+function load_new_main()
+{
+	createNewSlides("#slidesjs_slides");
+	$(function() {
+		$('#slidesjs_slides').slidesjs({
+			navigation: {
+				effect: "fade"
+			},
+			pagination: {
+				effect: "fade"
+			},
+			play: {
+				active: false,
+				auto: true,
+				interval: 5000,
+				swap: true,
+				effect: "fade",
+				pauseOnHover: true,
+				restartDelay: 5000
+			},
+			effect: {
+				fade: {
+					speed: 1000
+				}
+			}
+		});
+	});
 }
 
 function load_standard()
