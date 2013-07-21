@@ -190,9 +190,8 @@ function createNewSlides(element)
 		var c = $('<div>');
 		c.addClass('slidesjs_caption');
 		if (slide.url.length > 0) {
-			var l = $('<a>');
+			var l = $('<a>' + slide.caption + ' [<span>More</span>]</a>');
 			l.attr('href', slide.url);
-			l.text(slide.caption);
 			c.append(l);
 		} else {
 			c.text(slide.caption);

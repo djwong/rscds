@@ -519,6 +519,7 @@ a.slidesjs-stop {
 	background-repeat: no-repeat;
 	background-position: center center;
 }
+
 .slidesjs_caption {
 	position: absolute;
 	bottom: 0px;
@@ -528,8 +529,12 @@ a.slidesjs-stop {
 	padding: 0.2em;
 	color: white;
 }
+
 .slidesjs_caption a {
 	color: white;
 	text-decoration: none;
 }
 
+.slidesjs_caption a span {
+	text-decoration: underline;
+}
