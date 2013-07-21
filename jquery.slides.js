@@ -176,7 +176,7 @@
           paginationLink = $("<a>", {
             href: "#",
             "data-slidesjs-item": i,
-            html: "◎"
+            html: "○"
           }).appendTo(paginationItem);
           return paginationLink.click(function(e) {
             e.preventDefault();
@@ -199,7 +199,7 @@
       $element = $(this.element);
       this.data = $.data(this);
       current = number > -1 ? number : this.data.current;
-      $(".active", $element).text("◎");
+      $(".active", $element).text("○");
       $(".active", $element).removeClass("active");
       $(".slidesjs-pagination li:eq(" + current + ") a", $element).text("●");
       return $(".slidesjs-pagination li:eq(" + current + ") a", $element).addClass("active");
