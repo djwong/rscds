@@ -102,11 +102,11 @@ function load_new_main()
 			play: {
 				active: false,
 				auto: true,
-				interval: 5000,
+				interval: 15000,
 				swap: true,
 				effect: "fade",
 				pauseOnHover: true,
-				restartDelay: 5000
+				restartDelay: 15000
 			},
 			effect: {
 				fade: {
