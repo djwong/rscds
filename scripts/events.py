@@ -135,8 +135,8 @@ class event_queries:
 		'''Format the dates all nice.'''
 		now = event_database.today()
 		if now.year != d.year:
-			return d.strftime('%m/%d/%Y')
-		return d.strftime('%m/%d')
+			return '%d/%d/%d' % (d.month, d.day, d.year)
+		return '%d/%d' % (d.month, d.day)
 
 	def next_class_summary(events):
 		'''When and where are the next classes?'''
