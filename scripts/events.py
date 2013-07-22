@@ -235,7 +235,7 @@ class event_queries:
 			style = ''
 			if evt['type'] == 'class':
 				style = ' class="regular_event"'
-			print("\t<li%s>%s (%s%s)</li>" % (style, url, evt['start'].strftime('%m/%d'), loc))
+			print("\t<li%s>%s (%d/%d%s)</li>" % (style, url, evt['start'].month, evt['start'].day, loc))
 			last_date = evt['start']
 
 		if list_open:
@@ -252,7 +252,7 @@ class event_queries:
 				loc = '%s on ' % evt['location']
 			date = ''
 			if evt['start'] > datetime.datetime.min:
-				date = evt['start'].strftime('%d %B %Y')
+				date = evt['start'].strftime('%e %B %Y')
 			if loc != '' or date != '':
 				print("<p>%s%s</p>" % (loc, date))
 			crib.generate_crib(open('cribs/' + evt['crib']), sys.stdout)
