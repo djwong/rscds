@@ -1,19 +1,14 @@
 /* The rest of this code is from Darrick. */
 function crib_toggle(id)
 {
-	var x = document.getElementById(id);
-	var y = document.getElementById(id + "_ctl");
-	if (x.style.display == "") {
-		/* work around a bug in ie6/7. */
-		try {
-			x.style.display = "table-row";
-		} catch(e) {
-			x.style.display = "block";
-		}
-		y.innerHTML = "&#9660;";
+	var x = $('#' + id);
+	var y = $('#' + id + "_ctl");
+	if (x.css('display') == 'none') {
+		x.css('display', 'table-row');
+		y.text('▼');
 	} else {
-		x.style.display = "";
-		y.innerHTML = "&#9654;";
+		x.css('display', 'none');
+		y.text('▶');
 	}
 }
 
