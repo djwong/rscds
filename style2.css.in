@@ -376,14 +376,6 @@ img {
 	display: none
 }
 
-a.slidesjs-next,
-a.slidesjs-previous,
-a.slidesjs-play,
-a.slidesjs-stop {
-	text-decoration: none;
-	color: gray;
-}
-
 .slidesjs-previous {
 	left: 0.25em;
 }
@@ -400,26 +392,43 @@ a.slidesjs-stop {
 	width: 1.4em;
 	position: absolute;
 	font-size: 36pt;
-	color: rgb(192, 192, 192);
 	text-decoration: none;
 	text-align: center;
 	text-shadow: 0px 0px 8px black;
 	cursor: pointer;
-	transition: color 0.1s linear 0s;
 }
 
-.slidesjs-navigation:hover {
+a.slidesjs-navigation {
+	text-decoration: none;
+	transition: color 0.1s linear, background-color 0.1s linear;
+	color: rgba(255, 255, 255, 0.75);
+	border-radius: 8px 8px 8px 8px;
+}
+
+a.slidesjs-navigation:hover {
 	color: white;
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+a.slidesjs-navigation:focus {
+	outline: 0px;
 }
 
 .slidesjs-pagination {
 	padding: 0.2em;
+	padding-right: 0.4em;
 	position: absolute;
 	left: 0px;
 	z-index: 200;
 	bottom: 0px;
 	margin: 0px;
 	list-style: none;
+	transition: background-color 0.1s linear;
+	border-radius: 0px 4px 0px 0px;
+}
+
+.slidesjs-pagination:hover {
+	background-color: rgba(255, 255, 255, 0.3);
 }
 
 .slidesjs-pagination li {
@@ -434,6 +443,10 @@ a.slidesjs-stop {
 	overflow: hidden;
 	color: black;
 	opacity: 0.75;
+}
+
+.slidesjs-pagination li a:focus {
+	outline: 0px;
 }
 
 .slidesjs_container {
