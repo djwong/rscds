@@ -31,7 +31,8 @@ page_template = u'''%%HEAD_GG%%
 %(pagehtml)s
 <div id="gazette_calendar">
 <h2>Upcoming Events</h2>
-<p>Here's a list of events coming up in the next ninety days.</p>
+<p>Here's a list of events coming up in the next ninety days.  This calendar is
+kept up to date at <u>http://portlandscottishdancers.org/events.html</u>.</p>
 <div class="gazette_calendar_body">
 %%UPCOMING_EVENTS_SHORT%%
 </div>
