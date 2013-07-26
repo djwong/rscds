@@ -210,7 +210,6 @@
       $element = $(this.element);
       this.data = $.data(this);
       $(".slidesjs-control", $element).children(":not(:eq(" + this.data.current + "))").css({
-        display: "none",
         left: 0,
         zIndex: 0
       });
