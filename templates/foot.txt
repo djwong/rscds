@@ -23,7 +23,7 @@
 <div style="font-weight: bold;">Dance With Others</div>
 <div><a href="http://www.rscds-swws.org/">SW Washington</a> - <a href="http://www.rscds-swws.org/2013-dinnerdance-among-stars-flyer.pdf">Dinner Dance</a></div>
 <div><a href="http://www.rscds-seattle.org/">Seattle</a> - <a href="http://www.rscds-seattle.org/ftworden/">Ft. Worden</a></div>
-<div><a href="http://hdccd.azurewebsites.net/">Oregon High Desert</a> - <a href="http://hdccd.azurewebsites.net/ball/HdccdFlyerRegistrationAndBriefs2012.pdf">Ball</a></div>
+<div><a href="http://hdccd.azurewebsites.net/">Oregon High Desert</a> - <a href="http://hdccd.azurewebsites.net/ball/HdccdFlyerRegistrationAndBriefs2013.pdf">Ball</a></div>
 <div><a href="http://www.youthweekendwest.com/">Youth Weekend West</a></div>
 <div><a href="http://www.rscds-sf.org/">San Francisco</a> - <a href="http://www.rscds-sf.org/asilomar/pdf/AsilomarApplication.7.pdf">Asilomar</a></div>
 <div><a href="http://www.rscdsvancouver.org/">Vancouver, B.C.</a>; <a href="http://www.thistleandghillies.org/">Boise</a>; <a href="http://www.bellinghamscd.org/">Bellingham</a></div>
