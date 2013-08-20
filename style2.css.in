@@ -2,7 +2,7 @@
 
 /* General layout */
 * {
-	line-height: 1.25em;
+	line-height: 1.35em;
 }
 pre {
 	font-family: "Source Code Pro", monospace;
