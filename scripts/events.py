@@ -197,7 +197,7 @@ class event_queries:
 			url = '%s' % evt['name']
 			if 'url' in evt:
 				url = '<a href="%s">%s</a>' % (evt['url'], evt['name'])
-			print('<li>%s<br />(%s, %s)</li>' % (url, event_queries.__format_date(evt['start']), evt['location']))
+			print('<li>%s (%s)</li>' % (url, event_queries.__format_date(evt['start'])))
 		print('</ul>')
 
 	def next_event(events):
