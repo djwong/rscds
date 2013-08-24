@@ -96,11 +96,14 @@ img {
 	font-family: "Linux Biolinum O", "Linux Biolinum", sans-serif;
 }
 #gazette h2 {
-	border-bottom: 1px solid gray;
+	border-top: 3px solid #0079c1;
+	color: #0079c1;
 	margin-bottom: 0px;
+	margin-top: 2em;
 }
 #gazette h2 + span + p {
-	margin-top: 0.2em;
+	margin-top: 0.0em;
+	color: #808080;
 }
 #gazette .email {
 	font-size: 100%;
