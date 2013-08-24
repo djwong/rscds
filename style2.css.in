@@ -13,6 +13,9 @@ body {
 	border: 0px;
 	font-family: "Linux Biolinum O", "Linux Biolinum", sans-serif;
 }
+a:link {
+	color: #0079c1;
+}
 #regular_body {
 	transition: padding-left linear 0.1s, padding-right linear 0.1s;
 	padding-top: 2em;
