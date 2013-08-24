@@ -201,7 +201,7 @@ img {
 	display: none;
 }
 .crib_steps td {
-	padding-bottom: 0.1em;
+	padding-bottom: 0.4em;
 }
 .crib_header td {
 	padding-top: 0.2em;
@@ -223,8 +223,9 @@ img {
 }
 .crib_step_bars {
 	white-space: pre;
-	padding-left: 1em;
-	padding-right: 2em;
+	padding-left: 2.25em;
+	padding-right: 0.75em;
+	text-align: right;
 }
 .crib_note {
 	padding-left: 1em;
