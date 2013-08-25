@@ -472,12 +472,29 @@ a.slidesjs-navigation:focus {
 
 .slidesjs_caption {
 	position: absolute;
-	bottom: 0px;
-	right: 0px;
 	color: white;
 	text-shadow: 2px 2px 2px black;
-	padding: 0.2em;
-	color: white;
+	padding: 0.6em;
+	padding-top: 0.4em;
+	background: rgba(0, 0, 0, 0.5);
+	width: 20em;
+	border-radius: 8px 8px 8px 8px;
+}
+
+.slidesjs_caption_bottom_right {
+	bottom: 2em;
+	right: 2em;
+}
+
+.slidesjs_caption_bottom_left {
+	bottom: 2em;
+	left: 2em;
+}
+
+.slidesjs_caption_title {
+	font-size: 150%;
+	font-weight: bold;
+	margin-bottom: 0.6em;
 }
 
 .slidesjs_caption a {

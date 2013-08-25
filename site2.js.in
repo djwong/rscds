@@ -46,12 +46,18 @@ function createNewSlides(element)
 
 		var c = $('<div>');
 		c.addClass('slidesjs_caption');
+		if (slide.caption_orientation.length > 0) {
+			c.addClass('slidesjs_caption_' + slide.caption_orientation);
+		} else {
+			c.addClass('slidesjs_caption_bottom_left');
+		}
+		x = '<div class="slidesjs_caption_title">' + slide.caption + '</div>' + slide.longdescr;
 		if (slide.url.length > 0) {
-			var l = $('<a>' + slide.caption + ' [<span>More</span>]</a>');
+			var l = $('<a>' + x + ' [<span>More</span>]</a>');
 			l.attr('href', slide.url);
 			c.append(l);
 		} else {
-			c.text(slide.caption);
+			c.append(x);
 		}
 		s.append(c);
 	}

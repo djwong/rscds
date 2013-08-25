@@ -5,7 +5,7 @@ BEGIN {
 }
 {
 	if (substr($1, 1, 1) != "#")
-		printf("\t\t{caption: \"%s\", img: \"%s\", url: \"%s\"},\n", $1, $2, $3);
+		printf("\t\t{caption: \"%s\", img: \"%s\", url: \"%s\", longdescr: \"%s\", caption_orientation: \"%s\"},\n", $1, $3, $4, $2, $5);
 }
 END {
 	printf("\t\t{stop: 1}\n");
