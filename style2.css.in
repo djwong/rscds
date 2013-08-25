@@ -500,6 +500,7 @@ a.slidesjs-navigation:focus {
 .slidesjs_caption a {
 	color: white;
 	text-decoration: none;
+	outline: none;
 }
 
 .slidesjs_caption a span {
