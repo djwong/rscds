@@ -474,8 +474,8 @@ a.slidesjs-navigation:focus {
 	position: absolute;
 	color: white;
 	text-shadow: 2px 2px 2px black;
-	padding: 0.6em;
-	padding-top: 0.4em;
+	padding: 0.8em;
+	padding-top: 0.6em;
 	background: rgba(0, 0, 0, 0.5);
 	width: 20em;
 	border-radius: 8px 8px 8px 8px;
