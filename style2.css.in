@@ -506,3 +506,33 @@ a.slidesjs-navigation:focus {
 .slidesjs_caption a span {
 	text-decoration: underline;
 }
+
+@media screen and (max-width: 600px) {
+	.slidesjs-pagination {
+		display: none;
+	}
+
+	.slidesjs_caption {
+		border-radius: 0px;
+		bottom: 0px;
+		left: 0px;
+		right: 0px;
+		width: 100%;
+		padding: 0.4em;
+		padding-top: 0.3em;
+	}
+
+	.slidesjs_caption_title {
+		font-size: 100%;
+		margin-bottom: 0px;
+		display: inline;
+	}
+
+	.slidesjs_longdescr {
+		display: none;
+	}
+
+	.slidesjs-navigation {
+		display: none;
+	}
+}

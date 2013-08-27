@@ -51,7 +51,7 @@ function createNewSlides(element)
 		} else {
 			c.addClass('slidesjs_caption_bottom_left');
 		}
-		x = '<div class="slidesjs_caption_title">' + slide.caption + '</div>' + slide.longdescr;
+		x = '<div class="slidesjs_caption_title">' + slide.caption + '</div><div class="slidesjs_longdescr">' + slide.longdescr + '</div>';
 		if (slide.url.length > 0) {
 			var l = $('<a>' + x + ' [<span>More</span>]</a>');
 			l.attr('href', slide.url);
