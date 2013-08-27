@@ -40,6 +40,9 @@ function createNewSlides(element)
 
 		var s = $('<div>');
 		s.addClass('slidesjs_slide');
+		var t = $('<div>');
+		t.addClass('slidesjs_linkbackground');
+		s.append(t);
 		url = "url('" + slide.img + "')";
 		s.css('background-image', url);
 		sc.append(s);

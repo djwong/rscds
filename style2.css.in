@@ -155,8 +155,7 @@ img {
 	top: 0px;
 	left: 0px;
 	right: 0px;
-	background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.0));
-	background: -webkit-linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.0));
+	background: none;
 }
 #links > .container {
 	margin-left: 116px;
@@ -379,6 +378,10 @@ img {
 }
 
 /* New slidejs slideshow */
+.slide_container {
+	background: #0079c1;
+}
+
 #slidesjs_slides {
 	display: none
 }
@@ -457,6 +460,7 @@ a.slidesjs-navigation:focus {
 }
 
 .slidesjs_container {
+	max-width: 1300px;
 	margin: 0 auto;
 	width: auto;
 	position: relative;
@@ -505,6 +509,16 @@ a.slidesjs-navigation:focus {
 
 .slidesjs_caption a span {
 	text-decoration: underline;
+}
+
+.slidesjs_linkbackground {
+	background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.0));
+	background: -webkit-linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.0));
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	height: 3.35em;
 }
 
 @media screen and (max-width: 600px) {

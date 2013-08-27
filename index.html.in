@@ -6,8 +6,10 @@ $(document).ready(load_new_main);
 	</script>
 %BODY%
 %FANCY_NAVIGATION%
-	<div class="slidesjs_container">
-		<div id="slidesjs_slides">
+	<div class="slide_container">
+		<div class="slidesjs_container">
+			<div id="slidesjs_slides">
+			</div>
 		</div>
 	</div>
 	<div id="participate">
