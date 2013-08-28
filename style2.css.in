@@ -521,6 +521,10 @@ a.slidesjs-navigation:focus {
 	height: 3.35em;
 }
 
+.slidesjs_longdescr {
+	display: inline;
+}
+
 @media screen and (max-width: 600px) {
 	.slidesjs-pagination {
 		display: none;
