@@ -11,6 +11,7 @@ pubdate = Fall 2013
 == President's Message ==
 by Linda Gertz
 
+[[Image:../images/gg_fall_2013.jpg|Moocow]]
 Welcome back to another fun year of Scottish Country dancing!  Hope you all
 had an enjoyable summer.  Don & I spent ours getting our yard redone with
 nature-scaping.  We have lots of mostly native plants in our yard that are
@@ -116,8 +117,32 @@ now you know about it!
 == July 2013 RSCDS Portland Branch Treasurer's Report ==
 by Pat Taylor
 
-?? Darrick - Can you convert/upload the RSCDS Treasurer July13 pdf Report
-here??
+||<style="padding-bottom: 2em;">'''Beginning balance June 30, 2013'''|| ||<style="padding-bottom: 2em; text-align: right">'''5056.83'''||
+||'''Income'''|| || ||
+||Monday class||<)>281.00|| ||
+||Adjustment to TAC m'ship payment||<)>2.38|| ||
+||Visa payment||<)>$114.20 + $3.42 fee|| ||
+||Membership dues||<)>7.00|| ||
+||<style="padding-bottom: 2em;">'''Subtotal'''||<style="padding-bottom: 2em; text-align: right">'''290.38'''||<style="padding-bottom: 2em; text-align: right">'''5347.21'''||
+||'''Disbursements'''|| || ||
+||Rents||<)>230.00|| ||
+||Teachers||<)>230.00|| ||
+||Ghillie Gazette expenses||<)>10.86|| ||
+||Soohoo-Hui wedding gift||<)>54.45|| ||
+||Checks order||<)>30.23|| ||
+||<style="padding-bottom: 2em;">'''Subtotal'''||<style="padding-bottom: 2em; text-align: right">'''555.54'''||<style="padding-bottom: 2em; text-align: right">'''4791.67'''||
+||<style="padding-bottom: 2em;">'''Balance as of July 31, 2013'''|| ||<style="text-align: right; padding-bottom: 2em;">'''4791.67'''||
+||'''Fund balances as of July 31, 2013:'''|| || ||
+||Fundraising|| ||<)>3076.50||
+||Monday class|| ||<)>646.17||
+||Saturday dance|| ||<)>40.75||
+||Demo team|| ||<)>415.01||
+||Workshop/Ball|| ||<)>468.92||
+||Membership|| ||<)>1038.12||
+||Ghillie Gazette|| ||<)>533.06||
+||I.F.M. Fund|| ||<)>672.91||
+||Operations|| ||<)>(2099.77)||
+||'''Total'''|| ||<)>'''4791.67'''||
 
 == Eugene Branch Welcomes New Certified SCD Teacher Kalindi Devi-Dasi  ==
 by Leone Burger

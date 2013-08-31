@@ -525,6 +525,13 @@ a.slidesjs-navigation:focus {
 	display: inline;
 }
 
+#gazette td p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
 @media screen and (max-width: 600px) {
 	.slidesjs-pagination {
 		display: none;
