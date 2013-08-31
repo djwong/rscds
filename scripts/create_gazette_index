@@ -56,7 +56,7 @@ if [ "${deps}" -gt 0 ]; then
 else
 	YEAR=
 	echo "<ul>" > "${FILE}"
-	for i in gazette/*.txt; do
+	ls -r gazette/*.txt | while read i; do
 		is_hidden="$(grep -c 'noindex' "$i")"
 		if [ "${is_hidden}" -gt 0 ]; then
 			continue
