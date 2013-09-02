@@ -1,5 +1,5 @@
 Name: Jennifer's Jig
-Format; 8x32J
+Format: 8x32J
 Source: John Drewry, Silver City Book
 BARS
 1-4      1s2s3s set and cross by the right;
