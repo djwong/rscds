@@ -1,2 +1,10 @@
 Name: Enniskillen Dragoons
-Format: Unknown
+Format: 4x32J
+Source: Tom Isbiki, Jean Patrick Collection
+BARS
+1-8	1st couple lead down the middle for three, up for three, cast off into 2nd place. 2nd couple step up on bars 7 and 8.
+9-12	1st couple and 3rd couple turn by the right hand ending as in diagram 1 (1st couple facing up in the center, 3rd couple facing down in the center, ladies on the men’s side, men on the ladies side of the dance).
+13-16	1st couple set to 2nd couple. 1st couple turn 2nd couple ending in 2nd place on opposite sides. 3rd couple dance similarly with 4th couple, ending in 3rd place on opposite sides. 
+17-20	1st couple and 3rd couple dance half rights and lefts.
+21-24	1st couple and 3rd couple turn by the right hand, 3rd couple finishing in 2nd place. 1st couple stays in the center while 4th couple steps in.
+25-32	1st and 4th couples poussette.
