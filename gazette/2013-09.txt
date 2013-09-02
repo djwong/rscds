@@ -3,7 +3,7 @@
 <div class="tagline">Reel of Three at the Portland Highland Games</div>
 }}}
 {{{#!wiki comment
-pubdate = Fall 2013
+pubdate = September / October 2013
 noindex
 }}}
 
