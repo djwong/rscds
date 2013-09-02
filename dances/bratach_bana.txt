@@ -1,0 +1,13 @@
+Name: Bratach Bàna
+Format: 8x32R
+Source: John Drewry, Bon Accord Book
+BARS
+1-4      1s turn by the right and cast;
+5-8      1s half figures of 8 (L up, M down);
+9-12    1s half reel of 3 on opposite sides;
+13-16  1M3s half reel of 3 across (at top) WHILE 1L2s half reel of 3 across;
+17-18  1s turn by the left;
+19-20  1s turn first corners (in partners' first corners' positions) by the right;
+21-24  1s pass partner by the right, turn second corners (in partners' second corners' positions) by the right and take promenade hold;
+25-28  1M2L 1L3M promenade across the set (giving right shoulder) finishing 3L1L3M on M's side, 2L1M2M on L's side;
+29-32  half diagonal rights and lefts, 1L diagonally down to start, 1M up. 

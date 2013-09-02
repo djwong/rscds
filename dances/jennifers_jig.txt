@@ -1,0 +1,11 @@
+Name: Jennifer's Jig
+Format; 8x32J
+Source: John Drewry, Silver City Book
+BARS
+1-4      1s2s3s set and cross by the right;
+5-8      repeat bars 1-4 (2s finish facing out);
+9-16    1s2s double figures of 8 (1s cross down to start);
+17-24  1s with 2s3s Inveran reels;
+25-27  1s followed by 2s lead down;
+28-29  1s 2s turn by the right;
+30-32  2s followed by 1s lead up, finishing 2s1s3s. 

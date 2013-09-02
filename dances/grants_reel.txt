@@ -1,0 +1,8 @@
+Name: Grant's Reel
+Format: 8x32S
+Source: Rutherford RSCDS, Book 14
+BARS
+1- 8 1M+2L set and turn 2H, 1L+2M repeat
+9-16 1s lead down the middle and back to top
+17-24 1s set and cast to 2nd place and dance DoSiDo with partner
+25-32 2s+1s dance R&L 

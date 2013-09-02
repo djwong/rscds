@@ -1,0 +1,11 @@
+Name: Duke Of Perth
+Format: 8x32R
+Source: Anon, RSCDS Book 1
+BARS
+1-4      1s turn by the right and cast;
+5-8      1s turn by the left, finishing facing first corners;
+9-16    1s turn corner, partner, corner, partner;
+17-20  1s set to first corners and turn both hands;
+21-24  1s set to second corners and turn both hands;
+25-30  2s1s3s reels of 3 on sides (left shoulder to first corners to start);
+31-32  1s cross to own sides, finishing 2s1s3s. 
