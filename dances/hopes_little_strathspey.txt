@@ -2,9 +2,9 @@ Name: Hope Little's Strathspey
 Source: Roy Goldring, Graded and Social Dances
 Format: 3x32S
 BARS
-1-4      1s2s right hands across, 1L finishing facing out;
-5-6      1s chase clockwise ¼ around the corners' square;
-7-8      1s continue to chase clockwise around the corners' square to 3rd place on opposite sides WHILE 2s3s step up, 3s finishing facing down, 1s up;
-9-16    2s3s1s grand chain;
-17-24  1s set, turn both hands halfway, lead (nearer hands joined) to the top and cast to 3rd place on own sides;
-25-32  2s3s1s 6 hands round and back. 
+1-4	1s2s right hands across, 1L finishing facing out;
+5-6	1s chase clockwise ¼ around the corners' square;
+7-8	1s continue to chase clockwise around the corners' square to 3rd place on opposite sides WHILE 2s3s step up, 3s finishing facing down, 1s up;
+9-16	2s3s1s grand chain;
+17-24	1s set, turn both hands halfway, lead (nearer hands joined) to the top and cast to 3rd place on own sides;
+25-32	2s3s1s 6 hands round and back. 

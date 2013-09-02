@@ -2,7 +2,7 @@ Name: Mr. Michael Bear's Reel
 Format: 8x32R
 Source: S Phillips, 2nd Graded Book
 BARS
-1- 8 1s+2s dance RH across and LH back
-9-16 1s cast below 3s and dance up to top then cast to 2nd place
-17-24 1s+3s dance RH across and LH back
-25-32 All circle 6H round and back 
+1- 8	1s+2s dance RH across and LH back
+9-16	1s cast below 3s and dance up to top then cast to 2nd place
+17-24	1s+3s dance RH across and LH back
+25-32	All circle 6H round and back 

@@ -2,7 +2,7 @@ Name: Flowers of Edinburgh
 Format: 8x32R
 Source: RSCDS Bk 1
 BARS
-1- 8 1L followed by partner casts below 3s, 1L crosses and dances up behind Men as 1M dances up centre to 1st places on opposite side and 1s set
-9-16 1M followed by partner repeat above Fig and set in own places
-17-24 1s lead down the middle and back
-25-32 1s+2s dance Poussette. 213 
+1- 8	1L followed by partner casts below 3s, 1L crosses and dances up behind Men as 1M dances up centre to 1st places on opposite side and 1s set
+9-16	1M followed by partner repeat above Fig and set in own places
+17-24	1s lead down the middle and back
+25-32	1s+2s dance Poussette. 213 

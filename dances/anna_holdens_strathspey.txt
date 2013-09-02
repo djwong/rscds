@@ -2,17 +2,17 @@ Name: Anna Holden's Strathspey
 Source: John Drewry, RSCDS Book 42
 Format: 8x32S
 BARS
-1-4      1s2s right hands across, 2s finishing facing out;
-5-6      1s cross down to 2nd place on opposite sides, finishing facing out WHILE 2s cast up;
-7-8      2M1L turn ¾ by the right WHILE 2L1M turn ¾ by the left, 2M 2L making a polite turn to finish 2M1L1M2L in line across, all facing down, nearer hands joined;
-9-11    all lead down and release hands;
-12-12  1s turn about WHILE 2s cast to meet below them, finishing all facing up, nearer hands joined;
-13-14  1s followed by 2s lead up;
-15-16  1s cast to 2nd place on opposite sides WHILE 2s lead up to 1st place;
-17-18  2M1L 2L1M take hands on the sides and set facing across the set;
-19-20  all petronella turn in tandem, finishing 2L1M just above 1st position facing down, 2M1L just below 2nd position facing up;
-21-22  2L1M 2M1L set facing up and down;
-23-24  all petronella turn in tandem, finishing in original places, 2s on opposite sides;
-25-26  1s2s set;
-27-28  1s2s 4 hands round halfway;
-29-32  1s turn both hands 1½ times, finishing 2s1s. 
+1-4	1s2s right hands across, 2s finishing facing out;
+5-6	1s cross down to 2nd place on opposite sides, finishing facing out WHILE 2s cast up;
+7-8	2M1L turn ¾ by the right WHILE 2L1M turn ¾ by the left, 2M 2L making a polite turn to finish 2M1L1M2L in line across, all facing down, nearer hands joined;
+9-11	all lead down and release hands;
+12-12	1s turn about WHILE 2s cast to meet below them, finishing all facing up, nearer hands joined;
+13-14	1s followed by 2s lead up;
+15-16	1s cast to 2nd place on opposite sides WHILE 2s lead up to 1st place;
+17-18	2M1L 2L1M take hands on the sides and set facing across the set;
+19-20	all petronella turn in tandem, finishing 2L1M just above 1st position facing down, 2M1L just below 2nd position facing up;
+21-22	2L1M 2M1L set facing up and down;
+23-24	all petronella turn in tandem, finishing in original places, 2s on opposite sides;
+25-26	1s2s set;
+27-28	1s2s 4 hands round halfway;
+29-32	1s turn both hands 1½ times, finishing 2s1s. 

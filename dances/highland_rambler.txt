@@ -2,8 +2,8 @@ Name: The Highland Rambler
 Format: 8x40R
 Source: R Goldring, Leeds Silver Jubilee
 BARS
-1- 8 1s dance in and cast to 2nd place, dance RH across with 3s
-9-16 2s+1s dance LH across, 1L followed by partner cast up round 2L and dance down middle to 1L between 3s and 1M between 2s
-17-24 1s+2s+3s dance down the middle and back
-25-32 1M followed by partner cast down round 2L to 2nd places on own side and turn RH
-33-40 2s+1s+3s circle 6H round and back 
+1- 8	1s dance in and cast to 2nd place, dance RH across with 3s
+9-16	2s+1s dance LH across, 1L followed by partner cast up round 2L and dance down middle to 1L between 3s and 1M between 2s
+17-24	1s+2s+3s dance down the middle and back
+25-32	1M followed by partner cast down round 2L to 2nd places on own side and turn RH
+33-40	2s+1s+3s circle 6H round and back 

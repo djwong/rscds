@@ -2,7 +2,7 @@ Name: The Frisky
 Format: 8x32J
 Source: R Bremner RSCDS Bk 26
 BARS
-1- 8 1s turn RH and cast 1 place, turn LH and cast down 1 place
-9-16 2s+3s+1s circle 6H round and back
-17-24 1s lead up to top and 1s+2s set twice
-25-32 1s+2s dance ½ R&L, set and cross RH to own sides 
+1- 8	1s turn RH and cast 1 place, turn LH and cast down 1 place
+9-16	2s+3s+1s circle 6H round and back
+17-24	1s lead up to top and 1s+2s set twice
+25-32	1s+2s dance ½ R&L, set and cross RH to own sides 

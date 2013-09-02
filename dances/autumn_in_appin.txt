@@ -3,15 +3,15 @@ Source: John Drewry,  RSCDS Book 31
 Format: 4x32S
 Note: 3s and 4s cross on second chord.
 BARS
-1-4      2s 3s petronella turn into the centre and set to partners (Mn back to back);
-5-6      2s 3s turn partner ¾ by the right;
-7-8      2s 3s right hands across halfway, finishing with 2M3L in promenade hold facing the M's side and 3M2L in promenade hold facing the Ls' side;
-9-10    1s 4s petronella turn to the centre line WHILE 2M3L promenade out and up on the M's side WHILE 3M2L promenade out and down on the Ls' side;
-11-12  1s 4s set to partners WHILE 2M3L cross between 1s WHILE 3M2L cross between 4s;
-13-14  1s turn halfway by the right to face Ls' side in promenade hold WHILE 4s turn halfway by the right to face M's side in promenade hold WHILE 2M3L promenade down Ls' side WHILE 3M2L promenade up M's side;
-15-16  all promenade clockwise one place to finish in a square set, 3M2L in first place facing down, 1s in second place facing in, 2M3L in third place facing up, 4s in fourth place facing in;
-17-20  1s4s half ladies' chain;
-21-24  2s3s half Men's Chain with an extra half turn so that 2L 3L finish on partner's left;
-25-26  all set facing the centre;
-27-28  all 8 hands round to the left;
-29-32  all dance toward the centre and cast to the right, finishing 2s4s1s3s in the side lines of the lengthwise set.
+1-4	2s 3s petronella turn into the centre and set to partners (Mn back to back);
+5-6	2s 3s turn partner ¾ by the right;
+7-8	2s 3s right hands across halfway, finishing with 2M3L in promenade hold facing the M's side and 3M2L in promenade hold facing the Ls' side;
+9-10	1s 4s petronella turn to the centre line WHILE 2M3L promenade out and up on the M's side WHILE 3M2L promenade out and down on the Ls' side;
+11-12	1s 4s set to partners WHILE 2M3L cross between 1s WHILE 3M2L cross between 4s;
+13-14	1s turn halfway by the right to face Ls' side in promenade hold WHILE 4s turn halfway by the right to face M's side in promenade hold WHILE 2M3L promenade down Ls' side WHILE 3M2L promenade up M's side;
+15-16	all promenade clockwise one place to finish in a square set, 3M2L in first place facing down, 1s in second place facing in, 2M3L in third place facing up, 4s in fourth place facing in;
+17-20	1s4s half ladies' chain;
+21-24	2s3s half Men's Chain with an extra half turn so that 2L 3L finish on partner's left;
+25-26	all set facing the centre;
+27-28	all 8 hands round to the left;
+29-32	all dance toward the centre and cast to the right, finishing 2s4s1s3s in the side lines of the lengthwise set.
