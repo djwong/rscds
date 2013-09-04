@@ -3,7 +3,10 @@ AuthName "Ghillie Gazette"
 # (Following line optional)
 AuthBasicProvider file
 AuthUserFile %DEST%/.users
-Require user roaring
+
+<Files "*2013*">
+	Require valid-user
+</Files>
 
 <Files ".users">
 	Deny from all
