@@ -31,6 +31,7 @@ import sys
 import cgi
 import hashlib
 import uuid
+import os
 
 def write_dance(dance_name, output):
 	dance_fname = 'dances/'
@@ -72,7 +73,11 @@ def write_dance(dance_name, output):
 					youtube_str = '<span class="crib_youtube">&nbsp;[<a href="http://www.youtube.com/watch?v=%s">video</a>]</span>' % youtube
 				else:
 					youtube_str = ''
-				output.write('<tr class="crib_header" onclick="crib_toggle(\'crib_%s\');"><td><span id="crib_%s_ctl" class="crib_ctl">&#9654;</span><span class="crib_name">%s</span> (%s)%s</td><td>%s</td></tr>\n' % (dance_id, dance_id, cgi.escape(name), cgi.escape(fmt), youtube_str, cgi.escape(source)))
+				try:
+					output.write('<tr class="crib_header" onclick="crib_toggle(\'crib_%s\');"><td><span id="crib_%s_ctl" class="crib_ctl">&#9654;</span><span class="crib_name">%s</span> (%s)%s</td><td>%s</td></tr>\n' % (dance_id, dance_id, cgi.escape(name), cgi.escape(fmt), youtube_str, cgi.escape(source)))
+				except Exception as e:
+					print("%s: %s" % (dance_fname, e))
+					raise
 				output.write('<tr id="crib_%s" class="crib_steps"><td colspan="2">\n' % dance_id)
 				output.write('	<table class="crib_step_table">\n')
 				for note in notes:
@@ -126,6 +131,10 @@ if __name__ == '__main__':
 				outfname = fname[:dot_location] + ".crib"
 			else:
 				outfname = fname + ".crib"
-			generate_crib(open(fname), open(outfname, 'w'))
+			try:
+				generate_crib(open(fname), open(outfname, 'w'))
+			except:
+				os.remove(outfname)
+				sys.exit(1)
 	else:
 		print_help()
