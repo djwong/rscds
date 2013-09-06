@@ -40,11 +40,10 @@ if [ "${deps}" -gt 0 ]; then
 	echo
 
 	# How to build the gazette html files
-	for i in gazette/*.txt; do
-		html_url="$(echo "$i" | sed -e 's/.txt$/.html/g')"
-		htmlin_url="$(echo "$i" | sed -e 's/.txt$/.html.in/g')"
-		echo "${html_url}: ${htmlin_url} scripts/html.sed scripts/cribs.sed templates/foot.txt templates/head_gg.txt templates/body.txt regular_nav.txt upcoming_events_short.html"
-		scripts/sed_deps.py scripts/*.sed : "${htmlin_url}"
+	for gazette_file in gazette/*.txt; do
+		html_url="$(echo "${gazette_file}" | sed -e 's/.txt$/.html/g')"
+		htmlin_url="$(echo "${gazette_file}" | sed -e 's/.txt$/.html.in/g')"
+		echo "${html_url}: ${htmlin_url} scripts/html.sed scripts/cribs.sed templates/foot.txt templates/head_gg.txt templates/body.txt regular_nav.txt upcoming_events_short.html $(scripts/sed_deps.py scripts/*.sed : "${gazette_file}" | sed -e 's/^.*://g')"
 	done
 
 	# How to build the index
