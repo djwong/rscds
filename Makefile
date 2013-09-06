@@ -45,7 +45,7 @@ sed.d: scripts/css.sed scripts/html.sed scripts/js.sed
 people.d: data/people.csv
 	scripts/contacts -d > people.d
 
-gazette.d:
+gazette.d: scripts/cribs.sed
 	scripts/create_gazette_index dep gazette_index.html > gazette.d
 
 scripts/cribs.sed:
