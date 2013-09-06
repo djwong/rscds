@@ -1,0 +1,13 @@
+Name: Hooper's Jig
+Source: Anon, 99 More Scottish Country Dances
+Format: 8x32J
+BARS
+1-4	All clap, 1s cross (giving right shoulder, no hands) and cast;
+5-8	1s3s right hands across;
+9-12	all clap, 1s cross (giving right shoulder, no hands) and cast up;
+13-16	1s2s left hands across;
+17-18	1M3L cross diagonally by the right;
+19-20	1L3M cross diagonally by the right;
+21-22	1M3L cross diagonally by the right;
+23-24	1M cast WHILE 2s step up WHILE 1L3M cross diagonally by the left, 1L finishing in 2nd place;
+25-32	2s1s rights and lefts. 

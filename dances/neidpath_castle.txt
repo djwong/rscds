@@ -1,0 +1,12 @@
+Name: Neidpath Castle
+Source: Derek Haynes, RSCDS Book 22
+Format: 3x32S
+BARS
+1-2	All set on the sides;
+3-6	all turn both hands twice;
+7-8	all set on the sides;
+9-16	grand chain;
+17-20	1s lead down between 2s and cast down round 3s;
+21-24	1s lead up between 3s and cast up round 2s;
+25-28	1s2s half poussette;
+29-32	1s3s half poussette, finishing 2s3s1s. 

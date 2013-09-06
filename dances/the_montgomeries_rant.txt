@@ -1,0 +1,13 @@
+Name: The Montgomeries' Rant
+Source: Castle Menzies Mss,   RSCDS Book 10
+Format: 8x32R
+BARS
+1-4	1s cross by the right and cast;
+5-8	1s cross by the left and cast (1L up, 1M down);
+9-16	1L2s 1M3s reels of 3 across, 1s finish facing 2L;
+17-18	1s set to 2L and turn about to face 3M;
+19-20	1s set to 3M and turn ¼ anticlockwise (1M dancing backwards) to face 3L;
+21-22	1s set to 3L and turn about to face 2M;
+23-24	1s set to 2M, finishing 1M facing up, 1L down;
+25-30	1L2M3M, 1M2L3L reels of 3 on opposite sides (right shoulder to second corners to start);
+31-32	1s cross to 2nd place (by the left is preferable). 

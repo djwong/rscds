@@ -1,0 +1,11 @@
+Name: Sugar Candie
+Source: Anon, RSCDS Book 26
+Format: 8x32S
+BARS
+1-2	1s set;
+3-8	1s cast, cross, cast round first corners and finish back to back, 1L facing 2s, 1M facing 3s;
+9-12	2s1L 3s1M 3 hands round to the left, 1s turning on the spot to finish facing each other;
+13-16	1s set and turn ¾ both hands to finish facing first corners;
+17-24	1s turn corner, partner, corner, partner;
+25-30	reels of 3 on opposite sides (1s give left shoulder to first corner);
+31-32	1s cross by the right to own sides. 

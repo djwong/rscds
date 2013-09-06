@@ -1,0 +1,11 @@
+Name: The Wild Geese
+Source: Anon, RSCDS Book 24
+Format: 8x32J
+BARS
+1-2	1s 3s set advancing;
+3-4	1M1L3M3L balance in line in the centre of the set;
+5-8	1s turn by the right halfway and cast to 3rd place WHILE 3s turn by the right ¾ and lead up to the top;
+9-16	3s 1s repeat from new places, finishing in original places;
+17-20	1s lead down;
+21-24	2s step up WHILE 1s lead up to finish in 2nd place;
+25-32	2s1s rights and lefts. 

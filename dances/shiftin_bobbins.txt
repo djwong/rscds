@@ -1,0 +1,13 @@
+Name: Shiftin' Bobbins
+Source: R Clowes, Ormskirk Scottish Dances
+Format: 8x32R
+BARS
+1-2	1s cross down to face out between corners;
+3-4	2s1s3s set on the sides;
+5-8	1s cast up, meet, lead down;
+9-12	1L2M3M right hands across WHILE 1M2L3L left hands across;
+13-16	1s, followed by 2s 3s, lead down;
+17-20	3s, followed by 2s 1s, lead up and cast, 3s finishing in 3rd place;
+21-24	2M1L3M left hands across WHILE 2L1M3L right hands across;
+25-28	1s lead to the top and cast;
+29-32	1s half figures of 8 round 2s, finishing 2s1s3s. 
