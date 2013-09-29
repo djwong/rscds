@@ -15,3 +15,4 @@
 {"start": "2013/10/05 19:00", "type": "ball", "local": false, "name": "High Desert Ball", "location": "Redmond, Ore.", "url": "http://hdccd.azurewebsites.net/ball/HdccdFlyerRegistrationAndBriefs2013.pdf"},
 {"start": "2013/10/26 19:00", "type": "ball", "local": false, "name": "Bellingham Ball", "location": "Bellingham, Wash.", "url": "http://www.bellinghamscd.org/Dances%20and%20Events%20Pages/Workshop%20&%20Ball/NOT%20ACTIVE%20Dec%20-%20July/Workshop%20&%20Ball%20Main%20Pge-2012.htm"},
 {"start": "2013/11/01 9:00", "type": "ball", "local": false, "name": "Asilomar Workshop and Ball", "location": "Monterey, Calif.", "url": "http://asilomar.rscds-sf.org/"},
+{"start": "2014/05/02 18:00", "type": "workshop", "local": false, "name": "Youth Weekend 2014", "location": "Bellingham, Wash.", "url": "http://youthweekendwest.com/"},
