@@ -1,0 +1,8 @@
+Name: Bob Campbell
+Format: 8x32S, 3C (4C set)
+Source: J. Drewry, Canadian Book
+BARS
+ 1- 8	1s+2s+3s set, turn 2H to end 1s facing down & 2s+3s facing up in centre, 1s+2s set advancing passing LSh to change places while 3s set, 2s turn 2H while 1s+3s set advancing to change places
+ 9-16	2s+3s set advancing to change places while 1s turn 2H, 3s turn 2H while 2s+1s set advancing to change places & repeat to 1 2 3
+17-24	1s+2s dance the Rondel ending with 1s crossing to opposite sides
+25-32	1L+3M turn LH while 1M+3L turn RH, 2M+1L 1/2 turn RH while 2L+1M 1/2 turn LH, 1s cross down to 2nd place as 2s dance out & up to 1st place

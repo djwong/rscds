@@ -1,0 +1,8 @@
+Name: J. B. Milne
+Format: 8x32R, 3C (4C set)
+Source: H. Foss, Angus Fitchet Album
+BARS
+ 1- 8	1M+2L set advancing & turn RH, 1L+2M set advancing & turn RH
+ 9-16	1s set to each other & turn 2H, cast to 2nd place & Petronella turn to Lady between 2s & Man between 3s
+17-24	1s set & 3/4 turn RH while 2s+3s change places RH on sides & set, 1s repeat but 2s & 3s cross RH & set
+25-32	1s set & change places RH while 2s+3s change places RH on sides & set, 1s cast round corner to 2nd pl own sides as 2s+3s cross RH & all set

@@ -1,0 +1,8 @@
+Name: Light and Airy
+Format: 8x32J, 3C (4C set)
+Source: W. Campbell, RSCDS Book 4
+BARS
+ 1- 8	1s set & cast to 3rd place, set & cast back to top
+ 9-16	1s lead down the middle & back
+17-24	1s+2s dance Allemande (1s end facing 1st corners)
+25-32	1s turn 1st corners RH, partner LH, 2nd corner RH, partner LH to end in 2nd place own sides

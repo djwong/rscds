@@ -1,0 +1,8 @@
+Name: The Highland Fair
+Format: 8x32J, 2C (4C set)
+Source: Book of Graded SCDs
+BARS
+1- 8	1s cast, dance down behind own lines, turn outwards and dance back to place
+9-16	1s+2s turn partners RH back to place and then turn LH
+17-24	1s followed by 2s, lead down the middle and 2s lead back to the top
+25-32	2s+1s dance R&L 
