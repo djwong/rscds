@@ -4,3 +4,5 @@
 {"start": "2013/06/30 11:30", "type": "news", "name": "July 2013 Ghillie Gazette Published", "details": "The <a href=\"http://portlandscottishdancers.org/gazette/2013-07.html\">summer issue</a> is now available."},
 {"start": "2013/07/20 22:09", "type": "news", "name": "Portland Highland Games", "details": "See the newspaper photo of the <a href=\"http://photos.oregonlive.com/photo-essay/2013/07/2013_highland_games.html#photo-13117698\">MacKenzie clan</a> at the highland games."},
 {"start": "2013/09/02 23:23", "type": "news", "name": "September Ghillie Gazette out!", "details": "Welcome back from summer break!  There is a new <a href=\"http://portlandscottishdancers.org/gazette/2013-09.html\">Ghillie Gazette</a> to read."},
+{"start": "2013/10/05 01:26", "type": "news", "name": "High Desert Ball", "details": "Several dancers attended the High Desert ball in Redmond, Ore., and had a wonderful time!"},
+{"start": "2013/10/07 01:26", "type": "news", "name": "35th Ball Program Announced!", "details": "The program for our 35th ball has been announced on the <a href=\"workshop.html\">workshop</a> page."},
