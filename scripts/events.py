@@ -183,12 +183,15 @@ class event_queries:
 	def portland_ball_crib(events):
 		'''Generate a crib of the most recent complete Portland ball.'''
 		ready_balls = [x for x in events.balls() if (x['local'] and x['ready'])]
+		crib_fname = None
 		for evt in ready_balls:
 			if 'crib' in evt:
-				crib.generate_crib(open('cribs/' + evt['crib']), sys.stdout)
-			else:
-				print('We are sorry, but there is no posted program yet.  Please check back later.')
-			return
+				crib_fname = evt['crib']
+
+		if crib_fname == None:
+			print('We are sorry, but there is no posted program yet.  Please check back later.')
+		else:
+			crib.generate_crib(open('cribs/' + crib_fname), sys.stdout)
 
 	def next_travel_summary(events):
 		'''When and where are the next three non-local events?'''
