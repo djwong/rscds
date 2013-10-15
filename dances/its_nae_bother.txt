@@ -1,0 +1,8 @@
+Name: It's Nae Bother
+Format: 8x32J 2C (4C set)
+Source: D. Haynes, Carnforth Coll. 4
+BARS
+1- 8	1s+2s set, Ladies cross, passing partners RSh chase clockwise to own side (having changed places)
+9-16	1s+2s dance RH across and LH back
+17-24	1s+2s set, Men cross, passing opposite Lady RSh chase clockwise to own sides
+25-32	2s+1s dance R&L 

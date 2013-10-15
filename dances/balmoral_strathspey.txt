@@ -1,0 +1,11 @@
+Name: The Balmoral Strathspey
+Source: John A Charles, RSCDS Book 22
+Format: 4x32S (4C set)
+BARS
+1-8	1s+2s 3s+4s dance rights and lefts;
+9-10	1s, 2s, 3s, 4s set;
+11-12	1s+2s 3s+4s right hands across halfway;
+13-14	2s, 1s, 4s, 3s set;
+15-16	2s, 1s, 4s, 3s cross by the right to own sides;
+17-24	2s, 1s, 4s, 3s reels of four on own sides;
+25-32	2s stand WHILE 1s4s3s allemande, finishing 2s3s4s1s. 

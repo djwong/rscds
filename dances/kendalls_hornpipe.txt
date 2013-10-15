@@ -1,0 +1,8 @@
+Name: Kendall's Hornpipe
+Format: 8x32J 2C (4C set)
+Source: Bk of Graded SCDs
+BARS
+1- 8	1s+2s dance R&L
+9-16	1s lead down for 3, up for 3, cross over and cast down to 2nd place
+17-24	2s+1s dance Ladies Chain
+25-32	2L+1M and 2M+1L Adv+Ret, 1s turn RH 1½ times 
