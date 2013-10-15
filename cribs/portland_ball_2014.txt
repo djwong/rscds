@@ -13,8 +13,8 @@ D: The Highland Fair
 D: The Irish Rover
 D: The Robertson Rant
 D: The Flight of the Falcon
-D: Neidpath Castle
 D: Jessie's Hornpipe
+D: Neidpath Castle
 D: The De'il Amang the Tailors
 I: Waltz
 I: Polka + Auld Lang Syne
