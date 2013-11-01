@@ -1,4 +1,4 @@
-<form method="GET" id="membership" action="/member_form.php">
+<form method="GET" id="membership" action="membership_form.php">
 	<p class="title">Royal Scottish Country Dance Society, Portland OR Branch Membership Form 2013-2014</p>
 	<table id="field_box">
 		<tr><td><label for="name">Name(s):</label></td><td><input type="text" class="text" id="name"/></td></tr>
