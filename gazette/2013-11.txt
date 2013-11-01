@@ -3,7 +3,6 @@
 <div class="tagline">Come as a Dance, October 2013</div>
 }}}
 {{{#!wiki comment
-noindex
 pubdate = November/December 2013
 }}}
 

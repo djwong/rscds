@@ -6,3 +6,4 @@
 {"start": "2013/09/02 23:23", "type": "news", "name": "September Ghillie Gazette out!", "details": "Welcome back from summer break!  There is a new <a href=\"http://portlandscottishdancers.org/gazette/2013-09.html\">Ghillie Gazette</a> to read."},
 {"start": "2013/10/05 01:26", "type": "news", "name": "High Desert Ball", "details": "Several dancers attended the High Desert ball in Redmond, Ore., and had a wonderful time!"},
 {"start": "2013/10/07 01:26", "type": "news", "name": "35th Ball Program Announced!", "details": "The program for our 35th ball has been announced on the <a href=\"workshop.html\">workshop</a> page."},
+{"start": "2013/11/01 11:41", "type": "news", "name": "November Ghillie Gazette out!", "details": "There is a new <a href=\"http://portlandscottishdancers.org/gazette/2013-11.html\">Ghillie Gazette</a> to read."},
