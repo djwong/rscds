@@ -2,11 +2,11 @@ D: The Provost Wynd
 D: Strathmore
 D: Sandy Butterly
 D: General Stuart's Reel
-#D: First Love
+D: First Love
 D: The Blackadder Jig
 D: Enniskillen Dragoons
 D: Hope Little's Strathspey
-#D: Florrie's Fancy
+D: Florrie's Fancy (Portland)
 D: Mrs. Stewarts Jig
 D: Autumn in Appin
 D: Flowers of Edinburgh
