@@ -1,0 +1,22 @@
+<form method="GET" id="membership" action="/member_form.php">
+	<p class="title">Royal Scottish Country Dance Society, Portland OR Branch Membership Form 2013-2014</p>
+	<table id="field_box">
+		<tr><td><label for="name">Name(s):</label></td><td><input type="text" class="text" id="name"/></td></tr>
+		<tr><td><label for="children">Children&nbsp;under&nbsp;16:</label></td><td><input type="text" class="text" id="children"/></td></tr>
+		<tr><td><label for="address">Address:</label></td><td><input type="text" class="text" id="address"/></td></tr>
+		<tr><td><label for="phone">Phone:</label></td><td><input type="text" class="text" id="phone"/></td></tr>
+		<tr><td><label for="email">Email:</label></td><td><input type="text" class="text" id="email"/></td></tr>
+	</table>
+	<table id="type_box">
+		<tr><th colspan="2">Membership Type:</th></tr>
+		<tr><td><input type="radio" name="type" id="type_single" value="single"/> <label for="type_single">Single RSCDS</label></td><td>$32</td></tr>
+		<tr><td><input type="radio" name="type" id="type_family" value="family"/> <label for="type_family">Family RSCDS</label></td><td>$47</td></tr>
+		<tr><td><input type="radio" name="type" id="type_local" value="local"/> <label for="type_local">Local</label></td><td>$7</td></tr>
+	</table>
+	<p><b>Note: Join as a family <i>only</i> if there are two adults; one adult and one child should joint at the single rate.</b></p>
+	<p>Local membership applies to those who have their RSCDS membership through another branch or do not wish to become full RSCDS members at this time.  Local members receive the <i>Ghillie Gazette</i> and a listing in our membership roster.</p>
+	<p>Please make check payable to “RSCDS Portland OR Branch” and mail or give to Cherrie Loutzenhiser, 19051 Indian Springs Circle, Lake Oswego, OR 97035.</p>
+	<div class="isfun">Is Scottish Country Dance fun? <input type="checkbox" id="org"/> <label for="org">Yes</label></div>
+	<input type="submit" value="Register"/>
+	<input type="reset" value="Start Over"/>
+</form>

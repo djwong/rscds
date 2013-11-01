@@ -37,6 +37,18 @@ kept up to date at <u>http://portlandscottishdancers.org/events.html</u>.</p>
 %%UPCOMING_EVENTS_SHORT%%
 </div>
 </div>
+<div id="gazette_membership">
+<h2>Membership</h2>
+<p>If you want to vote in the Annual General Meeting (AGM), your membership
+must be renewed before the Meeting, which is the second Monday in May.</p>
+<div id="gazette_membership_screen">
+<p>If your are not a current member, you can <a href="/members.html">register
+here</a>.</p>
+</div>
+<div id="gazette_membership_print">
+%%MEMBERSHIP_FORM%%
+</div>
+</div>
 </div>
 %%CLOSE_CONTENT%%
 %%FOOT%%

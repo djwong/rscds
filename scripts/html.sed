@@ -63,3 +63,5 @@ s/%ALL_CRIBS%//g
 s/%GAZETTE_INDEX%//g
 /%LAST_FIVE_NEWS%/r last_five_news.html
 s/%LAST_FIVE_NEWS%//g
+/%MEMBERSHIP_FORM%/r membership_form.html
+s/%MEMBERSHIP_FORM%//g
