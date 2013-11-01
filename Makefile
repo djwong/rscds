@@ -5,6 +5,7 @@ FRUMP_SCRIPT=$(MOINMOIN_DIR)/MoinMoin/script/export/frump.py
 FONTFORGE=fontforge
 TOOLS=$(FONTFORGE) mkdir cp sed python python3
 
+PHP=membership_form.php
 FANCY_HTML=index.html
 REGULAR_HTML=classes.html party.html workshop.html demo.html events.html about.html members.html dances.html past_programs.html
 GAZETTE_HTML=gazette/index.html gazette/.htaccess
@@ -29,7 +30,7 @@ include sed.d
 include people.d
 include gazette.d
 
-build_all: build_check calendar_check $(HTML) $(JS) $(CSS) $(GAZETTES)
+build_all: build_check calendar_check $(HTML) $(JS) $(CSS) $(GAZETTES) $(PHP)
 
 dep: $(DEPS)
 
@@ -75,7 +76,7 @@ calendar_check: data/eventdb.js
 install: all
 	mkdir -p $(DEST)
 	cp -Rlf $(BLOBS) $(DEST)
-	cp -Rf $(TOP_HTML) $(JS) $(CSS) $(DEST)
+	cp -Rf .htaccess $(PHP) $(TOP_HTML) $(JS) $(CSS) $(DEST)
 	mkdir -p $(DEST)/gazette/
 	cp -Rf $(GAZETTE_HTML) $(GAZETTES) $(DEST)/gazette/
 
@@ -89,6 +90,10 @@ regular_nav.txt: templates/navigation.txt.in
 	sed -e 's/%FANCY%//g' < $< > $@
 
 %.html: %.html.in scripts/html.sed scripts/cribs.sed
+	sed -f scripts/html.sed -f scripts/cribs.sed < $< > $@
+	scripts/fix_rel_paths $@
+
+%.php: %.php.in scripts/html.sed scripts/cribs.sed
 	sed -f scripts/html.sed -f scripts/cribs.sed < $< > $@
 	scripts/fix_rel_paths $@
 

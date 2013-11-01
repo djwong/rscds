@@ -1,0 +1,43 @@
+%HEAD%
+	<title>Membership Registration</title>
+%BODY%
+%NAVIGATION%
+%OPEN_CONTENT%
+<h1>Membership Registration</h1>
+<?php
+
+function submit_form() {
+	global $_POST;
+
+	if ($_POST['org'] != 'on') {
+		echo '<p>Sorry, but the form was not filled out correctly.  ';
+		echo 'Please go back and try again.  (Did you forget to check';
+		echo ' that Scottish Country Dance is fun?)</p>';
+
+		return;
+	}
+
+	$email = "Someone (".$_SERVER["REMOTE_ADDR"].") would like to be a "
+		."member of the Portland RSCDS!\n"
+		."\n"
+		."Name: ".$_POST['name']."\n"
+		."Children: ".$_POST['children']."\n"
+		."Address: ".$_POST['address']."\n"
+		."Phone: ".$_POST['phone']."\n"
+		."Email: ".$_POST['email']."\n"
+		."Type: ".$_POST['type']."\n"
+		."\n"
+		."They were using ".$_SERVER["HTTP_USER_AGENT"].".\n";
+
+	mail("djwong.rscds@djwong.org",
+		"RSCDS Membership Request",
+		$email
+	);
+
+	echo "<p>Thank you for your registration; it will be processed as ";
+	echo "soon as we receive your payment.</p>\n";
+}
+submit_form();
+?>
+%CLOSE_CONTENT%
+%FOOT%
