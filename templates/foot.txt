@@ -17,7 +17,7 @@
 <div><a href="%ROOT_PATH%party.html">Party</a></div>
 <div><a href="%ROOT_PATH%workshop.html">Workshop and Ball</a></div>
 <div><a href="%ROOT_PATH%demo.html">Demonstrations</a></div>
-<div><a href="%ROOT_PATH%past_programs.html">Past Programs</a></div>
+<div><a href="%ROOT_PATH%past_programs.html">Dance Programs</a></div>
 				</div>
 				<div class="three-up left">
 <div style="font-weight: bold;">Dance With Others</div>
