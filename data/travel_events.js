@@ -21,5 +21,6 @@
 {"start": "2014/02/15 9:00", "type": "dance", "local": false, "name": "Love to Dance Workshop", "location": "Vancouver, B.C."},
 {"start": "2014/03/22 19:00", "type": "dance", "local": false, "name": "Heather Ball", "location": "Vancouver, B.C."},
 {"start": "2014/05/02 18:00", "type": "workshop", "local": false, "name": "Youth Weekend 2014", "location": "Bellingham, Wash.", "url": "http://youthweekendwest.com/"},
+{"start": "2014/05/23 11:00", "type": "dance", "local": false, "name": "Folklife 2014", "location": "Seattle, Wash.", "url": "http://www.nwfolklife.org/"},
 {"start": "2014/06/28 19:00", "type": "dance", "local": false, "name": "Puget Sound Crossroads", "location": "Friday Harbor, Wash."},
 {"start": "2014/8/2 16:30", "type": "dance", "local": false, "name": "Summer by the Sea", "location": "Santa Cruz, Calif.", "url": "http://www.rscds-sf.org/events/pdf/SummerBytheSea.6.pdf"},
