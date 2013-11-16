@@ -67,6 +67,9 @@ function createNewSlides(element)
 }
 
 function slideshow_key(evt) {
+	if (evt.altKey || evt.ctrlKey || evt.metaKey || evt.shiftKey)
+		return;
+
 	if (evt.keyCode == 39) {
 		/* right arrow */
 		$('.slidesjs-next').click()
