@@ -76,7 +76,6 @@ function submit_form() {
 ?>%WORKSHOP_CHAIR_MAIL%
 <?php
 	echo "</p>\n";
-phpinfo();
 }
 submit_form();
 ?>
