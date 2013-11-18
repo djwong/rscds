@@ -1,0 +1,60 @@
+%HEAD%
+	<title>Workshop Registration</title>
+%BODY%
+%NAVIGATION%
+%OPEN_CONTENT%
+<h1>Workshop Registration</h1>
+<?php
+
+function submit_form() {
+	global $_POST;
+
+	if ($_POST['org'] != 'on') {
+		echo '<p>Sorry, but the form was not filled out correctly.  ';
+		echo 'Please go back and try again.  (Did you forget to check';
+		echo ' that Scottish Country Dance is fun?)</p>';
+
+		return;
+	}
+
+	$email = "Someone (".$_SERVER["REMOTE_ADDR"].") would like to be a "
+		."member of the Portland RSCDS!\n"
+		."\n"
+		."Name: ".$_POST['name1']."\n"
+		."Class: ".$_POST['class1']."\n"
+		."Years: ".$_POST['years1']."\n"
+		."\n";
+
+	if (array_key_exists('name2', $_POST)) {
+		$email = "Name: ".$_POST['name2']."\n"
+			."Class: ".$_POST['class2']."\n"
+			."Years: ".$_POST['years2']."\n"
+			."\n";
+	}
+
+	$email = "Address: ".$_POST['address']."\n"
+		."Phone: ".$_POST['phone']."\n"
+		."Email: ".$_POST['email']."\n"
+		."Type: ".$_POST['type']."\n"
+		."\n";
+
+	$email = "Total: ".$_POST['total']."\n"
+		."They were using ".$_SERVER["HTTP_USER_AGENT"].".\n";
+
+	mail("djwong.rscds@djwong.org",
+		"RSCDS Workshop Request",
+		$email
+	);
+
+	$name = $_POST['name'];
+	$total = $_POST['total'];
+	echo "<p>Thank you, <b>".$name."</b>, for your registration; it will be processed as ";
+	echo "soon as we receive your payment.  Please send your \$$price payment to ";
+?>%WORKSHOP_CHAIR_MAIL%
+<?php
+	echo "</p>\n";
+}
+submit_form();
+?>
+%CLOSE_CONTENT%
+%FOOT%

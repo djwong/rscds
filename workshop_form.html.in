@@ -106,7 +106,7 @@
 		</tr>
 	</table>
 
-	<p><label for="total">Total:</label> <input type="number" class="fee" id="total" disabled="disabled"/></p>
+	<p><label for="total">Total:</label> <input type="number" class="fee" id="total" name="total" disabled="disabled"/></p>
 
 	<p>Lunch is included with the workshop fee.  Please tell us about specific dietary restrictions.</p>
 

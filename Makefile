@@ -5,7 +5,7 @@ FRUMP_SCRIPT=$(MOINMOIN_DIR)/MoinMoin/script/export/frump.py
 FONTFORGE=fontforge
 TOOLS=$(FONTFORGE) mkdir cp sed python python3
 
-PHP=membership_form.php
+PHP=membership_form.php workshop_form.php
 FANCY_HTML=index.html
 REGULAR_HTML=classes.html party.html workshop.html demo.html events.html about.html members.html dances.html past_programs.html
 GAZETTE_HTML=gazette/index.html gazette/.htaccess
