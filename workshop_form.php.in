@@ -62,6 +62,7 @@ function submit_form() {
 		."\n";
 
 	$email .= "Total: ".$_POST['total']."\n"
+		."\n"
 		."They were using ".$_SERVER["HTTP_USER_AGENT"].".\n";
 
 	mail("djwong.rscds@djwong.org",
@@ -71,11 +72,13 @@ function submit_form() {
 
 	$name = $_POST['name1'];
 	$total = $_POST['total'];
-	echo "<p>Thank you, <b>".$name."</b>, for your registration; it will be processed as ";
-	echo "soon as we receive your payment.  Please send your <b>".$total."</b> payment to ";
+	echo "<p>Thank you, <b>".$name."</b>, for your registration; it will ";
+	echo "be processed as soon as we receive your payment.  Please send ";
+	echo "your <b>".$total."</b> check, made out to <b>“RSCDS Portland ";
+	echo "OR Branch”</b>, to ";
 ?>%WORKSHOP_CHAIR_MAIL%
 <?php
-	echo "</p>\n";
+	echo ".</p>\n";
 }
 submit_form();
 ?>
