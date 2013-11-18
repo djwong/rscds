@@ -65,3 +65,5 @@ s/%GAZETTE_INDEX%//g
 s/%LAST_FIVE_NEWS%//g
 /%MEMBERSHIP_FORM%/r membership_form.html
 s/%MEMBERSHIP_FORM%//g
+/%WORKSHOP_FORM%/r workshop_form.html
+s/%WORKSHOP_FORM%//g
