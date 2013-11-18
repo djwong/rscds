@@ -51,6 +51,11 @@
 		<td><label for="email">Email:</label></td>
 		<td colspan="3"><input type="text" class="text" id="email" name="email"/></td>
 		</tr>
+
+		<tr>
+		<td><label for="email">Other Notes:</label></td>
+		<td colspan="3"><input type="textarea" class="text" id="other" name="other"/></td>
+		</tr>
 	</table>
 
 	<p class="title">Registration Fees</p>
@@ -110,7 +115,8 @@
 	<p><label for="total">Total:</label> <input type="text" class="fee" id="total" disabled="disabled"/></p>
 	<input type="hidden" name="total" id="total_hidden"/>
 
-	<p>Lunch is included with the workshop fee.  Please tell us about specific dietary restrictions.</p>
+	<p>Lunch is included with the workshop fee.  Please use the “Other
+	Notes” section to tell us about specific dietary restrictions.</p>
 
 	<p>Please make check payable to <b>“RSCDS Portland OR Branch”</b> and mail or give to
 %WORKSHOP_CHAIR_MAIL%

@@ -58,10 +58,14 @@ function submit_form() {
 	$email .= "\n"
 		."Address: ".$_POST['address']."\n"
 		."Phone: ".$_POST['phone']."\n"
-		."Email: ".$_POST['email']."\n"
-		."\n";
+		."Email: ".$_POST['email']."\n";
 
-	$email .= "Total: ".$_POST['total']."\n"
+	if (strlen($_POST['other']) > 0) {
+		$email .= "Other: ".$_POST['other']."\n";
+	}
+
+	$email .= "\n"
+		."Total: ".$_POST['total']."\n"
 		."\n"
 		."They were using ".$_SERVER["HTTP_USER_AGENT"].".\n";
 
