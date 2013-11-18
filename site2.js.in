@@ -148,9 +148,11 @@ function calculate_workshop_total()
 		}
 		total += units * unit_price;
 	}
+
+	var x = '';
 	if (total > 0) {
-		$('#total').val('$' + total);
-	} else {
-		$('#total').val('');
+		x = '$' + total;
 	}
+	$('#total').val(x);
+	$('#total_hidden').val(x);
 }

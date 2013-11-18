@@ -17,28 +17,27 @@ function submit_form() {
 		return;
 	}
 
-	$email = "Someone (".$_SERVER["REMOTE_ADDR"].") would like to be a "
-		."member of the Portland RSCDS!\n"
+	$email = "Someone (".$_SERVER["REMOTE_ADDR"].") would like to register "
+		."for the Portland RSCDS ball!\n"
 		."\n"
 		."Name: ".$_POST['name1']."\n"
 		."Class: ".$_POST['class1']."\n"
 		."Years: ".$_POST['years1']."\n"
 		."\n";
 
-	if (array_key_exists('name2', $_POST)) {
-		$email = "Name: ".$_POST['name2']."\n"
+	if (strlen($_POST['name2']) > 0) {
+		$email .= "Name: ".$_POST['name2']."\n"
 			."Class: ".$_POST['class2']."\n"
 			."Years: ".$_POST['years2']."\n"
 			."\n";
 	}
 
-	$email = "Address: ".$_POST['address']."\n"
+	$email .= "Address: ".$_POST['address']."\n"
 		."Phone: ".$_POST['phone']."\n"
 		."Email: ".$_POST['email']."\n"
-		."Type: ".$_POST['type']."\n"
 		."\n";
 
-	$email = "Total: ".$_POST['total']."\n"
+	$email .= "Total: ".$_POST['total']."\n"
 		."They were using ".$_SERVER["HTTP_USER_AGENT"].".\n";
 
 	mail("djwong.rscds@djwong.org",
@@ -46,13 +45,14 @@ function submit_form() {
 		$email
 	);
 
-	$name = $_POST['name'];
+	$name = $_POST['name1'];
 	$total = $_POST['total'];
 	echo "<p>Thank you, <b>".$name."</b>, for your registration; it will be processed as ";
-	echo "soon as we receive your payment.  Please send your \$$price payment to ";
+	echo "soon as we receive your payment.  Please send your <b>".$total."</b> payment to ";
 ?>%WORKSHOP_CHAIR_MAIL%
 <?php
 	echo "</p>\n";
+phpinfo();
 }
 submit_form();
 ?>
