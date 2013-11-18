@@ -577,6 +577,7 @@ a.slidesjs-navigation:focus {
 #membership {
 	border: 2px solid black;
 	padding: 1em;
+	page-break-before: always;
 }
 #membership label {
 	white-space: nowrap;
@@ -674,3 +675,13 @@ a.slidesjs-navigation:focus {
 	}
 }
 
+/* Other stuff */
+#workshop_schedule td {
+	text-align: right;
+}
+#workshop_schedule td:nth-child(1) {
+	padding-right: 1em;
+}
+#workshop_schedule td:nth-child(2) {
+	padding-right: 0.2em;
+}
