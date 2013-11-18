@@ -15,7 +15,9 @@
 	</table>
 	<p><b>Note for families: Join at the family rate <i>only</i> if there are two adults; a single adult should join at the single rate.</b></p>
 	<p>Local membership applies to those who have their RSCDS membership through another branch or do not wish to become full RSCDS members at this time.  Local members receive the <i>Ghillie Gazette</i> and a listing in our membership roster.</p>
-	<p>Please make check payable to “RSCDS Portland OR Branch” and mail or give to Cherrie Loutzenhiser, 19051 Indian Springs Circle, Lake Oswego, OR 97035.</p>
+	<p>Please make check payable to <b>“RSCDS Portland OR Branch”</b> and mail or give to
+%MEMBERSHIP_CHAIR_MAIL%
+	.</p>
 	<div class="isfun">Is Scottish Country Dance fun? <input type="checkbox" id="org" name="org"/> <label for="org">Yes</label></div>
 	<input type="submit" value="Register"/>
 	<input type="reset" value="Start Over"/>
