@@ -30,11 +30,11 @@ function submit_form() {
 		."They were using ".$_SERVER["HTTP_USER_AGENT"].".\n";
 
 	if ($_POST['type'] == 'single') {
-		price = 32;
+		$price = 32;
 	} else if ($_POST['type'] == 'family') {
-		price = 47;
+		$price = 47;
 	} else if ($_POST['type'] == 'local') {
-		price = 7;
+		$price = 7;
 	}
 
 	mail("djwong.rscds@djwong.org",
@@ -42,7 +42,8 @@ function submit_form() {
 		$email
 	);
 
-	echo "<p>Thank you for your registration; it will be processed as ";
+	$name = $_POST['name'];
+	echo "<p>Thank you, <b>".$name."</b>, for your registration; it will be processed as ";
 	echo "soon as we receive your payment.  Please send your \$$price payment to ";
 ?>%MEMBERSHIP_CHAIR_MAIL%
 <?php
