@@ -66,7 +66,7 @@
 		<tr>
 		<td>Workshop/Ball/Non-Member:</td>
 		<td><input type="number" class="fee" name="all_nonmember_early" id="all_nonmember_early"/> × $<span id="all_nonmember_early_price"/></td>
-		<td><input type="number" class="fee" name="all_nonmember_early" id="all_nonmember_late"/> × $<span id="all_nonmember_late_price"/></td>
+		<td><input type="number" class="fee" name="all_nonmember_late" id="all_nonmember_late"/> × $<span id="all_nonmember_late_price"/></td>
 		</tr>
 
 		<tr>

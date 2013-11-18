@@ -9,7 +9,24 @@
 function submit_form() {
 	global $_POST;
 
-	if ($_POST['org'] != 'on') {
+	$registration_types = array(
+		"all_member_early"		=> "Workshop/Ball Member Early",
+		"all_member_late"		=> "Workshop/Ball Member Late",
+		"all_nonmember_early"		=> "Workshop/Ball Non-Member Early",
+		"all_nonmember_late"		=> "Workshop/Ball Non-Member Late",
+		"workshop_member_early"		=> "Workshop Member Early",
+		"workshop_member_late"		=> "Workshop Member Late",
+		"workshop_nonmember_early"	=> "Workshop Non-Member Early",
+		"workshop_nonmember_late"	=> "Workshop Non-Member Late",
+		"ball_member_early"		=> "Ball Member Early",
+		"ball_member_late"		=> "Ball Member Late",
+		"ball_nonmember_early"		=> "Ball Non-Member Early",
+		"ball_nonmember_late"		=> "Ball Non-Member Late",
+		"ball_spectator"		=> "Ball Spectator",
+		"lunch_guest"			=> "Lunch Guest",
+	);
+
+	if ($_POST['org'] != 'on' || strlen($_POST['total']) < 1) {
 		echo '<p>Sorry, but the form was not filled out correctly.  ';
 		echo 'Please go back and try again.  (Did you forget to check';
 		echo ' that Scottish Country Dance is fun?)</p>';
@@ -32,7 +49,14 @@ function submit_form() {
 			."\n";
 	}
 
-	$email .= "Address: ".$_POST['address']."\n"
+	foreach ($registration_types as $key => $label) {
+		if (strlen($_POST[$key]) > 0) {
+			$email .= $label.": ".$_POST[$key]."\n";
+		}
+	}
+
+	$email .= "\n"
+		."Address: ".$_POST['address']."\n"
 		."Phone: ".$_POST['phone']."\n"
 		."Email: ".$_POST['email']."\n"
 		."\n";
