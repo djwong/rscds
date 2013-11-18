@@ -578,6 +578,9 @@ a.slidesjs-navigation:focus {
 	border: 2px solid black;
 	padding: 1em;
 }
+#membership label {
+	white-space: nowrap;
+}
 #membership #type_box {
 	margin-top: 1em;
 	margin-right: 2em;
@@ -594,10 +597,39 @@ a.slidesjs-navigation:focus {
 	text-align: right;
 	padding-right: 0.5em;
 	vertical-align: bottom;
-	width: 20px;
+	width: 1px;
+}
+#membership #field_box tr td:nth-child(3) {
+	text-align: right;
+	padding-right: 0.5em;
+	padding-left: 1em;
+	vertical-align: bottom;
+	width: 1px;
 }
 #membership #field_box {
 	width: 100%;
+}
+#fee_box th {
+	padding-right: 0.5em;
+	padding-left: 0.5em;
+}
+.nowrap {
+	white-space: nowrap;
+}
+#type_box td {
+	white-space: nowrap;
+}
+#membership #total {
+	width: 6em;
+	color: black;
+}
+#fee_box td {
+	white-space: nowrap;
+	padding-right: 0.5em;
+	padding-left: 0.5em;
+}
+#fee_box td:nth-child(1) {
+	text-align: right;
 }
 #membership .text {
 	width: 100%;
@@ -605,6 +637,13 @@ a.slidesjs-navigation:focus {
 	border: none;
 	border-bottom: 1px solid black;
 	padding-top: 1em;
+}
+#membership .fee {
+	background: none;
+	border: none;
+	border-bottom: 1px solid black;
+	padding-top: 0.5em;
+	width: 2em;
 }
 #membership .title {
 	font-weight: bold;

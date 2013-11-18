@@ -109,3 +109,48 @@ function load_new_main()
 	});
 	$(window).keydown(slideshow_key);
 }
+
+var WORKSHOP_FORM_ITEMS = {
+	all_member_early: 50,
+	all_member_late: 60,
+	all_nonmember_early: 55,
+	all_nonmember_late: 65,
+	workshop_member_early: 30,
+	workshop_member_late: 40,
+	workshop_nonmember_early: 35,
+	workshop_nonmember_late: 45,
+	ball_member_early: 30,
+	ball_member_late: 40,
+	ball_nonmember_early: 35,
+	ball_nonmember_late: 45,
+	ball_spectator: 5,
+	lunch_guest: 7
+};
+
+function setup_workshop_form()
+{
+	for (var idx in WORKSHOP_FORM_ITEMS) {
+		$('#' + idx).blur(calculate_workshop_total);
+		$('#' + idx + '_price').html(WORKSHOP_FORM_ITEMS[idx]);
+	}
+}
+
+function calculate_workshop_total()
+{
+	var total = 0;
+
+	for (var idx in WORKSHOP_FORM_ITEMS) {
+		var unit_price = WORKSHOP_FORM_ITEMS[idx];
+		var units;
+		units = parseInt($('#' + idx).val());
+		if (isNaN(units)) {
+			units = 0;
+		}
+		total += units * unit_price;
+	}
+	if (total > 0) {
+		$('#total').val('$' + total);
+	} else {
+		$('#total').val('');
+	}
+}

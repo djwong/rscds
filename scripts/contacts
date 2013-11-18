@@ -6,7 +6,10 @@ if [ "$1" = "-d" ]; then
 		if [ "${tag:0:1}" = "#" ]; then
 			continue
 		fi
-		echo "CLEAN+=${tag}.html"
+		echo "CLEAN+=${tag}.html ${tag}_mail.html"
+		echo "${tag}_mail.html: data/people.csv"
+		echo -e "\tscripts/contacts"
+		echo
 		echo "${tag}.html: data/people.csv"
 		echo -e "\tscripts/contacts"
 		echo
@@ -15,7 +18,7 @@ if [ "$1" = "-d" ]; then
 fi
 
 # Otherwise, generate html
-cat data/people.csv | while IFS=, read tag name role phone email imgurl crap; do
+cat data/people.csv | while IFS=, read tag name role phone email imgurl addr crap; do
 	if [ "${tag:0:1}" = "#" ]; then
 		continue
 	fi
@@ -29,6 +32,11 @@ cat data/people.csv | while IFS=, read tag name role phone email imgurl crap; do
 <div class="ps_header">${name}, ${role}</div>
 <div>${phone}</div>
 <div class="email">${email}</div>
+ENDL
+	fname="${tag}_mail.html"
+	new_addr="$(echo "${addr}" | tr ';' ',')"
+	cat > "${fname}" << ENDL
+<span class="ps_header">${name}</span>, ${new_addr}
 ENDL
 done
 exit 0

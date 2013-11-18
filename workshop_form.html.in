@@ -1,1 +1,123 @@
 <p>Please watch this space for more details on how to register.</p>
+<form method="POST" id="membership" action="workshop_form.php">
+	<p class="title">Royal Scottish Country Dance Society, Portland, Ore. Branch:<br />Workshop Registration Form 2013-2014</p>
+	<table id="field_box">
+		<tr>
+		<td><label for="name1">Name:</label></td>
+		<td colspan="3"><input type="text" class="text" id="name1" name="name1"/></td>
+		</tr>
+
+		<tr>
+		<td><label for="class1">Class Level:</label></td>
+		<td>
+			<span class="nowrap"><input type="radio" name="class1" id="class1_beginner" value="beginner"/> <label for="class1_beginner">Beginner</label></span>
+			<span class="nowrap"><input type="radio" name="class1" id="class1_intermediate" value="intermediate"/> <label for="class1_intermediate">Intermediate</label></span>
+		</td>
+		<td><label for="years1">Years Experience:</label></td>
+		<td><input type="number" class="text" id="years1" name="years1"/></td>
+		</tr>
+
+		<tr><td>&nbsp;</td></tr>
+
+		<tr>
+		<td><label for="name2">Name:</label></td>
+		<td colspan="3"><input type="text" class="text" id="name2" name="name2"/></td>
+		</tr>
+
+		<tr>
+		<td><label for="class2">Class Level:</label></td>
+		<td>
+			<span class="nowrap"><input type="radio" name="class2" id="class2_beginner" value="beginner"/> <label for="class2_beginner">Beginner</label></span>
+			<span class="nowrap"><input type="radio" name="class2" id="class2_intermediate" value="intermediate"/> <label for="class2_intermediate">Intermediate</label></span>
+		</td>
+		<td><label for="years2">Years Experience:</label></td>
+		<td><input type="number" class="text" id="years2" name="years2"/></td>
+		</tr>
+
+		<tr><td>&nbsp;</td></tr>
+
+		<tr>
+		<td><label for="address">Address:</label></td>
+		<td colspan="3"><input type="text" class="text" id="address" name="address"/></td>
+		</tr>
+
+		<tr>
+		<td><label for="phone">Phone:</label></td>
+		<td colspan="3"><input type="text" class="text" id="phone" name="phone"/></td>
+		</tr>
+
+		<tr>
+		<td><label for="email">Email:</label></td>
+		<td colspan="3"><input type="text" class="text" id="email" name="email"/></td>
+		</tr>
+	</table>
+
+	<p class="title">Registration Fees</p>
+
+	<table id="fee_box">
+		<tr><th></th><th>On or before Feb. 5:</th><th>After Feb. 5:</th></tr>
+
+		<tr>
+		<td>Workshop/Ball/RSCDS Member:</td>
+		<td><input type="number" class="fee" id="all_member_early"/> × $<span id="all_member_early_price"/></td>
+		<td><input type="number" class="fee" id="all_member_late"/> × $<span id="all_member_late_price"/></td>
+		</tr>
+
+		<tr>
+		<td>Workshop/Ball/Non-Member:</td>
+		<td><input type="number" class="fee" id="all_nonmember_early"/> × $<span id="all_nonmember_early_price"/></td>
+		<td><input type="number" class="fee" id="all_nonmember_late"/> × $<span id="all_nonmember_late_price"/></td>
+		</tr>
+
+		<tr>
+		<td>Workshop Only/RSCDS Member:</td>
+		<td><input type="number" class="fee" id="workshop_member_early"/> × $<span id="workshop_member_early_price"/></td>
+		<td><input type="number" class="fee" id="workshop_member_late"/> × $<span id="workshop_member_late_price"/></td>
+		</tr>
+
+		<tr>
+		<td>Workshop Only/RSCDS Member:</td>
+		<td><input type="number" class="fee" id="workshop_nonmember_early"/> × $<span id="workshop_nonmember_early_price"/></td>
+		<td><input type="number" class="fee" id="workshop_nonmember_late"/> × $<span id="workshop_nonmember_late_price"/></td>
+		</tr>
+
+		<tr>
+		<td>Ball Only/RSCDS Member:</td>
+		<td><input type="number" class="fee" id="ball_member_early"/> × $<span id="ball_member_early_price"/></td>
+		<td><input type="number" class="fee" id="ball_member_late"/> × $<span id="ball_member_late_price"/></td>
+		</tr>
+
+		<tr>
+		<td>Ball Only/Non-Member:</td>
+		<td><input type="number" class="fee" id="ball_nonmember_early"/> × $<span id="ball_nonmember_early_price"/></td>
+		<td><input type="number" class="fee" id="ball_nonmember_late"/> × $<span id="ball_nonmember_late_price"/></td>
+		</tr>
+
+		<tr>
+		<td>Ball Spectator (non-dancer):</td>
+		<td></td>
+		<td><input type="number" class="fee" id="ball_spectator"/> × $<span id="ball_spectator_price"/></td>
+		</tr>
+
+		<tr>
+		<td>Lunch Only (guests):</td>
+		<td></td>
+		<td><input type="number" class="fee" id="lunch_guest"/> × $<span id="lunch_guest_price"/></td>
+		</tr>
+	</table>
+
+	<p><label for="total">Total:</label> <input type="number" class="fee" id="total" disabled="disabled"/></p>
+
+	<p>Lunch is included with the workshop fee.  Please tell us about specific dietary restrictions.</p>
+
+	<p>Please make check payable to <b>“RSCDS Portland OR Branch”</b> and mail or give to
+%WORKSHOP_CHAIR_MAIL%
+	.</p>
+
+	<div class="isfun">Is Scottish Country Dance fun? <input type="checkbox" id="org" name="org"/> <label for="org">Yes</label></div>
+	<input type="submit" value="Register"/>
+	<input type="reset" value="Start Over"/>
+</form>
+<script type="text/javascript">
+$(document).ready(setup_workshop_form);
+</script>
