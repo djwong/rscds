@@ -29,13 +29,24 @@ function submit_form() {
 		."\n"
 		."They were using ".$_SERVER["HTTP_USER_AGENT"].".\n";
 
+	if ($_POST['type'] == 'single') {
+		price = 32;
+	} else if ($_POST['type'] == 'family') {
+		price = 47;
+	} else if ($_POST['type'] == 'local') {
+		price = 7;
+	}
+
 	mail("djwong.rscds@djwong.org",
 		"RSCDS Membership Request",
 		$email
 	);
 
 	echo "<p>Thank you for your registration; it will be processed as ";
-	echo "soon as we receive your payment.</p>\n";
+	echo "soon as we receive your payment.  Please send your \$$price payment to ";
+?>%MEMBERSHIP_CHAIR_MAIL%
+<?php
+	echo "</p>\n";
 }
 submit_form();
 ?>
