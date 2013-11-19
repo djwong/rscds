@@ -1,5 +1,5 @@
 Name: The Provost Wynd
-Format: 8x32R 3C (4C set)
+Format: 8x32R, 3C (4C set)
 Source: R. Goldring, 24 Graded and Social Dances
 BARS
 1- 8	1s+2s+3s dance RSh reels of 3 on own side
