@@ -1,9 +1,9 @@
 Name: Adieu Mon Ami
-Format: 8x32S
+Format: 8x32S, 3C (4C set)
 Source: RSCDS Bk 24
 Youtube: wMJ2AYHoJEM
 BARS
 1- 8	1s+2s set on sides, turn 2H, set to partners & turn 2H into Allemande hold
 9-16	1s+2s Allemande 1s end facing 1st corners
-17-24	1s dance 'Hello-Goodbye' setting, into middle facing partner, clap & petronella turn to 2nd place
+17-24	1s dance ‘Hello-Goodbye’ setting, into middle facing partner, clap & petronella turn to 2nd place
 25-32	2s+1s+3s circle 6H round & back

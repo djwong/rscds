@@ -1,6 +1,6 @@
-Name: Anna Holden's Strathspey
+Name: Anna Holden’s Strathspey
 Source: John Drewry, RSCDS Book 42
-Format: 8x32S
+Format: 8x32S, 2C (4C set)
 BARS
 1-4	1s2s right hands across, 2s finishing facing out;
 5-6	1s cross down to 2nd place on opposite sides, finishing facing out WHILE 2s cast up;
