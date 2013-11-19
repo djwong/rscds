@@ -1,6 +1,6 @@
 Name: The Royal Deeside Railway
 Format: 8x32R
-Source: R Arrowsmith RSCDS Bk 40
+Source: R Arrowsmith RSCDS Book 40
 Youtube: j4EDcjlo26Y
 BARS
 1- 8	1s cross down (no hands) below 3s, cast up 1 place opposite sides & dance in to face 2L, 1s+2L dance RH across

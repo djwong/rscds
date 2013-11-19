@@ -1,7 +1,7 @@
 Name: Bridge of Nairn
 Youtube: E_BUBBk6o-Q
 Format: 8x32S, 3C (4C set)
-Source: R. Bremner, RSCDS Bk 13
+Source: R. Bremner, RSCDS Book 13
 BARS
 1-8	1s cast below 3s & lead up between to top, cross & cast to meet partner facing 2L
 9-16	1s set to 2L, 3M, 3L then 2M & turn to face 1st corners

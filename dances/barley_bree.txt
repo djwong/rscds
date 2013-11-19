@@ -1,6 +1,6 @@
 Name: Barley Bree
 Format: 4x40J, 4C set
-Source: RSCDS Bk 13
+Source: RSCDS Book 13
 Youtube: hDbPpdb7Mac
 BARS
 1- 8	All Adv+Ret & cross over (Men making arches)

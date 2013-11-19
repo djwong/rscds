@@ -1,6 +1,6 @@
 Name: Adieu Mon Ami
 Format: 8x32S, 3C (4C set)
-Source: RSCDS Bk 24
+Source: RSCDS Book 24
 Youtube: wMJ2AYHoJEM
 BARS
 1- 8	1s+2s set on sides, turn 2H, set to partners & turn 2H into Allemande hold
