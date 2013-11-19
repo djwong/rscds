@@ -1,5 +1,5 @@
 Name: A King in Patagonia
-Format: 3x32R, 3C (4C set)
+Format: 8x32R, 3C (4C set)
 Source: Holly Gibson, Princess Bride Collection
 Youtube: 2fIRJP53pkE
 Tune: Countess Cassilli

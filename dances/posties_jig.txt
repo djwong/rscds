@@ -1,5 +1,5 @@
 Name: Postie’s Jig
-Format: 8x32J, 4C set
+Format: 8x32J, 4C set (twice round)
 Source: Roy Clowes (1960s)
 BARS
 1-8	1s and 4s set and cast in 1 place, 1s and 4s dance ½ Figs of 8 round new end couples
