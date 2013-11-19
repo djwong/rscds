@@ -1,5 +1,5 @@
 Name: Gramachie
-Format: 8x32S, 3c/4c set
+Format: 8x32S, 3c (4C set)
 Source: RSCDS MMM 1
 BARS
 1–8	1c+2c set, cross RH, repeat

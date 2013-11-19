@@ -1,8 +1,8 @@
-Name: It's Just for Fun
-Format: 8x32J
-Source: R Fidler, RSCDS Bk 33
+Name: It’s Just for Fun
+Format: 8x32J, 3C (4C set)
+Source: R Fidler, RSCDS Bk. 33
 BARS
 1- 8	1s cross RH and cast 1 place, 1M dances ½ Fig of 8 round 2s while 1L dances round 3s 1s end facing 1st corners
 9-16	1s dance ½ reel of 4 with 1st corners, pass LSh and dance RH across (1M with couple in 1st pl and 1L with couple in 3rd pl) 1s end facing 2nd corners
-17-24	1s dance ½ Reel of 4 with 2nd corners, pass partner LSh to dance RH across, 1M with 2L+3L on Men's side and 1L with 2M+3M
+17-24	1s dance ½ Reel of 4 with 2nd corners, pass partner LSh to dance RH across, 1M with 2L+3L on Men’s side and 1L with 2M+3M
 25-32	1s ½ turn LH while 2s+3s change places RH on sides, 1M dances up and 1L down, cast on own sides while corners set and cross RH and all set 

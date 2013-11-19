@@ -1,5 +1,5 @@
 Name: Duke Of Perth
-Format: 8x32R
+Format: 8x32R, 3C (4C set)
 Source: Anon, RSCDS Book 1
 BARS
 1-4	1s turn by the right and cast;

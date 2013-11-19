@@ -1,6 +1,6 @@
-Name: Shiftin' Bobbins
-Source: R Clowes, Ormskirk Scottish Dances
-Format: 8x32R
+Name: Shiftin’ Bobbins
+Source: R. Clowes, Ormskirk Scottish Dances
+Format: 8x32R, 3C (4C set)
 BARS
 1-2	1s cross down to face out between corners;
 3-4	2s1s3s set on the sides;

@@ -1,6 +1,6 @@
 Name: The Blackadder Jig
-Format: 8x32J 3C (4C set)
-Source: M. Johnstone, Blackadder Coll
+Format: 8x32J, 3C (4C set)
+Source: M. Johnstone, Blackadder Collection
 BARS
 1- 8	1s set, cast 2 places and turn RH
 9-16	3s+1s Set+Link, circle 4H round to left

@@ -1,5 +1,5 @@
 Name: Barley Bree
-Format: 4x40J, 4c set
+Format: 4x40J, 4C set
 Source: RSCDS Bk 13
 Youtube: hDbPpdb7Mac
 BARS

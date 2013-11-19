@@ -1,6 +1,6 @@
 Name: The Compleat Gardener
-Format: J8x32
-Source: I Patterson
+Format: 8x32J, 3C (4C set)
+Source: I. Patterson
 Youtube: M-1ChhydSEk
 BARS
 1-8	1s+2s Dance Set & Rotate: Set, rotate singly & dance on 1 place clockwise, change places RH on sides & dance on 1 place to own sides (1s in 2nd pl)

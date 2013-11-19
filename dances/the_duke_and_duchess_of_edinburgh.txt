@@ -1,6 +1,6 @@
 Name: The Duke and Duchess of Edinburgh
-Format: 8x40R
-Source: A Anderson F Lesslie RSCDS Bk 39
+Format: 8x40R, 3C (4C set)
+Source: A. Anderson, F. Lesslie, RSCDS Book 39
 Youtube: ObfBxo7O3Ac
 BARS
 1-8	1s+2s+3s Adv+Ret & turn partners 2H

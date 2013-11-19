@@ -1,6 +1,6 @@
 Name: Strathmore
-Format: 4x40S (4C set)
-Source: J. Drewry, RSCDS Bk 43
+Format: 4x40S, 4C set
+Source: J. Drewry, RSCDS Book 43
 BARS
 1- 8	1s+2s also 3s+4s dance RH across and all chase clockwise ½ way to opposite sides. (4)(3)(2)(1)
 9-16	4s+3s also 2s+1s dance reels of 4 across (4L+3M and 2L+1M passing LSh) all ending on sides

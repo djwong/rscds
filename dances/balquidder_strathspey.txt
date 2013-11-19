@@ -1,6 +1,6 @@
 Name: Balquidder Strathspey
-Format: 8x32S, 3c/4c set
-Source: Rutherford  RSCDS Bk 24
+Format: 8x32S, 3C (4C set)
+Source: Rutherford, RSCDS Bk 24
 Youtube: qTkvO2h0wSE
 BARS
 1- 8	1s cross down & dance reflection reels of 3 on opposite sides

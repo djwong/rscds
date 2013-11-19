@@ -1,6 +1,6 @@
-Name: Johnny Groat's House
-Format: 8x32R
-Source: Rutherford RSCDS Bk 18
+Name: Johnny Groat’s House
+Format: 8x32R, 3C (4C set)
+Source: Rutherford, RSCDS Bk. 18
 BARS
 1- 8	1s slip step down for 4 steps and back, cast to 2nd places and meet in centre 2H
 9-16	1s repeat ending in 3rd places

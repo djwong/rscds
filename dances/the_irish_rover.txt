@@ -3,6 +3,6 @@ Format: 8x32R, 3C (4C set)
 Source: J. Cosh, 22 SCDs
 BARS
  1- 8	1s dance down below 3s & cast up to 2nd place own sides, 1L dances RH across with 2s while 1M dances RH across with 3s
- 9-16	1s dance 1/2 diagonal reel of 4 with 1st corners, 1/2 reel with 2nd corners & 1/2 turn LH in centre to face 1st corners
+ 9-16	1s dance ½ diagonal reel of 4 with 1st corners, ½ reel with 2nd corners & ½ turn LH in centre to face 1st corners
 17-24	1s dance reels of 3 across giving LSh to 1st corners ending in 2nd place own sides
 25-32	1s dance Diag R&L (1M crossing down & 1L crossing up to start)

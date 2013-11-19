@@ -1,9 +1,9 @@
 Name: Polharrow Burn
-Format: 5x32R
-Source: H Foss Glendarroch SD Sheets
+Format: 5x32R, 5C set
+Source: H. Foss, Glendarroch SD Sheets
 Youtube: UparrI5LuR0
 BARS
-1- 8	1s & 3s cross RH, cast 1 place & dance 1/2 Fig of 8 round couple above them
-9-16	1s & 3s turn RH then LH (long turns) to face 1st corners while 2s & 5s 1/2 turn RH & chase clockwise to other end of set
-17-24	1s & 3s dance 1/2 Reels of 4 with 1st corners then 2nd corners
-25-32	1s & 3s dance 1/2 Reel of 4 with 3rd corner, turn partner LH & cast down 1 place own sides. 2 4 1 5 3
+1- 8	1s & 3s cross RH, cast 1 place & dance ½ Fig of 8 round couple above them
+9-16	1s & 3s turn RH then LH (long turns) to face 1st corners while 2s & 5s ½ turn RH & chase clockwise to other end of set
+17-24	1s & 3s dance ½ Reels of 4 with 1st corners then 2nd corners
+25-32	1s & 3s dance ½ Reel of 4 with 3rd corner, turn partner LH & cast down 1 place own sides. 2 4 1 5 3

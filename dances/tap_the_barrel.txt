@@ -1,5 +1,5 @@
 Name: Tap the Barrel
-Format: 3x32R
+Format: 3x32R, 3C set
 Source: Sue Burridge
 BARS
 1-8	1L+3M change places RH, 1M +3L change places RH, 2s cross RH and all ½ turn into Allemande hold

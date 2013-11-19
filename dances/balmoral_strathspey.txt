@@ -1,6 +1,6 @@
 Name: The Balmoral Strathspey
-Source: John A Charles, RSCDS Book 22
-Format: 4x32S (4C set)
+Source: John A. Charles, RSCDS Book 22
+Format: 4x32S, 4C set
 BARS
 1-8	1s+2s 3s+4s dance rights and lefts;
 9-10	1s, 2s, 3s, 4s set;

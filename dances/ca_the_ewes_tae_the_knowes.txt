@@ -1,4 +1,4 @@
-Name: Ca' the Ewes Tae the Knowes
+Name: Ca’ the Ewes Tae the Knowes
 Format: 8x32S, 2C (4C set)
 Source: T. Wilson, RSCDS Bk 16
 BARS

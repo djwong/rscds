@@ -1,5 +1,5 @@
 Name: Sandy Butterly
-Format: 4x48J (4C set)
+Format: 4x48J, 4C set
 Source: M. Brandon
 BARS
 1- 8	1s lead down to bottom and cast up on own sides back to place

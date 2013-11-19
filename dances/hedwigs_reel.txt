@@ -1,5 +1,5 @@
-Name: Hedwig's Reel
-Format: 8x32R 3C (4C set)
+Name: Hedwig’s Reel
+Format: 8x32R, 3C (4C set)
 Source: S. Phillips, 2nd Book Graded SCDs
 BARS
 1- 8	1s dance Figs of 8 on own sides (RSh to 2s)

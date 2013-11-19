@@ -1,6 +1,6 @@
 Name: The Australian Ladies
-Format: 8x32R
-Source: R M Campbell Glasgow Assembly
+Format: 8x32R, 3C (4C set)
+Source: R. M. Campbell, Glasgow Assembly
 Youtube: TxG4i8u06QQ
 BARS
 1-8	1s cross, cast down to 3rd place & 3s+1s dance RH across.

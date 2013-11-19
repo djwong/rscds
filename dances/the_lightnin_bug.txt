@@ -1,5 +1,5 @@
-Name: The Lightnin' Bug
-Format: 3x32J
+Name: The Lightnin’ Bug
+Format: 3x32J, 3C set
 Source: Tim Wilson, March 2009, Just Desserts, No. 12
 Tune: The Lightnin’ Bug, by Hanneke Cassel
 BARS

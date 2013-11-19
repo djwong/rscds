@@ -1,6 +1,6 @@
 Name: Clydebank Strathspey
 Format: 8x32S, 2C (4C set)
-Source: R. Goldring, G and S Dances 2
+Source: R. Goldring, Graded and Social Dances 2
 BARS
 1- 8	1s dance ½ Fig of 8 round 2s, 1L+2M turn 1½ times RH while 1M+2L turn 1½ times LH 1s end 2nd place facing out
 9-16	1s dance ½ Fig of 8 round 2s (1s casting to start), 2L+1L turn 1½ times LH while 2M+1M turn 1½ times RH back to original places

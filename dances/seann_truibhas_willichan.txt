@@ -1,6 +1,6 @@
 Name: Seann Truibhas Willichan
-Format: 8x32S
-Source: T Wilson RSCDS Bk 27
+Format: 8x32S, 2C (4C set)
+Source: T. Wilson, RSCDS Book 27
 Youtube: 4IeabB2B1UE
 BARS
 1-8	1s cast & dance down behind own lines, turn outwards & dance back to top

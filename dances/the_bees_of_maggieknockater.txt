@@ -1,10 +1,10 @@
 Name: The Bees of Maggieknockater
 Source: John Drewry, Canadian Book
-Format: 4x32J
+Format: 4x32J, 4C set
 BARS
 1-4	1s cross and cast;
 5-8	1s3s right hands across;
-9-12	1M3L (promenade hold) half reel of 3 on Ls' side WHILE 1L3M half reel of 3 on M's side (both going to the right);
+9-12	1M3L (promenade hold) half reel of 3 on Ls’ side WHILE 1L3M half reel of 3 on M’s side (both going to the right);
 13-16	repeat with own partners (going to the left);
 17-24	repeat bars 9-16, finishing with 1s facing down between 3s;
 25-28	1L3M turn by the right 1½ times WHILE 1M3L turn by the left 1½ times;

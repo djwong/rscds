@@ -1,8 +1,7 @@
 Name: The Dashing White Sergeant
 Youtube: bdcNTcz_kqo
-Format: 32R
-Source: RSCDS Bk 3
-Notes: Round the Room Dance, 3 facing 3
+Format: 32R, 3 facing 3, round the room
+Source: RSCDS Bk. 3
 BARS
 1-8	All circle 6H round & back
 9-16	Centre dancer sets & turns 2H person on right, sets & turns 2H person on left (popular variation – turn person on right RH, turn person on left LH)

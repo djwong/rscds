@@ -1,6 +1,6 @@
 Name: Tae Fife and Back
-Format: 4x32J
-Source: R Goldring, 12 More Social Dances
+Format: 4x32J, 4C set
+Source: R. Goldring, 12 More Social Dances
 BARS
 1- 8	1L+2L also 3M+4M Adv+Ret for 2 steps, pass partner by LSh and cast to left (to change places)
 9-16	1M+2M also 3L+4L Adv+Ret, pass opposite dancer by RSh and cast to right (all opposite partners in order 3412)
