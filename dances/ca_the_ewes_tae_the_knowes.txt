@@ -1,5 +1,5 @@
 Name: Ca’ the Ewes Tae the Knowes
-Format: 8x32S, 2C (4C set)
+Format: 8×32S, 2C (4C set)
 Source: T. Wilson, RSCDS Book 16
 BARS
 1- 8	1s cast and dance down own sides for 4 bars and turning out dance back to the top

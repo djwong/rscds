@@ -1,5 +1,5 @@
 Name: The De’il Amang the Tailors
-Format: 8x32R, 3C (4C set)
+Format: 8×32R, 3C (4C set)
 Source: RSCDS Book 14
 Youtube: epn0cmLPtfY
 BARS

@@ -1,6 +1,6 @@
 Name: Mrs Stewart’s Jig
 Source: Frans Ligtmans, RSCDS Book 35
-Format: 8x32J, 3C (4C set)
+Format: 8×32J, 3C (4C set)
 BARS
 1-2	1s set;
 3-8	1L cast 2 places, cross and cast up to 2M’s place WHILE 1M cross, cast 2 places and dance up between 3s to 2L’s place, 1s finishing facing down;

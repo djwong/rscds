@@ -1,5 +1,5 @@
 Name: The Gay Gordons
-Format: 4x16b
+Format: 4×16b
 Source: Anon
 BARS
 1-8	All in Allemande hold walk forward 4 steps, all turn about and walk backwards (same direction) 4 steps

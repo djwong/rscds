@@ -1,5 +1,5 @@
 Name: J. B. Milne
-Format: 8x32R, 3C (4C set)
+Format: 8×32R, 3C (4C set)
 Source: H. Foss, Angus Fitchet Album
 BARS
  1- 8	1M+2L set advancing & turn RH, 1L+2M set advancing & turn RH

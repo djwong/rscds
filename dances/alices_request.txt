@@ -1,5 +1,5 @@
 Name: Alice’s Request
-Format: 8x32J, 2C (4C set)
+Format: 8×32J, 2C (4C set)
 Source: R. Goldring, Graded and Social Dances 2
 BARS
 1- 8	1s+2s circle 4H round and back

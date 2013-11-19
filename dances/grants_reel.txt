@@ -1,5 +1,5 @@
 Name: Grant’s Reel
-Format: 8x32S, 2C (4C set)
+Format: 8×32S, 2C (4C set)
 Source: Rutherford RSCDS, Book 14
 BARS
 1- 8	1M+2L set and turn 2H, 1L+2M repeat

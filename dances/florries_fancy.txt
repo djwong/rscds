@@ -1,5 +1,5 @@
 Name: Florrie’s Fancy
-Format: 4x32J, 4C Set
+Format: 4×32J, 4C Set
 Source: H. Beaney
 BARS
 1- 8	1s lead down the middle and back

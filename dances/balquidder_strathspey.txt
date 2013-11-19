@@ -1,5 +1,5 @@
 Name: Balquidder Strathspey
-Format: 8x32S, 3C (4C set)
+Format: 8×32S, 3C (4C set)
 Source: Rutherford, RSCDS Book 24
 Youtube: qTkvO2h0wSE
 BARS

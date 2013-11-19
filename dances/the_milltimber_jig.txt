@@ -1,5 +1,5 @@
 Name: The Milltimber Jig
-Format: 8x32J, 2C (4C set)
+Format: 8×32J, 2C (4C set)
 Source: A. MacKenzie, RSCDS Book 41
 BARS
 1- 8	1L+2M set and change places RH while 1M+2L change places RH and set, 1s+2s repeat back to places

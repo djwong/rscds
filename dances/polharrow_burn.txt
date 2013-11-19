@@ -1,5 +1,5 @@
 Name: Polharrow Burn
-Format: 5x32R, 5C set
+Format: 5×32R, 5C set
 Source: H. Foss, Glendarroch SD Sheets
 Youtube: UparrI5LuR0
 BARS

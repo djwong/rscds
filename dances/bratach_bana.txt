@@ -1,5 +1,5 @@
 Name: Bratach Bàna
-Format: 8x32R, 3C (4C set)
+Format: 8×32R, 3C (4C set)
 Source: John Drewry, Bon Accord Book
 BARS
 1-4	1s turn by the right and cast;

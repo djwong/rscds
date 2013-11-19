@@ -1,5 +1,5 @@
 Name: Jessie’s Hornpipe
-Format: 8x32R, 3C (4C set)
+Format: 8×32R, 3C (4C set)
 Source: RSCDS Book 8
 BARS
  1- 8	1s dance Figs of 8 round 2s+3s on own sides giving RSh to 2s to start

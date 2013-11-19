@@ -1,6 +1,6 @@
 Name: The Bees of Maggieknockater
 Source: John Drewry, Canadian Book
-Format: 4x32J, 4C set
+Format: 4×32J, 4C set
 BARS
 1-4	1s cross and cast;
 5-8	1s3s right hands across;

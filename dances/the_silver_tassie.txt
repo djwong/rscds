@@ -1,5 +1,5 @@
 Name: The Silver Tassie
-Format: 8x32S, 3C (4C set)
+Format: 8×32S, 3C (4C set)
 Source: J. Drewry, Bon Accord Book
 Youtube: bKvjHo0ZKMU
 BARS

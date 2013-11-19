@@ -1,6 +1,6 @@
 Name: The Machine Without Horses
 Youtube: TM5370yLrbE
-Format: 8x32J, 3C (4C set)
+Format: 8×32J, 3C (4C set)
 Source: Rutherford, RSCDS Book 12
 BARS
 1-8	1s set, cast & dance RH across with 3s

@@ -1,6 +1,6 @@
 Name: The Millville Grange
 Source: Ron Wallace
-Format: 8x32S, 3C (4C set)
+Format: 8×32S, 3C (4C set)
 Youtube: QIuVlxbmVAM
 BARS
 1-8	1s set adv, turn BH, dance NH between 3s and cast up to 2nd place. 2s+1s+3s dance in with left foot on bar 8 and join RH facing up

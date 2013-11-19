@@ -1,5 +1,5 @@
 Name: The Irish Rover
-Format: 8x32R, 3C (4C set)
+Format: 8×32R, 3C (4C set)
 Source: J. Cosh, 22 SCDs
 BARS
  1- 8	1s dance down below 3s & cast up to 2nd place own sides, 1L dances RH across with 2s while 1M dances RH across with 3s

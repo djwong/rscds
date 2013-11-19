@@ -1,5 +1,5 @@
 Name: Unstoppable Kate
-Format: 8x32R, 3C (4C set)
+Format: 8×32R, 3C (4C set)
 Source: Friendly and Sackett (2005)
 BARS
 1-8	1s cross RH and cast into 2nd place, cross left and cast to their left, to end with 1m between 3s and 1w between 2s.

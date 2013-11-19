@@ -1,5 +1,5 @@
 Name: The Saltire Strathspey
-Format: 4x32S, 4C Set
+Format: 4×32S, 4C Set
 Source: B. Anglin, RSCDS Book 45
 BARS
 1- 8	1M+2L also 3L+4M turn 2H 1½ times to change places, all Men dance LH across and end facing anticlockwise giving RH to partners

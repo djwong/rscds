@@ -1,6 +1,6 @@
 Name: Well Done Jack
 Youtube: t1vI08uIPXo
-Format: 8x32J, 3C (4C set)
+Format: 8×32J, 3C (4C set)
 Source: RSCDS Book 29
 BARS
 1- 8	1s & 2s dance DoSiDo & turn partners RH 1½ times

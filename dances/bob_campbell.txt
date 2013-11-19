@@ -1,5 +1,5 @@
 Name: Bob Campbell
-Format: 8x32S, 3C (4C set)
+Format: 8×32S, 3C (4C set)
 Source: J. Drewry, Canadian Book
 BARS
  1- 8	1s+2s+3s set, turn 2H to end 1s facing down & 2s+3s facing up in centre, 1s+2s set advancing passing LSh to change places while 3s set, 2s turn 2H while 1s+3s set advancing to change places

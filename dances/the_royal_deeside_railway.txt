@@ -1,5 +1,5 @@
 Name: The Royal Deeside Railway
-Format: 8x32R, 3C (4C set)
+Format: 8×32R, 3C (4C set)
 Source: R. Arrowsmith, RSCDS Book 40
 Youtube: j4EDcjlo26Y
 BARS

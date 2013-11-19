@@ -1,5 +1,5 @@
 Name: Flowers of Edinburgh
-Format: 8x32R, 3C (4C set)
+Format: 8×32R, 3C (4C set)
 Source: RSCDS Book 1
 BARS
 1- 8	1L followed by partner casts below 3s, 1L crosses and dances up behind Men as 1M dances up centre to 1st places on opposite side and 1s set

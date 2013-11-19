@@ -1,6 +1,6 @@
 Name: Autumn in Appin
 Source: John Drewry, RSCDS Book 31
-Format: 4x32S, 4C set
+Format: 4×32S, 4C set
 Note: 3s and 4s cross on second chord.
 BARS
 1-4	2s 3s petronella turn into the centre and set to partners (Mn back to back);

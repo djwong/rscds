@@ -1,5 +1,5 @@
 Name: Seann Truibhas Willichan
-Format: 8x32S, 2C (4C set)
+Format: 8×32S, 2C (4C set)
 Source: T. Wilson, RSCDS Book 27
 Youtube: 4IeabB2B1UE
 BARS
