@@ -577,40 +577,40 @@ a.slidesjs-navigation:focus {
 }
 
 /* Membership form */
-#membership {
+.reg_form {
 	border: 2px solid black;
 	padding: 1em;
 	page-break-before: always;
 }
-#membership label {
+.reg_form label {
 	white-space: nowrap;
 }
-#membership #type_box {
+.reg_form #type_box {
 	margin-top: 1em;
 	margin-right: 2em;
 	margin-bottom: 1em;
 	float: left;
 }
-#membership #type_box tr td:nth-child(1) {
+.reg_form #type_box tr td:nth-child(1) {
 	padding-right: 2em;
 }
-#membership #type_box tr td:nth-child(2) {
+.reg_form #type_box tr td:nth-child(2) {
 	text-align: right;
 }
-#membership #field_box tr td:nth-child(1) {
+.reg_form #field_box tr td:nth-child(1) {
 	text-align: right;
 	padding-right: 0.5em;
 	vertical-align: bottom;
 	width: 1px;
 }
-#membership #field_box tr td:nth-child(3) {
+.reg_form #field_box tr td:nth-child(3) {
 	text-align: right;
 	padding-right: 0.5em;
 	padding-left: 1em;
 	vertical-align: bottom;
 	width: 1px;
 }
-#membership #field_box {
+.reg_form #field_box {
 	width: 100%;
 }
 #fee_box th {
@@ -623,7 +623,7 @@ a.slidesjs-navigation:focus {
 #type_box td {
 	white-space: nowrap;
 }
-#membership #total {
+.reg_form #total {
 	width: 6em;
 	color: black;
 }
@@ -637,21 +637,21 @@ a.slidesjs-navigation:focus {
 #fee_box td:nth-child(1) {
 	text-align: right;
 }
-#membership .text {
+.reg_form .text {
 	width: 100%;
 	background: none;
 	border: none;
 	border-bottom: 1px solid black;
 	padding-top: 1em;
 }
-#membership .fee {
+.reg_form .fee {
 	background: none;
 	border: none;
 	border-bottom: 1px solid black;
 	padding-top: 0.5em;
 	width: 2em;
 }
-#membership .title {
+.reg_form .title {
 	font-weight: bold;
 	padding: 0px;
 	margin: 0px;
@@ -659,45 +659,45 @@ a.slidesjs-navigation:focus {
 	text-align: center;
 	font-size: 120%;
 }
-#membership .subtitle {
+.reg_form .subtitle {
 	margin-top: 1em;
 }
-#membership input[type=reset] {
+.reg_form input[type=reset] {
 	background: white;
 	border: none;
 	text-decoration: underline;
 	color: #7f7f7f;
 }
-#membership .isfun {
+.reg_form .isfun {
 	margin-bottom: 0.4em;
 }
-#membership .subtext {
+.reg_form .subtext {
 	color: #808080;
 }
 @media screen and (max-width: 500px) {
-	#membership {
+	.reg_form {
 		padding: 0.1em;
 	}
-	#membership #field_box tr td {
+	.reg_form #field_box tr td {
 		display: block;
 		margin: 0px;
 		padding: 0px;
 	}
-	#membership .text {
+	.reg_form .text {
 		padding-top: 0px;
 	}
-	#membership #field_box tr td:nth-child(3) {
+	.reg_form #field_box tr td:nth-child(3) {
 		padding: 0px;
 	}
 }
 @media print {
-	#membership input[type=reset] {
+	.reg_form input[type=reset] {
 		display: none;
 	}
-	#membership input[type=submit] {
+	.reg_form input[type=submit] {
 		display: none;
 	}
-	#membership .isfun {
+	.reg_form .isfun {
 		display: none;
 	}
 }
