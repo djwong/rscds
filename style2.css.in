@@ -30,7 +30,7 @@ a:link {
 	text-align: center;
 }
 .skinny_box {
-	max-width: 10in;
+	max-width: 8.5in;
 	margin: 0px auto;
 }
 #skinny_contact_box {
