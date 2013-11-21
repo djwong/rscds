@@ -580,7 +580,6 @@ a.slidesjs-navigation:focus {
 .reg_form {
 	border: 2px solid black;
 	padding: 1em;
-	page-break-before: always;
 }
 .reg_form label {
 	white-space: nowrap;

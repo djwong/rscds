@@ -1,0 +1,10 @@
+%HEAD%
+	<title>Membership Registration</title>
+%BODY%
+%NAVIGATION%
+%OPEN_CONTENT%
+
+%MEMBERSHIP_FORM%
+
+%CLOSE_CONTENT%
+%FOOT%

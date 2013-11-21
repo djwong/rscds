@@ -7,7 +7,7 @@ TOOLS=$(FONTFORGE) mkdir cp sed python python3
 
 PHP=membership_form.php workshop_form.php
 FANCY_HTML=index.html
-REGULAR_HTML=classes.html party.html workshop.html demo.html events.html about.html members.html dances.html past_programs.html
+REGULAR_HTML=classes.html party.html workshop.html demo.html events.html about.html members.html dances.html past_programs.html workshop_reg.html members_reg.html
 GAZETTE_HTML=gazette/index.html gazette/.htaccess
 HTML=$(REGULAR_HTML) $(FANCY_HTML) $(GAZETTE_HTML)
 TOP_HTML=$(REGULAR_HTML) $(FANCY_HTML)
@@ -37,22 +37,22 @@ dep: $(DEPS)
 build_check:;
 	@bash -c "type $(TOOLS) > /dev/null"
 
-events.d: data/eventdb.js
+events.d: data/eventdb.js Makefile
 	scripts/events.py data/eventdb.js makedep > events.d
 
-sed.d: scripts/css.sed scripts/html.sed scripts/js.sed
+sed.d: scripts/css.sed scripts/html.sed scripts/js.sed Makefile
 	scripts/sed_deps.py scripts/*.sed : $(shell find . -name "*.in" | sed -e 's/^..//g') > sed.d
 
-people.d: data/people.csv
+people.d: data/people.csv Makefile
 	scripts/contacts -d > people.d
 
-gazette.d: scripts/cribs.sed
+gazette.d: scripts/cribs.sed Makefile
 	scripts/create_gazette_index dep gazette_index.html > gazette.d
 
-scripts/cribs.sed:
+cribs.d: Makefile
 	scripts/configure_cribs
 
-cribs.d:
+scripts/cribs.sed:
 	scripts/configure_cribs
 
 data/eventdb.js: data/dance_events.js data/big_events.js data/class_events.js data/travel_events.js data/hidden_events.js data/next_event.js data/news_events.js

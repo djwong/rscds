@@ -1,6 +1,9 @@
+<!--
 <p>Please watch this space for more details on how to register.</p>
+-->
 <form method="POST" id="workshop_form" class="reg_form" action="workshop_form.php">
-	<p class="title">Royal Scottish Country Dance Society, Portland, Ore. Branch:<br />Workshop Registration Form 2013-2014</p>
+	<p class="title">Royal Scottish Country Dance Society, Portland, Ore. Branch:<br />
+	Workshop Registration Form 2013-2014</p>
 	<table id="field_box">
 		<tr>
 		<td><label for="name1">Name:</label></td>
@@ -141,4 +144,3 @@
 <script type="text/javascript">
 $(document).ready(setup_workshop_form);
 </script>
--->
