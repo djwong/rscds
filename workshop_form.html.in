@@ -57,19 +57,21 @@
 		</tr>
 	</table>
 
-	<p class="title">Registration Fees</p>
+	<p class="title subtitle">Registration Fees</p>
 
 	<table id="fee_box">
 		<tr><th></th><th>Through Feb. 5:</th><th>After Feb. 5:</th></tr>
 
 		<tr>
-		<td>Workshop/Ball:<br /><span class="subtext">RSCDS Member</span></td>
+		<td>Workshop/Ball:</td>
+		</tr>
+		<tr><td><span class="subtext">RSCDS Member</span></td>
 		<td><input type="number" class="fee" name="all_member_early" id="all_member_early"/> ×&nbsp;$<span id="all_member_early_price"/></td>
 		<td><input type="number" class="fee" name="all_member_late" id="all_member_late"/> ×&nbsp;$<span id="all_member_late_price"/></td>
 		</tr>
 
 		<tr>
-		<td>Workshop/Ball:<br /><span class="subtext">Non-Member</span></td>
+		<td><span class="subtext">Non-Member</span></td>
 		<td><input type="number" class="fee" name="all_nonmember_early" id="all_nonmember_early"/> ×&nbsp;$<span id="all_nonmember_early_price"/></td>
 		<td><input type="number" class="fee" name="all_nonmember_late" id="all_nonmember_late"/> ×&nbsp;$<span id="all_nonmember_late_price"/></td>
 		</tr>
@@ -77,13 +79,16 @@
 		<tr><td>&nbsp;</td></tr>
 
 		<tr>
-		<td>Workshop Only:<br /><span class="subtext">RSCDS Member</span></td>
+		<td>Workshop Only:</td>
+		</tr>
+		<tr>
+		<td><span class="subtext">RSCDS Member</span></td>
 		<td><input type="number" class="fee" name="workshop_member_early" id="workshop_member_early"/> ×&nbsp;$<span id="workshop_member_early_price"/></td>
 		<td><input type="number" class="fee" name="workshop_member_late" id="workshop_member_late"/> ×&nbsp;$<span id="workshop_member_late_price"/></td>
 		</tr>
 
 		<tr>
-		<td>Workshop Only:<br /><span class="subtext">Non-Member</span></td>
+		<td><span class="subtext">Non-Member</span></td>
 		<td><input type="number" class="fee" name="workshop_nonmember_early" id="workshop_nonmember_early"/> ×&nbsp;$<span id="workshop_nonmember_early_price"/></td>
 		<td><input type="number" class="fee" name="workshop_nonmember_late" id="workshop_nonmember_late"/> ×&nbsp;$<span id="workshop_nonmember_late_price"/></td>
 		</tr>
@@ -91,13 +96,15 @@
 		<tr><td>&nbsp;</td></tr>
 
 		<tr>
-		<td>Ball Only:<br /><span class="subtext">RSCDS Member</span></td>
+		<td>Ball Only:</td>
+		</tr>
+		<tr><td><span class="subtext">RSCDS Member</span></td>
 		<td><input type="number" class="fee" name="ball_member_early" id="ball_member_early"/> ×&nbsp;$<span id="ball_member_early_price"/></td>
 		<td><input type="number" class="fee" name="ball_member_late" id="ball_member_late"/> ×&nbsp;$<span id="ball_member_late_price"/></td>
 		</tr>
 
 		<tr>
-		<td>Ball Only:<br /><span class="subtext">Non-Member</span></td>
+		<td><span class="subtext">Non-Member</span></td>
 		<td><input type="number" class="fee" name="ball_nonmember_early" id="ball_nonmember_early"/> ×&nbsp;$<span id="ball_nonmember_early_price"/></td>
 		<td><input type="number" class="fee" name="ball_nonmember_late" id="ball_nonmember_late"/> ×&nbsp;$<span id="ball_nonmember_late_price"/></td>
 		</tr>
