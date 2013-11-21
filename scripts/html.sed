@@ -71,3 +71,5 @@ s/%WORKSHOP_FORM%//g
 s/%MEMBERSHIP_CHAIR_MAIL%//g
 /%WORKSHOP_CHAIR_MAIL%/r debbie_mail.html
 s/%WORKSHOP_CHAIR_MAIL%//g
+/%WORKSHOP_DIRECTIONS%/r workshop_directions.txt
+s/%WORKSHOP_DIRECTIONS%//g
