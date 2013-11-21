@@ -75,6 +75,7 @@ calendar_check: data/eventdb.js
 # Only hardlink the blobs, not the generated content.
 install: all
 	mkdir -p $(DEST)
+	chmod -R +r $(BLOBS)
 	cp -Rlf $(BLOBS) $(DEST)
 	cp -Rf .htaccess $(PHP) $(TOP_HTML) $(JS) $(CSS) $(DEST)
 	mkdir -p $(DEST)/gazette/
