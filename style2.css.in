@@ -624,8 +624,10 @@ a.slidesjs-navigation:focus {
 	width: 6em;
 	color: black;
 }
+#fee_box th {
+	white-space: normal;
+}
 #fee_box td {
-	white-space: nowrap;
 	padding-right: 0.5em;
 	padding-left: 0.5em;
 }
@@ -654,6 +656,9 @@ a.slidesjs-navigation:focus {
 	text-align: center;
 	font-size: 120%;
 }
+#membership .subtitle {
+	margin-top: 1em;
+}
 #membership input[type=reset] {
 	background: white;
 	border: none;
@@ -662,6 +667,25 @@ a.slidesjs-navigation:focus {
 }
 #membership .isfun {
 	margin-bottom: 0.4em;
+}
+#membership .subtext {
+	color: #808080;
+}
+@media screen and (max-width: 500px) {
+	#membership {
+		padding: 0.1em;
+	}
+	#membership #field_box tr td {
+		display: block;
+		margin: 0px;
+		padding: 0px;
+	}
+	#membership .text {
+		padding-top: 0px;
+	}
+	#membership #field_box tr td:nth-child(3) {
+		padding: 0px;
+	}
 }
 @media print {
 	#membership input[type=reset] {
