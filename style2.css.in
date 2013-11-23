@@ -17,6 +17,13 @@ iframe {
 	width: 100%;
 	border: 1px solid rgb(192, 192, 192);
 }
+input {
+	font-family: "Linux Biolinum O", "Linux Biolinum", sans-serif;
+	font-size: 105%;
+}
+textarea {
+	font-family: "Source Code Pro", monospace;
+}
 a:link {
 	color: #0079c1;
 }
@@ -649,7 +656,7 @@ a.slidesjs-navigation:focus {
 	border: none;
 	border-bottom: 1px solid black;
 	padding-top: 0.5em;
-	width: 2em;
+	width: 2.5em;
 }
 .reg_form .title {
 	font-weight: bold;
