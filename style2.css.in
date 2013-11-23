@@ -688,7 +688,7 @@ a.slidesjs-navigation:focus {
 	margin-bottom: 1em;
 	padding: 0.5em;
 	position: fixed;
-	top: 1em;
+	top: 0px;
 	box-shadow: 0px 0px 7px rgb(128, 128, 128);
 }
 .reg_form #errors ul {
