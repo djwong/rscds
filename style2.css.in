@@ -681,6 +681,18 @@ a.slidesjs-navigation:focus {
 .reg_form .subtext {
 	color: #808080;
 }
+.reg_form #errors {
+	border: 1px solid #ff4040;
+	background-color: #ffe7e7;
+	display: none;
+	margin-bottom: 1em;
+	padding: 0.5em;
+}
+.reg_form #errors ul {
+	margin: 0px;
+	padding-left: 1.5em;
+}
+
 @media screen and (max-width: 500px) {
 	.reg_form {
 		padding: 0.1em;
@@ -705,6 +717,9 @@ a.slidesjs-navigation:focus {
 		display: none;
 	}
 	.reg_form .isfun {
+		display: none;
+	}
+	.reg_form #errors {
 		display: none;
 	}
 }

@@ -110,6 +110,66 @@ function load_new_main()
 	$(window).keydown(slideshow_key);
 }
 
+/* Membership form */
+function verify_membership_form()
+{
+	var errors = [];
+
+	if ($('#membership_form #name').val().length == 0) {
+		errors.push('Please provide your name.');
+	}
+
+	var s = $('#membership_form #children').val();
+	if (s.length > 0 && isNaN(parseInt(s))) {
+		errors.push('Please provide the number of children in your family, or leave the field blank.');
+	}
+
+	if ($('#membership_form #address').val().length == 0) {
+		errors.push('Please provide your address.');
+	}
+
+	s = $('#membership_form #email').val();
+	if (s.length > 0 && s.match(/@/) == null) {
+		errors.push('Please provide a valid e-mail address.');
+	}
+
+	if (!$('#membership_form #type_single').prop('checked') &&
+	    !$('#membership_form #type_family').prop('checked') &&
+	    !$('#membership_form #type_local').prop('checked')) {
+		errors.push('Please select a membership type.');
+	}
+
+	if (!$('#membership_form #org').prop('checked')) {
+		errors.push('Please check yes to the question about Scottish Dance being fun.');
+	}
+
+	set_form_errors(errors, 'membership_form', 'errors');
+}
+
+function set_form_errors(errors, form_elt, errors_elt)
+{
+	if (errors.length == 0) {
+		$('#' + form_elt + ' #' + errors_elt).css('display', 'none');
+		$('#' + form_elt + ' input[type = "submit"]').removeAttr('disabled');
+	} else {
+		var s = 'Please correct these errors:<ul>';
+		for (var idx in errors) {
+			s = s + '<li>' + errors[idx] + '</li>';
+		}
+		s = s + '</ul>';
+		$('#' + form_elt + ' #' + errors_elt).html(s);
+		$('#' + form_elt + ' #' + errors_elt).css('display', 'block');
+		$('#' + form_elt + ' input[type = "submit"]').attr('disabled', 'disabled');
+	}
+}
+
+function setup_membership_form()
+{
+	$('#membership_form input[type = "text"]').keyup(verify_membership_form);
+	$('#membership_form input').change(verify_membership_form);
+}
+
+/* Workshop registration form */
 var WORKSHOP_FORM_ITEMS = {
 	all_member_early: 50,
 	all_member_late: 60,

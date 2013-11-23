@@ -19,6 +19,10 @@
 %MEMBERSHIP_CHAIR_MAIL%
 	.</p>
 	<div class="isfun">Is Scottish Country Dance fun? <input type="checkbox" id="org" name="org"/> <label for="org">Yes</label></div>
-	<input type="submit" value="Register"/>
+	<div id="errors"></div>
+	<input type="submit" value="Register" disabled="disabled"/>
 	<input type="reset" value="Start Over"/>
 </form>
+<script type="text/javascript">
+$(document).ready(setup_membership_form);
+</script>
