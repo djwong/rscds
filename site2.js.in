@@ -129,7 +129,7 @@ function verify_membership_form()
 	}
 
 	s = $('#membership_form #email').val();
-	if (s.length > 0 && s.match(/@/) == null) {
+	if (s.length > 0 && s.match(/@.*\./) == null) {
 		errors.push('Please provide a valid e-mail address.');
 	}
 
@@ -152,12 +152,16 @@ function set_form_errors(errors, form_elt, form_description)
 		$('#' + form_elt + ' #errors').css('display', 'none');
 		$('#' + form_elt + ' input[type = "submit"]').removeAttr('disabled');
 	} else {
-		var s = 'Please correct these errors in the ' + form_description + ' form:<ul>';
+		var caption = 'Please correct these errors in the ' + form_description + ' form:';
+		var list = $('<ul>');
 		for (var idx in errors) {
-			s = s + '<li>' + errors[idx] + '</li>';
+			var item = $('<li>');
+			item.text(errors[idx]);
+			list.append(item);
 		}
-		s = s + '</ul>';
-		$('#' + form_elt + ' #errors').html(s);
+		$('#' + form_elt + ' #errors').empty();
+		$('#' + form_elt + ' #errors').text(caption);
+		$('#' + form_elt + ' #errors').append(list);
 		$('#' + form_elt + ' #errors').css('display', 'block');
 		$('#' + form_elt + ' input[type = "submit"]').attr('disabled', 'disabled');
 	}
@@ -247,7 +251,7 @@ function verify_workshop_form()
 	}
 
 	s = $('#workshop_form #email').val();
-	if (s.length > 0 && s.match(/@/) == null) {
+	if (s.length > 0 && s.match(/@.*\./) == null) {
 		errors.push('Please provide a valid e-mail address.');
 	}
 
