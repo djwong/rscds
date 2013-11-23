@@ -682,6 +682,7 @@ a.slidesjs-navigation:focus {
 	color: #808080;
 }
 .reg_form #errors {
+	z-index: 1000;
 	border: 1px solid #ff4040;
 	background-color: #ffe7e7;
 	display: none;
