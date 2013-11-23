@@ -143,29 +143,29 @@ function verify_membership_form()
 		errors.push('Please check yes to the question about Scottish Dance being fun.');
 	}
 
-	set_form_errors(errors, 'membership_form', 'errors');
+	set_form_errors(errors, 'membership_form', 'membership');
 }
 
-function set_form_errors(errors, form_elt, errors_elt)
+function set_form_errors(errors, form_elt, form_description)
 {
 	if (errors.length == 0) {
-		$('#' + form_elt + ' #' + errors_elt).css('display', 'none');
+		$('#' + form_elt + ' #errors').css('display', 'none');
 		$('#' + form_elt + ' input[type = "submit"]').removeAttr('disabled');
 	} else {
-		var s = 'Please correct these errors:<ul>';
+		var s = 'Please correct these errors in the ' + form_description + ' form:<ul>';
 		for (var idx in errors) {
 			s = s + '<li>' + errors[idx] + '</li>';
 		}
 		s = s + '</ul>';
-		$('#' + form_elt + ' #' + errors_elt).html(s);
-		$('#' + form_elt + ' #' + errors_elt).css('display', 'block');
+		$('#' + form_elt + ' #errors').html(s);
+		$('#' + form_elt + ' #errors').css('display', 'block');
 		$('#' + form_elt + ' input[type = "submit"]').attr('disabled', 'disabled');
 	}
 }
 
 function setup_membership_form()
 {
-	$('#membership_form input[type = "text"]').keyup(verify_membership_form);
+	$('#membership_form input').keyup(verify_membership_form);
 	$('#membership_form input').change(verify_membership_form);
 }
 
@@ -187,14 +187,6 @@ var WORKSHOP_FORM_ITEMS = {
 	lunch_guest: 7
 };
 
-function setup_workshop_form()
-{
-	for (var idx in WORKSHOP_FORM_ITEMS) {
-		$('#' + idx).blur(calculate_workshop_total);
-		$('#' + idx + '_price').html(WORKSHOP_FORM_ITEMS[idx]);
-	}
-}
-
 function calculate_workshop_total()
 {
 	var total = 0;
@@ -213,6 +205,69 @@ function calculate_workshop_total()
 	if (total > 0) {
 		x = '$' + total;
 	}
-	$('#total').val(x);
-	$('#total_hidden').val(x);
+	$('#workshop_form #total').val(x);
+	$('#workshop_form #total_hidden').val(x);
+
+}
+
+function verify_workshop_form()
+{
+	var errors = [];
+
+	calculate_workshop_total();
+
+	if ($('#workshop_form #name1').val().length == 0) {
+		errors.push('First dancer: Please provide your name.');
+	}
+
+	if (!$('#workshop_form #class1_beginner').prop('checked') &&
+	    !$('#workshop_form #class1_intermediate').prop('checked')) {
+		errors.push('First dancer: Please select a class level.');
+	}
+
+	var s = $('#workshop_form #years1').val();
+	if (s.length == 0 || isNaN(parseInt(s))) {
+		errors.push('First dancer: Please provide the number of years you\'ve been dancing Scottish dances.');
+	}
+
+	if ($('#workshop_form #name2').val().length > 0) {
+		if (!$('#workshop_form #class2_beginner').prop('checked') &&
+		    !$('#workshop_form #class2_intermediate').prop('checked')) {
+			errors.push('Second dancer: Please select a class level.');
+		}
+
+		var s = $('#workshop_form #years1').val();
+		if (s.length == 0 || isNaN(parseInt(s))) {
+			errors.push('Second dancer: Please provide the number of years you\'ve been dancing Scottish dances.');
+		}
+	}
+
+	if ($('#workshop_form #address').val().length == 0) {
+		errors.push('Please provide your address.');
+	}
+
+	s = $('#workshop_form #email').val();
+	if (s.length > 0 && s.match(/@/) == null) {
+		errors.push('Please provide a valid e-mail address.');
+	}
+
+	if ($('#workshop_form #total').val().length == 0) {
+		errors.push('Please write in your selection of registration packages.');
+	}
+
+	if (!$('#workshop_form #org').prop('checked')) {
+		errors.push('Please check yes to the question about Scottish Dance being fun.');
+	}
+
+	set_form_errors(errors, 'workshop_form', 'workshop registration');
+}
+
+function setup_workshop_form()
+{
+	for (var idx in WORKSHOP_FORM_ITEMS) {
+		$('#workshop_form #' + idx + '_price').html(WORKSHOP_FORM_ITEMS[idx]);
+	}
+
+	$('#workshop_form input').keyup(verify_workshop_form);
+	$('#workshop_form input').change(verify_workshop_form);
 }

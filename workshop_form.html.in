@@ -137,6 +137,7 @@
 	.</p>
 
 	<div class="isfun">Is Scottish Country Dance fun? <input type="checkbox" id="org" name="org"/> <label for="org">Yes</label></div>
+	<div id="errors"></div>
 	<input type="submit" value="Register"/>
 	<input type="reset" value="Start Over"/>
 </form>
