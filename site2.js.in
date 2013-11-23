@@ -110,6 +110,31 @@ function load_new_main()
 	$(window).keydown(slideshow_key);
 }
 
+/* General form */
+function set_form_errors(errors, form_elt, form_description)
+{
+	/* An empty error list means we pass validation! */
+	/* A null list means we just want to hide the bubble. */
+	if (errors == null || errors.length == 0) {
+		$('#' + form_elt + ' #errors').css('display', 'none');
+		if (errors != null)
+			$('#' + form_elt + ' input[type = "submit"]').removeAttr('disabled');
+	} else {
+		var caption = 'Please correct these errors in the ' + form_description + ' form:';
+		var list = $('<ul>');
+		for (var idx in errors) {
+			var item = $('<li>');
+			item.text(errors[idx]);
+			list.append(item);
+		}
+		$('#' + form_elt + ' #errors').empty();
+		$('#' + form_elt + ' #errors').text(caption);
+		$('#' + form_elt + ' #errors').append(list);
+		$('#' + form_elt + ' #errors').css('display', 'block');
+		$('#' + form_elt + ' input[type = "submit"]').attr('disabled', 'disabled');
+	}
+}
+
 /* Membership form */
 function verify_membership_form()
 {
@@ -146,31 +171,11 @@ function verify_membership_form()
 	set_form_errors(errors, 'membership_form', 'membership');
 }
 
-function set_form_errors(errors, form_elt, form_description)
-{
-	if (errors.length == 0) {
-		$('#' + form_elt + ' #errors').css('display', 'none');
-		$('#' + form_elt + ' input[type = "submit"]').removeAttr('disabled');
-	} else {
-		var caption = 'Please correct these errors in the ' + form_description + ' form:';
-		var list = $('<ul>');
-		for (var idx in errors) {
-			var item = $('<li>');
-			item.text(errors[idx]);
-			list.append(item);
-		}
-		$('#' + form_elt + ' #errors').empty();
-		$('#' + form_elt + ' #errors').text(caption);
-		$('#' + form_elt + ' #errors').append(list);
-		$('#' + form_elt + ' #errors').css('display', 'block');
-		$('#' + form_elt + ' input[type = "submit"]').attr('disabled', 'disabled');
-	}
-}
-
 function setup_membership_form()
 {
 	$('#membership_form input').keyup(verify_membership_form);
 	$('#membership_form input').change(verify_membership_form);
+	$('#membership_form').bind('reset', function() {set_form_errors(null, 'membership_form', 'membership');});
 }
 
 /* Workshop registration form */
@@ -274,4 +279,5 @@ function setup_workshop_form()
 
 	$('#workshop_form input').keyup(verify_workshop_form);
 	$('#workshop_form input').change(verify_workshop_form);
+	$('#workshop_form').bind('reset', function() {set_form_errors(null, 'workshop_form', 'workshop registration');});
 }
