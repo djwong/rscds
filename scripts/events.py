@@ -266,7 +266,10 @@ class event_queries:
 		print("<ul>\n")
 		before_date = event_database.today().replace(hour = 23, minute = 59, second = 59)
 		for evt in sorted(events.iterate_news(starts_before = before_date, starts_after = None), key = lambda x: x['start'], reverse = True):
-			print("<li><b>(%s) %s</b>: %s</li>\n" % (event_queries.__format_date(evt['start']), evt['name'], evt['details']))
+			if 'details' in evt:
+				print("<li><b>(%s) %s</b>: %s</li>\n" % (event_queries.__format_date(evt['start']), evt['name'], evt['details']))
+			else:
+				print("<li><b>(%s) %s</b></li>\n" % (event_queries.__format_date(evt['start']), evt['name']))
 			n += 1
 			if n > 5:
 				break

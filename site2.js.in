@@ -95,7 +95,7 @@ function load_new_main()
 		play: {
 			active: false,
 			auto: true,
-			interval: 15000,
+			interval: 30000,
 			swap: true,
 			effect: "fade",
 			pauseOnHover: true,
