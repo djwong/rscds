@@ -99,7 +99,7 @@ function load_new_main()
 			swap: true,
 			effect: "fade",
 			pauseOnHover: true,
-			restartDelay: 15000
+			restartDelay: 30000
 		},
 		effect: {
 			fade: {
