@@ -8,3 +8,4 @@
 {"start": "2013/10/07 01:26", "type": "news", "name": "35th Ball Program Announced!", "details": "The program for our 35th ball has been announced on the <a href=\"workshop.html\">workshop</a> page."},
 {"start": "2013/11/01 11:41", "type": "news", "name": "November Ghillie Gazette out!", "details": "There is a new <a href=\"http://portlandscottishdancers.org/gazette/2013-11.html\">Ghillie Gazette</a> to read."},
 {"start": "2013/11/26 00:00", "type": "news", "name": "Happy 90<sup>th</sup> Anniversary of the RSCDS!"},
+{"start": "2013/11/30 22:44", "type": "news", "name": "Past dance programs available!", "details": "Programs from the past couple of years are being posted in the <a href=\"past_programs.html\">dance programs</a> section."},
