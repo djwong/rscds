@@ -1,6 +1,7 @@
 Name: Muirland Willie
 Format: 8×32J, 3C (4C set)
 Source: RSCDS Book 21
+Youtube: jnRt03GhWPI
 BARS
  1- 4	1s lead down middle & cross over to cast up to 2nd pl while 2s set & cross RH to 3rd pl while 3s cast up to 1st place & cross RH
  5- 8	All set & ½ turn 2H to own side

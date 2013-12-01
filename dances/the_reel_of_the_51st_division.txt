@@ -1,6 +1,7 @@
 Name: Reel of the 51st Division
 Format: 8×32R, 3C (4C set)
 Source: Atkinson, RSCDS Book 13
+Youtube: 6DhmZ-YtUWk
 BARS
 1- 8	1s set & cast below 3s, lead up to face 1 corners
 9-16	1s set & turn 1st corners RH to balance in diagonal line, set & 1s turn LH to face 2nd corners

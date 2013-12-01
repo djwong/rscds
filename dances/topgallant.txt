@@ -1,0 +1,10 @@
+Name: Topgallant
+Format: 8×32R, 3C (4C set)
+Source: B. Herbold, Measures of Pleasure
+BARS
+ 1- 8	1s followed by 2s, dance down the middle & 2s followed by 1s dance back to the top
+ 9 –16	2s+1s dance Poussette 
+17– 18	1s dance down into center as 2s cast up
+19-24	1s set and dance round person behind RSh (1M around 3M, 1L around 2L) to 2nd place, pull RSh back to face out joining hands with 2s, 3s
+25–32	2s,1s,3s Balance-in-Line, 1s give RSh to person on R and dance reels of 3 on sides with 2s+3s, 1s pull LSh back to end facing out 1M between 3s, 1L between 2s
+33-40	All Balance-in-Line then dance LSh reels of 3 across, 1s finish in 2nd place

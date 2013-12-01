@@ -1,6 +1,7 @@
 Name: Neidpath Castle
 Source: Derek Haynes, RSCDS Book 22
 Format: 3×32S, 3C set
+Youtube: X63x55pV96Q
 BARS
 1-2	All set on the sides;
 3-6	all turn both hands twice;

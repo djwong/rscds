@@ -1,6 +1,7 @@
 Name: Monymusk
 Source: Preston, RSCDS Book 11
 Format: 8×32S, 3C (4C set)
+Youtube: Av-jtnV1F18
 BARS
 1-4	1s turn by the right and cast;
 5-8	1s turn by the left 1¼ times, finishing 2M1L2L facing 3M1M3L in lines across;

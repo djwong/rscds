@@ -1,8 +1,9 @@
 Name: The Blackadder Jig
 Format: 8×32J, 3C (4C set)
 Source: M. Johnstone, Blackadder Collection
+Youtube: bDslM4L9Ejo
 BARS
 1- 8	1s set, cast 2 places and turn RH
 9-16	3s+1s Set+Link, circle 4H round to left
 17-24	2s+1s Reverse Set+Link, circle 4H round to right
-25-32	1s+2s dance Poussette. 213 
+25-32	1s+2s dance Poussette.  Ends 2-1-3.

@@ -1,6 +1,7 @@
 Name: The Wild Geese
 Source: Anon, RSCDS Book 24
 Format: 8×32J, 3C (4C set)
+Youtube: no6S6NsK3s4
 BARS
 1-2	1s 3s set advancing;
 3-4	1M1L3M3L balance in line in the centre of the set;

@@ -1,6 +1,7 @@
 Name: Light and Airy
 Format: 8×32J, 3C (4C set)
 Source: W. Campbell, RSCDS Book 4
+Youtube: b4C7qBu0610
 BARS
  1- 8	1s set & cast to 3rd place, set & cast back to top
  9-16	1s lead down the middle & back
