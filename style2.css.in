@@ -210,17 +210,30 @@ img {
 
 /* Crib stuff */
 .crib_ctl {
-	padding-right: 0.4em;
+	padding-right: 0.2em;
 	cursor: pointer;
 }
 .crib_steps {
 	display: none;
 }
 .crib_steps td {
-	padding-bottom: 0.4em;
+	pedding-bottom: 0.4em;
 }
 .crib_header td {
+	vertical-align: top;
 	padding-top: 0.2em;
+}
+.crib_table .crib_source {
+	color: #606060;
+}
+.crib_table .crib_name_cell {
+	width: 100%;
+}
+.crib_header td {
+	padding-top: 0.4em;
+}
+.crib_table .crib_format {
+	white-space: nowrap;
 }
 .crib_header {
 	border: 1px solid gray;
@@ -239,16 +252,27 @@ img {
 }
 .crib_step_bars {
 	white-space: pre;
-	padding-left: 2.25em;
+	padding-left: 1.25em;
 	padding-right: 0.75em;
 	text-align: right;
+	padding-bottom: 0.4em;
+}
+.crib_step_figures {
+	padding-bottom: 0.4em;
 }
 .crib_note {
-	padding-left: 1em;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
 }
 .crib_name {
 	font-weight: bold;
 	cursor: pointer;
+}
+@media screen and (max-width: 480px) {
+	.crib_table .crib_format {
+		white-space: normal;
+	}
 }
 @media print {
 	.crib_youtube {
@@ -261,9 +285,9 @@ img {
 		display: none;
 	}
 	.crib_steps {
-		display: table-row;
 		/* horrible hack for ie6/7 */
 		display: block;
+		display: table-row;
 	}
 }
 
@@ -385,6 +409,13 @@ img {
 	}
 	#contact .three-up {
 		padding-bottom: 2em;
+	}
+}
+@media screen and (max-width: 480px) {
+	#regular_body {
+		transition: padding-left linear 0.1s, padding-right linear 0.1s;
+		padding-left: 0.1em;
+		padding-right: 0.1em;
 	}
 }
 

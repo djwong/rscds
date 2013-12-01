@@ -32,6 +32,10 @@ import cgi
 import hashlib
 import uuid
 import os
+import re
+
+DEBUG=' border=1'
+DEBUG=''
 
 def write_dance(dance_name, output):
 	dance_fname = 'dances/'
@@ -53,7 +57,9 @@ def write_dance(dance_name, output):
 				continue
 			elif in_instructions:
 				(bars, sep, figure) = line.partition('\t')
-				output.write('	<tr><td class="crib_step_bars">%s</td><td>%s</td></tr>\n' % (cgi.escape(bars), cgi.escape(figure)))
+				bars = re.sub(r'\s*-\s*', '-', bars.strip())
+				output.write('	<tr><td class="crib_step_bars">%s</td>\n' % cgi.escape(bars))
+				output.write('	<td class="crib_step_figures">%s</td></tr>\n' % cgi.escape(figure))
 			elif line == 'BARS':
 				in_instructions = True
 
@@ -70,11 +76,14 @@ def write_dance(dance_name, output):
 					youtube_str = '<span class="crib_youtube">&nbsp;[<a href="http://www.youtube.com/watch?v=%s">video</a>]</span>' % props['Youtube']
 
 				# Emit dance header
-				output.write('<tr class="crib_header" onclick="crib_toggle(\'crib_%s\');">' % dance_id)
-				output.write('<td><span id="crib_%s_ctl" class="crib_ctl">&#9654;</span><span class="crib_name">%s</span> (%s)%s</td>\n' % (dance_id, cgi.escape(props['Name']), cgi.escape(props['Format']), youtube_str))
-				output.write('<td>%s</td></tr>\n' % cgi.escape(props['Source']))
-				output.write('<tr id="crib_%s" class="crib_steps"><td colspan="2">\n' % dance_id)
-				output.write('	<table class="crib_step_table" border=1>\n')
+				output.write('<tr class="crib_header">\n')
+				output.write('<td><span id="crib_%s_ctl" class="crib_ctl" onclick="crib_toggle(\'crib_%s\');">&#9654;</span></td>\n' % (dance_id, dance_id))
+				output.write('<td class="crib_name_cell"><div><span class="crib_name" onclick="crib_toggle(\'crib_%s\');">%s</span>%s</div><div class="crib_source">%s</div></td>\n' % (dance_id, cgi.escape(props['Name']), youtube_str, cgi.escape(props['Source'])))
+				output.write('<td class="crib_format">%s</td>\n' % cgi.escape(props['Format']))
+				output.write('</tr>\n')
+
+				output.write('<tr id="crib_%s" class="crib_steps"><td></td><td style="padding: 0px;" colspan="2">\n' % dance_id)
+				output.write('	<table class="crib_step_table"%s>\n' % DEBUG)
 				for key in props:
 					if key in ['Youtube', 'Name', 'Format', 'Source', 'Endnote']:
 						continue
@@ -92,12 +101,12 @@ def write_dance(dance_name, output):
 def generate_crib(cribfd, outfd):
 	'''Given an input crib file, generate an output.'''
 
-	outfd.write('<table class="crib_table" border=1>\n')
+	outfd.write('<table class="crib_table"%s>\n' % DEBUG)
 	for cribline in cribfd:
 		if cribline[0] == '#':
 			continue
 		elif cribline[:3] == "I: ":
-			outfd.write('<tr class="crib_interlude"><td colspan="2">' + cgi.escape(cribline[3:].strip()) + '</td></tr>\n')
+			outfd.write('<tr class="crib_interlude"><td colspan="3">' + cgi.escape(cribline[3:].strip()) + '</td></tr>\n')
 		elif cribline[:3] == "D: ":
 			write_dance(cribline[3:].strip(), outfd)
 	outfd.write('</table>\n');
