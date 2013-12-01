@@ -1,6 +1,6 @@
 %HEAD%
 	<title>RSCDS - Portland, Oregon</title>
-	<script src="jquery.slides.js"></script>
+	<script type="text/javascript" src="jquery.slides.js"></script>
 	<script type="text/javascript">
 $(document).ready(load_new_main);
 	</script>
@@ -99,7 +99,7 @@ spectator.</p>
 		</div>
 		</div>
 	</div>
-	<div id="participate">
+	<div id="news">
 		<div class="container">
 		<div class="skinny_box">
 			<h1>What Have We Been Up To Lately?</h1>

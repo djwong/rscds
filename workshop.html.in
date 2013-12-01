@@ -19,7 +19,7 @@ We also have a <a href="files/workshop_flyer_2014.pdf">flyer</a> available!</p>
 	<li><a href="#directions">Directions</a></li>
 </ol>
 
-<a name="schedule"/><h2>Schedule</h2>
+<a id="schedule"></a><h2>Schedule</h2>
 
 <p>Note: This schedule is not yet finalized.</p>
 
@@ -48,7 +48,7 @@ We also have a <a href="files/workshop_flyer_2014.pdf">flyer</a> available!</p>
 	<li>Lisa Scott - Piano, Portland, Ore.</li>
 </ul>
 
-<a name="program"/><h2>Ball Program</h2>
+<a id="program"></a><h2>Ball Program</h2>
 %PORTLAND_BALL_CRIB%
 <p>[<a href="workshop_crib.html">Printable Format</a>]</p>
 
@@ -78,16 +78,16 @@ attending classes regularly for at least two years and...</p>
 	<li>Can correct own errors by the beginning of the next phrase.</li>
 </ul>
 
-<a name="register"/><h2>Registration</h2>
+<a id="register"></a><h2>Registration</h2>
 %WORKSHOP_FORM%
 <p>[<a href="workshop_reg.html">Printable Format</a>]</p>
 
-<a name="directions"/><h2>Directions</h2>
+<a id="directions"></a><h2>Directions</h2>
 
 %WORKSHOP_DIRECTIONS%
 <p>[<a href="workshop_dirs.html">Printable Format</a>]</p>
 
-<p>See <a href="past_programs.html">old programs</a>.
+<p>See <a href="past_programs.html">old programs</a>.</p>
 
 %CLOSE_CONTENT%
 %FOOT%

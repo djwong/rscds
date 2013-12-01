@@ -22,7 +22,7 @@ cat data/people.csv | while IFS=, read tag name role phone email imgurl addr cra
 	if [ "${tag:0:1}" = "#" ]; then
 		continue
 	fi
-	email="$(echo "${email}" | sed -e 's/@/ at /g' -e 's/\./ dot /g')"
+	email="$(echo "${email}" | sed -e 's/@/%20at%20/g' -e 's/\./%20dot%20/g')"
 	fname="${tag}.html"
 	if [ -z "${imgurl}" ]; then
 		imgurl="images/nopic.png"

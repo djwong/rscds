@@ -9,7 +9,7 @@
 [<a href="https://github.com/djwong/rscds">GH</a>]
 </div>
 <div>&copy; 2000-2013 RSCDS Portland Branch</div>
-<div>Email the <a href="mailto:djwong dot rscds at djwong dot org" class="link_email">webmaster</a>.</div>
+<div>Email the <a href="mailto:djwong%20dot%20rscds%20at%20djwong%20dot%20org" class="link_email">webmaster</a>.</div>
 				</div>
 				<div class="three-up left">
 <div style="font-weight: bold;">Dance With Us</div>

@@ -217,7 +217,6 @@ img {
 	display: none;
 }
 .crib_steps td {
-	pedding-bottom: 0.4em;
 }
 .crib_header td {
 	vertical-align: top;
@@ -309,6 +308,10 @@ img {
 }
 
 #participate {
+	padding-top: 2em;
+	padding-bottom: 4em;
+}
+#news {
 	padding-top: 2em;
 	padding-bottom: 4em;
 }
