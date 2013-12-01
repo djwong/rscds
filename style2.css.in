@@ -273,6 +273,9 @@ img {
 	.crib_table .crib_format {
 		white-space: normal;
 	}
+	.crib_step_bars {
+		padding-left: 0px;
+	}
 }
 @media print {
 	.crib_youtube {
@@ -285,8 +288,6 @@ img {
 		display: none;
 	}
 	.crib_steps {
-		/* horrible hack for ie6/7 */
-		display: block;
 		display: table-row;
 	}
 }
