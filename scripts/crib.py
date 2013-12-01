@@ -41,59 +41,58 @@ def write_dance(dance_name, output):
 		elif letter == ' ':
 			dance_fname = dance_fname + '_'
 	dance_fname = dance_fname + '.txt'
-	in_instructions = False
-	source = ''
-	youtube = None
-	endnote = None
-	notes = []
 	alg = hashlib.sha1()
 	alg.update(str(uuid.uuid4()).encode('utf-8'))
 	dance_id = alg.hexdigest()
 	with open(dance_fname) as dancefile:
+		in_instructions = False
+		props = {}
 		for danceline in dancefile:
-			if danceline[0] == '#':
+			line = danceline.strip()
+			if len(line) == 0 or line[0] == '#':
 				continue
-			danceline = danceline.strip()
-			if in_instructions:
-				x = danceline.partition('	')
-				output.write('	<tr><td class="crib_step_bars">%s</td><td>%s</td></tr>\n' % (cgi.escape(x[0]), cgi.escape(x[2])))
-			elif danceline.startswith("Name: "):
-				name = danceline[6:]
-			elif danceline.startswith("Format: "):
-				fmt = danceline[8:]
-			elif danceline.startswith("Source: "):
-				source = danceline[8:]
-			elif danceline.startswith("Youtube: "):
-				youtube = danceline[9:]
-			elif danceline.startswith("Endnote: "):
-				endnote = danceline[9:]
-			elif danceline == 'BARS':
+			elif in_instructions:
+				(bars, sep, figure) = line.partition('\t')
+				output.write('	<tr><td class="crib_step_bars">%s</td><td>%s</td></tr>\n' % (cgi.escape(bars), cgi.escape(figure)))
+			elif line == 'BARS':
 				in_instructions = True
-				if youtube != None:
-					youtube_str = '<span class="crib_youtube">&nbsp;[<a href="http://www.youtube.com/watch?v=%s">video</a>]</span>' % youtube
-				else:
-					youtube_str = ''
-				try:
-					output.write('<tr class="crib_header" onclick="crib_toggle(\'crib_%s\');"><td><span id="crib_%s_ctl" class="crib_ctl">&#9654;</span><span class="crib_name">%s</span> (%s)%s</td><td>%s</td></tr>\n' % (dance_id, dance_id, cgi.escape(name), cgi.escape(fmt), youtube_str, cgi.escape(source)))
-				except Exception as e:
-					print("%s: %s" % (dance_fname, e))
-					raise
+
+				# Dance file missing any keys?
+				reqd_keys = set(['Name', 'Format', 'Source'])
+				found_keys = set(props) & reqd_keys
+				missing_keys = found_keys ^ reqd_keys
+				if missing_keys:
+					raise Exception("%s: Missing required keys: %s" % (dance_fname, missing_keys))
+
+				# Set up youtube links
+				youtube_str = ''
+				if 'Youtube' in props:
+					youtube_str = '<span class="crib_youtube">&nbsp;[<a href="http://www.youtube.com/watch?v=%s">video</a>]</span>' % props['Youtube']
+
+				# Emit dance header
+				output.write('<tr class="crib_header" onclick="crib_toggle(\'crib_%s\');">' % dance_id)
+				output.write('<td><span id="crib_%s_ctl" class="crib_ctl">&#9654;</span><span class="crib_name">%s</span> (%s)%s</td>\n' % (dance_id, cgi.escape(props['Name']), cgi.escape(props['Format']), youtube_str))
+				output.write('<td>%s</td></tr>\n' % cgi.escape(props['Source']))
 				output.write('<tr id="crib_%s" class="crib_steps"><td colspan="2">\n' % dance_id)
-				output.write('	<table class="crib_step_table">\n')
-				for note in notes:
-					output.write('	<tr><td class="crib_note" colspan="2">%s</td></tr>\n' % cgi.escape(note))
+				output.write('	<table class="crib_step_table" border=1>\n')
+				for key in props:
+					if key in ['Youtube', 'Name', 'Format', 'Source', 'Endnote']:
+						continue
+					output.write('	<tr><td class="crib_note" colspan="2"><b>%s:</b> %s</td></tr>\n' % (cgi.escape(key), cgi.escape(props[key])))
 			else:
-				notes.append(danceline)
+				(key, sep, value) = line.partition(': ')
+				props[key] = value
+
 		if in_instructions:
 			output.write('	</table>\n')
-			if endnote != None:
-				output.write('<p>%s</p>\n' % cgi.escape(endnote))
+			if 'Endnote' in props:
+				output.write('<p>%s</p>\n' % cgi.escape(props['Endnote']))
 			output.write('</td></tr>\n')
 
 def generate_crib(cribfd, outfd):
 	'''Given an input crib file, generate an output.'''
 
-	outfd.write('<table class="crib_table">\n')
+	outfd.write('<table class="crib_table" border=1>\n')
 	for cribline in cribfd:
 		if cribline[0] == '#':
 			continue
@@ -133,7 +132,8 @@ if __name__ == '__main__':
 				outfname = fname + ".crib"
 			try:
 				generate_crib(open(fname), open(outfname, 'w'))
-			except:
+			except Exception as e:
+				print(e)
 				os.remove(outfname)
 				sys.exit(1)
 	else:
