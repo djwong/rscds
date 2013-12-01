@@ -77,8 +77,8 @@ class event_database:
 
 	def event_start_satisfies(evt, before, after):
 		'''Does the start of this event fit between these dates?'''
-		if (before is None or evt['start'] <= before) and \
-		   (after is None or evt['start'] >= after):
+		if (before is None or (evt['start'] != datetime.datetime.min and evt['start'] <= before)) and \
+		   (after is None or (evt['start'] != datetime.datetime.min and evt['start'] >= after)):
 			return True
 		return False
 
@@ -88,7 +88,7 @@ class event_database:
 
 		for evt in self.events:
 			if evt['type'] in CALENDAR_TYPES and \
-			   (evt_type is None or evt['type'] == evt_type) and \
+			   (evt_type is None or evt['type'] in evt_type) and \
 			   (is_local is None or evt['local'] == is_local) and \
 			   event_database.event_start_satisfies(evt, starts_before, starts_after):
 				yield evt
@@ -112,17 +112,22 @@ class event_database:
 		'''Iterate over all upcoming events.'''
 		return self.iterate_events(None, None, event_database.today(), None)
 
+	def all_non_class_past(self):
+		'''Iterate over all past events except classes.'''
+		all_but_classes = CALENDAR_TYPES - set(['class'])
+		return self.iterate_events(all_but_classes, event_database.today(), None, None)
+
 	def classes(self, starts_before = None, starts_after = None, is_local = None):
 		'''Iterate over class events.'''
-		return self.iterate_events('class', starts_before, starts_after, is_local)
+		return self.iterate_events(['class'], starts_before, starts_after, is_local)
 
 	def dances(self, starts_before = None, starts_after = None, is_local = None):
 		'''Iterate over dance events.'''
-		return self.iterate_events('dance', starts_before, starts_after, is_local)
+		return self.iterate_events(['dance'], starts_before, starts_after, is_local)
 
 	def balls(self, starts_before = None, starts_after = None, is_local = None):
 		'''Iterate over ball events.'''
-		return self.iterate_events('ball', starts_before, starts_after, is_local)
+		return self.iterate_events(['ball'], starts_before, starts_after, is_local)
 
 	def nonlocal_events(self, starts_before = None, starts_after = None):
 		'''Iterate over non local events.'''
@@ -216,6 +221,10 @@ class event_queries:
 	def upcoming_events(events):
 		'''All upcoming events that we know about.'''
 		return event_queries.upcoming_events_generator(events.all_upcoming(), 2)
+
+	def past_events_list(events):
+		'''All past events that we know about.'''
+		return event_queries.upcoming_events_generator(events.all_non_class_past(), 2)
 
 	def upcoming_events_generator(event_iterator, heading_level):
 		last_date = None

@@ -1,0 +1,14 @@
+%HEAD%
+	<title>Past Events</title>
+%BODY%
+%NAVIGATION%
+%OPEN_CONTENT%
+<h1>Past Events</h1>
+
+<p>Here is a list of the Scottish country dance events that have already
+passed, in case you wanted a reminder.</p>
+
+%PAST_EVENTS%
+
+%CLOSE_CONTENT%
+%FOOT%

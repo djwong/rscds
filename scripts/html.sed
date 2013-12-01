@@ -27,6 +27,8 @@ s/%NEXT_TRAVEL_SUMMARY%//g
 s/%NEXT_DANCE_CRIB%//g
 /%PORTLAND_BALL_CRIB%/r portland_ball_crib.html
 s/%PORTLAND_BALL_CRIB%//g
+/%PAST_EVENTS%/r past_events_list.html
+s/%PAST_EVENTS%//g
 /%UPCOMING_EVENTS%/r upcoming_events.html
 s/%UPCOMING_EVENTS%//g
 /%UPCOMING_EVENTS_SHORT%/r upcoming_events_short.html
