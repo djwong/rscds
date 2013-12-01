@@ -59,6 +59,10 @@ s/%LMAE_CONTACT%//g
 s/%RICHARD_CONTACT%//g
 /%VMAC_CONTACT%/r vmac.html
 s/%VMAC_CONTACT%//g
+/%MARGE_CONTACT%/r marge.html
+s/%MARGE_CONTACT%//g
+/%LIZA_CONTACT%/r liza.html
+s/%LIZA_CONTACT%//g
 /%ALL_CRIBS%/r has_crib.html
 s/%ALL_CRIBS%//g
 /%GAZETTE_INDEX%/r gazette_index.html
@@ -75,3 +79,13 @@ s/%MEMBERSHIP_CHAIR_MAIL%//g
 s/%WORKSHOP_CHAIR_MAIL%//g
 /%WORKSHOP_DIRECTIONS%/r workshop_directions.txt
 s/%WORKSHOP_DIRECTIONS%//g
+/%SUSIE_CONTACT%/r susie.html
+s/%SUSIE_CONTACT%//g
+/%LEONE_CONTACT%/r leone.html
+s/%LEONE_CONTACT%//g
+/%BLEDSOE_CONTACT%/r bledsoe.html
+s/%BLEDSOE_CONTACT%//g
+/%LINDA_KELSO_CONTACT%/r linda_kelso.html
+s/%LINDA_KELSO_CONTACT%//g
+/%DWAYNE_CONTACT%/r dwayne.html
+s/%DWAYNE_CONTACT%//g

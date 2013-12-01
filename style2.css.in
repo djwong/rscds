@@ -65,6 +65,11 @@ a:link {
 	float: left;
 	text-align: center;
 }
+.one-up {
+	width: 100%;
+	float: left;
+	text-align: center;
+}
 .left {
 	text-align: left;
 }
@@ -364,7 +369,7 @@ img {
 	}
 }
 
-.five-up, .four-up, .three-up, .two-up {
+.five-up, .four-up, .three-up, .two-up .one-up {
 	transition: width linear 0.1s;
 }
 .linkbox {
@@ -384,7 +389,7 @@ img {
 	}
 }
 @media screen and (max-width: 600px) {
-	.five-up, .four-up, .three-up, .two-up {
+	.five-up, .four-up, .three-up, .two-up .one-up {
 		transition: width linear 0.1s;
 		float: none;
 		width: 100%;
