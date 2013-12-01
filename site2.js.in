@@ -7,7 +7,7 @@ function crib_toggle(id)
 		x.css('display', 'table-row');
 		y.text('▼');
 	} else {
-		x.css('display', 'none');
+		x.css('display', '');
 		y.text('▶');
 	}
 }
