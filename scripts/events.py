@@ -142,7 +142,7 @@ class event_database:
 class event_queries:
 	'''Queries of the event database.'''
 
-	def __format_date(d, show_year = True):
+	def __format_date(d, show_year = True, show_time = True):
 		'''Format the dates all nice.'''
 		now = event_database.today()
 		if d.hour > 12:
@@ -152,8 +152,12 @@ class event_queries:
 			meridian = 'am'
 			hour = d.hour
 		if now.year != d.year and show_year:
-			return '%d/%d/%d at %d:%02d%s' % (d.month, d.day, d.year, hour, d.minute, meridian)
-		return '%d/%d at %d:%02d%s' % (d.month, d.day, hour, d.minute, meridian)
+			ret = '%d/%d/%d' % (d.month, d.day, d.year)
+		else:
+			ret = '%d/%d' % (d.month, d.day)
+		if show_time:
+			ret = ret + ' at %d:%02d%s' % (hour, d.minute, meridian)
+		return ret
 
 	def next_class_summary(events):
 		'''When and where are the next classes?'''
@@ -298,9 +302,9 @@ class event_queries:
 		before_date = event_database.today().replace(hour = 23, minute = 59, second = 59)
 		for evt in sorted(events.iterate_news(starts_before = before_date, starts_after = None), key = lambda x: x['start'], reverse = True):
 			if 'details' in evt:
-				print("<li><b>(%s) %s</b>: %s</li>\n" % (event_queries.__format_date(evt['start']), evt['name'], evt['details']))
+				print("<li><b>(%s) %s</b>: %s</li>\n" % (event_queries.__format_date(evt['start'], show_time = False), evt['name'], evt['details']))
 			else:
-				print("<li><b>(%s) %s</b></li>\n" % (event_queries.__format_date(evt['start']), evt['name']))
+				print("<li><b>(%s) %s</b></li>\n" % (event_queries.__format_date(evt['start'], show_time = False), evt['name']))
 			n += 1
 			if n > 5:
 				break
