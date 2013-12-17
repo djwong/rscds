@@ -1,6 +1,7 @@
 Name: Jennifer’s Jig
 Format: 8×32J, 3C (4C set)
 Source: John Drewry, Silver City Book
+Youtube: C0Ly8vS19ow
 BARS
 1-4	1s2s3s set and cross by the right;
 5-8	repeat bars 1-4 (2s finish facing out);

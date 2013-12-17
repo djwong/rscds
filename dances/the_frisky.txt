@@ -1,7 +1,7 @@
 Name: The Frisky
 Format: 8×32J, 3C (4C set)
 Source: R. Bremner, RSCDS Book 26
-Youtube: NAKaH7wOcVI
+Youtube: kq1acNChfrE, NAKaH7wOcVI
 BARS
 1- 8	1s turn RH and cast 1 place, turn LH and cast down 1 place
 9-16	2s+3s+1s circle 6H round and back

@@ -1,6 +1,7 @@
 Name: The Cupar Jig
 Format: 8×32J, 2C (4C set)
 Source: J. Trew, Let’s All Dance
+Youtube: Hf_aRG4Eksg
 BARS
 1- 8	1s+2s dance double Fig of 8 (1s cross down to start)
 9-16	1s+2s dance R&L
