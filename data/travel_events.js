@@ -18,7 +18,7 @@
 {"start": "2013/11/23 17:00", "type": "ball", "local": false, "name": "St. Andrew's Ball", "location": "Boise, Idaho.", "url": "http://www.facebook.com/events/175107326020197/"},
 {"start": "2013/12/08 13:30", "type": "ball", "local": false, "name": "Gleneagles Ball", "location": "Vancouver, B.C.", "url": "http://www.rscdsvancouver.org/downloads/20131208i%20Gleneagles%20Ball%20Info.pdf"},
 {"start": "2014/01/25 9:00", "type": "dance", "local": false, "name": "Seattle Burns Supper", "location": "Seattle, Wash."},
-{"start": "2014/02/01 17:00", "type": "dance", "local": false, "name": "Vancouver Burns Suppoer", "location": "Vancouver, B.C.", "url": "http://www.rscdsvancouver.org/tickets/2014burnssuppertickets.html"},
+{"start": "2014/02/01 17:00", "type": "dance", "local": false, "name": "Vancouver Burns Supper", "location": "Vancouver, B.C.", "url": "http://www.rscdsvancouver.org/tickets/2014burnssuppertickets.html"},
 {"start": "2014/02/08 19:00", "type": "dance", "local": false, "name": "Valentine’s Ball", "location": "Oakland, Calif.", "url": "http://www.rscds-sf.org/valentine/pdf/ValentinesBallFlyer.11.pdf"},
 {"start": "2014/02/15 19:00", "type": "dance", "local": false, "name": "Seattle Best of the Bands Dance", "location": "Seattle, Wash."},
 {"start": "2014/02/15 9:00", "type": "dance", "local": false, "name": "Love to Dance Workshop", "location": "Vancouver, B.C."},
