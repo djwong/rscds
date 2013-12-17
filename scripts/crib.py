@@ -13,7 +13,7 @@
 # Name: <name of dance>
 # Format: <what kind of dance -- 8x32R, 4x32S, etc>
 # Source: <where you got it from>
-# Youtube: <the youtube video id>
+# Youtube: <the youtube video id>, <more youtube ids>
 # Endnote: Notes to put at the end 
 # <other key: value pairs which are copied verbatim>
 # BARS
@@ -73,7 +73,19 @@ def write_dance(dance_name, output):
 				# Set up youtube links
 				youtube_str = ''
 				if 'Youtube' in props:
-					youtube_str = '<span class="crib_youtube">&nbsp;[<a href="http://www.youtube.com/watch?v=%s">video</a>]</span>' % props['Youtube']
+					videos = props['Youtube'].split(", ")
+					youtube_str = '<span class="crib_youtube">&nbsp;['
+					if len(videos) == 1:
+						youtube_str = youtube_str + '<a href="http://www.youtube.com/watch?v=%s">video</a>' % props['Youtube']
+					else:
+						youtube_str = youtube_str + 'videos: '
+						vlinks = []
+						num = 1
+						for video in videos:
+							vlinks.append('<a href="http://www.youtube.com/watch?v=%s">%d</a>' % (video, num))
+							num = num + 1
+						youtube_str = youtube_str + ", ".join(vlinks)
+					youtube_str = youtube_str + ']</span>'
 
 				# Emit dance header
 				output.write('<tr class="crib_header">\n')
