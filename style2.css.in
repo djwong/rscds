@@ -316,6 +316,9 @@ img {
 	padding-top: 2em;
 	padding-bottom: 4em;
 }
+#participate .container .skinny_box {
+	max-width: 9.5in;
+}
 #news {
 	padding-top: 2em;
 	padding-bottom: 4em;
@@ -334,6 +337,9 @@ img {
 	background: #99c1e4;
 	padding-bottom: 2em;
 	padding-top: 1em;
+}
+#ps_travel li {
+	margin-left: -1em;
 }
 #ps_travel {
 	text-align: left;
