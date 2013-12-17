@@ -75,6 +75,12 @@ class event_database:
 		'''Returns today as a datetime.'''
 		return datetime.datetime.now().replace(hour = 0, minute = 0, second = 0, microsecond = 0)
 
+	def week_from_now():
+		'''Returns today + 7 days as a datetime.'''
+		d = datetime.datetime.now().replace(hour = 0, minute = 0, second = 0, microsecond = 0)
+		td = datetime.timedelta(7)
+		return d + td
+
 	def event_start_satisfies(evt, before, after):
 		'''Does the start of this event fit between these dates?'''
 		if (before is None or (evt['start'] != datetime.datetime.min and evt['start'] <= before)) and \
@@ -136,12 +142,18 @@ class event_database:
 class event_queries:
 	'''Queries of the event database.'''
 
-	def __format_date(d):
+	def __format_date(d, show_year = True):
 		'''Format the dates all nice.'''
 		now = event_database.today()
-		if now.year != d.year:
-			return '%d/%d/%d' % (d.month, d.day, d.year)
-		return '%d/%d' % (d.month, d.day)
+		if d.hour > 12:
+			meridian = 'pm'
+			hour = d.hour - 12;
+		else:
+			meridian = 'am'
+			hour = d.hour
+		if now.year != d.year and show_year:
+			return '%d/%d/%d at %d:%02d%s' % (d.month, d.day, d.year, hour, d.minute, meridian)
+		return '%d/%d at %d:%02d%s' % (d.month, d.day, hour, d.minute, meridian)
 
 	def next_class_summary(events):
 		'''When and where are the next classes?'''
@@ -208,6 +220,16 @@ class event_queries:
 			print('<li>%s (%s)</li>' % (url, event_queries.__format_date(evt['start'])))
 		print('</ul>')
 
+	def upcoming_classes(events):
+		'''All upcoming classes in the next seven days.'''
+		print('<ul id="ps_travel">')
+		for evt in list(events.classes(starts_after = event_database.today(), starts_before = event_database.week_from_now())):
+			url = '%s' % evt['name']
+			if 'url' in evt:
+				url = '<a href="%s">%s</a>' % (evt['url'], evt['name'])
+			print('<li>%s (%s)</li>' % (url, event_queries.__format_date(evt['start'])))
+		print('</ul>')
+
 	def next_event(events):
 		'''The next event.'''
 		for evt in events.all_upcoming():
@@ -247,7 +269,7 @@ class event_queries:
 			style = ''
 			if evt['type'] == 'class':
 				style = ' class="regular_event"'
-			print("\t<li%s>%s (%d/%d%s)</li>" % (style, url, evt['start'].month, evt['start'].day, loc))
+			print("\t<li%s>%s (%s%s)</li>" % (style, url, event_queries.__format_date(evt['start'], False), loc))
 			last_date = evt['start']
 
 		if list_open:
