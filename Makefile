@@ -40,7 +40,7 @@ build_check:;
 events.d: data/eventdb.js Makefile
 	scripts/events.py data/eventdb.js makedep > events.d
 
-sed.d: scripts/css.sed scripts/html.sed scripts/js.sed Makefile
+sed.d: scripts/css.sed scripts/html.sed scripts/js.sed scripts/cribs.sed Makefile
 	scripts/sed_deps.py scripts/*.sed : $(shell find . -name "*.in" | sed -e 's/^..//g') > sed.d
 
 people.d: data/people.csv Makefile
@@ -52,8 +52,7 @@ gazette.d: scripts/cribs.sed Makefile
 cribs.d: Makefile
 	scripts/configure_cribs
 
-scripts/cribs.sed:
-	scripts/configure_cribs
+scripts/cribs.sed: cribs.d
 
 data/eventdb.js: data/dance_events.js data/big_events.js data/class_events.js data/travel_events.js data/hidden_events.js data/next_event.js data/news_events.js
 	scripts/create_eventdb
