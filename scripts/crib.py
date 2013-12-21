@@ -37,16 +37,19 @@ import re
 DEBUG=' border=1'
 DEBUG=''
 
-def write_dance(dance_name, output):
-	dance_fname = 'dances/'
+def dance_name_to_file_name(dance_name):
+	file_name = ''
 	for letter in dance_name.lower():
 		if letter.isalnum():
-			dance_fname = dance_fname + letter
+			file_name = file_name + letter
 		elif letter == ' ':
-			dance_fname = dance_fname + '_'
-	dance_fname = dance_fname + '.txt'
+			file_name = file_name + '_'
+	return file_name
+
+def write_dance(crib_name, dance_name, output):
+	dance_fname = 'dances/' + dance_name_to_file_name(dance_name) + '.txt'
 	alg = hashlib.sha1()
-	alg.update(str(uuid.uuid4()).encode('utf-8'))
+	alg.update((crib_name + dance_name).encode('utf-8')) #str(uuid.uuid4()).encode('utf-8'))
 	dance_id = alg.hexdigest()
 	with open(dance_fname) as dancefile:
 		in_instructions = False
@@ -110,7 +113,7 @@ def write_dance(dance_name, output):
 				output.write('<p>%s</p>\n' % cgi.escape(props['Endnote']))
 			output.write('</td></tr>\n')
 
-def generate_crib(cribfd, outfd):
+def generate_crib(crib_name, cribfd, outfd):
 	'''Given an input crib file, generate an output.'''
 
 	outfd.write('<table class="crib_table"%s>\n' % DEBUG)
@@ -120,7 +123,7 @@ def generate_crib(cribfd, outfd):
 		elif cribline[:3] == "I: ":
 			outfd.write('<tr class="crib_interlude"><td colspan="3">' + cgi.escape(cribline[3:].strip()) + '</td></tr>\n')
 		elif cribline[:3] == "D: ":
-			write_dance(cribline[3:].strip(), outfd)
+			write_dance(crib_name, cribline[3:].strip(), outfd)
 	outfd.write('</table>\n');
 
 def inject_cribs(templatefd, outfd):
@@ -131,7 +134,7 @@ def inject_cribs(templatefd, outfd):
 			outfd.write(line)
 			continue
 		crib_fname = line[5:].strip()
-		generate_crib(open(crib_fname), outfd)
+		generate_crib(crib_fname, open(crib_fname), outfd)
 
 def print_help():
 	print("Usage: %s [-i template outfile|-g templates...]" % sys.argv[0])
@@ -152,7 +155,7 @@ if __name__ == '__main__':
 			else:
 				outfname = fname + ".crib"
 			try:
-				generate_crib(open(fname), open(outfname, 'w'))
+				generate_crib(fname, open(fname), open(outfname, 'w'))
 			except Exception as e:
 				print(e)
 				os.remove(outfname)

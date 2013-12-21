@@ -187,7 +187,8 @@ class event_queries:
 		'''Generate a crib of the next dance.'''
 		for evt in events.dances(starts_after = event_database.today(), is_local = True):
 			if 'crib' in evt:
-				crib.generate_crib(open('cribs/' + evt['crib']), sys.stdout)
+				crib_name = 'cribs/' + evt['crib']
+				crib.generate_crib(crib_name, open(crib_name), sys.stdout)
 			else:
 				print('We are sorry, but there is no posted program yet.  Please check back later.')
 			return
@@ -212,7 +213,8 @@ class event_queries:
 		if crib_fname == None:
 			print('We are sorry, but there is no posted program yet.  Please check back later.')
 		else:
-			crib.generate_crib(open('cribs/' + crib_fname), sys.stdout)
+			crib_name = 'cribs/' + crib_fname
+			crib.generate_crib(crib_name, open(crib_name), sys.stdout)
 
 	def next_travel_summary(events):
 		'''When and where are the next three non-local events?'''
@@ -293,7 +295,8 @@ class event_queries:
 				date = evt['start'].strftime('%e %B %Y')
 			if loc != '' or date != '':
 				print("<p>%s%s</p>" % (loc, date))
-			crib.generate_crib(open('cribs/' + evt['crib']), sys.stdout)
+			crib_name = 'cribs/' + evt['crib']
+			crib.generate_crib(crib_name, open(crib_name), sys.stdout)
 
 	def last_five_news(events):
 		'''Last five events.'''
