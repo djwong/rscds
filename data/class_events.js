@@ -152,4 +152,3 @@
 {"start": "2013/12/03 19:30", "type": "class", "name": "Classic SCD Class", "location": "Columbia Dance Center"},
 {"start": "2013/12/10 19:30", "type": "class", "name": "Style & Technique Class", "location": "Columbia Dance Center"},
 {"start": "2013/12/17 19:30", "type": "class", "name": "Classic SCD Class", "location": "Columbia Dance Center"},
-{"start": "2013/12/31 19:30", "type": "class", "name": "NYE Mixer??", "location": "Columbia Dance Center"},
