@@ -1,34 +1,51 @@
 #!/bin/bash
 
-CRIB_SED="scripts/cribs.sed"
-
-if [ -e scripts/cribs.sed ]; then
-	old_hash="$(cat "${CRIB_SED}" | sha1sum)"
+MODE="$1"
+if [ "${MODE}" != "dep" -a "${MODE}" != "sed" ]; then
+	echo "Modes are \"dep\" or \"sed\". \"${MODE}\" not recognized."
+	exit 1
 fi
 
-echo 'CRIB_SHEETS=\' > cribs.d
-rm -rf "${CRIB_SED}.new"
-for i in cribs/*.txt; do
-	tag="%CRIB_$(basename "$(echo "${i}" | sed -e 's/.txt//g')")%"
-	crib_name="$(echo "${i}" | sed -e 's/.txt/.crib/g')"
-	echo "${crib_name} \\" >> cribs.d
-	echo "/${tag}/r ${crib_name}" >> "${CRIB_SED}.new"
-	echo "s/${tag}//g" >> "${CRIB_SED}.new"
-done
-echo >> cribs.d
+if [ "${MODE}" = "dep" ]; then
+	MODE="d"
+fi
 
-for i in cribs/*.txt; do
-	scripts/crib_deps.py "${i}" >> cribs.d
-done
+OUTPUT="scripts/cribs.${MODE}"
+
+if [ -e "${OUTPUT}" ]; then
+	old_hash="$(cat "${OUTPUT}" | sha1sum)"
+fi
+
+case "${MODE}" in
+"d")
+	echo 'CRIB_SHEETS=\' > cribs.d
+	for i in cribs/*.txt; do
+		echo "${crib_name} \\" >> cribs.d
+	done
+	echo >> cribs.d
+
+	for i in cribs/*.txt; do
+		scripts/crib_deps.py "${i}" >> cribs.d
+	done
+	;;
+"sed")
+	for i in cribs/*.txt; do
+		tag="%CRIB_$(basename "$(echo "${i}" | sed -e 's/.txt//g')")%"
+		crib_name="$(echo "${i}" | sed -e 's/.txt/.crib/g')"
+		echo "/${tag}/r ${crib_name}" >> "${OUTPUT}.new"
+		echo "s/${tag}//g" >> "${OUTPUT}.new"
+	done
+	;;
+esac
 
 if [ -z "${old_hash}" ]; then
-	mv "${CRIB_SED}.new" "${CRIB_SED}"
+	mv "${OUTPUT}.new" "${OUTPUT}"
 else
-	new_hash="$(cat scripts/cribs.sed.new | sha1sum)"
+	new_hash="$(cat "${OUTPUT}.new" | sha1sum)"
 	if [ "${new_hash}" != "${old_hash}" ]; then
-		mv "${CRIB_SED}.new" "${CRIB_SED}"
+		mv "${OUTPUT}.new" "${OUTPUT}"
 	else
-		rm -rf "${CRIB_SED}.new"
+		rm -rf "${OUTPUT}.new"
 	fi
 fi
 

@@ -50,9 +50,10 @@ gazette.d: scripts/cribs.sed Makefile
 	scripts/create_gazette_index dep gazette_index.html > gazette.d
 
 cribs.d: Makefile
-	scripts/configure_cribs
+	scripts/configure_cribs dep
 
-scripts/cribs.sed: cribs.d
+scripts/cribs.sed:
+	scripts/configure_cribs sed
 
 data/eventdb.js: data/dance_events.js data/big_events.js data/class_events.js data/travel_events.js data/hidden_events.js data/next_event.js data/news_events.js
 	scripts/create_eventdb
@@ -69,7 +70,7 @@ calendar_check: data/eventdb.js
 	@# create gazette.d
 	@scripts/create_gazette_index dep gazette_index.html > gazette.d
 	@# create cribs.d
-	@scripts/configure_cribs
+	@scripts/configure_cribs dep
 
 # Only hardlink the blobs, not the generated content.
 install: all
