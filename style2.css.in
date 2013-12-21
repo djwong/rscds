@@ -272,6 +272,10 @@ img {
 .crib_name {
 	font-weight: bold;
 	cursor: pointer;
+	text-decoration: none;
+}
+a.crib_name {
+	color: black;
 }
 @media screen and (max-width: 480px) {
 	.crib_table .crib_format {

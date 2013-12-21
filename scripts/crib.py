@@ -93,7 +93,7 @@ def write_dance(crib_name, dance_name, output):
 				# Emit dance header
 				output.write('<tr class="crib_header">\n')
 				output.write('<td><span id="crib_%s_ctl" class="crib_ctl" onclick="crib_toggle(\'crib_%s\');">&#9654;</span></td>\n' % (dance_id, dance_id))
-				output.write('<td class="crib_name_cell"><div><span class="crib_name" onclick="crib_toggle(\'crib_%s\');">%s</span>%s</div><div class="crib_source">%s</div></td>\n' % (dance_id, cgi.escape(props['Name']), youtube_str, cgi.escape(props['Source'])))
+				output.write('<td class="crib_name_cell"><div><a name="dance_%s"></a><a class="crib_name" onclick="crib_toggle(\'crib_%s\'); return false;" href="#dance_%s">%s</a>%s</div><div class="crib_source">%s</div></td>\n' % (dance_id, dance_id, dance_id, cgi.escape(props['Name']), youtube_str, cgi.escape(props['Source'])))
 				output.write('<td class="crib_format">%s</td>\n' % cgi.escape(props['Format']))
 				output.write('</tr>\n')
 

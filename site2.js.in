@@ -12,6 +12,14 @@ function crib_toggle(id)
 	}
 }
 
+function crib_ready()
+{
+	var x = location.hash;
+	x = x.replace(/^#dance_/, "crib_");
+	if ($('#' + x).length)
+		crib_toggle(x);
+}
+
 function decryptEmailAddr(addr)
 {
 	var x = addr.replace(/ at /g, "@");

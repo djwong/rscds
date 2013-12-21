@@ -8,3 +8,6 @@
 	<link rel="stylesheet" type="text/css" href="%ROOT_PATH%style2.css"/>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 	<script type="text/javascript" src="%ROOT_PATH%site2.js"> </script>
+	<script type="text/javascript">
+$(document).ready(crib_ready);
+	</script>
