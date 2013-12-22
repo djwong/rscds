@@ -43,7 +43,6 @@
 {"start": "2013/12/09 19:30", "type": "class", "name": "Portland Class", "location": "Waluga Lodge"},
 {"start": "2013/12/16 19:30", "type": "class", "name": "Portland Class", "location": "Waluga Lodge"},
 {"start": "2013/12/23 19:30", "type": "class", "name": "Portland Class", "location": "Waluga Lodge"},
-{"start": "2013/12/30 19:30", "type": "class", "name": "Portland Class", "location": "Waluga Lodge"},
 {"start": "2014/01/08 19:30", "type": "class", "name": "Social SCD Class", "location": "Marshall Center"},
 {"start": "2014/01/15 19:30", "type": "class", "name": "Social SCD Class", "location": "Marshall Center"},
 {"start": "2014/01/22 19:30", "type": "class", "name": "Social SCD Class", "location": "Marshall Center"},
