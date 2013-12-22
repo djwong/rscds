@@ -13,19 +13,19 @@ fi
 OUTPUT="scripts/cribs.${MODE}"
 
 if [ -e "${OUTPUT}" ]; then
-	old_hash="$(cat "${OUTPUT}" | sha1sum)"
+	old_hash="$(sha1sum "${OUTPUT}" 2> /dev/null)"
 fi
 
 case "${MODE}" in
 "d")
-	echo 'CRIB_SHEETS=\' > cribs.d
+	echo 'CRIB_SHEETS=\' > "${OUTPUT}.new"
 	for i in cribs/*.txt; do
-		echo "${crib_name} \\" >> cribs.d
+		echo "${crib_name} \\" >> "${OUTPUT}.new"
 	done
-	echo >> cribs.d
+	echo >> "${OUTPUT}.new"
 
 	for i in cribs/*.txt; do
-		scripts/crib_deps.py "${i}" >> cribs.d
+		scripts/crib_deps.py "${i}" >> "${OUTPUT}.new"
 	done
 	;;
 "sed")
@@ -41,7 +41,7 @@ esac
 if [ -z "${old_hash}" ]; then
 	mv "${OUTPUT}.new" "${OUTPUT}"
 else
-	new_hash="$(cat "${OUTPUT}.new" | sha1sum)"
+	new_hash="$(sha1sum "${OUTPUT}.new")"
 	if [ "${new_hash}" != "${old_hash}" ]; then
 		mv "${OUTPUT}.new" "${OUTPUT}"
 	else
