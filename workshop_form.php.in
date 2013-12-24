@@ -36,21 +36,17 @@ function submit_form() {
 
 	$email = "Someone (".$_SERVER["REMOTE_ADDR"].") would like to register "
 		."for the Portland RSCDS ball!\n"
-		."\n"
-		."Name: ".$_POST['name1']."\n"
-		."Class: ".$_POST['class1']."\n"
-		."Years: ".$_POST['years1']."\n"
 		."\n";
 
 	$num_dancers = $_POST['num_dancers'];
-	for ($i = 1; $i < $num_dancers; $i++) {
-		if (!array_key_exists('name' + $i, $_POST) ||
-		    strlen($_POST['name' + $i]) < 1)
+	for ($i = 1; $i <= $num_dancers; $i++) {
+		if (!array_key_exists('name'.$i, $_POST) ||
+		    strlen($_POST['name'.$i]) < 1)
 			continue;
 
-		$email .= "Name: ".$_POST['name' + $i]."\n"
-			."Class: ".$_POST['class' + $i]."\n"
-			."Years: ".$_POST['years' + $i]."\n"
+		$email .= "Name: ".$_POST['name'.$i]."\n"
+			."Class: ".$_POST['class'.$i]."\n"
+			."Years: ".$_POST['years'.$i]."\n"
 			."\n";
 	}
 
@@ -91,7 +87,6 @@ function submit_form() {
 	echo "check.</p>\n";
 }
 submit_form();
-phpinfo();
 ?>
 %CLOSE_CONTENT%
 %FOOT%
