@@ -374,7 +374,7 @@ a.crib_name {
 	#regular_body {
 		padding: 0px;
 	}
-	.printable_link {
+	.noprint {
 		display: none;
 	}
 }

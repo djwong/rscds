@@ -19,7 +19,7 @@ them a try!</p>
 
 %CRIB_misc_dances%
 
-<p class="printable_link">[<a href="javascript:crib_toggle_all(true);">Expand All</a> | <a href="javascript:crib_toggle_all(false);">Collapse All</a>]</p>
+<p class="noprint">[<a href="javascript:crib_toggle_all(true);">Expand All</a> | <a href="javascript:crib_toggle_all(false);">Collapse All</a>]</p>
 
 %CLOSE_CONTENT%
 %FOOT%
