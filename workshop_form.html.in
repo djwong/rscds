@@ -3,6 +3,7 @@
 <form method="POST" id="workshop_form" class="reg_form" action="workshop_form.php">
 	<p class="title">Royal Scottish Country Dance Society, Portland, Ore. Branch:<br />
 	Workshop Registration Form 2013-2014</p>
+	<input type="hidden" name="num_dancers" id="num_dancers" value="1"></input>
 	<table id="field_box">
 		<tr>
 		<td><label for="name1">Name:</label></td>
@@ -19,24 +20,7 @@
 		<td><input type="number" class="text" id="years1" name="years1"/></td>
 		</tr>
 
-		<tr><td>&nbsp;</td></tr>
-
-		<tr>
-		<td><label for="name2">Name:</label></td>
-		<td colspan="3"><input type="text" class="text" id="name2" name="name2"/></td>
-		</tr>
-
-		<tr>
-		<td><label for="class2">Class Level:</label></td>
-		<td>
-			<span class="nowrap"><input type="radio" name="class2" id="class2_beginner" value="beginner"/> <label for="class2_beginner">Beginner</label></span>
-			<span class="nowrap"><input type="radio" name="class2" id="class2_intermediate" value="intermediate"/> <label for="class2_intermediate">Intermediate</label></span>
-		</td>
-		<td><label for="years2">Years Experience:</label></td>
-		<td><input type="number" class="text" id="years2" name="years2"/></td>
-		</tr>
-
-		<tr><td>&nbsp;</td></tr>
+		<tr class="add_dancer_row"><td></td><td></td><td></td><td style="text-align: right;"><input type="button" value="Add a Participant" onclick="workshop_add_dancer();"></input></td></tr>
 
 		<tr>
 		<td><label for="address">Address:</label></td>

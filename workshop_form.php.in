@@ -42,10 +42,15 @@ function submit_form() {
 		."Years: ".$_POST['years1']."\n"
 		."\n";
 
-	if (strlen($_POST['name2']) > 0) {
-		$email .= "Name: ".$_POST['name2']."\n"
-			."Class: ".$_POST['class2']."\n"
-			."Years: ".$_POST['years2']."\n"
+	$num_dancers = $_POST['num_dancers'];
+	for ($i = 1; $i < $num_dancers; $i++) {
+		if (!array_key_exists('name' + $i, $_POST) ||
+		    strlen($_POST['name' + $i]) < 1)
+			continue;
+
+		$email .= "Name: ".$_POST['name' + $i]."\n"
+			."Class: ".$_POST['class' + $i]."\n"
+			."Years: ".$_POST['years' + $i]."\n"
 			."\n";
 	}
 
@@ -86,6 +91,7 @@ function submit_form() {
 	echo "check.</p>\n";
 }
 submit_form();
+phpinfo();
 ?>
 %CLOSE_CONTENT%
 %FOOT%

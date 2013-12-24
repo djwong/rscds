@@ -207,6 +207,7 @@ var WORKSHOP_FORM_ITEMS = {
 function calculate_workshop_total()
 {
 	var total = 0;
+	var total_units = 0;
 
 	for (var idx in WORKSHOP_FORM_ITEMS) {
 		var unit_price = WORKSHOP_FORM_ITEMS[idx];
@@ -215,6 +216,7 @@ function calculate_workshop_total()
 		if (isNaN(units)) {
 			units = 0;
 		}
+		total_units += units;
 		total += units * unit_price;
 	}
 
@@ -225,13 +227,15 @@ function calculate_workshop_total()
 	$('#workshop_form #total').val(x);
 	$('#workshop_form #total_hidden').val(x);
 
+	return total_units;
 }
 
 function verify_workshop_form()
 {
 	var errors = [];
+	var dancers = 1;
 
-	calculate_workshop_total();
+	total_units = calculate_workshop_total();
 
 	if ($('#workshop_form #name1').val().length == 0) {
 		errors.push('First dancer: Please provide your name.');
@@ -247,16 +251,28 @@ function verify_workshop_form()
 		errors.push('First dancer: Please provide the number of years you\'ve been dancing Scottish dances.');
 	}
 
-	if ($('#workshop_form #name2').val().length > 0) {
-		if (!$('#workshop_form #class2_beginner').prop('checked') &&
-		    !$('#workshop_form #class2_intermediate').prop('checked')) {
-			errors.push('Second dancer: Please select a class level.');
+	var num_dancers = $('#workshop_form #num_dancers').val();
+	for (i = 2; i <= num_dancers; i++) {
+		if ($('#workshop_form #name' + i).length < 1 ||
+		    $('#workshop_form #name' + i).val().length < 1)
+			continue;
+
+		dancers++;
+		if (!$('#workshop_form #class' + i + '_beginner').prop('checked') &&
+		    !$('#workshop_form #class' + i + '_intermediate').prop('checked')) {
+			errors.push('Dancer #' + i + ': Please select a class level.');
 		}
 
-		var s = $('#workshop_form #years1').val();
+		var s = $('#workshop_form #years' + i).val();
 		if (s.length == 0 || isNaN(parseInt(s))) {
-			errors.push('Second dancer: Please provide the number of years you\'ve been dancing Scottish dances.');
+			errors.push('Dancer #' + i +': Please provide the number of years you\'ve been dancing Scottish dances.');
 		}
+	}
+
+	if (total_units != dancers) {
+		errors.push('There is a discrepancy between the length of ' +
+			'the list of participants (' + dancers + ') and the ' +
+			'number of packages (' + total_units + ') you\'ve selected.');
 	}
 
 	if ($('#workshop_form #address').val().length == 0) {
@@ -288,4 +304,43 @@ function setup_workshop_form()
 	$('#workshop_form input').keyup(verify_workshop_form);
 	$('#workshop_form input').change(verify_workshop_form);
 	$('#workshop_form').bind('reset', function() {set_form_errors(null, 'workshop_form', 'workshop registration');});
+	$('#workshop_form #num_dancers').val(1);
+}
+
+function workshop_add_dancer()
+{
+	var num_dancers = $('#workshop_form #num_dancers').val();
+	num_dancers++;
+	$('#workshop_form #num_dancers').val(num_dancers);
+
+	var r1 = $('<tr><td>&nbsp;</td></tr>');
+
+	var r2 = $('<tr>');
+	var r2c1 = $('<td><label for="name' + num_dancers + '">Name:</label></td>');
+	r2.append(r2c1);
+	var r2c2 = $('<td colspan="3"><input type="text" class="text" id="name' + num_dancers + '" name="name' + num_dancers + '"/></td>');
+	r2.append(r2c2);
+
+	var r3 = $('<tr>');
+	var r3c1 = $('<td><label for="class' + num_dancers + '">Class Level:</label></td>');
+	r3.append(r3c1);
+	var r3c2 = $('<td>')
+	var r3c2s1 = $('<span class="nowrap"><input type="radio" name="class' + num_dancers + '" id="class' + num_dancers + '_beginner" value="beginner"/> <label for="class' + num_dancers + '_beginner">Beginner</label></span>');
+	r3c2.append(r3c2s1);
+	r3c2.append("\n");
+	var r3c2s2 = $('<span class="nowrap"><input type="radio" name="class' + num_dancers + '" id="class' + num_dancers + '_intermediate" value="intermediate"/> <label for="class' + num_dancers + '_intermediate">Intermediate</label></span>');
+	r3c2.append(r3c2s2);
+	r3.append(r3c2);
+	var r3c3 = $('<td><label for="years' + num_dancers + '">Years Experience:</label></td>');
+	r3.append(r3c3);
+	var r3c4 = $('<td><input type="number" class="text" id="years' + num_dancers + '" name="years' + num_dancers + '"/></td>');
+	r3.append(r3c4);
+
+	$('#workshop_form .add_dancer_row').before(r1);
+	$('#workshop_form .add_dancer_row').before(r2);
+	$('#workshop_form .add_dancer_row').before(r3);
+	$('#workshop_form input').unbind('keyup');
+	$('#workshop_form input').keyup(verify_workshop_form);
+	$('#workshop_form input').unbind('change');
+	$('#workshop_form input').change(verify_workshop_form);
 }
