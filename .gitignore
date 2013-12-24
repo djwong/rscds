@@ -1,3 +1,4 @@
 *.swp
 *.d
 *.html
+scripts/__pycache__
