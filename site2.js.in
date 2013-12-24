@@ -1,9 +1,9 @@
 /* The rest of this code is from Darrick. */
 function crib_toggle(id, show)
 {
+	var x = $('#' + id);
 	if (typeof(show) === 'undefined')
 		show = (x.css('display') == 'none');
-	var x = $('#' + id);
 	var y = $('#' + id + "_ctl");
 	if (show) {
 		x.css('display', 'table-row');
