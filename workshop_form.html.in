@@ -134,9 +134,9 @@
 
 	<p>Please make check payable to <b>“RSCDS Portland OR Branch”</b> and mail or give to
 %WORKSHOP_CHAIR_MAIL%
-	.</p>
+	.  We cannot process your workshop registration until we receive your check.</p>
 
-	<div class="isfun">Is Scottish Country Dance fun? <input type="checkbox" id="org" name="org"/> <label for="org">Yes</label></div>
+	<div class="isfun">Is Scottish Country Dance fun? <input type="checkbox" id="org" name="org"/> <label for="org">Yes, and my registration check is on its way!</label></div>
 	<div id="errors"></div>
 	<input type="submit" value="Register"/>
 	<input type="reset" value="Start Over"/>

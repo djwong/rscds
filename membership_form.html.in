@@ -17,8 +17,8 @@
 	<p>Local membership applies to those who have their RSCDS membership through another branch or do not wish to become full RSCDS members at this time.  Local members receive the <i>Ghillie Gazette</i> and a listing in our membership roster.</p>
 	<p>Please make check payable to <b>“RSCDS Portland OR Branch”</b> and mail or give to
 %MEMBERSHIP_CHAIR_MAIL%
-	.</p>
-	<div class="isfun">Is Scottish Country Dance fun? <input type="checkbox" id="org" name="org"/> <label for="org">Yes</label></div>
+	.  We cannot process your membership request until we receive your check.</p>
+	<div class="isfun">Is Scottish Country Dance fun? <input type="checkbox" id="org" name="org"/> <label for="org">Yes, and my registration check is on its way!</label></div>
 	<div id="errors"></div>
 	<input type="submit" value="Register" disabled="disabled"/>
 	<input type="reset" value="Start Over"/>

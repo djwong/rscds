@@ -82,7 +82,8 @@ function submit_form() {
 	echo "OR Branch”</b>, to ";
 ?>%WORKSHOP_CHAIR_MAIL%
 <?php
-	echo ".</p>\n";
+	echo ".  We cannot process your registration until we receive your ";
+	echo "check.</p>\n";
 }
 submit_form();
 ?>

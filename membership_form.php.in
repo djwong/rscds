@@ -49,7 +49,8 @@ function submit_form() {
 	echo "OR Branch”</b>, to ";
 ?>%MEMBERSHIP_CHAIR_MAIL%
 <?php
-	echo ".</p>\n";
+	echo ".  We cannot process your membership request until we receive";
+	echo "your check.</p>\n";
 }
 submit_form();
 ?>
