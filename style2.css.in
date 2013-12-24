@@ -377,6 +377,9 @@ a.crib_name {
 	#regular_body {
 		padding: 0px;
 	}
+	.printable_link {
+		display: none;
+	}
 }
 
 .five-up, .four-up, .three-up, .two-up .one-up {
