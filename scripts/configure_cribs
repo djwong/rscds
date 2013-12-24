@@ -6,26 +6,31 @@ if [ "${MODE}" != "dep" -a "${MODE}" != "sed" ]; then
 	exit 1
 fi
 
-if [ "${MODE}" = "dep" ]; then
-	MODE="d"
-fi
-
-OUTPUT="scripts/cribs.${MODE}"
+case "${MODE}" in
+"dep")
+	OUTPUT="cribs.d"
+	;;
+"sed")
+	OUTPUT="scripts/cribs.sed"
+	;;
+esac
 
 if [ -e "${OUTPUT}" ]; then
 	old_hash="$(sha1sum "${OUTPUT}" 2> /dev/null)"
 fi
 
 case "${MODE}" in
-"d")
+"dep")
 	echo 'CRIB_SHEETS=\' > "${OUTPUT}.new"
 	for i in cribs/*.txt; do
+		crib_name="$(echo "${i}" | sed -e 's/.txt/.crib/g')"
 		echo "${crib_name} \\" >> "${OUTPUT}.new"
 	done
 	echo >> "${OUTPUT}.new"
 
 	for i in cribs/*.txt; do
 		scripts/crib_deps.py "${i}" >> "${OUTPUT}.new"
+		echo >> "${OUTPUT}.new"
 	done
 	;;
 "sed")
