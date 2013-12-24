@@ -20,7 +20,7 @@
 		<td><input type="number" class="text" id="years1" name="years1"/></td>
 		</tr>
 
-		<tr class="add_dancer_row"><td></td><td></td><td></td><td style="text-align: right;"><input type="button" value="Add a Participant" onclick="workshop_add_dancer();"></input></td></tr>
+		<tr class="add_dancer_row noprint"><td></td><td></td><td></td><td style="text-align: right;"><input type="button" value="Add a Participant" onclick="workshop_add_dancer();"></input></td></tr>
 
 		<tr>
 		<td><label for="address">Address:</label></td>
