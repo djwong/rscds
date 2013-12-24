@@ -51,7 +51,7 @@ We also have a <a href="files/workshop_flyer_2014.pdf">flyer</a> available!</p>
 
 <a id="program"></a><h2>Ball Program</h2>
 %PORTLAND_BALL_CRIB%
-<p class="printable_link">[<a href="workshop_crib.html">Printable Format</a>]</p>
+<p class="printable_link">[<a href="workshop_crib.html">Printable Format</a> | <a href="javascript:crib_toggle_all(true);">Expand All</a> | <a href="javascript:crib_toggle_all(false);">Collapse All</a>]</p>
 
 <h2>Class Levels</h2>
 

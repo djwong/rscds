@@ -13,6 +13,8 @@
 <h2>Program</h2>
 %NEXT_DANCE_CRIB%
 
+<p class="printable_link">[<a href="javascript:crib_toggle_all(true);">Expand All</a> | <a href="javascript:crib_toggle_all(false);">Collapse All</a>]</p>
+
 <h2>Directions</h2>
 <p>On the second Saturday of most months, the Portland branch has a dance party
 at Waluga Lodge.  Though some months have prizes, some have giveaways, and

@@ -9,5 +9,7 @@
 
 %ALL_CRIBS%
 
+<p class="printable_link">[<a href="javascript:crib_toggle_all(true);">Expand All</a> | <a href="javascript:crib_toggle_all(false);">Collapse All</a>]</p>
+
 %CLOSE_CONTENT%
 %FOOT%

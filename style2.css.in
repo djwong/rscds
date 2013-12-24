@@ -143,6 +143,9 @@ img {
 	#gazette_calendar {
 		display: block;
 	}
+	#gazette_membership_print #membership_form {
+		page-break-inside: avoid;
+	}
 }
 
 /* Calendar */
@@ -291,12 +294,6 @@ a.crib_name {
 	}
 	.crib_dropdown {
 		display: none;
-	}
-	.crib_ctl {
-		display: none;
-	}
-	.crib_steps {
-		display: table-row;
 	}
 }
 
