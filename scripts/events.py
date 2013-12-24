@@ -112,7 +112,7 @@ class event_database:
 		'''Iterate over all upcoming events.'''
 		y = datetime.timedelta(days = 90)
 		d = event_database.today()
-		return self.iterate_events(None, d + y, d, None)
+		return self.iterate_events(EVENT_TYPES - {'class'}, d + y, d, None)
 
 	def all_upcoming(self):
 		'''Iterate over all upcoming events.'''
