@@ -130,7 +130,7 @@ $(FRUMP_SCRIPT): scripts/frump.py
 	cp -pRdu $< $@
 
 clean:;
-	rm -rf $(HTML) $(CRAP) $(JS_BUILD) $(CRIB_SHEETS) $(CLEAN) $(CSS) $(GAZETTES)
+	rm -rf $(HTML) $(CRAP) $(JS_BUILD) $(CRIB_SHEETS) $(CLEAN) $(CSS) $(GAZETTES) $(PHP)
 
 distclean: clean
 	rm -rf $(DEPS)
