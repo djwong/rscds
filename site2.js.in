@@ -53,6 +53,7 @@ function createNewSlides(element)
 		if (slide.stop)
 			break;
 
+		var i = new Image().src = slide.img;
 		var s = $('<div>');
 		s.addClass('slidesjs_slide');
 		var t = $('<div>');
