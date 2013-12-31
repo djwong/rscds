@@ -297,6 +297,31 @@ a.crib_name {
 	}
 }
 
+/* Event list stuff */
+.event_list {
+	width: 100%;
+	border-spacing: 0px;
+}
+.event_list td {
+	vertical-align: top;
+	padding: 0.2em;
+}
+.event_list tr:nth-child(odd) {
+	background: #f4f4f4;
+}
+.event_list td:nth-child(1) {
+	padding-right: 0.2em;
+}
+.event_list td:nth-child(2) {
+	width: 100%;
+}
+.event_list td:nth-child(3) {
+	white-space: nowrap;
+}
+.event_list .event_location {
+	color: gray;
+}
+
 /* Front page stuff */
 .container {
 	overflow: hidden;

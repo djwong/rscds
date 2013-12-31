@@ -262,24 +262,28 @@ class event_queries:
 			   last_date.year != evt['start'].year or \
 			   last_date.month != evt['start'].month:
 				if list_open:
-					print("\t</ul>")
+					print("\t</table>")
 				print("<h%d>%s</h%d>" % (heading_level, evt['start'].strftime('%B %Y'), heading_level))
-				print("\t<ul>")
+				print("\t<table class=\"event_list\">")
 				list_open = True
 			url = evt['name']
 			if 'url' in evt:
 				url = '<a href="%s">%s</a>' % (evt['url'], evt['name'])
 			loc = ''
 			if 'location' in evt:
-				loc = ', %s' % evt['location']
+				loc = '%s' % evt['location']
 			style = ''
 			if evt['type'] == 'class':
 				style = ' class="regular_event"'
-			print("\t<li%s>%s (%s%s)</li>" % (style, url, event_queries.__format_date(evt['start'], False), loc))
+				bullet = '▷'
+			else:
+				bullet = '▶'
+			style = ''
+			print("\t<tr><td>%s</td><td><div%s>%s</div><div class=\"event_location\">%s</div></td><td>%s</td></tr>" % (bullet, style, url, loc, event_queries.__format_date(evt['start'], False)))
 			last_date = evt['start']
 
 		if list_open:
-			print("\t</ul>")
+			print("\t</table>")
 
 	def has_crib(events):
 		'''Anything with a crib.'''
