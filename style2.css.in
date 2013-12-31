@@ -168,7 +168,9 @@ img {
 
 /* Calendar */
 .regular_event {
-	color: #808080;
+}
+.nonregular_event {
+	font-weight: bold;
 }
 
 /* Page Headers */
@@ -268,7 +270,7 @@ img {
 	border-spacing: 0px;
 }
 .crib_table .odd {
-	background: #f2f2f2;
+	background: rgba(65, 131, 196, 0.1);
 }
 .crib_table .crib_source {
 	color: #606060;
@@ -332,7 +334,7 @@ a.crib_name {
 	padding: 0.2em;
 }
 .event_list tr:nth-child(odd) {
-	background: #f4f4f4;
+	background: rgba(65, 131, 196, 0.1);
 }
 .event_list td:nth-child(1) {
 	padding-right: 0.2em;

@@ -248,13 +248,13 @@ class event_queries:
 
 	def upcoming_events(events):
 		'''All upcoming events that we know about.'''
-		return event_queries.upcoming_events_generator(events.all_upcoming(), 2)
+		return event_queries.upcoming_events_generator(events.all_upcoming(), 2, True)
 
 	def past_events_list(events):
 		'''All past events that we know about.'''
 		return event_queries.upcoming_events_generator(events.all_non_class_past(), 2)
 
-	def upcoming_events_generator(event_iterator, heading_level):
+	def upcoming_events_generator(event_iterator, heading_level, bold_for_nonregular = False):
 		last_date = None
 		list_open = False
 		for evt in event_iterator:
@@ -277,8 +277,10 @@ class event_queries:
 				style = ' class="regular_event"'
 				bullet = '▷'
 			else:
+				style = ' class="nonregular_event"'
 				bullet = '▶'
-			style = ''
+			if not bold_for_nonregular:
+				style = ''
 			print("\t<tr><td>%s</td><td><div%s>%s</div><div class=\"event_location\">%s</div></td><td>%s</td></tr>" % (bullet, style, url, loc, event_queries.__format_date(evt['start'], False)))
 			last_date = evt['start']
 
