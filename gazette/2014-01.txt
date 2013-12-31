@@ -75,6 +75,14 @@ by Don Gertz
 by Linda Mae Dennis
 
 %CRIB_portland_feb2014%
+
+== March Workshop and Ball ==
+
+Registration for our 35th annual
+[[http://portlandscottishdancers.org/workshop.html|workshop and ball]] is now
+open!  Below is the program for the ball.
+
+%CRIB_portland_ball_2014%
  
 == Eugene Burns Dance ==
 by Robert Burger
@@ -241,3 +249,10 @@ unsubscribe you.
 When it is time to renew your membership, remember to check the box “Please
 ensure that I am subscribed to the members’ email list” on the renewal form to
 maintain your subscription into next year!
+
+{{{#!html
+<div id="gazette_workshop_print">
+<h2>Workshop Registration Form</h2>
+%WORKSHOP_FORM%
+</div>
+}}}

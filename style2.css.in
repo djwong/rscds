@@ -138,13 +138,31 @@ img {
 #gazette_calendar {
 	display: none;
 }
+#gazette_workshop_print {
+	display: none;
+}
 
 @media print {
 	#gazette_calendar {
 		display: block;
 	}
 	#gazette_membership_print #membership_form {
+		font-size: 80%;
 		page-break-inside: avoid;
+	}
+
+	#gazette_workshop_print {
+		display: block;
+	}
+	#gazette_workshop_print #workshop_form {
+		font-size: 66%;
+		page-break-inside: avoid;
+	}
+	#gazette_workshop_print	* {
+		line-height: normal;
+	}
+	#gazette_workshop_print .text, #gazette_workshop_print .fee {
+		padding-top: 0px;
 	}
 }
 
@@ -705,10 +723,6 @@ a.slidesjs-navigation:focus {
 .reg_form #field_box {
 	width: 100%;
 }
-#fee_box th {
-	padding-right: 0.5em;
-	padding-left: 0.5em;
-}
 .nowrap {
 	white-space: nowrap;
 }
@@ -718,6 +732,10 @@ a.slidesjs-navigation:focus {
 .reg_form #total {
 	width: 6em;
 	color: black;
+}
+#fee_box th {
+	padding-right: 0.5em;
+	padding-left: 0.5em;
 }
 #fee_box th {
 	white-space: normal;
@@ -734,7 +752,7 @@ a.slidesjs-navigation:focus {
 	background: none;
 	border: none;
 	border-bottom: 1px solid black;
-	padding-top: 1em;
+	padding-top: 0.7em;
 }
 .reg_form .fee {
 	background: none;

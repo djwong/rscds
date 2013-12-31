@@ -197,20 +197,20 @@ function setup_membership_form()
 
 /* Workshop registration form */
 var WORKSHOP_FORM_ITEMS = {
-	all_member_early: 50,
-	all_member_late: 60,
-	all_nonmember_early: 55,
-	all_nonmember_late: 65,
-	workshop_member_early: 30,
-	workshop_member_late: 40,
-	workshop_nonmember_early: 35,
-	workshop_nonmember_late: 45,
-	ball_member_early: 30,
-	ball_member_late: 40,
-	ball_nonmember_early: 35,
-	ball_nonmember_late: 45,
+	all_member_early: 55,
+	all_member_late: 65,
+	all_nonmember_early: 60,
+	all_nonmember_late: 70,
+	workshop_member_early: 35,
+	workshop_member_late: 45,
+	workshop_nonmember_early: 40,
+	workshop_nonmember_late: 50,
+	ball_member_early: 35,
+	ball_member_late: 45,
+	ball_nonmember_early: 40,
+	ball_nonmember_late: 50,
 	ball_spectator: 5,
-	lunch_guest: 7
+	lunch_guest: 10
 };
 
 function calculate_workshop_total()
@@ -279,9 +279,10 @@ function verify_workshop_form()
 	}
 
 	if (total_units != dancers) {
-		errors.push('There is a discrepancy between the length of ' +
-			'the list of participants (' + dancers + ') and the ' +
-			'number of packages (' + total_units + ') you\'ve selected.');
+		errors.push('Please resolve the discrepancy between the ' +
+			'number of participants (' + dancers + ') and the ' +
+			'number of packages (' + total_units + ') that are ' +
+			'selected.');
 	}
 
 	if ($('#workshop_form #address').val().length == 0) {
@@ -313,7 +314,7 @@ function setup_workshop_form()
 	$('#workshop_form input').keyup(verify_workshop_form);
 	$('#workshop_form input').change(verify_workshop_form);
 	$('#workshop_form').bind('reset', function() {set_form_errors(null, 'workshop_form', 'workshop registration');});
-	$('#workshop_form #num_dancers').val(1);
+	$('#workshop_form #num_dancers').val(2);
 }
 
 function workshop_add_dancer()
