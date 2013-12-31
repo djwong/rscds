@@ -97,7 +97,7 @@ def write_dance(crib_name, dance_name, output, row_sel):
 				output.write('<td class="crib_format">%s</td>\n' % cgi.escape(props['Format']))
 				output.write('</tr>\n')
 
-				output.write('<tr id="crib_%s" class="crib_steps"><td></td><td style="padding: 0px;" colspan="2">\n' % dance_id)
+				output.write('<tr id="crib_%s" class="crib_steps %s"><td></td><td style="padding: 0px;" colspan="2">\n' % (dance_id, row_sel))
 				output.write('	<table class="crib_step_table"%s>\n' % DEBUG)
 				for key in props:
 					if key in ['Youtube', 'Name', 'Format', 'Source', 'Endnote']:
