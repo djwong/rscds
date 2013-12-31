@@ -449,6 +449,9 @@ a.crib_name {
 	}
 }
 @media screen and (max-width: 600px) {
+	iframe {
+		max-height: 300px;
+	}
 	.five-up, .four-up, .three-up, .two-up .one-up {
 		transition: width linear 0.1s;
 		float: none;
