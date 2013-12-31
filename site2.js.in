@@ -136,7 +136,7 @@ function set_form_errors(errors, form_elt, form_description)
 		if (errors != null)
 			$('#' + form_elt + ' input[type = "submit"]').removeAttr('disabled');
 	} else {
-		var caption = 'Please correct these fields in the ' + form_description + ' form:';
+		var caption = 'Before we can process the ' + form_description + ' form,';
 		var list = $('<ul>');
 		for (var idx in errors) {
 			var item = $('<li>');
