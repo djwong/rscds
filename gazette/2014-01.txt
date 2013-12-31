@@ -87,23 +87,9 @@ open!  Below is the program for the ball.
 == Eugene Burns Dance ==
 by Robert Burger
 
-Robert Burns Dance
-Saturday, February 1, 2014
-Dance 7-10 pm
-Pre-dance workshop 3-5 pm
-Live Music by D’n’A
-Santa Clara Grange Hall, 295 Azalea Dr., Eugene, OR
-
-$20 per person (Mail a check payable to Kalindi Devi-Dasi or email that you
-will pay at the door) Spectators $5
-
-Registrar: Kalindi Devi-Dasi, 2873 Quiet Lane, Eugene, OR 97404;
-kalindi@earthlink.net
-
-When registering, please indicate if you will be attending the pre-dance
-workshop (from 3-5 pm).
-
-See the [[http://portlandscottishdancers.org/files/eugene_burns_flyer_2014.pdf|original flyer]].
+{{{#!html
+<a href="../files/eugene_burns_flyer_2014.pdf"><img class="artwork" src="../files/eugene_burns_flyer_2014.png" alt="Come As a Christmas Carol, December 2013" width="425" height="550"/></a>
+}}}
 
 == Move to the Beat of the Music ==
 by Tom Halpenny
