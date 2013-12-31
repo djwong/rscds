@@ -642,6 +642,9 @@ a.slidesjs-navigation:focus {
 .reg_form label {
 	white-space: nowrap;
 }
+.reg_form label.wrap {
+	white-space: normal;
+}
 .reg_form #type_box {
 	margin-top: 1em;
 	margin-right: 2em;
