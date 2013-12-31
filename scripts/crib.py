@@ -46,7 +46,7 @@ def dance_name_to_file_name(dance_name):
 			file_name = file_name + '_'
 	return file_name
 
-def write_dance(crib_name, dance_name, output):
+def write_dance(crib_name, dance_name, output, row_sel):
 	dance_fname = 'dances/' + dance_name_to_file_name(dance_name) + '.txt'
 	alg = hashlib.sha1()
 	alg.update((crib_name + dance_name).encode('utf-8')) #str(uuid.uuid4()).encode('utf-8'))
@@ -91,7 +91,7 @@ def write_dance(crib_name, dance_name, output):
 					youtube_str = youtube_str + ']</span>'
 
 				# Emit dance header
-				output.write('<tr class="crib_header">\n')
+				output.write('<tr class="crib_header %s">\n' % row_sel)
 				output.write('<td><span id="crib_%s_ctl" class="crib_ctl" onclick="crib_toggle(\'crib_%s\');">&#9654;</span></td>\n' % (dance_id, dance_id))
 				output.write('<td class="crib_name_cell"><div><a id="dance_%s"></a><a class="crib_name" onclick="crib_toggle(\'crib_%s\'); return false;" href="#dance_%s">%s</a>%s</div><div class="crib_source">%s</div></td>\n' % (dance_id, dance_id, dance_id, cgi.escape(props['Name']), youtube_str, cgi.escape(props['Source'])))
 				output.write('<td class="crib_format">%s</td>\n' % cgi.escape(props['Format']))
@@ -115,15 +115,25 @@ def write_dance(crib_name, dance_name, output):
 
 def generate_crib(crib_name, cribfd, outfd):
 	'''Given an input crib file, generate an output.'''
+	def inc_row():
+		nonlocal row
+
+		if row % 2 == 0:
+			row_sel = 'even'
+		else:
+			row_sel = 'odd'
+		row = row + 1
+		return row_sel
 
 	outfd.write('<table class="crib_table"%s>\n' % DEBUG)
+	row = 1
 	for cribline in cribfd:
 		if cribline[0] == '#':
 			continue
 		elif cribline[:3] == "I: ":
-			outfd.write('<tr class="crib_interlude"><td colspan="3">' + cgi.escape(cribline[3:].strip()) + '</td></tr>\n')
+			outfd.write('<tr class="crib_interlude %s"><td colspan="3">%s</td></tr>\n' % (inc_row(), cgi.escape(cribline[3:].strip())))
 		elif cribline[:3] == "D: ":
-			write_dance(crib_name, cribline[3:].strip(), outfd)
+			write_dance(crib_name, cribline[3:].strip(), outfd, inc_row())
 	outfd.write('</table>\n');
 
 def inject_cribs(templatefd, outfd):

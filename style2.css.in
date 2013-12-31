@@ -230,17 +230,8 @@ img {
 	vertical-align: top;
 	padding-top: 0.2em;
 }
-.crib_table .crib_source {
-	color: #606060;
-}
-.crib_table .crib_name_cell {
-	width: 100%;
-}
 .crib_header td {
 	padding-top: 0.4em;
-}
-.crib_table .crib_format {
-	white-space: nowrap;
 }
 .crib_header {
 	border: 1px solid gray;
@@ -251,8 +242,24 @@ img {
 .crib_interlude td {
 	padding-top: 0.2em;
 }
+.crib_table td {
+	padding: 0.2em;
+}
 .crib_table {
 	width: 100%;
+	border-spacing: 0px;
+}
+.crib_table .odd {
+	background: #f2f2f2;
+}
+.crib_table .crib_source {
+	color: #606060;
+}
+.crib_table .crib_name_cell {
+	width: 100%;
+}
+.crib_table .crib_format {
+	white-space: nowrap;
 }
 .crib_step_table tr td {
 	vertical-align: top;
