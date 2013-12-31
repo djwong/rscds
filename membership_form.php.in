@@ -17,6 +17,12 @@ function submit_form() {
 		return;
 	}
 
+	if ($_POST['email_list'] == 'on') {
+		$email_list = "×";
+	} else {
+		$email_list = " ";
+	}
+
 	$email = "Someone (".$_SERVER["REMOTE_ADDR"].") would like to be a "
 		."member of the Portland RSCDS!\n"
 		."\n"
@@ -25,7 +31,8 @@ function submit_form() {
 		."Address: ".$_POST['address']."\n"
 		."Phone: ".$_POST['phone']."\n"
 		."Email: ".$_POST['email']."\n"
-		."Type: ".$_POST['type']."\n"
+		."       [".$email_list."] Subscribe to mailing list.\n"
+		. "Type: ".$_POST['type']."\n"
 		."\n"
 		."They were using ".$_SERVER["HTTP_USER_AGENT"].".\n";
 
@@ -37,10 +44,7 @@ function submit_form() {
 		$price = 7;
 	}
 
-	mail("djwong.rscds@djwong.org",
-		"RSCDS Membership Request",
-		$email
-	);
+	mail("djwong.rscds@djwong.org", "RSCDS Membership Request", $email);
 
 	$name = $_POST['name'];
 	echo "<p>Thank you, <b>".$name."</b>, for your registration; it will ";

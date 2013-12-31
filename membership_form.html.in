@@ -6,6 +6,7 @@
 		<tr><td><label for="address">Address:</label></td><td><input type="text" class="text" id="address" name="address"/></td></tr>
 		<tr><td><label for="phone">Phone:</label></td><td><input type="text" class="text" id="phone" name="phone"/></td></tr>
 		<tr><td><label for="email">Email:</label></td><td><input type="text" class="text" id="email" name="email"/></td></tr>
+		<tr><td></td><td><input type="checkbox" id="email_list" name="email_list"/> <label for="email_list">Please subscribe me to the mailing list.</label></td></tr>
 	</table>
 	<table id="type_box">
 		<tr><th colspan="2">Membership Type:</th></tr>
