@@ -129,7 +129,7 @@ class event_database:
 
 	def dances(self, starts_before = None, starts_after = None, is_local = None):
 		'''Iterate over dance events.'''
-		return self.iterate_events(['dance'], starts_before, starts_after, is_local)
+		return self.iterate_events(['dance', 'ball'], starts_before, starts_after, is_local)
 
 	def balls(self, starts_before = None, starts_after = None, is_local = None):
 		'''Iterate over ball events.'''
