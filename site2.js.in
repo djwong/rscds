@@ -170,12 +170,8 @@ function verify_membership_form()
 	}
 
 	s = $('#membership_form #email').val();
-	if (s.length > 0 && s.match(/@.*\./) == null) {
-		errors.push('Please provide a valid e-mail address.');
-	}
-
-	if ($('#membership_form #email_list').prop('checked') &&
-	    (s.length <= 0 || s.match(/@.*\./) == null)) {
+	if ((s.length > 0 || $('#membership_form #email_list').prop('checked'))
+	    && s.match(/@.*\...$/) == null) {
 		errors.push('Please provide a valid e-mail address.');
 	}
 
