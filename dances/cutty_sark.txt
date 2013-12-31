@@ -1,0 +1,8 @@
+Name: Cutty Sark
+Format: 8×32J, 3C (4C set)
+Source: RSCDS Book 40
+BARS
+1- 8	1s cast down own sides and cast back to 2nd place
+9-16	2s+1s dance RH across and LH back
+17-24	1s turn RH to face 1st corners, turn 1st corner LH, turn 2nd corner RH and cross LH to 2nd places own sides
+25-32	2s+1s+3s Adv+Ret and turn RH
