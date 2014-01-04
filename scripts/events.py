@@ -145,9 +145,12 @@ class event_queries:
 	def __format_date(d, show_year = True, show_time = True):
 		'''Format the dates all nice.'''
 		now = event_database.today()
-		if d.hour >= 12:
+		if d.hour > 12:
 			meridian = 'pm'
 			hour = d.hour - 12;
+		elif d.hour == 12:
+			meridian = 'pm'
+			hour = d.hour
 		elif d.hour == 0 and d.minute == 0:
 			show_time = False
 		else:
@@ -277,10 +280,10 @@ class event_queries:
 			style = ''
 			if evt['type'] == 'class':
 				style = ' class="regular_event"'
-				bullet = '▷'
+				bullet = '○'
 			else:
 				style = ' class="nonregular_event"'
-				bullet = '▶'
+				bullet = '●'
 			if not bold_for_nonregular:
 				style = ''
 			print("\t<tr><td>%s</td><td><div%s>%s</div><div class=\"event_location\">%s</div></td><td>%s</td></tr>" % (bullet, style, url, loc, event_queries.__format_date(evt['start'], False)))
