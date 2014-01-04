@@ -145,9 +145,11 @@ class event_queries:
 	def __format_date(d, show_year = True, show_time = True):
 		'''Format the dates all nice.'''
 		now = event_database.today()
-		if d.hour > 12:
+		if d.hour >= 12:
 			meridian = 'pm'
 			hour = d.hour - 12;
+		elif d.hour == 0 and d.minute == 0:
+			show_time = False
 		else:
 			meridian = 'am'
 			hour = d.hour
