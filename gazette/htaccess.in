@@ -8,6 +8,10 @@ AuthUserFile %DEST%/.users
 	Require valid-user
 </Files>
 
+<Files "*2014*">
+	Require valid-user
+</Files>
+
 <Files ".users">
 	Deny from all
 </Files>

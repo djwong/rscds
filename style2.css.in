@@ -138,19 +138,39 @@ img {
 #gazette_calendar {
 	display: none;
 }
+#gazette_workshop_print {
+	display: none;
+}
 
 @media print {
 	#gazette_calendar {
 		display: block;
 	}
 	#gazette_membership_print #membership_form {
+		font-size: 80%;
 		page-break-inside: avoid;
+	}
+
+	#gazette_workshop_print {
+		display: block;
+	}
+	#gazette_workshop_print #workshop_form {
+		font-size: 66%;
+		page-break-inside: avoid;
+	}
+	#gazette_workshop_print	* {
+		line-height: normal;
+	}
+	#gazette_workshop_print .text, #gazette_workshop_print .fee {
+		padding-top: 0px;
 	}
 }
 
 /* Calendar */
 .regular_event {
-	color: #808080;
+}
+.nonregular_event {
+	font-weight: bold;
 }
 
 /* Page Headers */
@@ -250,7 +270,7 @@ img {
 	border-spacing: 0px;
 }
 .crib_table .odd {
-	background: #f2f2f2;
+	background: rgba(65, 131, 196, 0.1);
 }
 .crib_table .crib_source {
 	color: #606060;
@@ -314,7 +334,7 @@ a.crib_name {
 	padding: 0.2em;
 }
 .event_list tr:nth-child(odd) {
-	background: #f4f4f4;
+	background: rgba(65, 131, 196, 0.1);
 }
 .event_list td:nth-child(1) {
 	padding-right: 0.2em;
@@ -431,6 +451,9 @@ a.crib_name {
 	}
 }
 @media screen and (max-width: 600px) {
+	iframe {
+		max-height: 300px;
+	}
 	.five-up, .four-up, .three-up, .two-up .one-up {
 		transition: width linear 0.1s;
 		float: none;
@@ -705,10 +728,6 @@ a.slidesjs-navigation:focus {
 .reg_form #field_box {
 	width: 100%;
 }
-#fee_box th {
-	padding-right: 0.5em;
-	padding-left: 0.5em;
-}
 .nowrap {
 	white-space: nowrap;
 }
@@ -718,6 +737,10 @@ a.slidesjs-navigation:focus {
 .reg_form #total {
 	width: 6em;
 	color: black;
+}
+#fee_box th {
+	padding-right: 0.5em;
+	padding-left: 0.5em;
 }
 #fee_box th {
 	white-space: normal;
@@ -734,7 +757,7 @@ a.slidesjs-navigation:focus {
 	background: none;
 	border: none;
 	border-bottom: 1px solid black;
-	padding-top: 1em;
+	padding-top: 0.7em;
 }
 .reg_form .fee {
 	background: none;
