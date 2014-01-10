@@ -17,6 +17,7 @@
 {"start": "2013/11/01 9:00", "type": "ball", "local": false, "name": "Asilomar Workshop and Ball", "location": "Monterey, Calif.", "url": "http://asilomar.rscds-sf.org/"},
 {"start": "2013/11/23 17:00", "type": "ball", "local": false, "name": "St. Andrew's Ball", "location": "Boise, Idaho.", "url": "http://www.facebook.com/events/175107326020197/"},
 {"start": "2013/12/08 13:30", "type": "ball", "local": false, "name": "Gleneagles Ball", "location": "Vancouver, B.C.", "url": "http://www.rscdsvancouver.org/downloads/20131208i%20Gleneagles%20Ball%20Info.pdf"},
+{"start": "2014/01/25 18:00", "type": "dance", "local": false, "name": "Portland State Burns Supper", "location": "Portland, Ore.", "url": "https://cconn.foundation.pdx.edu/ccon/events_activities.do?action=viewEventFromCalendar&frompage=calendar&event_id=14XBS&site=alumni"},
 {"start": "2014/01/25 9:00", "type": "dance", "local": false, "name": "Seattle Burns Supper", "location": "Seattle, Wash.", "url": "http://www.rscds-seattle.org/images/2014-01-25-program%20Burns%20Evening.pdf"},
 {"start": "2014/02/01 17:00", "type": "dance", "local": false, "name": "Vancouver Burns Supper", "location": "Vancouver, B.C.", "url": "http://www.rscdsvancouver.org/tickets/2014burnssuppertickets.html"},
 {"start": "2014/02/01 19:00", "type": "dance", "local": false, "name": "Eugene Burns Dance", "location": "Eugene, Ore.", "url": "/files/eugene_burns_flyer_2014.pdf"},
