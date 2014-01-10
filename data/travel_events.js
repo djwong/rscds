@@ -29,7 +29,7 @@
 {"start": "2014/05/23 11:00", "type": "dance", "local": false, "name": "Folklife 2014", "location": "Seattle, Wash.", "url": "http://www.nwfolklife.org/"},
 {"start": "2014/06/28 19:00", "type": "dance", "local": false, "name": "Puget Sound Crossroads", "location": "Friday Harbor, Wash."},
 {"start": "2014/07/20 00:00", "type": "workshop", "local": false, "name": "T.A.C. Teacher Candidate Course", "location": "Greeley, Colo."},
-{"start": "2014/07/27 00:00", "type": "workshop", "local": false, "name": "T.A.C. Summer School", "location": "Greeley, Colo."},
+{"start": "2014/07/27 00:00", "type": "workshop", "local": false, "name": "T.A.C. Summer School", "location": "Greeley, Colo.", "url": "http://www.tac-rscds.org/summer-school"},
 {"start": "2014/08/02 16:30", "type": "dance", "local": false, "name": "Summer by the Sea", "location": "Santa Cruz, Calif.", "url": "http://www.rscds-sf.org/events/pdf/SummerBytheSea.6.pdf"},
 {"start": "2014/09/12 17:00", "type": "workshop", "local": false, "name": "Ft. Worden Workshop", "location": "Fort Worden, Wash.", "url": "http://www.rscds-seattle.org/ftworden/"},
 {"start": "2014/09/13 19:00", "type": "ball", "local": false, "name": "Ft. Worden Ball", "location": "Fort Worden, Wash.", "url": "http://www.rscds-seattle.org/ftworden/"},
