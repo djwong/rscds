@@ -1,0 +1,12 @@
+Name: The Discounted Suit
+Format: 8×32R, 3C (4C set)
+Source: D. Wong, The De’il Amang the Tailors
+BARS
+  1-8	1s+2s set & dance RH across ½ way, set & dance LH across ½ way back to place
+ 9-12	1s+2s lead down the middle
+13-16	1s lead back to top while 2m cross 2w in front and lead up to between 3s
+17-18	1s ½ turn with both hands while setting, to end in 2nd place on opposite sides
+19-20	1s arch, 2w dances under the arch to 1st place own side
+21-22	1s ½ turn with both hands while setting, to end in 2nd place on own sides
+23-24	1s arch again, 2m dances under the arch to 1st place own side
+25-32	2s+1s+3s circle 6H round & back
