@@ -1,3 +1,4 @@
+{"start": "2014/02/03 00:01", "type": "news", "name": "New class in Fairview", "details": "Linda Mae started a new class in Fairview, Ore.  The details are on the <a href=\"classes.html\">classes</a> page."},
 {"start": "2014/01/16 00:01", "type": "news", "name": "Workshop registration open!", "details": "You can now <a href=\"workshop.html\">register</a> for our March workshop."},
 {"start": "2014/01/01 00:01", "type": "news", "name": "January 2014 Ghillie Gazette Published", "details": "The <a href=\"http://portlandscottishdancers.org/gazette/2014-01.html\">winter issue</a> is now available."},
 {"start": "2013/06/24 17:30", "type": "news", "name": "New Website Available", "details": "Darrick has made the new website available at last!"},
