@@ -151,7 +151,7 @@
 {"start": "2013/12/03 19:30", "type": "class", "name": "Classic SCD Class", "location": "Columbia Dance Center, Vancouver, Wash."},
 {"start": "2013/12/10 19:30", "type": "class", "name": "Style & Technique Class", "location": "Columbia Dance Center, Vancouver, Wash."},
 {"start": "2013/12/17 19:30", "type": "class", "name": "Classic SCD Class", "location": "Columbia Dance Center, Vancouver, Wash."},
-{"start": "2014/02/07 19:00", "type": "class", "name": "Fairview Class", "location": "Fairview Community Center, Fairview, Ore."},
+{"start": "2014/02/07 19:00", "type": "class", "name": "Fairview Class (CANCELLED)", "location": "but CANCELLED"},
 {"start": "2014/02/14 19:00", "type": "class", "name": "Fairview Class", "location": "Fairview Community Center, Fairview, Ore."},
 {"start": "2014/02/21 19:00", "type": "class", "name": "Fairview Class", "location": "Fairview Community Center, Fairview, Ore."},
 {"start": "2014/02/28 19:00", "type": "class", "name": "Fairview Class", "location": "Fairview Community Center, Fairview, Ore."},
