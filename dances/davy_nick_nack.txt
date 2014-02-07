@@ -1,0 +1,8 @@
+Name: Davy Nick Nack
+Format: 8×32R, 3C (4C set)
+Source: R. M. Campbell, Glasgow Assembly
+BARS
+1- 8	1s+2s+3s cross RH, set, cross back RH and set
+9-16	1s turn RH 1½ times, cast 1 place and turn LH once to face 1st corners
+17-24	1s change places RH with corners and set, change places with corner person RH and turn partner LH to face 2nd corners
+25-32	1s change places RH with corners and set, change places with corner person RH and cross LH with partner to places 

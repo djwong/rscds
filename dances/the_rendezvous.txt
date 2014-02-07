@@ -1,0 +1,8 @@
+Name: The Rendezvous
+Format: 3×32R, 3C (4C set)
+Source: Unknown
+BARS
+1-8	1s turn RH, cast 1 place, turn LH & end on own sides
+9-16	1s dance reels of 3 across (Lady with 2s & Man with 3s)
+17-24	1s dance 3H round to left (Lady with 2s & Man with 3s) & open into 6H round to left
+25-32	1s dance reels of 3 across (Man with 2s & Lady with 3s) & cross RH to 2nd places

@@ -1,0 +1,8 @@
+Name: Sleepy Maggie
+Format: 8×32R, 3C (4C set)
+Source: A. Bowman, RSCDS Book 11
+BARS
+1- 8	1s+2s circle 4H round to left, 1s set and cast 1 place
+9-16	1s+3s dance RH across and LH back (1s end facing 1st corners)
+17-24	1s set and turn 1st corners, set and turn 2nd corners
+25-32	1s dance reels of 3 on opposite sides giving LSh to 1st corners and cross to places 

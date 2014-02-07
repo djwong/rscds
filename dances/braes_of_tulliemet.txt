@@ -1,0 +1,8 @@
+Name: The Braes of Tulliemet
+Format: 8×32S, 3C (4C set)
+Source:  Castle Menzies, RSCDS Book 7
+BARS
+1- 8	1s set and cast 1 place, cross RH and cast down 1 place on opposite sides
+9-16	3s+1s dance 4H round to left, 1s lead up to top and cast on opposite sides to face 1st corners
+17-24	1s set and turn 1st corner, set and turn 2nd corner
+25-32	1s dance reels of 3 on opposite sides giving LSh to 1st corners and cross RH to 2nd place on own sides 
