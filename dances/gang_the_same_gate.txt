@@ -1,6 +1,7 @@
 Name: Gang the Same Gate
 Format: 8×32S, 3C (4C set)
 Source: M. Levy, RSCDS Book 36
+Youtube: DHmPLpKkP6I
 BARS
 1- 8	1s cross RH and cast down to 3rd place, cross RH and cast up to 2nd place on own sides
 9-16	1s set adv to partner and turn 1st corner 2H to face 2nd corner, 1s dance ½ reel of 4 ending M between top couple facing down and L between bottom couple facing up
