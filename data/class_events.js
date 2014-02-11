@@ -3,7 +3,7 @@
 {"start": "2014/01/20 19:30", "type": "class", "name": "Portland Class", "location": "Waluga Lodge, Lake Oswego, Ore."},
 {"start": "2014/01/27 19:30", "type": "class", "name": "Portland Class", "location": "Waluga Lodge, Lake Oswego, Ore."},
 {"start": "2014/02/03 19:30", "type": "class", "name": "Portland Class", "location": "Waluga Lodge, Lake Oswego, Ore."},
-{"start": "2014/02/10 19:30", "type": "class", "name": "Portland Class", "location": "Waluga Lodge, Lake Oswego, Ore."},
+{"start": "2014/02/10 19:30", "type": "class", "name": "Portland Class CANCELLED", "location": "but CANCELLED"},
 {"start": "2014/02/17 19:30", "type": "class", "name": "Portland Class", "location": "Waluga Lodge, Lake Oswego, Ore."},
 {"start": "2014/02/24 19:30", "type": "class", "name": "Portland Class", "location": "Waluga Lodge, Lake Oswego, Ore."},
 {"start": "2014/03/03 19:30", "type": "class", "name": "Portland Class", "location": "Waluga Lodge, Lake Oswego, Ore."},
