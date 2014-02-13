@@ -17,8 +17,8 @@ $(document).ready(load_new_main);
 		<div class="skinny_box">
 			<h1>We are passionate Scottish Country Dancers!</h1>
 			<p>Located in Portland, Oregon, we teach and dance the
-social dances of Scotland and promote socialization with nearby RSCDS
-branches.</p>
+social dances of Scotland and promote interaction and friendship with nearby
+RSCDS branches.</p>
 			<div class="five-up p_section">
 <a href="demo.html"><img class="ps_icon" src="images/demo.png" height="100" width="100" alt="Demonstration"/></a>
 <div class="ps_header"><a href="demo.html">Demonstration</a></div>
@@ -63,7 +63,7 @@ Next:
 			<div class="five-up p_section">
 <img class="ps_icon" src="images/travel.png" height="100" width="100" alt="Travel"/>
 <div class="ps_header">Travel</div>
-<div class="ps_body">Your can take your dancing skills to RSCDS branches around the world and
+<div class="ps_body">You can take your dancing skills to RSCDS branches around the world and
 dance with them!</div>
 
 <div class="ps_next">
