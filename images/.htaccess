@@ -1,1 +1,4 @@
+ExpiresActive On
+ExpiresByType image/jpeg "access plus 1 week"
+ExpiresByType image/png "access plus 1 week"
 Options -Indexes

@@ -112,7 +112,10 @@ templates/head_gg.txt: templates/head.txt.in templates/head_gg.txt.in
 	cat templates/head_gg.txt.in >> $@
 
 site2.js: site2.js.in scripts/js.sed slide_data.js
-	sed -f scripts/js.sed < $< > $@
+	sed -f scripts/js.sed < $< | jsmin > $@
+
+jquery.slides.js: jquery.slides.js.in
+	jsmin < $< > $@
 
 slide_data.js: data/slides.csv scripts/slides.awk
 	awk -f scripts/slides.awk < $< > $@
