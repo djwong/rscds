@@ -5,11 +5,13 @@
 %OPEN_CONTENT%
 <h1>Dance Programs</h1>
 
-<p>Here are some of our dance programs, past, present, and future.</p>
+<p>Here are some of our dance programs, past, present, and future.  Please
+click on the black arrows to see more detailed information about a program or a
+dance.</p>
 
 %ALL_CRIBS%
 
-<p class="noprint">[<a href="javascript:crib_toggle_all(true);">Expand All</a> | <a href="javascript:crib_toggle_all(false);">Collapse All</a>]</p>
+<p class="noprint">[<a href="javascript:program_toggle_all(true);">Expand All</a> | <a href="javascript:program_toggle_all(false);">Collapse All</a>]</p>
 
 %CLOSE_CONTENT%
 %FOOT%

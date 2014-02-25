@@ -6,6 +6,7 @@ import datetime
 import sys
 import inspect
 import crib
+import hashlib
 
 EVENT_TYPES = {'class', 'dance', 'workshop', 'ball', 'demo', 'hidden', 'news'}
 CALENDAR_TYPES = {'class', 'dance', 'workshop', 'ball', 'demo', 'hidden'}
@@ -297,7 +298,18 @@ class event_queries:
 		for evt in sorted(events.events, key = lambda x: x['start'], reverse = True):
 			if 'crib' not in evt:
 				continue
-			print("<h2>%s</h2>" % evt['name'])
+			alg = hashlib.sha1()
+			alg.update(evt['crib'].encode('utf-8'))
+			dance_id = alg.hexdigest()
+			print("<table class=\"program_box\">\n")
+			print("<tr><td>\n")
+			print("<span id=\"progbody_%s_ctl\" onclick=\"crib_toggle('progbody_%s');\" class=\"crib_ctl\">&#9654;</span>\n" % (dance_id, dance_id))
+			print("</td><td class=\"program_title_cell\">\n")
+			print("<h2>")
+			print("<a id=\"program_%s\"></a>" % dance_id)
+			print("<a href=\"#program_%s\" onclick=\"crib_toggle('progbody_%s'); return false;\" class=\"program_title\">%s</a>\n" % (dance_id, dance_id, evt['name']))
+			print("</h2>\n")
+			print("</td></tr>\n")
 			loc = ''
 			if 'location' in evt:
 				loc = '%s on ' % evt['location']
@@ -305,9 +317,15 @@ class event_queries:
 			if evt['start'] > datetime.datetime.min:
 				date = evt['start'].strftime('%e %B %Y')
 			if loc != '' or date != '':
+				print("<tr><td></td><td>\n")
 				print("<p>%s%s</p>" % (loc, date))
+				print("</td></tr>\n")
+
+			print("<tr id=\"progbody_%s\" class=\"program_body\"><td></td><td>\n" % dance_id);
 			crib_name = 'cribs/' + evt['crib']
 			crib.generate_crib(crib_name, open(crib_name), sys.stdout)
+			print("</td></tr>\n")
+			print("</table>\n")
 
 	def last_five_news(events):
 		'''Last five events.'''

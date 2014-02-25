@@ -307,6 +307,37 @@ img {
 a.crib_name {
 	color: black;
 }
+.program_title {
+	font-weight: bold;
+	cursor: pointer;
+	text-decoration: none;
+}
+a.program_title {
+	color: black;
+}
+.program_body {
+	display: none;
+	margin-top: 1em;
+}
+.program_title_cell {
+	width: 100%;
+}
+.program_box {
+	width: 100%;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	border: 2px solid #0079c1;
+	padding: 0.2em;
+	margin: 0px;
+	margin-bottom: 1em;
+}
+.program_box h2 {
+	margin: 0px;
+}
+.program_box p {
+	margin: 0px;
+}
 @media screen and (max-width: 480px) {
 	.crib_table .crib_format {
 		white-space: normal;

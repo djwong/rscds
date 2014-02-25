@@ -1,4 +1,10 @@
 /* The rest of this code is from Darrick. */
+function program_toggle_all(show)
+{
+	$('tr[id ^= "progbody_"]').each(function(a,b) {crib_toggle(b.id, show);});
+	crib_toggle_all(show);
+}
+
 function crib_toggle(id, show)
 {
 	var x = $('#' + id);
