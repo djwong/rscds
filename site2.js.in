@@ -22,10 +22,22 @@ function crib_toggle(id, show)
 
 function crib_ready()
 {
-	var x = location.hash;
-	x = x.replace(/^#dance_/, "crib_");
-	if ($('#' + x).length)
-		crib_toggle(x);
+	var hash = location.hash;
+	if (hash.substring(0, 7) == '#dance_') {
+		x = hash.replace(/^#dance_/, "crib_");
+		if ($('#' + x).length) {
+			y = $('#' + x).parents('[id ^= "progbody_"]');
+			if (y.length) {
+				crib_toggle(y[0].id);
+			}
+			crib_toggle(x);
+		}
+	} else if (hash.substring(0, 9) == '#program_') {
+		x = hash.replace(/^#program_/, "progbody_");
+		if ($('#' + x).length) {
+			crib_toggle(x);
+		}
+	}
 }
 
 function crib_toggle_all(show)
