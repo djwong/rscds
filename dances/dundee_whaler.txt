@@ -1,0 +1,9 @@
+Name: The Dundee Whaler
+Format: 4×32S, 4C set
+Source: R. Clowes, Ormskirk 1
+Youtube: p_VSJKwsfAE
+BARS
+1- 8	2s and 4s dance Petronella to opposite sides
+9-16	1s+2s and 3s+4s dance Ladies Chain
+17-24	1s and 3s dance Petronella to opposite sides
+25-32	1L+2M change places LH, 1M+2L also 1L+3L change places RH, 1M+3M also 1L+4M change places LH and 1M+4L change RH. 2341 
