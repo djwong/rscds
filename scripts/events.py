@@ -287,7 +287,13 @@ class event_queries:
 				bullet = '●'
 			if not bold_for_nonregular:
 				style = ''
-			print("\t<tr><td>%s</td><td><div%s>%s</div><div class=\"event_location\">%s</div></td><td>%s</td></tr>" % (bullet, style, url, loc, event_queries.__format_date(evt['start'], False)))
+			criburl = ''
+			if 'crib' in evt:
+				alg = hashlib.sha1()
+				alg.update(evt['crib'].encode('utf-8'))
+				dance_id = alg.hexdigest()
+				criburl = ' [<a href="/past_programs.html#program_%s">crib</a>]' % dance_id
+			print("\t<tr><td>%s</td><td><div><span%s>%s</span>%s</div><div class=\"event_location\">%s</div></td><td>%s</td></tr>" % (bullet, style, url, criburl, loc, event_queries.__format_date(evt['start'], False)))
 			last_date = evt['start']
 
 		if list_open:
