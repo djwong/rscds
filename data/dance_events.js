@@ -11,7 +11,7 @@
 {"start": "2013/12/28 19:30", "type": "dance", "name": "Betwixt and Between Dance", "location": "Vancouver, Wash.", "url": "files/betwixt_2013.pdf", "crib": "betwixt_2013.txt"},
 {"start": "2014/01/11 19:30", "type": "dance", "name": "Portland Dance", "location": "Waluga Lodge, Lake Oswego, Ore.", "crib": "portland_jan2014.txt", "url": "/party.html"},
 {"start": "2014/02/08 19:30", "type": "dance", "name": "Portland Dance CANCELLED", "location": "CANCELLED", "crib": "portland_feb2014.txt", "url": "/party.html"},
-{"start": "2014/04/12 19:30", "type": "dance", "name": "Portland Dance", "location": "Waluga Lodge, Lake Oswego, Ore.", "url": "/party.html"},
+{"start": "2014/04/12 19:30", "type": "dance", "name": "Portland Dance", "location": "Waluga Lodge, Lake Oswego, Ore.", "url": "/party.html", "crib": "portland_apr2014.txt"},
 {"start": "2014/05/10 19:30", "type": "dance", "name": "Portland Dance", "location": "Waluga Lodge, Lake Oswego, Ore.", "url": "/party.html"},
 {"start": "2014/06/14 19:30", "type": "dance", "name": "Portland Dance", "location": "Waluga Lodge, Lake Oswego, Ore.", "url": "/party.html"},
 {"start": "2014/07/19 09:00", "type": "dance", "name": "Portland Highland Games", "location": "Mt. Hood Community College, Gresham, Ore.", "url": "http://www.phga.org/"},
