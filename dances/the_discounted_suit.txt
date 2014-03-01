@@ -1,12 +1,14 @@
 Name: The Discounted Suit
 Format: 8×32R, 3C (4C set)
-Source: D. Wong, variant of The De’il Amang the Tailors
+Source: D. Wong, 2014
+Endnote: This is a variant of The De’il Amang the Tailors.
 BARS
-  1-8	1s+2s set & dance RH across ½ way, set & dance LH across ½ way back to place
- 9-12	2s followed by 1s lead down the middle
-13-16	1s lead back to top while 2m cross 2w in front and lead up to between 3s, but on opposite sides
-17-18	While setting, 1s ½ turn downwards with both hands, to end with both hands still held, in 2nd place on opposite sides
-19-20	1s make arch, 2w dances under the arch to 1st place own side
-21-22	1s ½ turn with both hands while setting
-23-24	1s arch again, 2m dances under the arch to 1st place own side
-25-32	2s+1s+3s dance 6H round & back
+1-4	1st and 2nd couples, joining nearer hands on the sides, set, and dance right hands across halfway.
+5-8	1st and 2nd couples, joining nearer hands on the sides, set, and dance left hands across halfway to original places.
+ 9-12	2nd couple, followed by 1st couple, lead down the middle for four steps.
+13-16	1st couple lead up to the top while 2nd couple turn halfway around and lead up to between 3rd couple, facing up.
+17-18	1st couple, giving both hands and using pas de basque, turn halfway around moving down to finish with both hands still joined, in 2nd place.  Meanwhile, second couple set.
+19-20	1st couple make an arch, 2nd woman dance under the arch to first place, own side.
+21-22	1st couple, with both hands still joined, turn halfway around, using pas de basque as before.  Meanwhile, second man set.
+23-24	1st couple make an arch, 2nd man dance under the arch to first place, own side.
+25-32	2nd, 1st, and 3rd couples dance six hands around and back.  Repeat having passed a couple.
