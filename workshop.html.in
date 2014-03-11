@@ -3,22 +3,24 @@
 %BODY%
 %NAVIGATION%
 %OPEN_CONTENT%
-<h1>Workshop and Ball</h1>
 
 <!-- Nothing at all -->
 <!--
+<h1>Workshop and Ball</h1>
 <p>Please check back here for information on the 36th annual workshop and ball,
 to be held in March 2015.</p>
 -->
 
 <!-- Vancouver Dinner Dance -->
 <div>
+<h1>Vancouver Dinner Dance</h1>
+
 <p>Thank you all who came to the 35th annual Portland workshop and ball!  The
 next major dance event in the area is the Vancouver Dinner Dance, the program
-for which is below.  Looking for the <a href="/past_programs.html#program_8ccb5edd4c82a9ee05366421bc98c82c884f57d1">2014 Ball Program</a>?</p>
+for which is below.  Looking for the <a href="/past_programs.html#program_8ccb5edd4c82a9ee05366421bc98c82c884f57d1">2014 Portland Ball Program</a>?</p>
 
 <h2>Registration</h2>
-<a href="http://www.rscds-swws.org/2014dinnerdance.pdf">Register</a> today!
+<p><a href="http://www.rscds-swws.org/2014dinnerdance.pdf">Register</a> today for the Vancouver Dinner Dance!</p>
 
 <h2>Program</h2>
 %PORTLAND_BALL_CRIB%
@@ -38,6 +40,8 @@ park.</li>
 
 <!-- Portland Ball -->
 <div style="display: none;">
+<h1>Workshop and Ball</h1>
+
 <p>Every year, the Portland group puts on a dancing workshop and a ball in
 early March.  The 35th ball is March 8th, 2014 at the Christ Episcopal Church
 in Lake Oswego, Ore.  Check back for more details as they are available!  Like
