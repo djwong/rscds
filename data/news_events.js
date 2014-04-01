@@ -1,3 +1,4 @@
+{"start": "2014/04/01 00:01", "type": "news", "name": "The 25th annual <a href=\"http://heatherandrose.org/activities/camp.shtml\">Heather and Rose dance camp</a> is announced!"},
 {"start": "2014/03/01 00:01", "type": "news", "name": "March 2014 Ghillie Gazette Published", "details": "The <a href=\"http://portlandscottishdancers.org/gazette/2014-03.html\">spring issue</a> is now available."},
 {"start": "2014/02/03 00:01", "type": "news", "name": "New class in Fairview", "details": "Linda Mae started a new class in Fairview, Ore.  The details are on the <a href=\"classes.html\">classes</a> page."},
 {"start": "2014/01/16 00:01", "type": "news", "name": "Workshop registration open!", "details": "You can now <a href=\"workshop.html\">register</a> for our March workshop."},

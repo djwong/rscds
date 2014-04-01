@@ -29,6 +29,7 @@
 {"start": "2014/05/02 18:00", "type": "workshop", "local": false, "name": "Youth Weekend Ceilidh", "location": "Bellingham, Wash.", "url": "http://youthweekendwest.com/"},
 {"start": "2014/05/03 19:00", "type": "ball", "local": false, "name": "Youth Weekend Ball", "location": "Bellingham, Wash.", "url": "http://youthweekendwest.com/", "crib": "yww2014_ball.txt"},
 {"start": "2014/05/23 11:00", "type": "dance", "local": false, "name": "Folklife 2014", "location": "Seattle, Wash.", "url": "http://www.nwfolklife.org/"},
+{"start": "2014/06/06 18:00", "type": "dance", "local": false, "name": "Suttle Lake Dance Camp", "location": "Sisters, Ore.", "url": "http://heatherandrose.org/activities/camp.shtml"},
 {"start": "2014/06/14 14:30", "type": "dance", "local": false, "name": "Kitchener-Waterloo Ball", "location": "Kitchener, Ontario", "url": "http://www.rscds.kitchener.on.ca/images/stories/ball/ball_publicity_2014.pdf"},
 {"start": "2014/06/28 19:00", "type": "dance", "local": false, "name": "Puget Sound Crossroads", "location": "Friday Harbor, Wash."},
 {"start": "2014/07/20 00:00", "type": "workshop", "local": false, "name": "T.A.C. Teacher Candidate Course", "location": "Greeley, Colo."},
