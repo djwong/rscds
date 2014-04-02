@@ -33,6 +33,7 @@
 {"start": "2014/06/14 14:30", "type": "dance", "local": false, "name": "Kitchener-Waterloo Ball", "location": "Kitchener, Ontario", "url": "http://www.rscds.kitchener.on.ca/images/stories/ball/ball_publicity_2014.pdf"},
 {"start": "2014/06/28 19:00", "type": "dance", "local": false, "name": "Puget Sound Crossroads", "location": "Friday Harbor, Wash."},
 {"start": "2014/07/20 00:00", "type": "workshop", "local": false, "name": "T.A.C. Teacher Candidate Course", "location": "Greeley, Colo."},
+{"start": "2014/07/26 19:00", "type": "dance", "local": false, "name": "Rose and Thistle Dance", "location": "Seattle, Wash.", "url": "https://www.facebook.com/events/1377751655838225/"},
 {"start": "2014/07/27 00:00", "type": "workshop", "local": false, "name": "T.A.C. Summer School", "location": "Greeley, Colo.", "url": "http://www.tac-rscds.org/summer-school"},
 {"start": "2014/08/02 16:30", "type": "dance", "local": false, "name": "Summer by the Sea", "location": "Santa Cruz, Calif.", "url": "http://www.rscds-sf.org/events/pdf/SummerBytheSea.6.pdf"},
 {"start": "2014/09/12 17:00", "type": "workshop", "local": false, "name": "Ft. Worden Workshop", "location": "Fort Worden, Wash.", "url": "http://www.rscds-seattle.org/ftworden/"},
