@@ -110,7 +110,7 @@ def write_dance(crib_name, dance_name, output, row_sel):
 		if in_instructions:
 			output.write('	</table>\n')
 			if 'Endnote' in props:
-				output.write('<p>%s</p>\n' % cgi.escape(props['Endnote']))
+				output.write('<p><b>Note:</b> %s</p>\n' % cgi.escape(props['Endnote']))
 			output.write('</td></tr>\n')
 
 def generate_crib(crib_name, cribfd, outfd):
