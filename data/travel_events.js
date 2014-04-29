@@ -26,7 +26,7 @@
 {"start": "2014/02/15 9:00", "type": "dance", "local": false, "name": "Love to Dance Workshop", "location": "Vancouver, B.C.", "url": "http://www.rscdsvancouver.org/downloads/20140215b%20Love%20to%20Dance%20Workshop%20Brochure.pdf"},
 {"start": "2014/03/22 19:00", "type": "dance", "local": false, "name": "Heather Ball", "location": "Vancouver, B.C.", "url": "http://www.rscdsvancouver.org/home/heather-ball-tickets/"},
 {"start": "2014/03/29 19:00", "type": "dance", "local": false, "name": "Van Isle Workshop and Dance", "location": "Victoria, B.C.", "url": "http://viscds.ca/"},
-{"start": "2014/05/02 18:00", "type": "workshop", "local": false, "name": "Youth Weekend Ceilidh", "location": "Bellingham, Wash.", "url": "http://youthweekendwest.com/"},
+{"start": "2014/05/02 18:00", "type": "workshop", "local": false, "name": "Youth Weekend Ceilidh", "location": "Bellingham, Wash.", "url": "http://youthweekendwest.com/", "crib": "yww2014_ceilidh.txt"},
 {"start": "2014/05/03 19:00", "type": "ball", "local": false, "name": "Youth Weekend Ball", "location": "Bellingham, Wash.", "url": "http://youthweekendwest.com/", "crib": "yww2014_ball.txt"},
 {"start": "2014/05/03 18:30", "type": "ball", "local": false, "name": "White Rock 60th Anniversary Ball", "location": "White Rock, B.C.", "url": "http://www.wrscdc.org/2014_60th_anniversary_ball.htm"},
 {"start": "2014/05/23 11:00", "type": "dance", "local": false, "name": "Folklife 2014", "location": "Seattle, Wash.", "url": "http://www.nwfolklife.org/"},

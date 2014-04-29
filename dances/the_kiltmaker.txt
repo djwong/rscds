@@ -1,0 +1,8 @@
+Name: The Kilt Maker
+Format: 4×32R, 4C set
+Source: P. Burrage, Pinewoods Collection 2
+BARS
+1- 8	1L followed by 1M dances Fig of 8 round 2M and 3M passing out between them to start and end in centre at top of set
+9-16	1s quickly slip step to bottom and set while 2s+3s+4s set and cross RH, 1s slip step back to top and set while 2s+3s+4s set and cross RH
+17-24	1M+2L DoSiDo while 1L+2M set and cast (1s in 2nd place), 1s repeat with 3s ending in 3rd place
+25-32	1s repeat above with 4s to end in 4th place and turn RH 
