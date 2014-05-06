@@ -195,9 +195,18 @@ function verify_membership_form()
 
 	if (!$('#membership_form #type_single').prop('checked') &&
 	    !$('#membership_form #type_family').prop('checked') &&
-	    !$('#membership_form #type_local').prop('checked')) {
+	    !$('#membership_form #type_local').prop('checked') &&
+	    !$('#membership_form #type_gg_only').prop('checked')) {
 		errors.push('Please select a membership type.');
 	}
+
+	if ($('#membership_form #type_local').prop('checked')) {
+		$('#membership_form #primary_branch_row').css('display', 'table-row');
+		s = $('#membership_form #primary_branch').val();
+		if (s.length == 0)
+			errors.push('Please provide the name of your primary branch.');
+	} else
+		$('#membership_form #primary_branch_row').css('display', 'none');
 
 	if (!$('#membership_form #org').prop('checked')) {
 		errors.push('Please check yes to the question about Scottish Dance being fun.');

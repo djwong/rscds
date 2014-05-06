@@ -1,5 +1,5 @@
 <form method="POST" id="membership_form" class="reg_form" action="membership_form.php">
-	<p class="title">Royal Scottish Country Dance Society, Portland Ore. Branch:<br />Membership Form 2013-2014</p>
+	<p class="title">Royal Scottish Country Dance Society, Portland Ore. Branch:<br />Membership Form 2014-2015</p>
 	<table id="field_box">
 		<tr><td><label for="name">Name(s):</label></td><td><input type="text" class="text" id="name" name="name"/></td></tr>
 		<tr><td><label for="children">Children&nbsp;under&nbsp;16:</label></td><td><input type="text" class="text" id="children" name="children"/></td></tr>
@@ -10,9 +10,11 @@
 	</table>
 	<table id="type_box">
 		<tr><th colspan="2">Membership Type:</th></tr>
-		<tr><td><input type="radio" name="type" id="type_single" value="single"/> <label for="type_single">Single RSCDS</label></td><td>$32</td></tr>
-		<tr><td><input type="radio" name="type" id="type_family" value="family"/> <label for="type_family">Family RSCDS</label></td><td>$47</td></tr>
-		<tr><td><input type="radio" name="type" id="type_local" value="local"/> <label for="type_local">Local</label></td><td>$7</td></tr>
+		<tr><td class="narrow_column"><input type="radio" name="type" id="type_single" value="single"/> <label for="type_single">Single RSCDS</label></td><td>$32</td></tr>
+		<tr><td class="narrow_column"><input type="radio" name="type" id="type_family" value="family"/> <label for="type_family">Family RSCDS</label></td><td>$47</td></tr>
+		<tr><td class="narrow_column"><input type="radio" name="type" id="type_local" value="local"/> <label for="type_local">Local</label></td><td>$5</td></tr>
+		<tr id="primary_branch_row"><td colspan="2" class="wide_column"><label for="primary_branch">Primary Branch:</label> <input type="text" class="text" name="primary_branch" id="primary_branch"/></td></tr>
+		<tr><td class="narrow_column"><input type="radio" name="type" id="type_gg_only" value="gg_only"/> <label for="type_gg_only">Ghillie Gazette Only</label></td><td>$5</td></tr>
 	</table>
 	<p><b>Note for families: Join at the family rate <i>only</i> if there are two adults; a single adult should join at the single rate.</b></p>
 	<p>Local membership applies to those who have their RSCDS membership through another branch or do not wish to become full RSCDS members at this time.  Local members receive the <i>Ghillie Gazette</i> and a listing in our membership roster.</p>

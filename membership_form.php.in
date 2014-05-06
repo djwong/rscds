@@ -23,6 +23,11 @@ function submit_form() {
 		$email_list = " ";
 	}
 
+	if ($_POST['type'] == 'local')
+		$primary_branch = $_POST['primary_branch']."\n";
+	else
+		$primary_branch = '';
+
 	$email = "Someone (".$_SERVER["REMOTE_ADDR"].") would like to be a "
 		."member of the Portland RSCDS!\n"
 		."\n"
@@ -33,6 +38,7 @@ function submit_form() {
 		."Email: ".$_POST['email']."\n"
 		."       [".$email_list."] Subscribe to mailing list.\n"
 		. "Type: ".$_POST['type']."\n"
+		.$primary_branch
 		."\n"
 		."They were using ".$_SERVER["HTTP_USER_AGENT"].".\n";
 
@@ -41,7 +47,9 @@ function submit_form() {
 	} else if ($_POST['type'] == 'family') {
 		$price = 47;
 	} else if ($_POST['type'] == 'local') {
-		$price = 7;
+		$price = 5;
+	} else if ($_POST['type'] == 'gg_only') {
+		$price = 5;
 	}
 
 	mail("djwong.rscds@djwong.org", "RSCDS Membership Request", $email);

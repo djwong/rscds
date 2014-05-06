@@ -737,7 +737,13 @@ a.slidesjs-navigation:focus {
 	margin-bottom: 1em;
 	float: left;
 }
-.reg_form #type_box tr td:nth-child(1) {
+.reg_form #type_box .wide_column {
+	padding-right: 0px;
+}
+.reg_form #type_box #primary_branch_row {
+	display: none;
+}
+.reg_form #type_box tr .narrow_column {
 	padding-right: 2em;
 }
 .reg_form #type_box tr td:nth-child(2) {
@@ -832,6 +838,9 @@ a.slidesjs-navigation:focus {
 	margin: 0px;
 	padding-left: 1.5em;
 }
+.reg_form #primary_branch {
+	width: 150px;
+}
 
 @media screen and (max-width: 500px) {
 	.reg_form {
@@ -855,6 +864,9 @@ a.slidesjs-navigation:focus {
 	}
 }
 @media print {
+	.reg_form #type_box #primary_branch_row {
+		display: table-row;
+	}
 	.reg_form input[type=reset] {
 		display: none;
 	}
