@@ -4,7 +4,6 @@
 }}}
 {{{#!wiki comment
 pubdate = May/June 2014
-noindex
 }}}
 
 <<TableOfContents()>>
@@ -14,9 +13,9 @@ by Linda Gertz
 
 Spring is in the air, and as with most of you, I’m enjoying being able to
 get out and about.  We have one more monthly party on Saturday, May 10,
-2014.  Marcy has come up with an idea for handling the monthly parties.
-That is to have people sign up for one month.  Please see my article below
-for further information.  
+2014.  Marcy has come up with an idea for handling the monthly parties, which
+is to have people sign up to handle one month.  Please see my article below for
+further information.
 
 This will be my last President’s Message to you, as in June we will meet to
 have the change of officers.  On Monday, May 12th we will have our Annual
@@ -41,7 +40,7 @@ You can dance more and ache less if you follow these suggestions:
 
 === Keep in Shape ===
 
-The most common injury frequent dancer sustain is damage to the cartilage in
+The most common injury frequent dancers sustain is damage to the cartilage in
 the knee and hip joints. Ankles are also vulnerable. These joints take a
 pounding in Scottish dancing! Damage is less likely if the muscles around
 these joints are strong. Here are exercises you can do to strengthen them:
@@ -104,9 +103,9 @@ Here is what needs to be done:
 Before the night of the party:
 
 Check the cabinet to make sure there are enough supplies of:
-tea/sugar/plates/cups/forks and napkins.
+tea, sugar, plates, cups, forks, and napkins.
 
-Note:  For drinks we currently have regular tea, decaf tea, herbal teas &
+Note:  For drinks we currently have regular tea, decaf tea, herbal teas, and
 instant coffee bags
 
 On the night of the event:
@@ -117,13 +116,13 @@ On the night of the event:
 
  3. Fill the urn that says “Hot Water” with water.  You don’t need the tray in it that would normally hold the tea or coffee.  Get out cords for the pot - don’t plug in until intermission.
 
- 4. Put out teas/coffee/stir sticks/sugar/cups on the little table.
+ 4. Put out teas, coffee, stir sticks, sugar, and cups on the little table.
 
  5. Put a tablecloth on the big table to be used for putting treats on.  
 
  6. Set out napkins, plates and forks.
 
- 7. Afterwards empty out the tea urn, put stuff back in the cabinet.  If needed take tablecloth & milk pitcher home to wash & return.
+ 7. Afterwards empty out the tea urn, put stuff back in the cabinet.  If needed take the tablecloth and milk pitcher home to wash and return.
  
 EXTRA THINGS YOU COULD DO:
 
@@ -143,7 +142,6 @@ February 14, 2015; April 11, 2015; May 9, 2015
 
 Linda Gertz’s Easy Pineapple Pie:
  
-
  * 1 16 oz sour cream
  * 1 16 oz can crushed pineapple (don’t drain)
  * 1 small pkg (4 serv size) Instant vanilla pudding
@@ -182,7 +180,7 @@ by Eunice Mac​Kenzie
 As you know, almost two months ago, I had a very painful, debilitating
 shoulder affliction. You of the Portland Scottish Country Dancers were so
 compassionate and generous in your words and deeds. I know that I verbally
-thanked most of you, but I just wanted my “thanks” in writing. 
+thanked most of you, but I just wanted my thanks in writing. 
 
 Thank you all very much!
 
@@ -257,7 +255,7 @@ Manual.
 '''Deportment:''' Dancer has an upright carriage for good balance, easy and
 natural poise, and no excessive body movement.
 
-'''Bow and curtsy:''' Dancer begins and ends a dance by honoring partner,
+'''Bow and curtsey:''' Dancer begins and ends a dance by honoring partner,
 performed rhythmically during a chord.  Three parts: gather self up, move
 down, and back up, while looking at partner.
 
@@ -276,7 +274,7 @@ performance of the dance without, however, expressing the true spirit of the
 Scottish country dance - “performing” rather than “dancing”. The expression
 of the true spirit cannot be taught. It comes from the stimulus of the music
 and each individual’s response to the lively, elegant movements of the
-dance. During an adjudication at a Scottish Country Dance Festival, Dr
+dance. During an adjudication at a Scottish Country Dance Festival, Dr.
 Milligan exclaimed: “It is a pity that there are so many performers and so
 few dancers.” The difference between “performing” and “dancing” has to be
 appreciated in order to bring out several important characteristics of
