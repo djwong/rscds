@@ -13,6 +13,7 @@
 {"start": "2014/02/08 19:30", "type": "dance", "name": "Portland Dance CANCELLED", "location": "CANCELLED", "crib": "portland_feb2014.txt", "url": "/party.html"},
 {"start": "2014/04/12 19:30", "type": "dance", "name": "Portland Dance", "location": "Waluga Lodge, Lake Oswego, Ore.", "url": "/party.html", "crib": "portland_apr2014.txt"},
 {"start": "2014/05/10 19:30", "type": "dance", "name": "Portland Dance", "location": "Waluga Lodge, Lake Oswego, Ore.", "url": "/party.html", "crib": "portland_may2014.txt"},
+{"start": "2014/07/13 12:00", "type": "dance", "name": "Sumptuous Summer Picnic", "location": "Clark Co., Wash.", "url": "files/picnicflyer14.pdf"},
 {"start": "2014/07/19 09:00", "type": "dance", "name": "Portland Highland Games", "location": "Mt. Hood Community College, Gresham, Ore.", "url": "http://www.phga.org/"},
 {"start": "2014/08/23 16:00", "type": "dance", "name": "Portland Branch Picnic", "location": "Tualatin Community Park, Tualatin, Ore."},
 {"start": "2014/10/11 19:30", "type": "dance", "name": "Portland Dance", "location": "Waluga Lodge, Lake Oswego, Ore.", "url": "/party.html"},
