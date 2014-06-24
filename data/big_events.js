@@ -7,3 +7,5 @@
 {"start": "2014/3/8 9:00", "type": "workshop", "name": "Portland Workshop", "location": "Christ Episcopal Church, Lake Oswego, Ore.", "url": "workshop.html"},
 {"start": "2014/3/8 19:00", "ready": true, "name": "Portland Ball", "type": "ball", "location": "Christ Episcopal Church, Lake Oswego, Ore.", "url": "workshop.html", "crib": "portland_ball_2014.txt"},
 {"start": "2014/4/26 18:00", "type": "ball", "name": "Dinner Dance", "location": "St. Luke’s, Vancouver, Wash.", "crib": "dinner_dance_2014.txt", "local": true, "url": "http://www.rscds-swws.org/2014dinnerdance.pdf"},
+{"start": "2015/3/14 9:00", "type": "workshop", "name": "Portland Workshop", "location": "Christ Episcopal Church, Lake Oswego", "url": "workshop.html"},
+{"start": "2015/3/14 19:00", "type": "ball", "name": "Portland Ball", "location": "Christ Episcopal Church, Lake Oswego"},
