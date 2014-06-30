@@ -46,6 +46,22 @@ def dance_name_to_file_name(dance_name):
 			file_name = file_name + '_'
 	return file_name
 
+def format_video_links(videos):
+	'''Format a pile of video links for HTML'''
+	prefix = '<span class="crib_youtube">&nbsp;['
+	suffix = ']</span>'
+	if len(videos) == 0:
+		return ''
+	if len(videos) == 1:
+		return '%s<a href="%s">video</a>%s' % (prefix, videos[0], suffix)
+	else:
+		vlinks = []
+		num = 1
+		for video in videos:
+			vlinks.append('<a href="%s">%d</a>' % (video, num))
+			num = num + 1
+		return prefix + 'videos: ' + (", ".join(vlinks)) + suffix
+
 def write_dance(crib_name, dance_name, output, row_sel):
 	dance_fname = 'dances/' + dance_name_to_file_name(dance_name) + '.txt'
 	alg = hashlib.sha1()
@@ -73,27 +89,22 @@ def write_dance(crib_name, dance_name, output, row_sel):
 				if missing_keys:
 					raise Exception("%s: Missing required keys: %s" % (dance_fname, missing_keys))
 
-				# Set up youtube links
+				# Set up video links
 				youtube_str = ''
+				videos = []
 				if 'Youtube' in props:
-					videos = props['Youtube'].split(", ")
-					youtube_str = '<span class="crib_youtube">&nbsp;['
-					if len(videos) == 1:
-						youtube_str = youtube_str + '<a href="http://www.youtube.com/watch?v=%s">video</a>' % props['Youtube']
-					else:
-						youtube_str = youtube_str + 'videos: '
-						vlinks = []
-						num = 1
-						for video in videos:
-							vlinks.append('<a href="http://www.youtube.com/watch?v=%s">%d</a>' % (video, num))
-							num = num + 1
-						youtube_str = youtube_str + ", ".join(vlinks)
-					youtube_str = youtube_str + ']</span>'
+					for x in props['Youtube'].split(", "):
+						videos.append('http://www.youtube.com/watch?v=%s' % x)
+				if 'Video' in props:
+					for x in props['Video'].split(", "):
+						videos.append('%s' % x)
+
+				video_str = format_video_links(videos)
 
 				# Emit dance header
 				output.write('<tr class="crib_header %s">\n' % row_sel)
 				output.write('<td><span id="crib_%s_ctl" class="crib_ctl" onclick="crib_toggle(\'crib_%s\');">&#9654;</span></td>\n' % (dance_id, dance_id))
-				output.write('<td class="crib_name_cell"><div><a id="dance_%s"></a><a class="crib_name" onclick="crib_toggle(\'crib_%s\'); return false;" href="#dance_%s">%s</a>%s</div><div class="crib_source">%s</div></td>\n' % (dance_id, dance_id, dance_id, cgi.escape(props['Name']), youtube_str, cgi.escape(props['Source'])))
+				output.write('<td class="crib_name_cell"><div><a id="dance_%s"></a><a class="crib_name" onclick="crib_toggle(\'crib_%s\'); return false;" href="#dance_%s">%s</a>%s</div><div class="crib_source">%s</div></td>\n' % (dance_id, dance_id, dance_id, cgi.escape(props['Name']), video_str, cgi.escape(props['Source'])))
 				output.write('<td class="crib_format">%s</td>\n' % cgi.escape(props['Format']))
 				output.write('</tr>\n')
 
