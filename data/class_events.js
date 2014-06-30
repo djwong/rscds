@@ -153,7 +153,6 @@
 {"start": "2014/09/09 19:30", "type": "class", "name": "Classic SCD Class", "location": "Columbia Dance Center, Vancouver, Wash."},
 {"start": "2014/09/16 19:30", "type": "class", "name": "Exploring Devisors’ Dances", "location": "Columbia Dance Center, Vancouver, Wash."},
 {"start": "2014/09/23 19:30", "type": "class", "name": "Classic SCD Class", "location": "Columbia Dance Center, Vancouver, Wash."},
-{"start": "2014/09/30 19:30", "type": "class", "name": "Exploring Devisors’ Dances", "location": "Columbia Dance Center, Vancouver, Wash."},
 {"start": "2014/10/07 19:30", "type": "class", "name": "Classic SCD Class", "location": "Columbia Dance Center, Vancouver, Wash."},
 {"start": "2014/10/14 19:30", "type": "class", "name": "Exploring Devisors’ Dances", "location": "Columbia Dance Center, Vancouver, Wash."},
 {"start": "2014/10/21 19:30", "type": "class", "name": "Classic SCD Class", "location": "Columbia Dance Center, Vancouver, Wash."},
