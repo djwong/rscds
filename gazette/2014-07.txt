@@ -4,7 +4,6 @@
 }}}
 {{{#!wiki comment
 pubdate = July/August 2014
-noindex
 }}}
 
 <<TableOfContents()>>
