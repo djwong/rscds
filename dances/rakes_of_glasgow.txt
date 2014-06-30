@@ -1,0 +1,9 @@
+Name: Rakes of Glasgow
+Format: 8×32S, 3C (4C set)
+Source: Preston, RSCDS Book 11
+Video: http://ssa.nls.uk/film/0313
+BARS
+1- 8	1s+2s dance R&L
+9-16	1s lead down the middle and back to top
+17-24	1s+2s dance Allemande
+25-32	2s+1s+3s circle 6H round and back 
