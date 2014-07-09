@@ -48,4 +48,5 @@
 {"start": "2014/09/13 19:00", "type": "ball", "local": false, "name": "Ft. Worden Ball", "location": "Fort Worden, Wash.", "url": "http://www.rscds-seattle.org/ftworden/"},
 {"start": "2014/10/25 19:00", "type": "ball", "local": false, "name": "Masquerade Ball", "location": "Bellingham, Wash.", "url": "http://www.bellinghamscd.org/Dances%20and%20Events%20Pages/Workshop%20&%20Ball/NOT%20ACTIVE%20Dec%20-%20July/Workshop%20&%20Ball%20Main%20Pge-2012.htm"},
 {"start": "2014/11/07 00:00", "type": "ball", "local": false, "name": "Asilomar Workshop", "location": "Pacific Grove, Calif.", "url": "http://asilomar.rscds-sf.org/"},
+{"start": "2014/11/15 09:30", "type": "class", "local": false, "name": "Teachers’ Workshop", "location": "Mercer Is., Seattle, Wash.", "url": "http://www.rscds-seattle.org/images/2014_11-15Teachers_Workshop_Brochure.pdf"},
 {"start": "2015/01/17 18:00", "type": "dance", "local": false, "name": "Burns Supper", "location": "Vancouver, B.C.", "url": "http://www.rscdsvancouver.org/dance/745/"},
