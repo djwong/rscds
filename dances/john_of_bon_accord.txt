@@ -1,0 +1,16 @@
+Name: John of Bon Accord
+Format: 8×32R, 3C (4C set)
+Source: R. Goldring, RSCDS Book 33
+Youtube: O7hRuGzTrL4#t=17
+BARS
+1-16	1s dance four successive half reels of 3 (1M leading throughout):
+' 1-4	1s2L half reel of 3 (1M1L start by giving right shoulder);
+' 5-8	1s2M half reel of 3 (1M2M give right shoulder);
+' 9-12	1s3L half reel of 3 (1M3L give left shoulder);
+' 13-16	1s3M half reel of 3 (1M3M give right shoulder);
+17-20	1s turn by the right and cast up on own sides;
+21-24	1s half figures of 8 round 2s;
+25-26	2s1s3s turn by the right ¾ and retain hold to finish in line (Mn facing down, Ls facing up);
+27-28	2s1s3s set;
+29-30	2s1s3s turn by the right ¾ to finish on the sides;
+31-32	2s1s3s set on the sides. 
