@@ -1,14 +1,19 @@
+# Make sure you have AllowOverride AuthConfig set for this directory... 
 AuthType Basic
 AuthName "Ghillie Gazette"
 # (Following line optional)
 AuthBasicProvider file
 AuthUserFile %DEST%/.users
 
-<Files "*2013*">
+<Files "*2014*">
 	Require valid-user
 </Files>
 
-<Files "*2014*">
+<Files "*2013-11*">
+	Require valid-user
+</Files>
+
+<Files "*2013-09*">
 	Require valid-user
 </Files>
 
