@@ -17,7 +17,7 @@
 {"start": "2014/07/19 09:00", "type": "dance", "name": "Portland Highland Games", "location": "Mt. Hood Community College, Gresham, Ore.", "url": "http://www.phga.org/"},
 {"start": "2014/08/02 17:00", "type": "dance", "name": "Clark County Fair", "location": "Clark County Fairgrounds, Wash."},
 {"start": "2014/08/23 16:00", "type": "dance", "name": "Portland Branch Picnic", "location": "Tualatin Community Park, Tualatin, Ore."},
-{"start": "2014/08/26 19:30", "type": "dance", "name": "Fourth Tuesday Mixer", "location": "Columbia Dance Center, Vancouver, Wash."},
+{"start": "2014/08/26 19:30", "type": "dance", "name": "Fourth Tuesday Mixer", "location": "Columbia Dance Center, Vancouver, Wash.", "url": "files/mixer_aug_2014.pdf"},
 {"start": "2014/09/30 19:30", "type": "dance", "name": "Fifth Tuesday Mixer", "location": "Columbia Dance Center, Vancouver, Wash."},
 {"start": "2014/10/11 19:30", "type": "dance", "name": "Portland Dance", "location": "Waluga Lodge, Lake Oswego, Ore.", "url": "/party.html"},
 {"start": "2014/10/25 19:30", "type": "dance", "name": "SW WA Fall Dance", "location": "Columbia Dance Center, Vancouver, Wash.", "crib": "swws_oct2014.txt"},
