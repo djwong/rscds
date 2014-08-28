@@ -55,6 +55,8 @@ s/%WEBMASTER_CONTACT%//g
 s/%DON_CONTACT%//g
 /%DEBBIE_CONTACT%/r debbie.html
 s/%DEBBIE_CONTACT%//g
+/%GERI_CONTACT%/r geri.html
+s/%GERI_CONTACT%//g
 /%LMAE_CONTACT%/r lmae.html
 s/%LMAE_CONTACT%//g
 /%RICHARD_CONTACT%/r richard.html
