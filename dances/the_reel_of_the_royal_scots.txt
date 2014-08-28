@@ -1,6 +1,6 @@
 Name: The Reel of the Royal Scots
 Format: 8×32R, 3C (4C set)
-Source: Roy Goldring (1983)
+Source: Roy Goldring (1983), Leaflet 7
 Youtube: tMB9fXz9eRY
 BARS
 1-8	1s ½ turn 2s on sides (1M RH - 1L LH) to face out, 2s+1s+3s set as in double triangles, 1s ½ turn 3s on sides (1M LH - 1L RH) end 3s facing out and 2s+3s+1s set as in double triangles
