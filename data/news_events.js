@@ -1,3 +1,4 @@
+{"start": "2014/08/28 00:00", "type": "news", "name": "Events Updated", "details": "I've updated the <a href=\"/events.html\">events calendar</a> with some more area events, including the High Desert ball in October."},
 {"start": "2014/06/30 15:30", "type": "news", "name": "Summer Ghillie Gazette", "details": "The summer edition of the <a href=\"/gazette/2014-07.html\">Ghillie Gazette</a> is out, with the usual <a href=\"/events.html\">calendar updates</a>."},
 {"start": "2014/05/01 00:01", "type": "news", "name": "New Ghillie Gazette", "details": "There’s a new <a href=\"/gazette/2014-05.html\">Ghillie Gazette</a> out, and the <a href=\"/events.html\">event calendar</a> has some new events listed."},
 {"start": "2014/04/01 00:01", "type": "news", "name": "The 25th annual <a href=\"http://heatherandrose.org/activities/camp.shtml\">Heather and Rose dance camp</a> is announced!"},
