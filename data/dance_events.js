@@ -23,6 +23,7 @@
 {"start": "2014/10/25 19:30", "type": "dance", "name": "SW WA Fall Dance", "location": "Columbia Dance Center, Vancouver, Wash.", "crib": "swws_oct2014.txt"},
 {"start": "2014/11/14 19:30", "type": "dance", "name": "Portland Dance", "location": "Waluga Lodge, Lake Oswego, Ore.", "url": "/party.html", "crib": "portland_nov2014.txt"},
 {"start": "2014/12/12 19:30", "type": "dance", "name": "Portland Dance", "location": "Waluga Lodge, Lake Oswego, Ore.", "url": "/party.html"},
+{"start": "2014/12/28 13:30", "type": "dance", "name": "Betwixt and Between Ceilidh", "location": "Vancouver, Wash."},
 {"start": "2015/01/10 19:30", "type": "dance", "name": "Portland Dance", "location": "Waluga Lodge, Lake Oswego, Ore.", "url": "/party.html"},
 {"start": "2015/02/14 19:30", "type": "dance", "name": "Portland Dance", "location": "Waluga Lodge, Lake Oswego, Ore.", "url": "/party.html"},
 {"start": "2015/04/11 19:30", "type": "dance", "name": "Portland Dance", "location": "Waluga Lodge, Lake Oswego, Ore.", "url": "/party.html"},
