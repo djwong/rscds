@@ -54,3 +54,4 @@
 {"start": "2014/11/15 09:30", "type": "class", "local": false, "name": "Teachers’ Workshop", "location": "Mercer Is., Seattle, Wash.", "url": "http://www.rscds-seattle.org/images/2014_11-15Teachers_Workshop_Brochure.pdf"},
 {"start": "2014/12/13 19:30", "type": "dance", "local": false, "name": "Seattle Holiday Ceilidh", "location": "Seattle, Wash."},
 {"start": "2015/01/17 18:00", "type": "dance", "local": false, "name": "Burns Supper", "location": "Vancouver, B.C.", "url": "http://www.rscdsvancouver.org/dance/745/"},
+{"start": "2015/02/14 00:00", "type": "workshop", "local": false, "name": "Aloha Winter Weekend", "location": "Waikiki, Hawaii", "url": "http://www.rscdshawaii.org/home/workshop/"},

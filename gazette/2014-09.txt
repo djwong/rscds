@@ -1,0 +1,128 @@
+{{{#!html
+<a href="../images/gg_july_2014_0.jpg"><img class="artwork" src="../images/gg_july_2014_0.jpg" alt="The Loon Mountain Reel" width="648" height="486"/></a>
+<div class="tagline">Dancing the <i>Loon Mountain Reel</i> at Open Source Bridge 2014</div>
+}}}
+{{{#!wiki comment
+pubdate = September/October 2014
+}}}
+
+<<TableOfContents()>>
+
+== From the Chair ==
+by Martin Mac​Kenzie
+
+From The Chair
+
+Hello, Everyone!
+
+With this we’re kicking off a new dance year! With the cooling weather and
+beginning of fall activities, we encourage everyone to return the following
+Monday, September 8th and clear the dust and cobwebs out of our brains and
+limbs and, as I put it in an article for the Vancouver branch, “increase your
+joy quota” at our first class of the season.
+
+In addition, coming up will be Fort Worden’s workshop and ball,
+http://www.rscds-seattle.org/ftworden/, the Bend – Redmond workshop and ball,
+http://hdccd.azurewebsites.net/annual-ball and our own Portland workshop and
+ball as well as monthly dances. Information for that can be found at
+http://portlandscottishdancers.org 
+
+I’m looking forward to seeing and dancing with you all, sharing our summer
+stories, and creating memories in the coming year!
+
+== Let’s Have a Ceilidh ==
+by Holly Gibson
+
+In the past, Scottish Country Dancing has had a reasonably active part in the
+Portland Highland Games, with demonstrations and audience participation going
+on throughout the day. This year, for reasons still not entirely clear to us
+participants, there was no time given to either the Portland or Southwest
+Washington branches for demonstrating to the public just how much fun they are
+missing by not taking up Scottish Country Dancing.
+
+Since there was no dancing during the day, a ceilidh was organized for late in
+the afternoon, right after the Highland dancing competition and before the
+massed bands began playing. Marge Van Nus called the dances and, with Lisa
+Scott and John Taylor as musicians, there was very little sitting around and
+watching. When the dancing started, there were approximately 50-60 people in
+the room, many of them walking and swirling through The Gay Gordons. Other
+dances included Strip the Willow and the Virginia Mountain Reel. It was obvious
+that several of the audience participants knew this last dance well because
+they had to hold back and not get ahead of the instructions. 
+
+As the time went on, the crowd thinned as people headed to the stadium to watch
+the caber toss and the parade of massed bands. Fortunately that didn’t keep
+more experienced dancers from pointing, pushing, and pulling new dancers
+through The Flowers of Edinburgh. This particular dance was my favorite of the
+afternoon. 
+
+My partner was a little boy of about eight. He was definitely all boy with a
+black ball cap and slightly blue lips from some afternoon treat. He and I began
+as first couple and he dutifully allowed Marge to lead him by the hand through
+the first 16 bars. The poussette was a little more of a challenge but when one
+dancer outweighs the other by a good bit and is at least two feet taller,
+getting them to go the right direction isn’t too difficult. 
+
+After dancing through once, my partner and I went to the bottom of our set and
+the dance began. He watched the other dancers and me equally as intently,
+making sure he didn’t miss a cue or any signal I might give him. He clapped
+with glee as each couple went down the middle and up and even through the
+sixteen bars of chasing. Then it was our turn to be first couple. The little
+guy never missed a beat, but lead, followed, and skipped all the way through
+the dance. I think he had as much fun as I did. When the dance was over he gave
+several of us hugs, as did the rest of the family who had been in our set. Then
+the parents gathered their clan together and left to watch the bands. As they
+went out the door they waved and said goodbye as if we were long lost
+relatives. I’m not sure if we’ll see them again in the fall, but if we do it
+will probably be like a family reunion. 
+
+== Irene Paterson's Retirement Dance, Saturday, October 18, 2014 ==
+
+Seattle Branch RSCDS announces its Saturday Oct. 18 2014 dance at the
+Congregational Church Of Mercer Island in honor of Irene Paterson for her many
+contributions to our Branch.
+
+Live music by Calum Mackinnon, Lisa Scott and Marcia Thumma.  Dances:
+
+ * September Rubies
+ * Davy Nick Nack - 8 x 32 R - 3 cpl - Campbell GA
+ * Sugar Candie - 8 x 32 S - 3 cpls - 26/9
+ * The Compleat Gardener - 8 x 32 J - 3 cpls - 3rd Graded/14
+ * Gordon’s Cider Press - 5 x 32 - 5 cpls, square set - I. Paterson Lflt
+ * The Gentleman - 8 x 32 S - 3 cpls - 35/5
+ * Just in Time - 8 x 32 J - 3cples - Mukilteo Coll
+ * Da Rain Dancin’ - 8 x 32 R - 3 cpls - From the Redwoods
+
+Intermission
+
+ * EH37AF - 8 x 32 J - 3 cpls - 40/6
+ * A Dance Called Irene - 4 x 32 S - 4 pls - From the Redwoods
+ * Let’s Have a Ceilidh - 4 x 32 R - 4 cpls - Campbell GA
+ * The Spirit of the Dance - 8 x 32 S - 3 cpls - TAC 50th
+ * The Starry Eyed Lassie - 8 x 32 J - 3 cpls - 23/11
+ * Minister on the Loch - 3 x 32 S - 3 cpls -4 for 2008
+ * Miss Mackenzie of Briar Lea - 8 x 32 R - 3 cpls - Mukilteo Collection
+
+Irene will be retiring to Vancouver Island.  Please come and celebrate with
+her. Time: 7:30 PM 4545 Island Crest Way, Mercer Island, WA Bring an
+intermission snack to share.  The dance is free, provided as a thank you gift
+to Irene by her Mukilteo Class & Friends.
+
+{{{#!html
+See the <a href="http://rscds-seattle.org/images/2014-10-18%20RSCDS%20Seattle%20Dance%20for%20Irene%20Paterson.pdf">printable flyer</a>.
+}}}
+
+== High Desert Ball Program ==
+%CRIB_hdccd_ball_2014%
+
+== October 11, 2014 Portland Dance Program ==
+%CRIB_portland_oct2014%
+
+== SW Washington Fall Dance Program ==
+%CRIB_swws_oct2014%
+
+== November 8, 2014 Portland Dance Program ==
+%CRIB_portland_nov2014%
+
+== Asilomar Ball Program ==
+%CRIB_asilomar_2014%
