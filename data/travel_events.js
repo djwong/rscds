@@ -55,3 +55,5 @@
 {"start": "2014/12/13 19:30", "type": "dance", "local": false, "name": "Seattle Holiday Ceilidh", "location": "Seattle, Wash."},
 {"start": "2015/01/17 18:00", "type": "dance", "local": false, "name": "Burns Supper", "location": "Vancouver, B.C.", "url": "http://www.rscdsvancouver.org/dance/745/"},
 {"start": "2015/02/14 00:00", "type": "workshop", "local": false, "name": "Aloha Winter Weekend", "location": "Waikiki, Hawaii", "url": "http://www.rscdshawaii.org/home/workshop/"},
+{"start": "2015/05/01 00:00", "type": "workshop", "local": false, "name": "Youth Weekend Ceilidh", "location": "Victoria, B.C.", "url": "http://youthweekendwest.com/"},
+{"start": "2015/05/02 00:00", "type": "ball", "local": false, "name": "Youth Weekend Ball", "location": "Victoria, B.C.", "url": "http://youthweekendwest.com/"},
