@@ -1,6 +1,7 @@
 Name: The Cranberry Tart
 Source: Terry Glasspool, 7 Year Itch
 Format: 8×32J, 3C (4C set)
+Youtube: LU8zp1xgLwM#t=13
 BARS
 1-2	1M set;
 3-4	1M cast one place WHILE 1L set;

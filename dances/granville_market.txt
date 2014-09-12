@@ -1,0 +1,10 @@
+Name: Granville Market
+Source: E. Vandegrift, 2nd Graded Book of SCDs
+Youtube: QtrwkCGy5y4#t=2501
+Format: 8×32J 3C (4C set)
+BARS
+1- 8	1s+2s dance RH across and LH back
+9-16	1s cross RH and cast 1 place. 1s dance 1⁄2 Figs of 8 round 2s and end facing 1st corners
+17-24	1s turn corners RH and pass RSh to face 2nd corners, 1s turn 2nd corners RH and pass RSh to end 2nd place own sides
+25-32	2S+1s+3s circle 6H round and back
+
