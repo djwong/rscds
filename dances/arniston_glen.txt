@@ -1,0 +1,10 @@
+Name: Arniston Glen
+Format: 8×32S, 3C (4C set)
+Source: J. B. Dickson, Lothian Coll.
+BARS
+ 1- 4	1L+2M turn RH 1 ½ to face partner on sides
+ 5- 8	1s+2s set to partner and turn RH	
+ 9-16	2s+1s+3s dance reels of 3 on the sides (2s+1s pass RSh to start)
+17-20	1M+2L turn LH 1 ½
+21-24	2s+1s set, cross RH 
+25-32	2s+1s+3s circle 6H round & back
