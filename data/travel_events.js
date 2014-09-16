@@ -47,6 +47,7 @@
 {"start": "2014/09/13 08:00", "type": "dance", "local": false, "name": "Kelso Highlander Festival", "location": "Kelso, Wash.", "url": "http://www.kelso.gov/visitors/highlander-festival"},
 {"start": "2014/09/13 19:00", "type": "ball", "local": false, "name": "Ft. Worden Ball", "location": "Fort Worden, Wash.", "url": "http://www.rscds-seattle.org/ftworden/"},
 {"start": "2014/10/04 09:00", "type": "workshop", "local": false, "name": "High Desert Workshop", "location": "Redmond, Ore."},
+{"start": "2014/10/18 19:30", "type": "dance", "local": false, "name": "Irene Paterson’s Retirement Dance", "location": "Mercer Island, Wash.", "url": "http://rscds-seattle.org/images/2014-10-18%20RSCDS%20Seattle%20Dance%20for%20Irene%20Paterson.pdf"},
 {"start": "2014/10/04 19:30", "type": "ball", "local": false, "name": "High Desert Ball", "location": "Redmond, Ore.", "crib": "hdccd_ball_2014.txt", "url": "http://hdccd.azurewebsites.net/wp-content/uploads/2014/08/HdccdFlyerRegistrationAndBriefs2014.pdf"},
 {"start": "2014/10/25 19:00", "type": "ball", "local": false, "name": "Masquerade Ball", "location": "Bellingham, Wash.", "url": "http://www.bellinghamscd.org/Dances%20and%20Events%20Pages/Workshop%20&%20Ball/NOT%20ACTIVE%20Dec%20-%20July/Workshop%20&%20Ball%20Main%20Pge-2012.htm"},
 {"start": "2014/11/07 20:00", "type": "ball", "local": false, "name": "Asilomar Ceilidh", "location": "Pacific Grove, Calif.", "url": "http://asilomar.rscds-sf.org/", "crib": "asilomar_welcome_2014.txt"},
