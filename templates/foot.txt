@@ -21,7 +21,7 @@
 				</div>
 				<div class="three-up left">
 <div style="font-weight: bold;">Dance With Others</div>
-<div><a href="http://www.rscds-swws.org/">SW Washington</a> - <a href="http://www.rscds-swws.org/2014dinnerdance.pdf">Dinner Dance</a></div>
+<div><a href="http://www.rscds-swws.org/">SW Washington</a> - <a href="/files/fall_dance_2014.pdf">Fall Dance</a></div>
 <div><a href="http://www.rscds-seattle.org/">Seattle</a> - <a href="http://www.rscds-seattle.org/ftworden/">Ft. Worden</a></div>
 <div><a href="http://hdccd.azurewebsites.net/">Oregon High Desert</a> - <a href="http://hdccd.azurewebsites.net/ball/HdccdFlyerRegistrationAndBriefs2013.pdf">Ball</a></div>
 <div><a href="http://www.youthweekendwest.com/">Youth Weekend West</a></div>
