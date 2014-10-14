@@ -1,7 +1,7 @@
 Name: Maxwell’s Rant
 Format: 8×32R, 3C (4C set)
 Source: Rutherford RSCDS, Book 18
-Youtube: l4NVNzxuYkY
+Youtube: E1TEDVShFoE, l4NVNzxuYkY
 BARS
 1- 8	1s cross down to dance reflection reels of 3 on opposite sides
 9-16	1s cross down to dance reflection reels of 3 on own sides

@@ -1,6 +1,7 @@
 Name: Captain MacDonald’s Fancy
 Format: 8×32R, 3C (4C set)
 Source: Longman and Broderip, RSCDS Book 7
+Youtube: g88LGOh47R8
 BARS
 1- 8	1s lead down the middle and back again to places
 9-16	2s lead down the middle and back again
