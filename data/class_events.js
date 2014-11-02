@@ -192,7 +192,6 @@
 {"start": "2014/10/10 19:00", "type": "class", "name": "Friday Class", "location": "Columbia Dance Center, Vancouver, Wash."},
 {"start": "2014/10/24 19:00", "type": "class", "name": "Friday Class", "location": "Columbia Dance Center, Vancouver, Wash."},
 {"start": "2014/10/31 19:00", "type": "class", "name": "Friday Class", "location": "Columbia Dance Center, Vancouver, Wash."},
-{"start": "2014/11/07 19:00", "type": "class", "name": "Friday Class", "location": "Columbia Dance Center, Vancouver, Wash."},
 {"start": "2014/11/14 19:00", "type": "class", "name": "Friday Class", "location": "Columbia Dance Center, Vancouver, Wash."},
 {"start": "2014/11/21 19:00", "type": "class", "name": "Friday Class", "location": "Columbia Dance Center, Vancouver, Wash."},
 {"start": "2014/11/28 19:00", "type": "class", "name": "Friday Class", "location": "Columbia Dance Center, Vancouver, Wash."},
