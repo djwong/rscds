@@ -189,7 +189,7 @@ function verify_membership_form()
 
 	s = $('#membership_form #email').val();
 	if ((s.length > 0 || $('#membership_form #email_list').prop('checked'))
-	    && s.match(/@.*\...$/) == null) {
+	    && s.match(/\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b/i) == null) {
 		errors.push('Please provide a valid e-mail address.');
 	}
 
