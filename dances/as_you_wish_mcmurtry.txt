@@ -1,0 +1,10 @@
+Name: As You Wish
+Format: 3×32S, 3C set
+Source: B. McMurtry, Dragonfly
+BARS
+1-4	All couples set, C1 cast off two places while C3 dance to the top
+5-8	C1 and C3 set and turn with both hands, C1 finish middle of set facing up and C3 finish middle of set facing down, nearer hands joined
+9-16	Circle, 6 hands round and back
+17-24	Mirror reel of three on own side. C1 and C3 cast into reel, C2 dance in and down. C2 and C1 finish in middle, facing up and down, nearer hands joined
+25-32	C2 and C1 dance rondel. C1, at the bottom begin by making arch, C2 dance up under arch.
+
