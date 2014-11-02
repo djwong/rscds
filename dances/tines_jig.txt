@@ -1,0 +1,15 @@
+Name: Tine’s Jig
+Format: 8×32J, 3C (4C set)
+Source: Brunken, E., Moments in Time (2007)
+BARS
+1-4	First couple dance ½ figure of 8 around the 2s.
+5-8	First couple dance ½ figure of 8 around the 3s.
+9-16	First couple turn partners and corners:
+'9-10	First couple turn partner ¾ by the R.
+'11-12	First couple turn 1st corners ¾ by the L.
+'13-14	First couple turn partner ¾ by the R.
+'15-16	First couple turn 2nd corners ¾ by the L.  1L finish between the 3s, 1M finish between the 2s.
+17-20	Advance and retire up and down the set.
+21-24	First couple cross up and down by the R and cast R to end in 2nd place on own sides.
+25-28	All three couples advance and retire.
+29-32	All three couples turn partners R.

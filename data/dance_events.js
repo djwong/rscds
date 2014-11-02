@@ -22,7 +22,7 @@
 {"start": "2014/10/11 19:30", "type": "dance", "name": "Portland Dance", "location": "Academy of Dance Arts, 311 B Ave., Suite Z, Lake Oswego, Ore.", "url": "/party.html", "crib": "portland_oct2014.txt"},
 {"start": "2014/10/25 19:30", "type": "dance", "name": "SW WA Fall Dance", "location": "Columbia Dance Center, Vancouver, Wash.", "crib": "swws_oct2014.txt", "url": "/files/fall_dance_2014.pdf"},
 {"start": "2014/11/08 19:30", "type": "dance", "name": "Portland Dance", "location": "Ren. School of Arts, 0234 SW Bancroft St., Portland, Ore.", "url": "/party.html", "crib": "portland_nov2014.txt"},
-{"start": "2014/12/13 19:30", "type": "dance", "name": "Portland Dance", "location": "Waluga Lodge, Lake Oswego, Ore.", "url": "/party.html"},
+{"start": "2014/12/13 19:30", "type": "dance", "name": "Portland Dance", "location": "Waluga Lodge, Lake Oswego, Ore.", "url": "/party.html", "crib": "portland_dec2014.txt"},
 {"start": "2014/12/28 13:30", "type": "dance", "name": "Betwixt and Between Ceilidh", "location": "Vancouver, Wash."},
 {"start": "2015/01/10 19:30", "type": "dance", "name": "Portland Dance", "location": "Waluga Lodge, Lake Oswego, Ore.", "url": "/party.html"},
 {"start": "2015/02/14 19:30", "type": "dance", "name": "Portland Dance", "location": "Waluga Lodge, Lake Oswego, Ore.", "url": "/party.html"},
