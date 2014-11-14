@@ -1,0 +1,9 @@
+Name: The Brudenell Jig
+Format: 8×32J, 2C (4C set)
+Source: B. Burnell, Leeds Anniv Book
+Youtube: df4snR6MtLE
+BARS
+ 1- 8	1s+2s circle 4H round & back
+ 9-16	1s dance Fig of 8 round 2s
+17-24	1s dance down for 2 bars, turn RH, dance up * cast to 2nd places
+25-32	1s+2s dance R&L
