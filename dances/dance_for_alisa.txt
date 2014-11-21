@@ -1,0 +1,8 @@
+Name: Dance for Alisa
+Format: 4×32J, 2C set
+Source: B. McMurtry, Devil’s Quandary
+BARS
+ 1- 8	1s+2s dance BtoB (finish in the middle facing down); 2s+1s dance down for 2 steps and set, turning to face up.
+ 9-16	1s+2s dance up; 1s cast into 2nd place and 2s finish in 1st place; 2s+1s dance BtoB.
+17-24	1s followed by 2s lead down for 3 steps and up for 3 steps, 2s cast into second place (1s+2s finish in the middle facing partner BH joined).
+25-32	1s+2s Poussette.
