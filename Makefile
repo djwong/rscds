@@ -9,6 +9,7 @@ PHP=membership_form.php workshop_form.php
 FANCY_HTML=index.html
 REGULAR_HTML=classes.html party.html workshop.html demo.html events.html about.html members.html dances.html past_programs.html workshop_reg.html members_reg.html workshop_dirs.html workshop_crib.html past_events.html djwong_cribs.html
 GAZETTE_HTML=gazette/index.html gazette/.htaccess
+MEMBER_DIRECTORY=gazette/directory.pdf
 HTML=$(REGULAR_HTML) $(FANCY_HTML) $(GAZETTE_HTML)
 TOP_HTML=$(REGULAR_HTML) $(FANCY_HTML)
 DEPS=cribs.d events.d sed.d people.d gazette.d
@@ -79,7 +80,7 @@ install: all
 	cp -Rlf $(BLOBS) $(DEST)
 	cp -Rf .htaccess $(PHP) $(TOP_HTML) $(JS) $(CSS) $(DEST)
 	mkdir -p $(DEST)/gazette/
-	cp -Rf $(GAZETTE_HTML) $(GAZETTES) $(DEST)/gazette/
+	cp -Rf $(MEMBER_DIRECTORY) $(GAZETTE_HTML) $(GAZETTES) $(DEST)/gazette/
 
 $(REGULAR_HTML) $(GAZETTE_HTML): regular_nav.txt
 $(FANCY_HTML): fancy_nav.txt
