@@ -56,7 +56,7 @@
 {"start": "2014/11/22 19:00", "type": "ball", "local": false, "name": "St. Andrew’s Ball", "location": "Vancouver, B.C.", "url": "http://www.eventbrite.ca/e/st-andrews-ball-2013-new-location-new-lower-ticket-price-tickets-8409096835"},
 {"start": "2014/12/13 19:30", "type": "dance", "local": false, "name": "Seattle Holiday Ceilidh", "location": "Seattle, Wash."},
 {"start": "2014/12/14 13:30", "type": "ball", "local": false, "name": "Gleneagles Ball", "location": "Vancouver, B.C.", "url": "http://www.rscdsvancouver.org/cms/wp-content/uploads/2014-Ball-info.pdf"},
-{"start": "2015/01/15 19:00", "type": "dance", "local": false, "name": "Burns Dance", "location": "Santa Clara Grange Hall, Eugene, Ore."},
+{"start": "2015/01/17 19:00", "type": "dance", "local": false, "name": "Burns Dance", "location": "Santa Clara Grange Hall, Eugene, Ore.", "url": "/files/eugene_burns_2015.pdf"},
 {"start": "2015/01/16 00:00", "type": "workshop", "local": false, "name": "Scottish Music Workshop", "location": "Whidbey Is., Wash.", "url": "http://www.nwscottishfiddlers.org/"},
 {"start": "2015/01/17 19:30", "type": "dance", "local": false, "name": "Burns Social", "location": "Vancouver Is.", "url": "http://viscds.ca/cms/wp-content/uploads/2014/11/Burns2015.pdf"},
 {"start": "2015/01/17 18:00", "type": "dance", "local": false, "name": "Burns Supper", "location": "Vancouver, B.C.", "url": "http://www.rscdsvancouver.org/dance/745/"},
