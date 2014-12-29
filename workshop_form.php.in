@@ -71,7 +71,7 @@ function submit_form() {
 		."They were using ".$_SERVER["HTTP_USER_AGENT"].".\n";
 
 	mail("djwong.rscds@djwong.org",
-		"RSCDS Workshop Request",
+		"Portland RSCDS Ball Registration",
 		$email
 	);
 
