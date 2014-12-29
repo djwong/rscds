@@ -1,0 +1,8 @@
+Name: Chased Lovers
+Format: 8×32J, 3C (4C set)
+Source: T. Wilson
+BARS
+ 1- 8	1s set, cross (no hands) below 2s, behind 3s and between 3s to face up with 1M behind 1L
+ 9-16	1s dance Tandem LS reel of 3 with 1st corners to end 1L behind 1M facing down
+17-24	1s dance Tandem RS reel of 3 with 2nd corners and end facing 1st corners
+25-32	1s dance Pass+Turn with 1st corners, then with 2nd corners
