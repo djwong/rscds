@@ -81,7 +81,7 @@ s/%MEMBERSHIP_FORM%//g
 s/%WORKSHOP_FORM%//g
 /%MEMBERSHIP_CHAIR_MAIL%/r cherrie_mail.html
 s/%MEMBERSHIP_CHAIR_MAIL%//g
-/%WORKSHOP_CHAIR_MAIL%/r debbie_mail.html
+/%WORKSHOP_CHAIR_MAIL%/r lmae_mail.html
 s/%WORKSHOP_CHAIR_MAIL%//g
 /%WORKSHOP_DIRECTIONS%/r workshop_directions.txt
 s/%WORKSHOP_DIRECTIONS%//g

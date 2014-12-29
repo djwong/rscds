@@ -224,20 +224,20 @@ function setup_membership_form()
 
 /* Workshop registration form */
 var WORKSHOP_FORM_ITEMS = {
-	all_member_early: 55,
-	all_member_late: 65,
-	all_nonmember_early: 60,
-	all_nonmember_late: 70,
-	workshop_member_early: 35,
-	workshop_member_late: 45,
-	workshop_nonmember_early: 40,
-	workshop_nonmember_late: 50,
-	ball_member_early: 35,
-	ball_member_late: 45,
-	ball_nonmember_early: 40,
-	ball_nonmember_late: 50,
+	all_member_early: 50,
+	all_member_late: 60,
+	all_nonmember_early: 55,
+	all_nonmember_late: 65,
+	workshop_member_early: 30,
+	workshop_member_late: 40,
+	workshop_nonmember_early: 35,
+	workshop_nonmember_late: 45,
+	ball_member_early: 30,
+	ball_member_late: 40,
+	ball_nonmember_early: 35,
+	ball_nonmember_late: 45,
 	ball_spectator: 5,
-	lunch_guest: 10
+	lunch_guest: 7
 };
 
 function calculate_workshop_total()
@@ -371,7 +371,7 @@ function workshop_add_dancer()
 	r3.append(r3c2);
 	var r3c3 = $('<td><label for="years' + num_dancers + '">Years Experience:</label></td>');
 	r3.append(r3c3);
-	var r3c4 = $('<td><input type="number" class="text" id="years' + num_dancers + '" name="years' + num_dancers + '"/></td>');
+	var r3c4 = $('<td><input type="number" min="0" class="text" id="years' + num_dancers + '" name="years' + num_dancers + '"/></td>');
 	r3.append(r3c4);
 
 	$('#workshop_form .add_dancer_row').before(r1);

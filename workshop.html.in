@@ -5,6 +5,7 @@
 %OPEN_CONTENT%
 
 <!-- Nothing at all -->
+<div style="display: none;">
 <h1>Workshop and Ball</h1>
 <p>Please check back here for information on the 36th annual workshop and ball,
 to be held in March 2015.  Looking for the programs for either the <a
@@ -12,6 +13,7 @@ href="/past_programs.html#program_8ccb5edd4c82a9ee05366421bc98c82c884f57d1">2014
 Portland Ball</a> or the <a
 href="http://portlandscottishdancers.org/past_programs.html#program_8a1c944ffab29995457cf2c7c02fbc8926ae349e">2014
 Vancouver Dinner Dance</a>?</p>
+</div>
 
 <!-- Vancouver Dinner Dance -->
 <div style="display: none;">
@@ -41,14 +43,14 @@ park.</li>
 </div> <!-- Vancouver DD section -->
 
 <!-- Portland Ball -->
-<div style="display: none;">
+<div>
 <h1>Workshop and Ball</h1>
 
 <p>Every year, the Portland group puts on a dancing workshop and a ball in
-early March.  The 35th ball is March 8th, 2014 at the Christ Episcopal Church
+early March.  The 36th ball is March 14th, 2015 at the Christ Episcopal Church
 in Lake Oswego, Ore.  Check back for more details as they are available!  Like
 us on <a href="https://www.facebook.com/events/128819860612093/">Facebook</a>!
-We also have a <a href="files/workshop_registration_2014.pdf">printable
+We also have a <a href="files/workshop_registration_2015.pdf">printable
 registration form</a> available!</p>
 
 <p>Quick links:</p>
@@ -65,30 +67,29 @@ registration form</a> available!</p>
 <table id="workshop_schedule">
 <tr><td>Registration</td><td>9:30a</td><td>-</td><td>10:00a</td></tr>
 <tr><td>Classes</td><td>10:00a</td><td>-</td><td>12:00p</td></tr>
-<tr><td>Lunch</td><td>12:00p</td><td>-</td><td>1:15p</td></tr>
-<tr><td>Classes</td><td>1:15p</td><td>-</td><td>2:30p</td></tr>
-<tr><td>Combined Class</td><td>2:45p</td><td>-</td><td>3:15p</td></tr>
-<tr><td>Ball Walk-through</td><td>3:15p</td><td>-</td><td>3:45p</td></tr>
-<tr><td>Grand March</td><td>7:00p</td></tr>
-<tr><td>Ball</td><td>7:00p</td><td>-</td><td>11:00p</td></tr>
+<tr><td>Lunch</td><td>12:15p</td><td>-</td><td>1:15p</td></tr>
+<tr><td>Classes</td><td>1:15p</td><td>-</td><td>2:45p</td></tr>
+<tr><td>Combined Class</td><td>3:00p</td><td>-</td><td>4:00p</td></tr>
+<tr><td>Grand March</td><td>7:30p</td></tr>
+<tr><td>Ball</td><td>7:30p</td><td>-</td><td>11:00p</td></tr>
 </table>
 
+<p>Due to time constraints, there will be no ball walkthrough this year.</p>
 <p>Bottled water will <u>not</u> be provided. Please bring your own to refill
 as needed.</p>
 
 <h2>Teachers</h2>
 
 <ul>
-	<li>Irene Paterson, Mukilteo, Wash.</li>
-	<li>David Newitt, Berkeley, Calif.</li>
+	<li>Roberta Gotfried, Los Angeles, Calif.</li>
+	<li>Bob McMurtry, San Jose, Calif.</li>
 </ul>
 
 <h2>Musicians</h2>
 
 <ul>
-	<li>Etienne Ozorak, Accordian, Music Makars</li>
-	<li>Fred Mamula, Fiddle, Music Makars</li>
-	<li>Lisa Scott - Piano, Portland, Ore.</li>
+	<li>Deby Benton-Grosjean, Aptos, Calif.</li>
+	<li>Cynthia Soohoo, Portland, Ore.</li>
 </ul>
 
 <a id="program"></a><h2>Ball Program</h2>
@@ -135,7 +136,7 @@ attending classes regularly for at least two years and...</p>
 <h2>Overnight Accommodations</h2>
 
 <p>Limited housing with our members is available. If interested, email Linda
-Gertz below.</p>
+Mae below.</p>
 
 <p>Nearest Hotel: <a href="http://www.thelakeshoreinn.com/">Lakeshore Inn</a>,
 210 N. State St., Lake Oswego, Ore.</p>
@@ -144,11 +145,8 @@ Gertz below.</p>
 <a id="contact"></a><h2>Contacts</h2>
 
 <div class="container">
-<div class="two-up">
-%LINDA_CONTACT%
-</div>
-<div class="two-up">
-%DEBBIE_CONTACT%
+<div class="one-up">
+%LMAE_CONTACT%
 </div>
 </div>
 </div> <!-- Portland ball section -->
