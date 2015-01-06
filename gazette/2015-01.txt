@@ -9,7 +9,7 @@ pubdate = January/February 2015
 <<TableOfContents()>>
 
 == From The President ==
-by Martin​MacKenzie
+by Martin Mac​Kenzie
 
 As I wrote this, we’re leading up to the New Year holiday and then next week,
 Monday, January 5th, we’ll be back at it dancing together with our smiling
