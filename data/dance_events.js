@@ -26,6 +26,6 @@
 {"start": "2014/12/13 19:30", "type": "dance", "name": "Portland Dance", "location": "Ren. School of Arts, 0234 SW Bancroft St., Portland, Ore.", "url": "/files/dance_dec_2014.pdf", "crib": "portland_dec2014.txt"},
 {"start": "2014/12/28 13:30", "type": "dance", "name": "Betwixt and Between Ceilidh", "location": "Vancouver, Wash.", "crib": "betwixt_2014.txt", "url": "files/betwixt_2014.pdf"},
 {"start": "2015/01/10 19:30", "type": "dance", "name": "Portland Dance", "location": "Waluga Lodge, Lake Oswego, Ore.", "url": "/party.html", "crib": "portland_jan2015.txt"},
-{"start": "2015/02/14 19:30", "type": "dance", "name": "Portland Dance", "location": "Waluga Lodge, Lake Oswego, Ore.", "url": "/party.html"},
+{"start": "2015/02/14 19:30", "type": "dance", "name": "Portland Dance", "location": "Waluga Lodge, Lake Oswego, Ore.", "url": "/party.html", "crib": "portland_feb2015.txt"},
 {"start": "2015/04/11 19:30", "type": "dance", "name": "Portland Dance", "location": "Waluga Lodge, Lake Oswego, Ore.", "url": "/party.html"},
 {"start": "2015/05/09 19:30", "type": "dance", "name": "Portland Dance", "location": "Waluga Lodge, Lake Oswego, Ore.", "url": "/party.html"},
