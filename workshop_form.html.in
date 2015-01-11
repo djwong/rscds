@@ -129,9 +129,13 @@
 
 	<p><label for="total">Total:</label> <input type="text" class="fee" id="total" disabled="disabled"/></p>
 	<input type="hidden" name="total" id="total_hidden"/>
+<p></p>
 
-	<p>Lunch is included with the workshop fee.  Please use the “Other
-	Notes” section to tell us about specific dietary restrictions.</p>
+	<p>Lunch is included with the workshop fee.  While we will do our best
+to keep food items separate, we cannot guarantee that your lunch will be
+completely wheat, soy, nut, or other allergen-free.  If your allergy is
+life-threatening, please let us know in the “Other Notes”; that information
+will be passed on to Linda Mae.</p>
 
 	<p>Please make check payable to <b>“RSCDS Portland OR Branch”</b> and mail or give to
 %WORKSHOP_CHAIR_MAIL%
