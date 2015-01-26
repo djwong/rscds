@@ -15,7 +15,7 @@ href="http://portlandscottishdancers.org/past_programs.html#program_8a1c944ffab2
 Vancouver Dinner Dance</a>?</p>
 </div>
 
-<!-- Vancouver Dinner Dance -->
+<!-- Vancouver Dinner Dance (make sure you re-enable the crib below -->
 <div style="display: none;">
 <h1>Vancouver Dinner Dance</h1>
 
@@ -27,7 +27,7 @@ for which is below.  </p>
 <p><a href="http://www.rscds-swws.org/2014dinnerdance.pdf">Register</a> today for the Vancouver Dinner Dance!</p>
 
 <h2>Program</h2>
-%PORTLAND_BALL_CRIB%
+%disabled_PORTLAND_BALL_CRIB%
 <p class="noprint">[<a href="workshop_crib.html">Printable Format</a> | <a href="javascript:crib_toggle_all(true);">Expand All</a> | <a href="javascript:crib_toggle_all(false);">Collapse All</a>]</p>
 
 <h2>Map</h2>
