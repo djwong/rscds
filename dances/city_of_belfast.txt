@@ -1,6 +1,6 @@
 Name: City of Belfast
 Format: 3×32S, 3C Set
-Source: L. Mullholland, Belfast Diamond Jubilee Book
+Source: RSCDS Book 48
 Youtube: oHBrbA1UJEE#t=13
 BARS
  1- 8	1s dance ½ Fig of 8 round 2s, 1L+2M turn RH 1¼ times while 1M+2L turn LH 1¼ times & 1s end BtoB facing opp sides
