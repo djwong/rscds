@@ -1,0 +1,9 @@
+Name: Tulloch Gorm
+Format: 8×32S, 3C (4C set)
+Source: William Campbell, RSCDS Book 8
+Youtube: SVtY95NjXTU#t=235
+BARS
+1- 8	1s cross down (1 step) to dance parallel reels of 3 on opposite sides (RSh to 2s) and cross back to own sides on bar 8
+9-16	1s dance parallel reels of 3 on own sides (RSh to 2s)
+17-24	1s lead down the middle and back to top
+25-32	1s+2s dance Allemande 

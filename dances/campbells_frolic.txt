@@ -1,0 +1,9 @@
+Name: Campbell’s Frolic
+Format: 8×32J, 3C (4C set)
+Source: Rutherford, RSCDS Book 15
+Youtube: V-BWYhwgv_w
+BARS
+1- 8	1s+2s set, dance RH across, 1s cast to 2nd place
+9-16	1s+3s set, dance LH across, 1s cast to 3rd place
+17-24	1s set, lead up to top and cast to 2nd place own sides
+25-32	2s+1s+3s circle 6H round and back 
