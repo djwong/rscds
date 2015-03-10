@@ -27,5 +27,5 @@
 {"start": "2014/12/28 13:30", "type": "dance", "name": "Betwixt and Between Ceilidh", "location": "Vancouver, Wash.", "crib": "betwixt_2014.txt", "url": "files/betwixt_2014.pdf"},
 {"start": "2015/01/10 19:30", "type": "dance", "name": "Portland Dance", "location": "Ren. School of Arts, Portland, Ore.", "url": "/party.html", "crib": "portland_jan2015.txt"},
 {"start": "2015/02/14 19:30", "type": "dance", "name": "Portland Dance", "location": "Ren. School of Arts, Portland, Ore.", "url": "/party.html", "crib": "portland_feb2015.txt"},
-{"start": "2015/04/11 19:30", "type": "dance", "name": "Portland Dance", "location": "Ren. School of Arts, Portland, Ore.", "url": "/party.html"},
-{"start": "2015/05/09 19:30", "type": "dance", "name": "Portland Dance", "location": "Ren. School of Arts, Portland, Ore.", "url": "/party.html"},
+{"start": "2015/04/11 19:30", "type": "dance", "name": "Portland Dance", "location": "Ren. School of Arts, Portland, Ore.", "url": "/party.html", "crib": "portland_apr2015.txt"},
+{"start": "2015/05/09 19:30", "type": "dance", "name": "Portland Dance", "location": "Ren. School of Arts, Portland, Ore.", "url": "/party.html", "crib": "portland_may2015.txt"},

@@ -1,0 +1,8 @@
+Name: Clatterin' Brig
+Format: 8×32R, 3C (4C set)
+Source: Roy Goldring, Graded and Social Dances 2
+BARS
+1- 8	1s lead down the middle and back to 2nd place in prom hold facing 2L
+9-16	1s set to 2L, set to 3L, set to 3M and set to 2M
+17-24	1s lead up and cast to 2nd place, 2s+1s+3s turn RH and face up for Promenade
+25-32	2s+1s+3s Promenade 

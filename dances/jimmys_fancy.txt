@@ -1,0 +1,8 @@
+Name: Jimmy’s Fancy
+Format: 8×32S, 3C (4C set)
+Source: Thompson, RSCDS Book 14
+BARS
+1- 8	1s+2s dance RH across, LH back to end with 1s casting to 2nd place
+9-16	1s dance 3H round and back (1L with 2s and 1M with 3s) 1s end facing 1st corners
+17-24	1s set and turn 1st corners, set and turn 2nd corners
+25-32	1s lead down below 3s, cross to own sides, cast up, lead up between 2s and cast to 2nd places 
