@@ -1,5 +1,5 @@
 {{{#!html
-<img class="artwork" src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xap1/v/t1.0-9/10388568_825536004135247_7635835734720650269_n.jpg?oh=a46925628f6229118fb85cb91f327991&oe=54EEED18&__gda__=1424072900_ba5628c6a68fe2f542d248d5a08c1b35" alt="The Southwest Washington Fall Dance" width="720" height="513"/>
+<img class="artwork" src="../images/gg_jan_2015_6.jpg" alt="The Southwest Washington Fall Dance" width="720" height="513"/>
 <div class="tagline">Refreshments and Camaraderie at the Halloween Dance in Vancouver, Wash.</div>
 }}}
 {{{#!wiki comment

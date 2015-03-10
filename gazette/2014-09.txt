@@ -1,5 +1,5 @@
 {{{#!html
-<img class="artwork" src="https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xap1/v/t1.0-9/10629856_704776849616132_7501821197610057636_n.jpg?oh=da90ba00ef72fe70a38629bcd853147b&oe=548D2AD6&__gda__=1418744586_a66f28b2d5977701bb2ca18016010199" alt="The Roaring Twenties" width="648" height="431"/>
+<img class="artwork" src="../images/gg_sep_2014_0.jpg" alt="The Roaring Twenties" width="648" height="431"/>
 <div class="tagline">San Francisco dancers in twenties garb over Labor Day weekend</div>
 }}}
 {{{#!wiki comment
