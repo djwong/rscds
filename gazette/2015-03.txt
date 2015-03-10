@@ -1,10 +1,9 @@
 {{{#!html
-<img class="artwork" src="http://www.rscds-swws.org/news/201503/dancers.jpg" alt="Spring Fling Trial Dancing" width="640" height="428"/>
+<img class="artwork" src="../images/gg_mar_2015_3.jpg" alt="Spring Fling Trial Dancing" width="640" height="428"/>
 <div class="tagline">Spring Fling Trial Dancing in Vancouver, Wash.</div>
 }}}
 {{{#!wiki comment
 pubdate = March/April 2015
-noindex
 }}}
 
 <<TableOfContents()>>
@@ -346,19 +345,19 @@ boarded the airline for the trip home. All in all, a pleasant and memorable
 three days of introduction to Edinburgh and RSCDS.
 
 {{{#!html
-<img src="http://www.rscds-swws.org/news/201503/01-rscds-hq.jpg" alt="RSCDS Headquarters" width="504" height="360"/>
+<img src="../images/gg_mar_2015_4.jpg" alt="RSCDS Headquarters" width="504" height="360"/>
 <div>RSCDS Headquarters</div>
 
-<img src="http://www.rscds-swws.org/news/201503/04-edinburgh-castle.jpg" alt="Edinburgh Castle" width="540" height="405"/>
+<img src="../images/gg_mar_2015_5.jpg" alt="Edinburgh Castle" width="540" height="405"/>
 <div>Edinburgh Castle</div>
 
-<img src="http://www.rscds-swws.org/news/201503/05-rscds-leaders.jpg" alt="RSCDS Leaders" width="432" height="258"/>
+<img src="../images/gg_mar_2015_6.jpg" alt="RSCDS Leaders" width="432" height="258"/>
 <div>RSCDS Leaders</div>
 
-<img src="http://www.rscds-swws.org/news/201503/06-elspeth-chairmen.jpg" alt="Elspeth Chairmen" width="504" height="265"/>
+<img src="../images/gg_mar_2015_7.jpg" alt="Elspeth Chairmen" width="504" height="265"/>
 <div>Elspeth Chairmen</div>
 
-<img src="http://www.rscds-swws.org/news/201503/07-trinity-ball.jpg" alt="Trinity Ball" width="360" height="321"/>
+<img src="../images/gg_mar_2015_8.jpg" alt="Trinity Ball" width="360" height="321"/>
 <div>Trinity Ball</div>
 
 
