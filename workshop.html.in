@@ -7,43 +7,42 @@
 <!-- Nothing at all -->
 <div style="display: none;">
 <h1>Workshop and Ball</h1>
-<p>Please check back here for information on the 36th annual workshop and ball,
-to be held in March 2015.  Looking for the programs for either the <a
-href="/past_programs.html#program_8ccb5edd4c82a9ee05366421bc98c82c884f57d1">2014
-Portland Ball</a> or the <a
-href="http://portlandscottishdancers.org/past_programs.html#program_8a1c944ffab29995457cf2c7c02fbc8926ae349e">2014
+<p>Please check back here for information on the 37th annual workshop and ball,
+to be held in March 2016.  Looking for the programs for either the <a
+href="/past_programs.html#program_f75a62acfccdefa365bc06baecc0dca4920efbe1">2015
+Portland Pi Ball</a> or the <a
+href="http://portlandscottishdancers.org/past_programs.html#program_0fe1b7d1260753c8d9fbd9b5aaeb74b71c3d6aca">2015
 Vancouver Dinner Dance</a>?</p>
 </div>
 
 <!-- Vancouver Dinner Dance (make sure you re-enable the crib below -->
-<div style="display: none;">
+<div style="display: inherit;">
 <h1>Vancouver Dinner Dance</h1>
 
-<p>Thank you all who came to the 35th annual Portland workshop and ball!  The
+<p>Thank you all who came to the 36th annual Portland workshop and ball!  The
 next major dance event in the area is the Vancouver Dinner Dance, the program
 for which is below.  </p>
 
 <h2>Registration</h2>
-<p><a href="http://www.rscds-swws.org/2014dinnerdance.pdf">Register</a> today for the Vancouver Dinner Dance!</p>
+<p><a href="http://www.rscds-swws.org/2015-dinnerdance.pdf">Register</a> today for the Vancouver Dinner Dance!</p>
 
 <h2>Program</h2>
-%disabled_PORTLAND_BALL_CRIB%
+%PORTLAND_BALL_CRIB%
 <p class="noprint">[<a href="workshop_crib.html">Printable Format</a> | <a href="javascript:crib_toggle_all(true);">Expand All</a> | <a href="javascript:crib_toggle_all(false);">Collapse All</a>]</p>
 
 <h2>Map</h2>
-<p>Saint Luke's Episcopal Church, 426 E. Fourth Plain Blvd., Vancouver, Wash.</p>
-<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=426+East+4th+Plain+Boulevard+Vancouver,+WA+98663&amp;aq=&amp;sll=45.640733,-122.667208&amp;sspn=0.010622,0.024891&amp;ie=UTF8&amp;hq=&amp;hnear=426+E+4th+Plain+Blvd,+Vancouver,+Washington+98663&amp;ll=45.640733,-122.667203&amp;spn=0.010622,0.024891&amp;t=m&amp;z=14&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=426+East+4th+Plain+Boulevard+Vancouver,+WA+98663&amp;aq=&amp;sll=45.640733,-122.667208&amp;sspn=0.010622,0.024891&amp;ie=UTF8&amp;hq=&amp;hnear=426+E+4th+Plain+Blvd,+Vancouver,+Washington+98663&amp;ll=45.640733,-122.667203&amp;spn=0.010622,0.024891&amp;t=m&amp;z=14" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+<p>Clark County Square Dance Center, 10713 NE 117th Ave., Vancouver, Wash.</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2786.590070500278!2d-122.54939499999996!3d45.699197999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5495b1b22facfc53%3A0x792dda9dce920a9c!2sClark+County+Square+Dance+Center!5e0!3m2!1sen!2sus!4v1427501038366" width="600" height="450" frameborder="0" style="border:0"></iframe>
 <ol>
-<li>Take the East Fourth Plain exit from I-5 in Vancouver, and turn west (right
-if you're coming from the north, left if you're coming from the south).</li>
-<li>At the first light past the freeway (that is, F Street), turn right.</li>
-<li>At the first driveway on the left, turn left, go behind the building, and
-park.</li>
+<li>Take the exit to eastbound WA-500 from I-205 in Vancouver.</li>
+<li>Continue northbound on WA-503 past NE Padden Parkway.</li>
+<li>1.1 miles later, turn right into the driveway for the square dance center.
+If you reach NE 199th Street, you've gone too far north.</li>
 </ol>
 </div> <!-- Vancouver DD section -->
 
 <!-- Portland Ball -->
-<div>
+<div style="display: none;">
 <h1>Workshop and Ball</h1>
 
 <p>Every year, the Portland group puts on a dancing workshop and a ball in
