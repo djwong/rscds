@@ -68,5 +68,7 @@
 {"start": "2015/05/01 00:00", "type": "workshop", "local": false, "name": "Youth Weekend Ceilidh", "location": "James Bay Athletic Assn., Victoria, B.C.", "url": "http://youthweekendwest.com/", "crib": "yww2015_ceilidh.txt"},
 {"start": "2015/05/02 00:00", "type": "ball", "local": false, "name": "Youth Weekend Ball", "location": "White Eagle Polish Hall, Victoria, B.C.", "url": "http://youthweekendwest.com/", "crib": "yww2015_ball.txt"},
 {"start": "2015/06/27 13:00", "type": "ball", "local": false, "name": "Silver State SCD Dance Party", "location": "Truckee Community Arts Center, Truckee, Calif.", "url": "http://silverstatescd.wix.com/sscds#!truckee-workshop/cee5"},
+{"start": "2015/09/11 00:00", "type": "ball", "local": false, "name": "Ft. Worden Ceilidh", "location": "Ft. Worden, Wash.", "url": "http://www.rscds-seattle.org/ftworden/"},
+{"start": "2015/09/12 00:00", "type": "ball", "local": false, "name": "Ft. Worden Ball", "location": "Ft. Worden, Wash.", "url": "http://www.rscds-seattle.org/ftworden/"},
 {"start": "2015/11/13 00:00", "type": "ball", "local": false, "name": "Asilomar Ceilidh", "location": "Pacific Grove, Calif.", "url": "http://asilomar.rscds-sf.org/"},
 {"start": "2015/11/14 00:00", "type": "ball", "local": false, "name": "Asilomar Ball", "location": "Pacific Grove, Calif.", "url": "http://asilomar.rscds-sf.org/"},
