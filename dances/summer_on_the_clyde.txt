@@ -1,0 +1,8 @@
+Name: Summer on the Clyde
+Format: 4×32S, 4C set
+Source: C. Dewar, SCD Archives
+BARS
+1- 8	1M+2L also 3M+4L set and change places RH, 1L+2M also 3L+4M repeat
+9-16	2s+1s also 4s+3s dance ½ R&L, 1s face 2s also 3s face 4s on sides and set twice
+17-24	All dance RSh reels of 4 on sides
+25-32	1s lead down to the bottom, 1s turn inwards to face 4s and 4s+1s circle 4H round to left 

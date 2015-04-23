@@ -1,0 +1,9 @@
+Name: Northern Lights
+Format: 3×32S, 3C set
+Source: C. Doble, TAC Silver Anniversary Dances
+BARS
+1- 4	1s+2s dance the Bourrel -1M+2L set advancing and turn 2H to end BtoB Lady facing up and Man down while their partners chase anticlockwise to face partner
+5- 8	1s+2s set and ¾ turn 2H to own sides 2 1
+9-16	1s+3s repeat bars 1-8 and 2s+3s+1s end in middle for...
+17-24	2s+3s+1s dance Allemande
+25-32	1s+2s dance ½ R&L while 3s set and cross RH, 2s+3s+1s set and cross RH 
