@@ -70,5 +70,6 @@
 {"start": "2015/06/27 13:00", "type": "ball", "local": false, "name": "Silver State SCD Dance Party", "location": "Truckee Community Arts Center, Truckee, Calif.", "url": "http://silverstatescd.wix.com/sscds#!truckee-workshop/cee5"},
 {"start": "2015/09/11 00:00", "type": "ball", "local": false, "name": "Ft. Worden Ceilidh", "location": "Ft. Worden, Wash.", "url": "http://www.rscds-seattle.org/ftworden/"},
 {"start": "2015/09/12 00:00", "type": "ball", "local": false, "name": "Ft. Worden Ball", "location": "Ft. Worden, Wash.", "url": "http://www.rscds-seattle.org/ftworden/"},
+{"start": "2015/10/17 00:00", "type": "ball", "local": false, "name": "San Diego 40th Anniversary Workshop & Ball", "location": "Balboa Park, San Diego, Calif."},
 {"start": "2015/11/13 00:00", "type": "ball", "local": false, "name": "Asilomar Ceilidh", "location": "Pacific Grove, Calif.", "url": "http://asilomar.rscds-sf.org/"},
 {"start": "2015/11/14 00:00", "type": "ball", "local": false, "name": "Asilomar Ball", "location": "Pacific Grove, Calif.", "url": "http://asilomar.rscds-sf.org/"},
