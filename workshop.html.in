@@ -5,7 +5,7 @@
 %OPEN_CONTENT%
 
 <!-- Nothing at all -->
-<div style="display: none;">
+<div style="display: inherit;">
 <h1>Workshop and Ball</h1>
 <p>Please check back here for information on the 37th annual workshop and ball,
 to be held in March 2016.  Looking for the programs for either the <a
@@ -16,7 +16,7 @@ Vancouver Dinner Dance</a>?</p>
 </div>
 
 <!-- Vancouver Dinner Dance (make sure you re-enable the crib below -->
-<div style="display: inherit;">
+<div style="display: none;">
 <h1>Vancouver Dinner Dance</h1>
 
 <p>Thank you all who came to the 36th annual Portland workshop and ball!  The
