@@ -1,5 +1,5 @@
 <form method="POST" id="membership_form" class="reg_form" action="membership_form.php">
-	<p class="title">Royal Scottish Country Dance Society, Portland Ore. Branch:<br />Membership Form 2014-2015</p>
+	<p class="title">Royal Scottish Country Dance Society, Portland Ore. Branch:<br />Membership Form 2015-2016</p>
 	<table id="field_box">
 		<tr><td><label for="name">Name(s):</label></td><td><input type="text" class="text" id="name" name="name"/></td></tr>
 		<tr><td><label for="children">Children&nbsp;under&nbsp;16:</label></td><td><input type="text" class="text" id="children" name="children"/></td></tr>
