@@ -4,7 +4,6 @@
 }}}
 {{{#!wiki comment
 pubdate = July/August 2015
-noindex
 }}}
 
 <<TableOfContents()>>
@@ -155,7 +154,7 @@ by Susie Allely
 Please join us in Redmond for our 19th annual Scottish Country dance workshop
 and ball on October 3, 2015.  Our guest teacher this year is Chuck Ryer from
 Eugene.  Not only is he a good friend, he is a wonderful dancer and a great
-teacher.  He also has published quite a few of his own dance he wrote and will
+teacher.  He also has published quite a few of his own dances and will
 probably be sharing some of these dances in the workshop. 
 
 Hope to see you here!
