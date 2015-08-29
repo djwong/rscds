@@ -29,3 +29,5 @@
 {"start": "2015/02/14 19:30", "type": "dance", "name": "Portland Dance", "location": "Ren. School of Arts, Portland, Ore.", "url": "/party.html", "crib": "portland_feb2015.txt"},
 {"start": "2015/04/11 19:30", "type": "dance", "name": "Portland Dance", "location": "Ren. School of Arts, Portland, Ore.", "url": "/party.html", "crib": "portland_apr2015.txt"},
 {"start": "2015/05/09 19:30", "type": "dance", "name": "Portland Dance", "location": "Ren. School of Arts, Portland, Ore.", "url": "/party.html", "crib": "portland_may2015.txt"},
+{"start": "2015/09/01 19:30", "type": "dance", "name": "Scottish Back-to-Dance Blast", "location": "Columbia Dance Center, Vancouver, Wash."},
+{"start": "2015/10/24 19:30", "type": "dance", "name": "Fall Dance", "location": "Columbia Dance Center, Vancouver, Wash."},
