@@ -1,0 +1,8 @@
+Name: Jig to the Music
+Format: 3×32J, 3C set
+Source: D. Young, 2nd Book of Graded SCDs
+BARS
+1- 8	All Adv+Ret, all dance DoSiDo
+9-16	All turn RH, all turn LH
+17-24	1s slip down for 4 and back to top, 1s cast to bottom and 2s+3s step up
+25-32	All circle 6H round and back 

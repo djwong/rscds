@@ -1,0 +1,244 @@
+{{{#!html
+<img class="artwork" src="../images/gg_sept_2015_1.jpg" alt="Burlingame Water Tower" width="800" height="600"/>
+<div class="tagline">New Venue! The Burlingame Water Tower Dance Hall</div>
+}}}
+{{{#!wiki comment
+pubdate = Sept/Oct 2015
+}}}
+
+<<TableOfContents()>>
+
+== From The President ==
+by Martin Mac​Kenzie
+
+Welcome back to the new dance year! I’m sure all our feet are itching to get
+moving after the long, hot and dry summer hiatus. We’ll be starting again
+Monday, September 14th with easy dances and frozen juice bars afterwards to
+kick off the new dance year. 
+
+Many thanks to Lisa Scott, Randy Lewis, Susan Gere, and the Portland Scottish
+Country Dance Society Board, http://portlandcountrydance.org/, we now have a
+new venue at Burlingame Water Tower Dance Hall! It is a beautiful facility
+located in an older Portland neighborhood called Capitol Hill.  Please see
+below some photos of the venue.  This location solved two problems, one of cost
+and a more centralized location. As a consequence, we will be having our
+Saturday dances there as well instead of at Renaissance School. Our new venue
+has a downstairs location for snacks and socializing.
+
+{{{#!html
+<img src="../images/gg_sept_2015_0.jpg" alt="Outside the new dance hall" width="400" height="300" style="float: left; margin-right: 1em;"/>
+}}}
+[[http://portlandscottishdancers.org/classes.html|Here]] is a map to the new venue.
+For those who navigate better with written directions, please see as follows:
+“The address is 8936 SW 17th, Portland, OR 97219. From the North, head South on
+I-5. Take the Barbur Blvd. exit, Number 296A, and turn right. Turn right onto
+SW Spring Garden Street. Turn right onto 17th Avenue and look for the dance
+hall near the top of the hill (on the north side of 17th.) From the South, head
+North on I-5. Take the Taylors Ferry exit, number 295, and keep left at the
+fork in the ramp. Merge onto Taylors Ferry, turn left on 17th Avenue and look
+for the dance hall near the top of the hill.  To put it another way, don’t come
+to Waluga Lodge as we won’t  be dancing there! 
+
+We will likely have some interaction with the English and Contra dance
+community which will give us opportunity to make some new friends, learn some
+news styles of dancing, and possibly add to our numbers.
+
+Coming up will be Fort Worden’s workshop and ball on September 11-12
+(http://www.rscds-seattle.org/ftworden/), then the Bend – Redmond workshop and
+ball on October 3rd (http://www.hdccd.com/) and our own Portland workshop and
+ball on March 12, 2016, as well as monthly dances. Information for that can be
+found at http://portlandscottishdancers.org.
+
+I look forward to seeing all your smiling faces!
+
+== Teacher’s Corner ==
+by Linda Mae Dennis
+
+Greetings dancers!
+
+As I sit down to write this, it’s our second rainy afternoon since June. Does
+it mean this long, hot summer is coming to a close? Perhaps. The pears are
+definitely falling out of the pear tree, and the grapes have begun turning from
+green to purple – all sure signs of a changing season.  *Back to Dance* week
+will be upon us before we know it!
+
+Here are some statistics that I found on a website called http://www.enthusiasmexperiment.com/.
+
+ * 57% of people chat more online than they do in real life.
+ * Our attention span has dropped by 40% since 2000.
+ * 1 out of 8 Americans are social media addicts.
+ * Children ages 12 to 18 spend nearly two hours a day texting alone.
+ * 8 to 10 year olds average almost 8 hours a day of screen time.
+ * 11 to 18 year olds spend more than 11 hours per day of screen time.
+ * The current divorce rate is about 43% for first time marriages.
+ * The new communication “normal” is little to no eye contact during conversation while people “multitask” on mobile devices.
+
+The website has more to do with children with autism than dancing, and I’m not
+endorsing it one way or the other, but the statistics are worth paying
+attention to. 
+
+We are so lucky to have Scottish Country Dancing in our lives. For at least a
+few hours a week we are truly engaged with other people, with fabulous music,
+and with movement. And that combination keeps our brains, bodies, and psyches
+beautifully healthy. We get to do this “therapy” every week of the year with
+the exception of a few weeks in the summer which apparently only serve to
+remind us how much we miss our weekly face time with friends and how much we
+enjoy dancing. Dancing is so refreshing, so relaxing, and so much fun! And yet,
+the joys of Scottish Country Dancing – even Scottish Country Dancing itself
+remains unknown to 90% of the population. People just don’t know what it is.
+
+I believe word of mouth is the best way to get people dancing. We all need to
+take every opportunity to let people know about Scottish Country Dancing. It
+takes some self-confidence to approach everyone you know or meet as not just a
+person, but as an enthusiastic Scottish Country Dancer. I am very guilty of not
+being prepared for and taking every opportunity, myself. But I want people to
+chat in real life more than they do online, I want people to be able to pay
+attention, I want children and young adults to be able to communicate face to
+face – to be able to have eye-contact and not feel weird about it, and I want
+couples to be able to communicate and have fun together. 
+
+So as we start this dancing year, I hope that you will join me in trying to
+communicate our joy in dancing to as many other people as you come in contact
+with, and bring them to dance class. Bring them using your enthusiasm, your
+joy, your love of dancing. 
+
+See you in September. Bring buddies!
+
+== October 10, 2015 Dance Program ==
+%CRIB_portland_oct2015%
+
+== A Greenhorn's Perspective of TAC Summer School ==
+by Eunice Mac​Kenzie
+
+{{{#!html
+<img src="../images/gg_sept_2015_2.jpg" alt="Farmville, VA" width="346" height="259" style="float: left; margin-right: 1em;"/>
+}}}
+How did you spend your summer? I spent part of mine in Farmville! No… not the
+Facebook game. :-) There's actually a town called Farmville in Virginia,
+U.S.A., believe it or not. Apparently, it was big on growing tobacco in its
+early days—but I won't go into that right now. I also happen to know there's a
+perfectly good explanation for why there is a university in Farmville,
+Virginia, population 8216, (saaaaalllutte!) but I won't expound upon that,
+either. Suffice to say, TAC (Teachers Association of Canada) discovered
+Longwood University and decided it would be a good location for 2015 Summer
+School!
+
+Most readers of this article know that TAC Summer School is not about bookwork;
+rather, it is about footwork—and fun for the avid Scottish Country dancer. I
+was first exposed to TAC three years ago when they came to Portland State
+University, and I was among the locals asked to “stooge” for the prospective
+teachers. We were given to understand that we were to be honest in our dancing
+abilities to provide the most realistic teaching possibilities for the
+candidates. That actually took some pressure off of me, as I still had a lot to
+learn back then.
+
+{{{#!html
+<img src="../images/gg_sept_2015_3.jpg" alt="TAC Dancers" width="307" height="229" style="float: right; margin-left: 1em;"/>
+}}}
+Hmm, did I say, “back then”? Oh well. :-) The following year, several of our
+local dancers, including my husband, Martin, decided to go to Summer School at
+Mount Allison University in New Brunswick, in the maritimes provinces of
+Canada. They had such a good time, and I have made a wee bit of progress since
+then and upon earlier this year I received an email promoting TAC in Virginia,
+I was inclined to make a go of it. Martin was not averse to tackling TAC again,
+so come July 26, we found ourselves on a shuttle from Richmond airport with
+other students, bumping our way to Longwood University. Little did we know that
+one of the “students” was actually Etienne Ozorak, one of our accordion
+musicians! We also discovered later, that he and his wife, Cheri, are amazing
+ballroom dancers!
+
+{{{#!html
+<img src="../images/gg_sept_2015_4.jpg" alt="?" width="383" height="286" style="float: left; margin-right: 1em;"/>
+}}}
+Between the dearth of sleep we owned, and a missing garment bag we apparently
+didn't own, I was kind of “shell-shocked”, but Gail Michener, Sandy Garraway,
+and Fiona Miller among others, were on hand to welcome us.
+
+It was enjoyable and fascinating meeting fellow students. As Martin said to me,
+“Attending TAC is like traveling all over the world without actually going.”
+There were people from United States, England, Scotland, Canada, Australia,
+France and Switzerland, for starters! There were so many diverse accents being
+used that on more than one occasion I couldn't resist rolling my “r”s. One day,
+I was the gleeful recipient of a ride from Curry Hall to the Dining Hall. Dave
+“Mr. Fiona” (married to Fiona Miller, Summer School Director), who was our
+“Jeeves”, driving the university-provided golf cart around heard me trolling,
+and asked where I was from. “Orrregon”, I replied.
+
+{{{#!html
+<img src="../images/gg_sept_2015_5.jpg" alt="Band" width="383" height="286" style="float: right; margin-left: 1em;"/>
+}}}
+The morning classes were personalized by dancing preferences and abilities and
+identified by local trees: Sassafras (Advanced), Mulberry (Social), Hickory
+(Intermediate) and Tupelo. Martin was not a suffering Sassafras. Some of you
+know that Martin dealt for over a year with plantar fasciitis, and he more than
+half-expected to “feel the pain” with the rigorous course, but apparently he is
+healed!! I really enjoyed being a Mulberry. People were so friendly,
+complimentary and patient with me. We were taught social aspects of dancing,
+especially from the waist up; most of the students had various physical
+challenges that kept them from being able to do the fancy footwork. Be sure to
+smile, look like you are enjoying yourself! It was also fun having Marge van
+Nus in my class! The teachers were Rebecca Blackhall-Peters, Langley, BC; Terry
+Harvey Newton Square, PA, USA; Robert McOwen, Arlington, MA, USA; Sue Porter
+Oban, Scotland, UK. They all traded off teaching the different levels. Here is
+a link to the dances taught to each group: 
+http://www.tac-rscds.org/images/stories/SS-PDFs/2015-ss-dances-taught-v2.pdf
+
+{{{#!html
+<img src="../images/gg_sept_2015_6.jpg" alt="More Band" width="383" height="286" style="float: left; margin-right: 1em;"/>
+}}}
+It was a treat having live music for the classes every day! Speaking of
+musicians, we had some wonderful, talented performers: Kathy Fraser-Collins,
+Glen Andrew, ON, Canada, music director and keyboard; Neil Barron Wetherby,
+West Yorkshire, England, UK on accordion; Fred Collins on the drums, Glen
+Andrew, ON, Canada; Judi Nicolson, Katy, TX, USA on fiddle; Etienne Ozorak
+Sacramento, CA, USA on accordion; Don Wood, Aurora, ON, Canada on keyboards.
+The music was incredible! 
+http://www.tac-rscds.org/summer-school/ss-musicians
+
+The afternoons provided opportunities to learn different dance genres and
+techniques, but I decided I would benefit most from the dance/ball walkthrough
+classes. Martin, being the nice guy he is, attended with me. One of the
+teachers for the walk-through classes will be known by the long-term dancers
+from the Portland, OR Branch: Lin (aka Linda) Pettigill. She earned her
+teaching certificate as a Portland member. Sadly (for us), right after she got
+certified, her husband got a job and they moved to California; some of you may
+know her from Asilomar.
+
+{{{#!html
+<img src="../images/gg_sept_2015_7.jpg" alt="Brick Building" width="383" height="286" style="float: right; margin-left: 1em;"/>
+}}}
+Wednesday had no regular classes because it was field trip day! Some either
+went hiking on the High Bridge Trail nearby or toured Monticello, the famous
+home of Thomas Jefferson. There were dances almost every night, Sunday through
+Tuesday. Thursday, Wednesday and Friday evenings had ceilidhs. Saturday had the
+banquet and Ball! There were after parties (almost?) every night on the first
+floor of Curry Hall. Some after parties were mostly chatting and enjoying food
+and drink; others consisted of people getting their second (or third) wind!
+Sometimes the musician's music inspired a lot of creative moves and dancing!
+What tune was it that Sue Porter kept dancing the “Macarena” moves to? I was
+frankly amazed at the energy displayed/demonstrated by people after long days
+of combined dancing and humidity. (To be fair, there were some that would find
+soothing relief at one of the water fountains on the way “home” after a dance.
+Daily (or nightly), Martin verbally counted the bathers: 4,4,4,5,6,18! After
+the Ball, there were people who actually swam in it!)
+
+{{{#!html
+<img src="../images/gg_sept_2015_8.jpg" alt="Dancers!!" width="410" height="310" style="float: left; margin-right: 1em;"/>
+}}}
+I have likely “jacked” too much space, but there was so much to say! I was
+amazed at the noisy cicadas, which I originally thought were automatic
+sprinklers. :-) The tree frogs were abundantly ever present. And, we actually
+spied some fireflies! I must share appreciation for the friendliness and
+conviviality of the Longwood staff! I also want to publicly thank student Maria
+Ward for her kindness in using her car and time to take Martin and me shopping
+so we could avoid the humidity and find some clothing suitable for the Ball!
+
+In closing, I would like it to be known that attending TAC Summer School is a
+fun, valuable and worthwhile experience!
+
+(As husband to the writer of this article, I want to express a sincere thank
+you to everyone who treated Eunice and I with such kindness at TAC Summer
+School! For those who might be considering this another year but are unsure,
+know that at whatever level you are you will learn something and have a
+wonderful experience immersing yourself in Scottish dance and culture. ~ The
+President)

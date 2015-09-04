@@ -1,0 +1,8 @@
+Name: EH3 7AF
+Format: 8×32J, 3C (4C set)
+Source: R. Goldring, RSCDS Book 40
+BARS
+1- 8	1s lead down the middle and back to top
+9-16	1s+2s+3s Promenade ending with 1s casting to 2nd place
+17-24	1s pass by the right and turn 1st corners RH to end L between 2s and M between 3s, 1s pass by the right and turn 2nd corners RH to end between corners
+25-32	1M dances RH across with 2s and 1L with 3s, 1L dances up between 2s and casts to 2nd place own side as 1M dances between 3s and casts up
