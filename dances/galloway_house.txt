@@ -1,7 +1,6 @@
 Name: Galloway House
 Source: Book of Graded SCDs
 Format: 8×32R, 2C (4C set)
-Youtube: YNkQ4JUEDEI#t=9
 BARS
 1- 8	1s cast down on own sides, turn out and back to places
 9-16	1s+2s circle 4H round and back

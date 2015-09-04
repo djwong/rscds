@@ -1,6 +1,7 @@
 Name: EH3 7AF
 Format: 8×32J, 3C (4C set)
 Source: R. Goldring, RSCDS Book 40
+Youtube: YNkQ4JUEDEI#t=9
 BARS
 1- 8	1s lead down the middle and back to top
 9-16	1s+2s+3s Promenade ending with 1s casting to 2nd place
