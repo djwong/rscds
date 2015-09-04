@@ -3,6 +3,7 @@
 <div class="tagline">New Venue! The Burlingame Water Tower Dance Hall</div>
 }}}
 {{{#!wiki comment
+noindex
 pubdate = Sept/Oct 2015
 }}}
 
