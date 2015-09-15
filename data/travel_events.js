@@ -78,4 +78,5 @@
 {"start": "2015/10/31 00:00", "type": "ball", "local": false, "name": "Medicine Hat Workshop & Ball", "location": "Medicine Hat, Alberta", "url": "http://www.rscds-seattle.org/images/2015-10-31%20Medicine%20Hat%20AB%20workshop%20pamphlet.pdf"},
 {"start": "2015/11/13 00:00", "type": "ball", "local": false, "name": "Asilomar Ceilidh", "location": "Pacific Grove, Calif.", "url": "http://asilomar.rscds-sf.org/"},
 {"start": "2015/11/14 00:00", "type": "ball", "local": false, "name": "Asilomar Ball", "location": "Pacific Grove, Calif.", "url": "http://asilomar.rscds-sf.org/"},
+{"start": "2016/02/13 00:00", "type": "workshop", "local": false, "name": "Aloha Winter Weekend", "location": "Waikiki, Hawaii", "url": "http://www.rscdshawaii.org/home/workshop/"},
 {"start": "2016/04/02 00:00", "type": "workshop", "local": false, "name": "Vancouver Isle Workshop", "location": "Victoria, B.C."},
