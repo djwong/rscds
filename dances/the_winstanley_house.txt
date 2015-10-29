@@ -1,0 +1,8 @@
+Name: The Winstanley House
+Format: 8×32S, 4C set
+Source: D. St. Amand, Let’s All Dance Too
+BARS
+ 1- 8	1s dance mirror figure 8 on own side
+ 9-16	1s+2s set & cross RH the set & turn RH ½ to face up in middle
+17-24	1s+2s dance allemande
+25-32	1s dance figure 8 around 2s

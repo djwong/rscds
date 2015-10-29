@@ -1,0 +1,9 @@
+Name: May Yarker’s Strathspey
+Format: 8×32S, 3C (4C set)
+Source: R. Goldring, RSCDS Book 42
+Youtube: mEy2f3E-t5M#t=148
+BARS
+ 1- 8	1s cross RH, 1s+3s dance 3/4 Fig of 8 round 2s (3s cross up to start).  3 2 1
+ 9-16	2s+1s cross RH, 2s+1s dance RH across 1/2 way, 3s & 1s cross RH & dance RH across 1/2 way.  1 3 2
+17-24	1s+3s circle 4H round to left, 1s dance down, cast up round 2s (3rd pl) to 2nd place
+25-32	3s+1s+2s dance the Knot

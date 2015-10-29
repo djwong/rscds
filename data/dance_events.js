@@ -32,3 +32,4 @@
 {"start": "2015/09/01 19:30", "type": "dance", "name": "Scottish Back-to-Dance Blast", "location": "Columbia Dance Center, Vancouver, Wash."},
 {"start": "2015/10/10 19:30", "type": "dance", "name": "Portland Dance", "location": "Burlingame Water Tower, Portland, Ore.", "crib": "portland_oct2015.txt"},
 {"start": "2015/10/24 19:30", "type": "dance", "name": "Fall Dance", "location": "Columbia Dance Center, Vancouver, Wash."},
+{"start": "2015/11/14 19:30", "type": "dance", "name": "Portland Dance", "location": "Burlingame Water Tower, Portland, Ore.", "crib": "portland_nov2015.txt"},
