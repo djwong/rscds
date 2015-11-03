@@ -1,0 +1,59 @@
+{{{#!html
+<img class="artwork" src="../images/gg_nov_2015.jpg" alt="Eugene Harvest English/Scottish Ball" width="800" height="399"/>
+<div class="tagline">The English and Scottish Eugene Harvest Ball</div>
+}}}
+{{{#!wiki comment
+noindex
+pubdate = Nov/Dec 2015
+}}}
+
+<<TableOfContents()>>
+
+== Teacher’s Corner ==
+by Debbie Mc​Robert
+
+Scottish Country Dancing in the 21st century has many advantages. Sit down at a
+computer or with a tablet and you can connect to websites and YouTube videos
+that contain anything you want to know about dancing. 
+
+For instance, November’s monthly party coming up and let’s say you can’t
+remember what dances are on the program? Go to our website and there is a list
+of all the dances. And Darrick, our website manager has also included links to
+videos of the dances so you can see them danced.
+
+Are you interested in the history of Scottish Country Dancing? There are
+websites that will tell you all about Miss Milligan and Mrs. Stewart and how
+they started the Scottish Country Dance Society. You can even find history that
+goes back even further.
+
+Here is a list of websites you might find fun to look at.
+Our branch website: http://portlandscottishdancers.org/
+Southwest Washington State Branch (Vancouver) website: http://vancouverusa-scd.org/
+The Royal Scottish Country Dance Society’s website: http://www.rscds.org/
+
+If you want to know the directions of a dance, check out Linda Mae’s
+Danciemaetion site: http://danciemaetion.imaginationprocessing.com/ . Or search
+for a dance by title in YouTube and you may just find a group somewhere in the
+world that has uploaded a video.
+
+Some websites have tons of information and links to more websites. Try looking at:
+http://strathspey.org/ and http://scottishdance.net/scd/ .
+
+And then there are individual dance group websites. Say you’re going to Boston
+for a vacation and want to do some dancing. You can search for “Scottish
+country dancing Boston” on your computer and up pops “Boston Branch, RSCDS”.
+
+I have bookmarked many of these sites on my computer. 
+
+So, if you have a little bit of time try looking at these websites. It’s a lot
+of fun seeing what is out there, and there’s a lot to learn.
+
+== November 14, 2015 Dance Program ==
+
+Get ready to kick up your heels to the live music provided by Maggie Hannahs on
+fiddle and Lisa Scott on keyboard!  The dance begins at 7:30 pm.  Please bring
+items priced and ready for sale for our Highland Faire!  All proceeds will go
+to defray costs of the Annual Workshop and Ball on March 12, 2016.  The dances
+are as follows:
+
+%CRIB_portland_nov2015%
