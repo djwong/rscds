@@ -57,3 +57,12 @@ to defray costs of the Annual Workshop and Ball on March 12, 2016.  The dances
 are as follows:
 
 %CRIB_portland_nov2015%
+
+== Highland Faire Dance ==
+
+{{{#!html
+<a href="../files/highland_faire_nov_2015.pdf">
+<center><img src="../images/highland_faire_nov_2015.jpg" alt="Highland Faire 2015" width="550" height="850" style="margin-right: 1em;"/></center>
+</a>
+}}}
+
