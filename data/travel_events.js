@@ -80,3 +80,4 @@
 {"start": "2015/11/14 00:00", "type": "ball", "local": false, "name": "Asilomar Ball", "location": "Pacific Grove, Calif.", "url": "http://asilomar.rscds-sf.org/"},
 {"start": "2016/02/13 00:00", "type": "workshop", "local": false, "name": "Aloha Winter Weekend", "location": "Waikiki, Hawaii", "url": "http://www.rscdshawaii.org/home/workshop/"},
 {"start": "2016/04/02 00:00", "type": "workshop", "local": false, "name": "Vancouver Isle Workshop", "location": "Victoria, B.C."},
+{"start": "2016/10/08 19:30", "type": "ball", "local": false, "name": "High Desert Ball", "location": "The Belfry, Sisters, Ore."},
