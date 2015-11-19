@@ -81,3 +81,4 @@
 {"start": "2016/02/13 00:00", "type": "workshop", "local": false, "name": "Aloha Winter Weekend", "location": "Waikiki, Hawaii", "url": "http://www.rscdshawaii.org/home/workshop/"},
 {"start": "2016/04/02 00:00", "type": "workshop", "local": false, "name": "Vancouver Isle Workshop", "location": "Victoria, B.C."},
 {"start": "2016/10/08 19:30", "type": "ball", "local": false, "name": "High Desert Ball", "location": "The Belfry, Sisters, Ore."},
+{"start": "2016/01/16 19:00", "type": "dance", "local": false, "name": "Burns Dance", "location": "Santa Clara Grange Hall, Eugene, Ore."},

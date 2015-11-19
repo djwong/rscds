@@ -33,3 +33,5 @@
 {"start": "2015/10/10 19:30", "type": "dance", "name": "Portland Dance", "location": "Burlingame Water Tower, Portland, Ore.", "crib": "portland_oct2015.txt"},
 {"start": "2015/10/24 19:30", "type": "dance", "name": "Fall Dance", "location": "Columbia Dance Center, Vancouver, Wash."},
 {"start": "2015/11/14 19:30", "type": "dance", "name": "Portland Dance", "location": "Burlingame Water Tower, Portland, Ore.", "crib": "portland_nov2015.txt", "url": "files/highland_faire_nov_2015.pdf"},
+{"start": "2015/11/27 19:30", "type": "dance", "name": "Werk Off Yer Turkey Dance", "location": "Vancouver, Wash.", "url": "/files/turkey1up15.pdf"},
+{"start": "2015/12/12 19:30", "type": "dance", "name": "Portland Dance", "location": "Burlingame Water Tower, Portland, Ore.", "crib": "portland_dec2015.txt"},
