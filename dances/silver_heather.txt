@@ -1,0 +1,8 @@
+Name: Silver Heather
+Format: 4×32J 3C (4C set)
+Source: Els van der Kamp, Eight by Thirty Two
+BARS
+1–8	1W followed by 1M cast off (2c up on 3-4) and cross ; 2c+1c RHA (1W face out)
+9–16	1W followed by 1M cast off (3c up on 11-12) and cross ; 1c+3c LHA (2,3,1)
+17–24	1c cross RH | cast up (3c down) ; 1c petronella turn | all set in lines across
+25–32	1c cross RH up/down | cast R while{4} 2M+3M & 2W+3W dance BtoB ; all turn P RH (2,1,3)

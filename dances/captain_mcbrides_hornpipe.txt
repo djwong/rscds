@@ -1,0 +1,8 @@
+Name: Captain McBride’s Hornpipe
+Format: 8×32R, 3C (4C set)
+Source: William Campbell, RSCDS Book 20
+BARS
+1- 8	1M sets to 2L and turns LH while 1L sets to 2M and turns RH, 1M sets to 3L and turns RH while 1L sets to 3M and turns LH
+9-16	1s lead up to top, cross, set and cast to 2nd place on own sides
+17-24	1s+3s circle 4H round and back
+25-32	2s+1s R&L
