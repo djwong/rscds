@@ -3,7 +3,7 @@
 <div class="tagline">Spring Fling Trial Dancing in Vancouver, Wash.</div>
 }}}
 {{{#!wiki comment
-pubdate = January/February 2015
+pubdate = January/February 2016
 }}}
 
 <<TableOfContents()>>
