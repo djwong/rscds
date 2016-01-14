@@ -1,25 +1,17 @@
-<p>Christ Episcopal Church, 1060 Chandler Road, Lake Oswego, OR 97034</p>
-<iframe width="640" height="480" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Christ+Episcopal+Church,+1060+Chandler+Road,+Lake+Oswego,+OR+97034&amp;sll=45.543408,-122.654422&amp;sspn=0.428006,1.016235&amp;ie=UTF8&amp;hq=Christ+Episcopal+Church,&amp;hnear=1060+Chandler+Rd,+Lake+Oswego,+Oregon+97034&amp;t=m&amp;z=14&amp;iwloc=A&amp;cid=15470649219834735336&amp;ll=45.419872,-122.676258&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Christ+Episcopal+Church,+1060+Chandler+Road,+Lake+Oswego,+OR+97034&amp;sll=45.543408,-122.654422&amp;sspn=0.428006,1.016235&amp;ie=UTF8&amp;hq=Christ+Episcopal+Church,&amp;hnear=1060+Chandler+Rd,+Lake+Oswego,+Oregon+97034&amp;t=m&amp;z=14&amp;iwloc=A&amp;cid=15470649219834735336&amp;ll=45.419872,-122.676258" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+<p>Burlingame Water Tower Dance Hall, 8936 SW 17th Ave., Portland, Ore. 97219</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2798.4566504465547!2d-122.6970734844171!3d45.46060427910093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54950b150fb27023%3A0x91b7ea2e34b56030!2s8936+SW+17th+Ave%2C+Portland%2C+OR+97219!5e0!3m2!1sen!2sus!4v1452794409812" width="640" height="480"></iframe>
 
 <p>Coming <b>NORTH</b> on I-5:</p>
 <ol>
-	<li>Take Exit 292B toward Kruse Way. (0.4mi)</li>
-	<li>Turn left onto Kruse Way. (1.3mi)</li>
-	<li>Turn left onto Boones Ferry Rd.; get in the right lane. (0.7mi)</li>
-	<li>Slight right turn on SW Country Club Rd. (1.7mi)</li>
-	<li>Turn right onto 10 St. (161ft)</li>
-	<li>Continue onto Chandler Rd. (305ft)</li>
-	<li>Destination will be on the left.</li>
+	<li>Take Exit 295 straight toward SW Taylor's Ferry Road.</li>
+	<li>Turn left onto SW 17th Avenue. (0.8mi)</li>
+	<li>Destination will be on the right. (0.1mi)</li>
 </ol>
 
 <p>Coming <b>SOUTH</b> on I-5:</p>
 <ol>
-	<li>Take Exit 292. (0.3 mi)</li>
-	<li>Keep left at the fork, follow signs for Kruse Way/Lake Oswego. (144ft)</li>
-	<li>Turn left onto Kruse Way. (1.3mi)</li>
-	<li>Turn left onto Boones Ferry Rd.; get in the right lane. (0.7mi)</li>
-	<li>Slight right turn on SW Country Club Rd. (1.7mi)</li>
-	<li>Turn right onto 10 St. (161ft)</li>
-	<li>Continue onto Chandler Rd. (305ft)</li>
-	<li>Destination will be on the left.</li>
+	<li>Take Exit 296A and turn right onto SW Barbur Blvd.</li>
+	<li>Turn right on SW Spring Garden Street. (0.1mi)</li>
+	<li>Turn right on SW 17th Avenue. (0.3mi)</li>
+	<li>Destination will be on the left. (0.2mi)</li>
 </ol>

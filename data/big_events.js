@@ -10,5 +10,6 @@
 {"start": "2015/3/14 9:00", "type": "workshop", "name": "Portland Workshop", "location": "Christ Episcopal Church, Lake Oswego", "url": "workshop.html"},
 {"start": "2015/3/14 19:00", "type": "ball", "name": "Portland Pi Ball", "location": "Christ Episcopal Church, Lake Oswego", "crib": "portland_ball_2015.txt", "url": "files/workshop_registration_2015.pdf"},
 {"start": "2015/4/25 18:00", "type": "ball", "name": "Dinner Dance", "location": "Clark County Sq. Dance Center, Vancouver, Wash.", "crib": "dinner_dance_2015.txt", "local": true, "url": "http://www.rscds-swws.org/2015-dinnerdance.pdf", "ready": true},
-{"start": "2016/03/12 19:00", "type": "ball", "name": "Portland Ball", "location": "Portland"},
+{"start": "2016/03/12 9:00", "type": "ball", "name": "Portland Workshop", "location": "Portland", "url": "workshop.html"},
+{"start": "2016/03/12 19:00", "type": "ball", "name": "Portland Ball", "location": "Portland", "url": "files/workshop_registration_2016.pdf", "crib": "portland_ball_2016.txt"},
 {"start": "2016/04/23 00:00", "type": "ball", "name": "Dinner Dance", "location": "Vancouver, Wash.", "local": true, "ready": true},

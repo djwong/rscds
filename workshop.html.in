@@ -5,7 +5,7 @@
 %OPEN_CONTENT%
 
 <!-- Nothing at all -->
-<div style="display: inherit;">
+<div style="display: none;">
 <h1>Workshop and Ball</h1>
 <p>Please check back here for information on the 37th annual workshop and ball,
 to be held in March 2016.  Looking for the programs for either the <a
@@ -42,15 +42,16 @@ If you reach NE 199th Street, you've gone too far north.</li>
 </div> <!-- Vancouver DD section -->
 
 <!-- Portland Ball -->
-<div style="display: none;">
+<div style="display: inherit;">
 <h1>Workshop and Ball</h1>
 
 <p>Every year, the Portland group puts on a dancing workshop and a ball in
-early March.  The 36th ball is March 14th, 2015 at the Christ Episcopal Church
-in Lake Oswego, Ore.  Check back for more details as they are available!  Like
-us on <a href="https://www.facebook.com/events/748270001925490/">Facebook</a>!
-We also have a <a href="files/workshop_registration_2015.pdf">printable
-registration form</a> available!</p>
+early March.  The 37th ball is March 12th, 2016 at the Burlingame Water Tower
+Dance Hall in Portland, Ore.  Check back for more details as they are
+available!  Like us on <a
+href="https://www.facebook.com/events/748270001925490/">Facebook</a>!  We also
+have a <a href="files/workshop_registration_2016.pdf">printable registration
+form</a> available!</p>
 
 <p>Quick links:</p>
 <ol>
@@ -64,31 +65,34 @@ registration form</a> available!</p>
 <a id="schedule"></a><h2>Schedule</h2>
 
 <table id="workshop_schedule">
-<tr><td>Registration</td><td>9:30a</td><td>-</td><td>10:00a</td></tr>
-<tr><td>Classes</td><td>10:00a</td><td>-</td><td>12:00p</td></tr>
-<tr><td>Lunch</td><td>12:15p</td><td>-</td><td>1:15p</td></tr>
-<tr><td>Classes</td><td>1:15p</td><td>-</td><td>2:45p</td></tr>
-<tr><td>Combined Class</td><td>3:00p</td><td>-</td><td>4:00p</td></tr>
+<tr><td>Registration</td><td>9:00a</td><td>-</td><td>9:30a</td></tr>
+<tr><td>Level 1 Class</td><td>9:30a</td><td>-</td><td>11:00a</td></tr>
+<tr><td>Combined Class</td><td>11:15a</td><td>-</td><td>12:15p</td></tr>
+<tr><td>Lunch</td><td>12:15p</td><td>-</td><td>12:45p</td></tr>
+<tr><td>Level 2 Class</td><td>1:00p</td><td>-</td><td>2:30p</td></tr>
+<tr><td>Ball Walk-Through</td><td>2:45p</td><td>-</td><td>4:00p</td></tr>
 <tr><td>Grand March</td><td>7:00p</td></tr>
 <tr><td>Ball</td><td>7:00p</td><td>-</td><td>11:00p</td></tr>
 </table>
 
-<p>Due to time constraints, there will be no ball walkthrough this year.</p>
+<p>Please note new structure: One teacher, one class at a time.</p>
+
 <p>Bottled water will <u>not</u> be provided. Please bring your own to refill
 as needed.</p>
 
 <h2>Teachers</h2>
 
 <ul>
-	<li>Roberta Gotfried, Los Angeles, Calif.</li>
-	<li>Bob McMurtry, San Jose, Calif.</li>
+	<li>Gail Mitchener, Leighbridge, Alberta</li>
 </ul>
 
 <h2>Musicians</h2>
 
 <ul>
-	<li>Deby Benton-Grosjean, Aptos, Calif.</li>
-	<li>Cynthia Soohoo, Portland, Ore.</li>
+	<li>Marica Thumma, fiddle</li>
+	<li>Brian Crisafulli, fiddle</li>
+	<li>Bill Boyd, piano</li>
+	<li>Jason Thumma, string bass</li>
 </ul>
 
 <a id="program"></a><h2>Ball Program</h2>
@@ -132,6 +136,7 @@ attending classes regularly for at least two years and...</p>
 
 <p>See <a href="past_programs.html">old programs</a>.</p>
 
+<!--
 <h2>Overnight Accommodations</h2>
 
 <p>Limited housing with our members is available. If interested, email Linda
@@ -140,6 +145,7 @@ Mae below.</p>
 <p>Nearest Hotel: <a href="http://www.thelakeshoreinn.com/">Lakeshore Inn</a>,
 210 N. State St., Lake Oswego, Ore.</p>
 <iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Lakeshore+Inn&amp;aq=&amp;sll=45.417115,-122.663898&amp;sspn=0.007606,0.015568&amp;ie=UTF8&amp;hq=Lakeshore+Inn&amp;hnear=&amp;t=m&amp;ll=45.417115,-122.663898&amp;spn=0.007606,0.015568&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Lakeshore+Inn&amp;aq=&amp;sll=45.417115,-122.663898&amp;sspn=0.007606,0.015568&amp;ie=UTF8&amp;hq=Lakeshore+Inn&amp;hnear=&amp;t=m&amp;ll=45.417115,-122.663898&amp;spn=0.007606,0.015568" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+-->
 
 <a id="contact"></a><h2>Contacts</h2>
 

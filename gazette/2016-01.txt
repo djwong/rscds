@@ -196,3 +196,20 @@ attended.
 
 == February 13, 2015 Dance Program ==
 %CRIB_portland_feb2016%
+
+== March Ball Program ==
+%CRIB_portland_ball_2016%
+
+== Registration Open for the 37th Workshop and Ball ==
+by Darrick Wong
+
+Hi folks!  This is a quick update to the January/February Ghillie Gazette.
+Registration for the 37th annual workshop and ball is now open!  Hope to
+see you all there on March 12th.
+
+{{{#!html
+<div id="gazette_workshop_print">
+<h2>Workshop Registration Form</h2>
+%WORKSHOP_FORM%
+</div>
+}}}
