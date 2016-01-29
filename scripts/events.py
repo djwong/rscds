@@ -210,7 +210,21 @@ class event_queries:
 
 	def portland_ball_crib(events):
 		'''Generate a crib of the most recent complete Portland ball.'''
-		ready_balls = [x for x in events.balls() if (x['local'] and x['ready'])]
+		ready_balls = [x for x in events.balls() if (x['local'] and x['ready'] and x['location'] == "Portland")]
+		crib_fname = None
+		for evt in ready_balls:
+			if 'crib' in evt:
+				crib_fname = evt['crib']
+
+		if crib_fname == None:
+			print('We are sorry, but there is no posted program yet.  Please check back later.')
+		else:
+			crib_name = 'cribs/' + crib_fname
+			crib.generate_crib(crib_name, open(crib_name), sys.stdout)
+
+	def sw_wa_ball_crib(events):
+		'''Generate a crib of the most recent complete SW Washington ball.'''
+		ready_balls = [x for x in events.balls() if (x['local'] and x['ready'] and x['location'] == "Vancouver, Wash.")]
 		crib_fname = None
 		for evt in ready_balls:
 			if 'crib' in evt:
