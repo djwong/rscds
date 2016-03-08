@@ -102,6 +102,10 @@ behind us.
 
 === Our Very Own Drum Major ===
 
+{{{#!html
+<center><img src="http://guest672:dundee@www.rscds-swws.org/news/201603/LMD%20Drumajor.jpg" alt="Our Very Own Drum Major" width="400" height="400" style="margin-right: 1em;"/></center>
+}}}
+
 I did NOT forget any of the pieces of my uniform, of which there are SO many –
 shoes, short socks, sock tops, flashes, sgian dubh, spats. Now we’re up to the
 knees. Kilt, horse-hair sporran, kiltpin, plaidie, plaidie brooch, t-shrit,
@@ -266,6 +270,12 @@ detail.
 
 === Strategy Map ===
 
+{{{#!html
+<center><img src="http://guest672:dundee@www.rscds-swws.org/news/201603/strategy-map.jpg" alt="Strategy Map" width="683" height="310" style="margin-right: 1em;"/></center>
+}}}
+
+http://www.rscds-swws.org/news/201603/strategy-map.jpg
+
 Instead of discussing Activities (methods), participants were asked to write
 priority Change statements (more specific goals) that describe how the Society
 will look, after improvements have been implemented. A Business Plan Working
@@ -417,7 +427,9 @@ country, except in the cities and large towns, where several fancy dances were
 occasionally performed; but even in those places the Country Dance reigned
 triumphant.
 
-American Dancing Master
+{{{#!html
+<center><img src="http://guest672:dundee@www.rscds-swws.org/news/201603/american_dancing_master.jpg" alt="American Dancing Master" width="432" height="623" style="margin-right: 1em;"/></center>
+}}}
 
 The dances that were at that time the most fashionable were: “ Fisher’s
 Hornpipe,” “Chorus Jig,” “Sir Roger de Coverley,” “The Cushion Dance,” “Money
@@ -556,6 +568,10 @@ the next dance, while Keith Rose, who is famous for generating thousands of
 Pilling style dance diagrams, read his sheet of ball programme diagrams.
 
 === The Trinity Ball Programme ===
+
+{{{#!html
+<center><img src="http://guest672:dundee@www.rscds-swws.org/news/201603/TrinityBall.jpg" alt="Trinity Ball Programme" width="624" height="310" style="margin-right: 1em;"/></center>
+}}}
 
 After the final dance concluded, the band struck up a polka. The partner I had
 danced with took ball room hold and said, “Let’s go!” Dozens of dancers began
