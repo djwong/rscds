@@ -36,7 +36,7 @@
 {"start": "2015/11/27 19:30", "type": "dance", "name": "Werk Off Yer Turkey Dance", "location": "Vancouver, Wash.", "url": "/files/turkey1up15.pdf"},
 {"start": "2016/01/09 19:30", "type": "dance", "name": "Portland Dance", "location": "Burlingame Water Tower, Portland, Ore.", "crib": "portland_jan2016.txt"},
 {"start": "2016/02/13 19:30", "type": "dance", "name": "Portland Dance", "location": "Burlingame Water Tower, Portland, Ore.", "crib": "portland_feb2016.txt"},
-{"start": "2016/04/09 19:30", "type": "dance", "name": "Portland Dance", "location": "Burlingame Water Tower, Portland, Ore."},
+{"start": "2016/04/09 19:30", "type": "dance", "name": "Portland Dance", "location": "Burlingame Water Tower, Portland, Ore.", "crib": "portland_apr2016.txt"},
 {"start": "2016/05/14 19:30", "type": "dance", "name": "Portland Dance", "location": "Burlingame Water Tower, Portland, Ore."},
 {"start": "2016/10/08 19:30", "type": "dance", "name": "Portland Dance", "location": "Burlingame Water Tower, Portland, Ore."},
 {"start": "2016/11/12 19:30", "type": "dance", "name": "Portland Dance", "location": "Burlingame Water Tower, Portland, Ore."},

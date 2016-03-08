@@ -1,0 +1,9 @@
+Name: Auld Lang Syne
+Format: 8×32S, 3C (4C set)
+Source: Thomas Wilson, RSCDS Book 27
+Youtube: t0F8YdrvaQg
+BARS
+1- 8	1s+2s cross RH and set, 1s lead down and dance out between 2s and 3s on opposite side, cast down and lead up to 2nd place in centre of dance 
+9-16	2s+1s dance “inverse” Allemande (1s dancing down to start) 
+17-24	1s+2s cross RH, set and dance ½ Poussette, 1s end facing 1st corners 
+25-32	1s turn 1st corner RH, partner LH, 2nd corner RH and partner LH

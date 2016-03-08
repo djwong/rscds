@@ -1,0 +1,9 @@
+Name: The Braes of Breadalbane
+Format: 8×32S, 3C (4C set)
+Source: Thomas Skillern, RSCDS Book 21
+Youtube: GPU_u1yzcTg
+BARS
+1- 8	1s turn RH cast 1 place, turn LH and 1L casts up as 1M casts down to form lines of 3 across facing each other 
+9-16	1L+2s and 1M+3s set twice then 1s cast back to 2nd places and turn RH ending on own sides 
+17-24	2s+1s+3s set twice and turn partners 2H 
+25-32	2s+1s dance R&L
