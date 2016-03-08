@@ -1,0 +1,10 @@
+Name: Engine Room
+Format: 8×32R, 3C (4C set)
+Source: Ron Wallace and Gary Thomas, San Andreas Collection
+BARS
+1- 8	All set and dance reflection reels of 3 on sides (1s in and down to start) 
+9-16	1s dance DoSiDo, 1s cast 1 place and cross RH 
+17-20	1s dance RSh round 1st corners and turn right about (end 1L facing up to 2s, 1M facing down) while 1st corners dance DoSiDo 
+21-24	1s dance ½ Double Triangles 
+25-28	1s dance RSh round 2nd corners and turn right about to end 1L facing M's side, 1M facing L's side while 2nd corners dance DoSiDo 
+29-32	1s dance ½ Double Triangles ending 2nd place own sides
