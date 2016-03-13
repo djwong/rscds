@@ -16,33 +16,34 @@ Vancouver Dinner Dance</a>?</p>
 </div>
 
 <!-- Vancouver Dinner Dance (make sure you re-enable the crib below -->
-<div style="display: none;">
+<div style="display: inherit;">
 <h1>Vancouver Dinner Dance</h1>
 
-<p>Thank you all who came to the 36th annual Portland workshop and ball!  The
+<p>Thank you all who came to the 37th annual Portland workshop and ball!  The
 next major dance event in the area is the Vancouver Dinner Dance, the program
 for which is below.  </p>
 
 <h2>Registration</h2>
-<p><a href="http://www.rscds-swws.org/2015-dinnerdance.pdf">Register</a> today for the Vancouver Dinner Dance!</p>
+<p><a href="http://www.rscds-swws.org/2016-dinnerdance.pdf">Register</a> today for the Vancouver Dinner Dance!</p>
 
 <h2>Program</h2>
 %SW_WA_BALL_CRIB%
 <p class="noprint">[<a href="workshop_crib.html">Printable Format</a> | <a href="javascript:crib_toggle_all(true);">Expand All</a> | <a href="javascript:crib_toggle_all(false);">Collapse All</a>]</p>
 
 <h2>Map</h2>
-<p>Clark County Square Dance Center, 10713 NE 117th Ave., Vancouver, Wash.</p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2786.590070500278!2d-122.54939499999996!3d45.699197999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5495b1b22facfc53%3A0x792dda9dce920a9c!2sClark+County+Square+Dance+Center!5e0!3m2!1sen!2sus!4v1427501038366" width="600" height="450" frameborder="0" style="border:0"></iframe>
+<p>St. Luke's Episcopal Church, 426 East Fourth Plan Blvd., Vancouver, Wash.</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2789.502325656442!2d-122.66939688441103!3d45.640733179103506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5495af3410067cd7%3A0x52ef499d0180c40c!2sSt+Luke&#39;s+~+San+Lucas+Episcopal+Church!5e0!3m2!1sen!2sus!4v1457895039297" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 <ol>
-<li>Take the exit to eastbound WA-500 from I-205 in Vancouver.</li>
-<li>Continue northbound on WA-503 past NE Padden Parkway.</li>
-<li>1.1 miles later, turn right into the driveway for the square dance center.
-If you reach NE 199th Street, you've gone too far north.</li>
+<li>Take the Fourth Plain Boulevard exit from I-5 in Vancouver.</li>
+<li>Turn westbound onto Fourth Plain Boulevard.</li>
+<li>The first light will be F street; turn right here.</li>
+<li>Turn left at the first intersection onto 27th Street.</li>
+<li>Park behind the church.</li>
 </ol>
 </div> <!-- Vancouver DD section -->
 
 <!-- Portland Ball -->
-<div style="display: inherit;">
+<div style="display: none;">
 <h1>Workshop and Ball</h1>
 
 <p>Every year, the Portland group puts on a dancing workshop and a ball in
@@ -83,7 +84,7 @@ as needed.</p>
 <h2>Teachers</h2>
 
 <ul>
-	<li>Gail Michener, Leighbridge, Alberta</li>
+	<li>Gail Michener, Lethbridge, Alberta</li>
 </ul>
 
 <h2>Musicians</h2>
