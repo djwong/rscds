@@ -1,3 +1,4 @@
+{"start": "2016/05/02 14:00", "type": "news", "name": "May Ghillie Gazette", "details": "The May 2016 edition of the <a href=\"/gazette/2016-05.html\">Ghillie Gazette</a> is out."},
 {"start": "2016/03/07 21:46", "type": "news", "name": "March Ghillie Gazette", "details": "The March 2016 edition of the <a href=\"/gazette/2016-03.html\">Ghillie Gazette</a> is out."},
 {"start": "2016/01/14 10:35", "type": "news", "name": "Ball Registration Open", "details": "You can now <a href=\"/workshop.html\">register</a> for the 37th annual Workshop and Ball!"},
 {"start": "2016/01/06 00:35", "type": "news", "name": "January Ghillie Gazette", "details": "The January 2016 edition of the <a href=\"/gazette/2016-01.html\">Ghillie Gazette</a> is out."},
