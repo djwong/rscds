@@ -37,19 +37,19 @@ s/%UPCOMING_EVENTS%//g
 s/%UPCOMING_EVENTS_SHORT%//g
 /%UPCOMING_CLASSES%/r upcoming_classes.html
 s/%UPCOMING_CLASSES%//g
-/%CHAIR_CONTACT%/r martin.html
+/%CHAIR_CONTACT%/r holly.html
 s/%CHAIR_CONTACT%//g
-/%VICE_CHAIR_CONTACT%/r sally.html
+/%VICE_CHAIR_CONTACT%/r martin.html
 s/%VICE_CHAIR_CONTACT%//g
-/%SECRETARY_CONTACT%/r cathi.html
+/%SECRETARY_CONTACT%/r janice.html
 s/%SECRETARY_CONTACT%//g
 /%TREASURER_CONTACT%/r debbie.html
 s/%TREASURER_CONTACT%//g
-/%AT_LARGE_CONTACT%/r holly.html
+/%AT_LARGE_CONTACT%/r sally.html
 s/%AT_LARGE_CONTACT%//g
 /%TEACHER_COORDINATOR_CONTACT%/r lmae.html
 s/%TEACHER_COORDINATOR_CONTACT%//g
-/%NEWSLETTER_CONTACT%/r marcy.html
+/%NEWSLETTER_CONTACT%/r djwong.html
 s/%NEWSLETTER_CONTACT%//g
 /%WEBMASTER_CONTACT%/r djwong.html
 s/%WEBMASTER_CONTACT%//g

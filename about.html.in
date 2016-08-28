@@ -67,9 +67,11 @@ Washington State <a href="http://www.rscds-swws.org/">branch</a>.</p>
 	<div class="four-up">
 	%TEACHER_COORDINATOR_CONTACT%
 	</div>
+<!--
 	<div class="four-up">
 	%NEWSLETTER_CONTACT%
 	</div>
+-->
 	<div class="four-up">
 	%WEBMASTER_CONTACT%
 	</div>
