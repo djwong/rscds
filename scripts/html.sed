@@ -91,6 +91,8 @@ s/%WORKSHOP_DIRECTIONS%//g
 s/%SUSIE_CONTACT%//g
 /%LEONE_CONTACT%/r leone.html
 s/%LEONE_CONTACT%//g
+/%KALINDI_CONTACT%/r kalindi.html
+s/%KALINDI_CONTACT%//g
 /%BLEDSOE_CONTACT%/r bledsoe.html
 s/%BLEDSOE_CONTACT%//g
 /%LINDA_KELSO_CONTACT%/r linda_kelso.html
