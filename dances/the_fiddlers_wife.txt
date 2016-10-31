@@ -1,0 +1,9 @@
+Name: The Fiddler’s Wife
+Source: B. Anglin, TAC Blackie Dances
+Format: 8×32S, 3C (4C set)
+BARS
+ 1- 8	1s set & cast 1 place & dance 1/2 Fig of 8 round 2s
+ 9-16	2s+1s dance Ladies Chain
+17-20	1s dance 1/2 Fig of 8 round 3s
+21-24	2s+1s+3s turn partner RH into promenade hold
+25-32	2s+1s+3s dance Promenade

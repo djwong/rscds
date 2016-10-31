@@ -39,5 +39,5 @@
 {"start": "2016/04/09 19:30", "type": "dance", "name": "Portland Dance", "location": "Burlingame Water Tower, Portland, Ore.", "crib": "portland_apr2016.txt"},
 {"start": "2016/05/14 19:30", "type": "dance", "name": "Portland Dance", "location": "Burlingame Water Tower, Portland, Ore."},
 {"start": "2016/08/30 19:30", "type": "dance", "name": "Summer Mixer", "location": "Columbia Dance Center, Vancouver, Wash.", "url": "http://www.rscds-swws.org/events.html#Aug30EndofSummerMixe"},
-{"start": "2016/11/12 19:30", "type": "dance", "name": "Portland Dance", "location": "Burlingame Water Tower, Portland, Ore."},
+{"start": "2016/11/12 19:30", "type": "dance", "name": "Portland Dance", "location": "Burlingame Water Tower, Portland, Ore.", "crib": "portland_nov2016.txt"},
 {"start": "2016/12/10 19:30", "type": "dance", "name": "Portland Dance", "location": "Burlingame Water Tower, Portland, Ore."},
