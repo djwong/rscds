@@ -15,3 +15,4 @@
 {"start": "2016/04/23 00:00", "type": "ball", "name": "Dinner Dance", "location": "Vancouver, Wash.", "local": true, "crib": "dinner_dance_2016.txt", "url": "http://www.rscds-swws.org/events.html#April23SeventhAnnual"},
 {"start": "2017/03/11 0:00", "type": "ball", "name": "Portland Workshop", "location": "Portland", "url": "workshop.html"},
 {"start": "2017/03/11 0:00", "type": "ball", "name": "Portland Ball", "location": "Portland"},
+{"start": "2017/04/22 18:00", "type": "ball", "name": "Dinner Dance", "location": "Vancouver, Wash.", "local": true},
