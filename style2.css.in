@@ -73,6 +73,9 @@ a:link {
 .left {
 	text-align: left;
 }
+.center {
+	text-align: center;
+}
 img {
 	border: 0px;
 }

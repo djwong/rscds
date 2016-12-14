@@ -85,3 +85,5 @@
 {"start": "2016/05/20 19:00", "type": "workshop", "local": false, "name": "Youth Weekend Ceilidh", "location": "Seattle, Wash.", "url": "http://youthweekendwest.com/", "crib": "yww2016_ceilidh.txt"},
 {"start": "2016/05/21 19:00", "type": "ball", "local": false, "name": "Youth Weekend Ball", "location": "Seattle, Wash.", "url": "http://youthweekendwest.com/", "crib": "yww2016_ball.txt"},
 {"start": "2016/10/08 19:30", "type": "ball", "local": false, "name": "High Desert Ball", "location": "The Belfry, Sisters, Ore."},
+{"start": "2017/01/21 15:00", "type": "dance", "local": false, "name": "Eugene Burns Workshop/Dance", "location": "Eugene, Ore.", "url": "/files/eugene_burns_2017.pdf"},
+{"start": "2017/01/28 17:00", "type": "dance", "local": false, "name": "Hillsboro Burns Supper", "location": "Eugene, Ore.", "url": "/files/hillsboro_burns_2017.pdf"},
