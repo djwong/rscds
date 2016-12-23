@@ -206,4 +206,4 @@
 {"start": "2015/11/20 19:30", "type": "class", "name": "Friday Class", "location": "Columbia Dance Center, Vancouver, Wash."},
 {"start": "2015/12/04 19:30", "type": "class", "name": "Friday Class", "location": "Columbia Dance Center, Vancouver, Wash."},
 {"start": "2015/12/11 19:30", "type": "class", "name": "Friday Class", "location": "Columbia Dance Center, Vancouver, Wash."},
-{"start": "2015/12/18 19:30", "type": "class", "name": "Friday Class", "location": "Columbia Dance Center, Vancouver, Wash."},
+{"start": "2016/12/23 19:30", "type": "class", "name": "Friday Class", "location": "Columbia Dance Center, Vancouver, Wash."},
