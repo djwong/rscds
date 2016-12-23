@@ -14,5 +14,5 @@
 {"start": "2016/03/12 19:00", "type": "ball", "name": "Portland Ball", "location": "Portland", "url": "files/workshop_registration_2016.pdf", "crib": "portland_ball_2016.txt"},
 {"start": "2016/04/23 00:00", "type": "ball", "name": "Dinner Dance", "location": "Vancouver, Wash.", "local": true, "crib": "dinner_dance_2016.txt", "url": "http://www.rscds-swws.org/events.html#April23SeventhAnnual"},
 {"start": "2017/03/11 0:00", "type": "ball", "name": "Portland Workshop", "location": "Portland", "url": "workshop.html"},
-{"start": "2017/03/11 0:00", "type": "ball", "name": "Portland Ball", "location": "Portland"},
+{"start": "2017/03/11 0:00", "type": "ball", "name": "Portland Ball", "location": "Portland", "crib": "portland_ball_2017.txt"},
 {"start": "2017/04/22 18:00", "type": "ball", "name": "Dinner Dance", "location": "Vancouver, Wash.", "local": true},
