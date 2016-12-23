@@ -8,7 +8,7 @@
 [<a href="http://rscdsportland.shutterfly.com/">SF</a>]
 [<a href="https://github.com/djwong/rscds">GH</a>]
 </div>
-<div>&copy; 2000-2016 RSCDS Portland Branch</div>
+<div>&copy; 2000-2017 RSCDS Portland Branch</div>
 <div>Email the <a href="mailto:djwong%20dot%20rscds%20at%20djwong%20dot%20org" class="link_email">webmaster</a>.</div>
 				</div>
 				<div class="three-up left">
