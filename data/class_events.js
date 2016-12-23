@@ -1,3 +1,4 @@
+{"start": "2017/01/02 19:30", "type": "class", "name": "Portland Class", "location": "Burlingame Water Tower, Portland, Ore."},
 {"start": "2017/01/09 19:30", "type": "class", "name": "Portland Class", "location": "Burlingame Water Tower, Portland, Ore."},
 {"start": "2017/01/16 19:30", "type": "class", "name": "Portland Class", "location": "Burlingame Water Tower, Portland, Ore."},
 {"start": "2017/01/23 19:30", "type": "class", "name": "Portland Class", "location": "Burlingame Water Tower, Portland, Ore."},
