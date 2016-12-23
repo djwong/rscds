@@ -41,5 +41,6 @@
 {"start": "2016/08/30 19:30", "type": "dance", "name": "Summer Mixer", "location": "Columbia Dance Center, Vancouver, Wash.", "url": "http://www.rscds-swws.org/events.html#Aug30EndofSummerMixe"},
 {"start": "2016/11/12 19:30", "type": "dance", "name": "Portland Dance", "location": "Burlingame Water Tower, Portland, Ore.", "crib": "portland_nov2016.txt"},
 {"start": "2016/12/10 19:30", "type": "dance", "name": "Portland Dance", "location": "Burlingame Water Tower, Portland, Ore.", "crib": "portland_dec2016.txt"},
+{"start": "2016/12/27 19:30", "type": "dance", "name": "Betwixt and Between Dance", "location": "Vancouver, Wash.", "crib": "betwixt_2016.txt"},
 {"start": "2017/01/14 19:30", "type": "dance", "name": "Portland Dance", "location": "Burlingame Water Tower, Portland, Ore."},
 {"start": "2017/02/11 19:30", "type": "dance", "name": "Portland Dance", "location": "Burlingame Water Tower, Portland, Ore.", "crib": "portland_feb2017.txt"},
