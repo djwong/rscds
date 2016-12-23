@@ -16,7 +16,7 @@ Vancouver Dinner Dance</a>?</p>
 </div>
 
 <!-- Vancouver Dinner Dance (make sure you re-enable the crib below -->
-<div style="display: inherit;">
+<div style="display: none;">
 <h1>Vancouver Dinner Dance</h1>
 
 <p>Thank you all who came to the 37th annual Portland workshop and ball!  The
@@ -43,15 +43,15 @@ for which is below.  </p>
 </div> <!-- Vancouver DD section -->
 
 <!-- Portland Ball -->
-<div style="display: none;">
+<div style="display: inherit;">
 <h1>Workshop and Ball</h1>
 
 <p>Every year, the Portland group puts on a dancing workshop and a ball in
-early March.  The 37th ball is March 12th, 2016 at the Burlingame Water Tower
+early March.  The 38th ball is March 11th, 2017 at the Burlingame Water Tower
 Dance Hall in Portland, Ore.  Check back for more details as they are
 available!  Like us on <a
 href="https://www.facebook.com/events/748270001925490/">Facebook</a>!  We also
-have a <a href="files/workshop_registration_2016.pdf">printable registration
+have a <a href="files/workshop_registration_2017.pdf">printable registration
 form</a> available!</p>
 
 <p>Quick links:</p>
@@ -76,25 +76,24 @@ form</a> available!</p>
 <tr><td>Ball</td><td>7:00p</td><td>-</td><td>11:00p</td></tr>
 </table>
 
-<p>Please note new structure: One teacher, one class at a time.</p>
-
 <p>Bottled water will <u>not</u> be provided. Please bring your own to refill
 as needed.</p>
 
 <h2>Teachers</h2>
 
 <ul>
-	<li>Gail Michener, Lethbridge, Alberta</li>
+	<li>Bruce Herbold, Oakland, Calif.</li>
 </ul>
 
 <h2>Musicians</h2>
 
 <ul>
-	<li>Marcia Thumma, fiddle</li>
-	<li>Brian Crisafulli, fiddle</li>
-	<li>Bill Boyd, piano</li>
-	<li>Jason Thumma, string bass</li>
+	<li>Patti Cobb, piano</li>
+	<li>James MacQueen, fiddle</li>
+	<li>Annie Rodier, fiddle</li>
 </ul>
+
+<p>(of the SF Bay Area band Stringfire!)</p>
 
 <a id="program"></a><h2>Ball Program</h2>
 %PORTLAND_BALL_CRIB%
@@ -137,12 +136,12 @@ attending classes regularly for at least two years and...</p>
 
 <p>See <a href="past_programs.html">old programs</a>.</p>
 
-<!--
 <h2>Overnight Accommodations</h2>
 
 <p>Limited housing with our members is available. If interested, email Linda
 Mae below.</p>
 
+<!--
 <p>Nearest Hotel: <a href="http://www.thelakeshoreinn.com/">Lakeshore Inn</a>,
 210 N. State St., Lake Oswego, Ore.</p>
 <iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Lakeshore+Inn&amp;aq=&amp;sll=45.417115,-122.663898&amp;sspn=0.007606,0.015568&amp;ie=UTF8&amp;hq=Lakeshore+Inn&amp;hnear=&amp;t=m&amp;ll=45.417115,-122.663898&amp;spn=0.007606,0.015568&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Lakeshore+Inn&amp;aq=&amp;sll=45.417115,-122.663898&amp;sspn=0.007606,0.015568&amp;ie=UTF8&amp;hq=Lakeshore+Inn&amp;hnear=&amp;t=m&amp;ll=45.417115,-122.663898&amp;spn=0.007606,0.015568" style="color:#0000FF;text-align:left">View Larger Map</a></small>
