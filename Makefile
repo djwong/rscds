@@ -1,6 +1,6 @@
 .SUFFIXES:
 DEST=/home/djwong/rscds_website/
-MOINMOIN_DIR=../moin-1.9.8/
+MOINMOIN_DIR=../moin-1.9.9/
 FRUMP_SCRIPT=$(MOINMOIN_DIR)/MoinMoin/script/export/frump.py
 FONTFORGE=fontforge
 TOOLS=$(FONTFORGE) mkdir cp sed python python3
