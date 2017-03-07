@@ -1,6 +1,7 @@
 Name: The Mad Hatter
 Format: 8×32J, 3C (4C set)
 Source: I. Boyd, Happy to Meet
+Youtube: kFMJ8dXOE2g
 BARS
 1- 8	1s dance down below 3s, cast up to 2nd place, dance up between 2s and cast to 2nd place own side
 9-16	1s Adv+Ret with 1st corners and dance DoSiDo with 1st corners

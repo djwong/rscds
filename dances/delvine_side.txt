@@ -2,6 +2,7 @@ Name: Delvine Side
 Youtube: 445n3D6KCK8
 Format: 8×32S, 3C (4C set)
 Source: W. Campbell, RSCDS Book 2
+Youtube: 445n3D6KCK8
 BARS
 1- 8	1s+2s set & cross passing RSh, set & cross back passing RSh
  9-16	1s lead down the middle & back for Allemande
