@@ -1,5 +1,4 @@
-﻿## page was renamed from RecentChanges
-<<TableOfContents()>>
+﻿<<TableOfContents()>>
 
 {{{#!wiki comment
 pubdate = March/April 2017
