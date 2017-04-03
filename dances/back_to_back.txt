@@ -1,6 +1,6 @@
 Name: Back to Back
-Source: 8×32J, 3C (4C set)
-Format: Terry Glasspool, Itch to Dance
+Format: 8×32J, 3C (4C set)
+Source: Terry Glasspool, Itch to Dance
 Youtube: hiGr0SHC_4s#t=178
 BARS
 1- 8	1s dance DoSiDo, turn RH and cast to 2nd place 
