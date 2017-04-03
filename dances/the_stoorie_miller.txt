@@ -1,0 +1,9 @@
+Name: The Stoorie Miller
+Format: 8×32S, 3C (4C set)
+Source: RSCDS Book 21
+Youtube: c2rJt7LQnvI
+BARS
+1- 8	1s lead down to 3rd place crossing RH and cast up 1 place, 2s+1s+3s turn 2H ending on own sides 
+9-16	1s cast up and lead down to 2nd place and turn 2H to face 1st corners 
+17-24	1s turn 1st corners RH, turn partner LH, turn 2nd corners RH, turn partner LH to face 1st corners 
+25-32	1s set to 1st corners, set to 2nd corners, 2s+1s+3s turn 2H to own sides (1s turn 1½ times)

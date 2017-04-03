@@ -44,3 +44,4 @@
 {"start": "2016/12/27 19:30", "type": "dance", "name": "Betwixt and Between Dance", "location": "Vancouver, Wash.", "crib": "betwixt_2016.txt"},
 {"start": "2017/01/14 19:30", "type": "dance", "name": "Portland Dance", "location": "Burlingame Water Tower, Portland, Ore.", "crib": "portland_jan2017.txt"},
 {"start": "2017/02/11 19:30", "type": "dance", "name": "Portland Dance", "location": "Burlingame Water Tower, Portland, Ore.", "crib": "portland_feb2017.txt"},
+{"start": "2017/04/09 19:30", "type": "dance", "name": "Portland Dance", "location": "Burlingame Water Tower, Portland, Ore.", "crib": "portland_apr2017.txt"},
