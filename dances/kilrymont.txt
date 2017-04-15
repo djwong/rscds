@@ -1,0 +1,9 @@
+Name: Kilrymont
+Format: 8×32S, 3C (4C set)
+Source: Robert M. Campbell, Farewell My Fancy
+Youtube: 2dHZkRy5FkI
+BARS
+1- 8	1s cross RH, cast 1 place, cross up and cast to 2nd places while 2s set, cross up, cast 1 place and cross up to 1st place 
+9-16	1s cross down below 3s, cast up to 2nd place, lead up between 2s crossing LH and cast to face 1st corners 
+17-24	1s set to 1st corners, turn right to turn partners RH to face 2nd corners, set to 2nd corners and turn right to turn partners RH to face 1st corners 
+25-32	1s turn 1st corners 2H, pass RSh, turn 2nd corners 2H and cross to 2nd place passing RSh
