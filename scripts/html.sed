@@ -81,7 +81,7 @@ s/%LAST_FIVE_NEWS%//g
 s/%MEMBERSHIP_FORM%//g
 /%WORKSHOP_FORM%/r workshop_form.html
 s/%WORKSHOP_FORM%//g
-/%MEMBERSHIP_CHAIR_MAIL%/r maureen_mail.html
+/%MEMBERSHIP_CHAIR_MAIL%/r sally_mail.html
 s/%MEMBERSHIP_CHAIR_MAIL%//g
 /%WORKSHOP_CHAIR_MAIL%/r lmae_mail.html
 s/%WORKSHOP_CHAIR_MAIL%//g
