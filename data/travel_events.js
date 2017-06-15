@@ -87,3 +87,7 @@
 {"start": "2016/10/08 19:30", "type": "ball", "local": false, "name": "High Desert Ball", "location": "The Belfry, Sisters, Ore."},
 {"start": "2017/01/21 15:00", "type": "dance", "local": false, "name": "Eugene Burns Workshop/Dance", "location": "Eugene, Ore.", "url": "/files/eugene_burns_2017.pdf"},
 {"start": "2017/01/28 17:00", "type": "dance", "local": false, "name": "Hillsboro Burns Supper", "location": "Eugene, Ore.", "url": "/files/hillsboro_burns_2017.pdf"},
+{"start": "2017/09/08 00:00", "type": "ball", "local": false, "name": "Ft. Worden Ceilidh", "location": "Ft. Worden, Wash.", "url": "http://www.rscds-seattle.org/ftworden/"},
+{"start": "2017/09/09 00:00", "type": "ball", "local": false, "name": "Ft. Worden Ball", "location": "Ft. Worden, Wash.", "url": "http://www.rscds-seattle.org/ftworden/"},
+{"start": "2017/11/17 00:00", "type": "ball", "local": false, "name": "Asilomar Ceilidh", "location": "Pacific Grove, Calif.", "url": "http://asilomar.rscds-sf.org/"},
+{"start": "2017/11/18 00:00", "type": "ball", "local": false, "name": "Asilomar Ball", "location": "Pacific Grove, Calif.", "url": "http://asilomar.rscds-sf.org/"},

@@ -16,3 +16,5 @@
 {"start": "2017/03/11 0:00", "type": "ball", "name": "Portland Workshop", "location": "Portland", "url": "workshop.html"},
 {"start": "2017/03/11 0:00", "type": "ball", "name": "Portland Ball", "location": "Portland", "crib": "portland_ball_2017.txt"},
 {"start": "2017/04/22 18:00", "type": "ball", "name": "Dinner Dance", "location": "Vancouver, Wash.", "local": true},
+{"start": "2018/03/10 0:00", "type": "ball", "name": "Portland Workshop", "location": "Portland", "url": "workshop.html"},
+{"start": "2018/03/10 0:00", "type": "ball", "name": "Portland Ball", "location": "Portland", "crib": "portland_ball_2017.txt"},
