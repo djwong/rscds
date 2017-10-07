@@ -77,7 +77,7 @@ We were so impressed with Paisley Abbey that Sally and I visited it again on our
             <img onmouseout="this.width=201" style="float:left" width="201" onmouseover="this.width=400" title="Clock Tower" src="../images/gg_september_2017_8.jpg"></img>
         </td>
             <td>
-            <img onmouseout="this.width=201" style="float:left" width="201" onmouseover="this.width=400" title="Rosshall Chimney" src="../gg_september_2017_9.jpg"></img>
+            <img onmouseout="this.width=201" style="float:left" width="201" onmouseover="this.width=400" title="Rosshall Chimney" src="../images/gg_september_2017_9.jpg"></img>
         </td>
     
       </tr>
