@@ -1,0 +1,9 @@
+Name: Talisker
+Format: 8×32R, 2C (4C set)
+Source: B. Eddershaw, Whisky Collection
+Youtube: F8OORiTtq0o?rel=0&start=3905&end=3978
+BARS
+1- 8	1s cross down below 2s and cast up to top, cross RH and set 
+9-16	2s cross up and cast down, cross RH and set 
+17-24	1s followed by 2s dance down, 2s followed by 1s dance up to 1st/2nd places 
+25-32	2s+1s dance R&L
