@@ -3,53 +3,35 @@ pubdate = November/December 2017
 }}}
 
 == Note From Maureen Sloan ==
+by Maureen Sloan
 
-by
+'''M'''any thanks to all of you who came to Gertz’s to wish me a happy retirement from dancing.  It was so good to see so many of you again - and also, so many former dancers.  It was a good opportunity for reminiscing, especially with the old club photo books there to refresh our memories. It was fun, even though I didn’t really need to see a picture of myself as “Haste to the Wedding” in very short shorts, running shoes, sporting a wedding veil as headdress!! But it reminded me that back in the day, the dance club was the center of our social life -  what with Monday classes, Saturday dances, demo team performances, Burns' nights, Highland Games, we were kept plenty busy. 
 
-Maureen Sloan
+I have enjoyed my many years of Scottish Country dancing - I first joined in 1981, when the Portland Branch was in it’s early stages of formation.  I've probably held most every position on the Board at one time or another.  It’s all been great fun and very rewarding, but  the time comes for all of us when we have to finally hang up our ghillies, and that time has come for me. I've been rather proud of the fact that I outlasted all my contemporaries, with the notable exception of Don Gertz (who I'm sure will never retire), but as you all know I had a long drive to get to class, so reluctantly I must call it a day.
 
-'''M'''any thanks to all of you who came to Gertz's to wish me a happy retirement from dancing.  It was so good to see so many of you again - and also, so many former dancers.  It was a good opportunity for reminiscing, especially with the old club photo books there to refresh our memories. It was fun, even though I didn't really need to see a picture of myself as "Haste to the Wedding" in very short shorts, running shoes, sporting a wedding veil as headdress!! But it reminded me that back in the day, the dance club was the center of our social life -  what with Monday classes, Saturday dances, demo team performances, Burns' nights, Highland Games, we were kept plenty busy. 
-
-I have enjoyed my many years of Scottish Country dancing - I first joined in 1981, when the Portland Branch was in it's early stages of formation.  I've probably held most every position on the Board at one time or another.  It's all been great fun and very rewarding, but  the time comes for all of us when we have to finally hang up our ghillies, and that time has come for me. I've been rather proud of the fact that I outlasted all my contemporaries, with the notable exception of Don Gertz (who I'm sure will never retire), but as you all know I had a long drive to get to class, so reluctantly I must call it a day.
-
-Someone suggested that I should call in to the Workshop to see how you're all doing - so maybe I will do just that. Anyway - many, many thanks to Don and Linda for putting on the party and giving us all the opportunity to get together.  I had a great time, and the goodies were very tasty (what would a Scottish dance party be without munchies!) - thank you Linda. So with a wish to you all to keep dancing, I'll say "adieu" and thanks for all the happy memories. 
+Someone suggested that I should call in to the Workshop to see how you’re all doing - so maybe I will do just that. Anyway - many, many thanks to Don and Linda for putting on the party and giving us all the opportunity to get together.  I had a great time, and the goodies were very tasty (what would a Scottish dance party be without munchies!) - thank you Linda. So with a wish to you all to keep dancing, I'll say “adieu” and thanks for all the happy memories. 
 
 Maureen Sloan
 
 
 == The McKenzie Highland Games, 2017 ==
-
 by Robert Burger
 
-A demonstration team, the Eugene Scottish Country Dancers, performed at the games, to the delight of many.   We danced the Sailor, Roaring Jelly, Byron Strathspey, Dave Nick Nack, and Mairi's Wedding.  The team had a great time. This was held at Bob Keefer Center For Sports & Recreation.
+{{{#!html
+<p><img src="../images/gg_nov_2017_1.jpg" alt="The Demonstration Team" width="250" height="300" style="float: left; margin-right: 1em;"/></p>
+<br />
+<br />
+<br />
+<br />
+<br />
+}}}
+A demonstration team, the Eugene Scottish Country Dancers, performed at the games, to the delight of many.   We danced the Sailor, Roaring Jelly, Byron Strathspey, Dave Nick Nack, and Mairi’s Wedding.  The team had a great time. This was held at Bob Keefer Center For Sports & Recreation.
 
 Robert Burger
 
-{{{#!html
-<img src="../images/gg_nov_2017_1.jpg" alt="The Demonstration Team" width="400" height="300" style="float: left; margin-right: 1em;"/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-}}}
 
-== Linda Mae's European Vacation, three of three ==
-
-by
-
-Linda Mae Dennis
+== Linda Mae’s European Vacation, three of three ==
+by Linda Mae Dennis
 
 '''Friday, June 23'''
 
@@ -84,15 +66,12 @@ The flight to Reykjavik was uneventful. We did, once again, park out in the midd
 Finally, we got a plane at 10:00pm, and flew in brilliant sunshine for 7 hours to arrive in Portland at 11:00ish. We shuffled through customs. Patrick and I were anxious to get out, so said our goodbyes and high-fives to Holly and Sally while they were waiting for their luggage. Then we exited the customs area and What?! We had to get on a bus to go to the actual terminal! I thought it was hilarious, and I’m sure Holly would have been laughing with me if she had been there. 
 Janice was waiting for us at the gate, along with Martin, who said he couldn’t sleep, so just came to be a greeter. We left him there to greet Sally and Holly, who had their own arrangements for transport, and gratefully allowed Janice to drive us home. It’s good to be home.  
 
-== Wha's Like Us? ==
-
-by 
-
-Tom Anderson Cairns
+== Wha’s Like Us? ==
+by Tom Anderson Cairns
 
 ''As collected by Eunice MacKenzie''
 
-'''Wha's Like Us - Damn Few And They're A' Deid'''
+'''Wha’s Like Us - Damn Few And They’re A’ Deid'''
 
 The average Englishman, in the home he calls his castle, slips into his national costume, a shabby raincoat, patented by chemist Charles Macintosh from Glasgow, Scotland. En route to his office he strides along the English lane, surfaced by John Macadam of Ayr, Scotland. He drives an English car fitted with tyres invented by John Boyd Dunlop of Dreghorn, Scotland, arrives at the station and boards a train, the forerunner of which was a steam engine, invented by James Watt of Greenock, Scotland.He then pours himself a cup of coffee from a thermos flask, the latter invented by Dewar, a Scotsman from Kincardine-on-Forth.
 
@@ -100,12 +79,9 @@ At the office he receives the mail bearing adhesive stamps invented by James Cha
 
 He has by now been reminded too much of Scotland and in desperation he picks up the Bible only to find that the first man mentioned in the good book is a Scot, King James VI, who authorised its translation. Nowhere can an Englishman turn to escape the ingenuity of the Scots. He could take to drink, but the Scots make the best in the world. He could take a rifle and end it all but the breech-loading rifle was invented by Captain Patrick of Pitfours, Scotland. If he escapes death, he might then find himself on an operating table injected with penicillin, which was discovered by Alexander Fleming of Darvel, Scotland, and given an anaesthetic, which was discovered by Sir James Young Simpson of Bathgate, Scotland. Out of the anaesthetic, he would find no comfort in learning he was as safe as the Bank of England founded by William Paterson of Dumfries, Scotland.
 
-Perhaps his only remaining hope would be to get a transfusion of guid Scottish blood which would entitle him to ask, "Wha’s Like Us?" 
+Perhaps his only remaining hope would be to get a transfusion of guid Scottish blood which would entitle him to ask, “Wha’s Like Us?” 
 
 == A Wee Funny ==
-
-by
-
-Mel Whitson
+by Mel Whitson
 
 Alisdair Biggar, a Scotsman, applied to join the New York City police force.  The hiring inspector glared at him and asked, ‘How would you disperse a large, unruly crowd?’ ‘Well,’ replied Alisdair thoughtfully, ‘I’m no too sure how ye do it here in New York. But in Aberdeen we just pass the hat around, and they soon begin to shuffle off.’

@@ -1,3 +1,4 @@
+{"start": "2017/10/31 22:57", "type": "news", "name": "November Ghillie Gazette", "details": "The November/December 2017 edition of the <a href=\"/gazette/2017-11.html\">Ghillie Gazette</a> is out."},
 {"start": "2017/09/28 10:22", "type": "news", "name": "October Ghillie Gazette", "details": "The October 2017 edition of the <a href=\"/gazette/2017-9.html\">Ghillie Gazette</a> is out."},
 {"start": "2017/07/13 21:59", "type": "news", "name": "July Ghillie Gazette", "details": "The July 2017 edition of the <a href=\"/gazette/2017-7.html\">Ghillie Gazette</a> is out."},
 {"start": "2017/05/06 23:06", "type": "news", "name": "May Ghillie Gazette", "details": "The May 2017 edition of the <a href=\"/gazette/2017-5.html\">Ghillie Gazette</a> is out."},
