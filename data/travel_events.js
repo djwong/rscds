@@ -92,3 +92,4 @@
 {"start": "2017/11/17 00:00", "type": "ball", "local": false, "name": "Asilomar Ceilidh", "location": "Pacific Grove, Calif.", "url": "http://asilomar.rscds-sf.org/"},
 {"start": "2017/11/18 00:00", "type": "ball", "local": false, "name": "Asilomar Ball", "location": "Pacific Grove, Calif.", "url": "http://asilomar.rscds-sf.org/"},
 {"start": "2018/01/20 15:00", "type": "dance", "local": false, "name": "Eugene Burns Workshop/Dance", "location": "Eugene, Ore.", "url": "/files/eugene_burns_2018.pdf", "crib": "eugene_burns_2018.txt"},
+{"start": "2018/03/17 17:45", "type": "dance", "local": false, "name": "Heather Ball", "location": "Vancouver, B.C.", "url": "http://www.rscdsvancouver.org/home/2018-heather-ball-tickets/"},
