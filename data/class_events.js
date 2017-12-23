@@ -81,8 +81,8 @@
 {"start": "2015/12/08 19:30", "type": "class", "name": "Ageless SCD", "location": "Columbia Dance Center, Vancouver, Wash."},
 {"start": "2015/12/22 19:30", "type": "class", "name": "Ageless SCD", "location": "Columbia Dance Center, Vancouver, Wash."},
 
-{"start": "2017/01/31 19:30", "type": "class", "name": "Fifth Tuesday Mixer?", "location": "Columbia Dance Center, Vancouver, Wash."},
-{"start": "2017/05/30 19:30", "type": "class", "name": "Fifth Tuesday Mixer?", "location": "Columbia Dance Center, Vancouver, Wash."},
+{"start": "2018/01/30 19:30", "type": "class", "name": "Fifth Tuesday Mixer?", "location": "Columbia Dance Center, Vancouver, Wash."},
+{"start": "2018/05/29 19:30", "type": "class", "name": "Fifth Tuesday Mixer?", "location": "Columbia Dance Center, Vancouver, Wash."},
 
 {"start": "2018/01/05 19:45", "type": "class", "name": "Friday Class", "location": "Columbia Dance Center, Vancouver, Wash."},
 {"start": "2018/01/12 19:45", "type": "class", "name": "Friday Class", "location": "Columbia Dance Center, Vancouver, Wash."},
