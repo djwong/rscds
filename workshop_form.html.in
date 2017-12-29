@@ -2,7 +2,7 @@
 <!-- <p>Please watch this space for more details on how to register.</p> -->
 <form method="POST" id="workshop_form" class="reg_form" action="workshop_form.php">
 	<p class="title">Royal Scottish Country Dance Society, Portland, Ore. Branch:<br />
-	2017 Workshop Registration Form</p>
+	2018 Workshop Registration Form</p>
 	<input type="hidden" name="num_dancers" id="num_dancers" value="2"></input>
 	<table id="field_box">
 		<tr>
@@ -135,7 +135,7 @@
 to keep food items separate, we cannot guarantee that your lunch will be
 completely wheat, soy, nut, or other allergen-free.  If your allergy is
 life-threatening, please let us know in the “Other Notes”; that information
-will be passed on to Linda Mae.</p>
+will be passed on to Holly Gibson.</p>
 
 	<p>Please make check payable to <b>“RSCDS Portland OR Branch”</b> and mail or give to
 %WORKSHOP_CHAIR_MAIL%
