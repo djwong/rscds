@@ -59,6 +59,8 @@ s/%DON_CONTACT%//g
 s/%DEBBIE_CONTACT%//g
 /%GERI_CONTACT%/r geri.html
 s/%GERI_CONTACT%//g
+/%HOLLY_CONTACT%/r holly.html
+s/%HOLLY_CONTACT%//g
 /%LMAE_CONTACT%/r lmae.html
 s/%LMAE_CONTACT%//g
 /%RICHARD_CONTACT%/r richard.html
@@ -83,7 +85,7 @@ s/%MEMBERSHIP_FORM%//g
 s/%WORKSHOP_FORM%//g
 /%MEMBERSHIP_CHAIR_MAIL%/r sally_mail.html
 s/%MEMBERSHIP_CHAIR_MAIL%//g
-/%WORKSHOP_CHAIR_MAIL%/r holly_mail.html
+/%WORKSHOP_CHAIR_MAIL%/r sally_mail.html
 s/%WORKSHOP_CHAIR_MAIL%//g
 /%WORKSHOP_DIRECTIONS%/r workshop_directions.txt
 s/%WORKSHOP_DIRECTIONS%//g
