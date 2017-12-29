@@ -23,6 +23,7 @@ input {
 }
 textarea {
 	font-family: "Source Code Pro", monospace;
+	resize: vertical;
 }
 a:link {
 	color: #0079c1;
