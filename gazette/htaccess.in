@@ -5,19 +5,23 @@ AuthName "Ghillie Gazette"
 AuthBasicProvider file
 AuthUserFile %DEST%/.users
 
-<Files "*2017*">
+<Files "*2018*">
 	Require valid-user
 </Files>
 
-<Files "*2016*">
+<Files "*2017-12*">
 	Require valid-user
 </Files>
 
-<Files "*2015-11*">
+<Files "*2017-11*">
 	Require valid-user
 </Files>
 
-<Files "*2015-09*">
+<Files "*2017-10*">
+	Require valid-user
+</Files>
+
+<Files "*2017-09*">
 	Require valid-user
 </Files>
 
