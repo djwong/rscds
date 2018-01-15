@@ -86,8 +86,8 @@
 
 {"start": "2018/01/04 19:30", "type": "class", "name": "Scottish Country Dance for Everyone", "location": "DanceWorks, Vancouver, Wash."},
 {"start": "2018/01/11 19:30", "type": "class", "name": "Scottish Country Dance for Everyone", "location": "DanceWorks, Vancouver, Wash."},
-{"start": "2018/01/15 19:30", "type": "class", "name": "Scottish Country Dance for Everyone", "location": "DanceWorks, Vancouver, Wash."},
-{"start": "2018/01/26 19:30", "type": "class", "name": "Scottish Country Dance for Everyone", "location": "DanceWorks, Vancouver, Wash."},
+{"start": "2018/01/18 19:30", "type": "class", "name": "Scottish Country Dance for Everyone", "location": "DanceWorks, Vancouver, Wash."},
+{"start": "2018/01/25 19:30", "type": "class", "name": "Scottish Country Dance for Everyone", "location": "DanceWorks, Vancouver, Wash."},
 {"start": "2018/02/01 19:30", "type": "class", "name": "Scottish Country Dance for Everyone", "location": "DanceWorks, Vancouver, Wash."},
 {"start": "2018/02/08 19:30", "type": "class", "name": "Scottish Country Dance for Everyone", "location": "DanceWorks, Vancouver, Wash."},
 {"start": "2018/02/15 19:30", "type": "class", "name": "Scottish Country Dance for Everyone", "location": "DanceWorks, Vancouver, Wash."},
