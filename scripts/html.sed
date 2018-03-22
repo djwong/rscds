@@ -43,7 +43,7 @@ s/%CHAIR_CONTACT%//g
 s/%VICE_CHAIR_CONTACT%//g
 /%SECRETARY_CONTACT%/r janice.html
 s/%SECRETARY_CONTACT%//g
-/%TREASURER_CONTACT%/r debbie.html
+/%TREASURER_CONTACT%/r sally.html
 s/%TREASURER_CONTACT%//g
 /%AT_LARGE_CONTACT%/r sally.html
 s/%AT_LARGE_CONTACT%//g
