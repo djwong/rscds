@@ -93,3 +93,8 @@
 {"start": "2017/11/18 00:00", "type": "ball", "local": false, "name": "Asilomar Ball", "location": "Pacific Grove, Calif.", "url": "http://asilomar.rscds-sf.org/"},
 {"start": "2018/01/20 15:00", "type": "dance", "local": false, "name": "Eugene Burns Workshop/Dance", "location": "Eugene, Ore.", "url": "/files/eugene_burns_2018.pdf", "crib": "eugene_burns_2018.txt"},
 {"start": "2018/03/17 17:45", "type": "dance", "local": false, "name": "Heather Ball", "location": "Vancouver, B.C.", "url": "http://www.rscdsvancouver.org/home/2018-heather-ball-tickets/"},
+{"start": "2018/04/07 00:00", "type": "dance", "local": false, "name": "Van. Isle. Workshop and Ball", "location": "Victoria, B.C.", "url": "http://viscds.ca/workshop-and-spring-social/"},
+{"start": "2018/09/07 00:00", "type": "ball", "local": false, "name": "Ft. Worden Ceilidh", "location": "Ft. Worden, Wash.", "url": "http://www.rscds-seattle.org/fort-worden-workshop.html"},
+{"start": "2018/09/08 00:00", "type": "ball", "local": false, "name": "Ft. Worden Ball", "location": "Ft. Worden, Wash.", "url": "http://www.rscds-seattle.org/fort-worden-workshop.html"},
+{"start": "2018/10/26 00:00", "type": "ball", "local": false, "name": "Asilomar Ceilidh", "location": "Pacific Grove, Calif.", "url": "http://asilomar.rscds-sf.org/"},
+{"start": "2018/10/28 00:00", "type": "ball", "local": false, "name": "Asilomar Ball", "location": "Pacific Grove, Calif.", "url": "http://asilomar.rscds-sf.org/"},

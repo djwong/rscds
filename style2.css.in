@@ -248,6 +248,11 @@ img {
 .crib_steps {
 	display: none;
 }
+@media print {
+	.crib_steps {
+		display: table-row;
+	}
+}
 .crib_steps td {
 }
 .crib_header td {

@@ -21,11 +21,13 @@
 				</div>
 				<div class="three-up left">
 <div style="font-weight: bold;">Dance With Others</div>
-<div><a href="http://www.rscds-swws.org/">SW Washington</a> - <a href="http://www.rscds-swws.org/2016-dinnerdance.pdf">Dinner Dance</a></div>
-<div><a href="http://www.rscds-seattle.org/">Seattle</a> - <a href="http://www.rscds-seattle.org/ftworden/">Ft. Worden</a></div>
+<div><a href="http://www.rscds-swws.org/">SW Washington</a> - <a href="http://www.rscds-swws.org/2018-dinnerdance.pdf">Dinner Dance</a></div>
+<div><a href="http://www.rscds-seattle.org/">Seattle</a> - <a href="http://www.rscds-seattle.org/fort-worden-workshop.html">Ft. Worden</a></div>
+<!--
 <div><a href="http://hdccd.com/">Oregon High Desert</a> - <a href="http://hdccd.com/wp-content/uploads/2014/11/2015-webpage.pdf">Ball</a></div>
 <div><a href="http://www.youthweekendwest.com/">Youth Weekend West</a></div>
-<div><a href="http://www.rscds-sf.org/">San Francisco</a> - <a href="http://asilomar.rscds-sf.org/Asilomar2015Application.pdf">Asilomar</a></div>
+-->
+<div><a href="http://www.rscds-sf.org/">San Francisco</a> - <a href="http://asilomar.rscds-sf.org/">Asilomar</a></div>
 <div><a href="http://www.rscdsvancouver.org/">Vancouver, B.C.</a>; <a href="https://www.facebook.com/ThistleAndGhillies">Boise</a>; <a href="http://www.bellinghamscd.org/">Bellingham</a>; <a href="http://viscds.ca/">Victoria, B.C.</a></div>
 <div><a href="http://www.intercityscot.org/">Inter-City Scot</a>; <a href="http://www.strathspey.org/">Strathspey Server</a></div>
 				</div>

@@ -16,7 +16,7 @@ Vancouver Dinner Dance</a>?</p>
 </div>
 
 <!-- Vancouver Dinner Dance (make sure you re-enable the crib below -->
-<div style="display: none;">
+<div style="display: inherit;">
 <h1>Vancouver Dinner Dance</h1>
 
 <p>Thank you all who came to the 37th annual Portland workshop and ball!  The
@@ -24,11 +24,13 @@ next major dance event in the area is the Vancouver Dinner Dance, the program
 for which is below.  </p>
 
 <h2>Registration</h2>
-<p><a href="http://www.rscds-swws.org/2016-dinnerdance.pdf">Register</a> today for the Vancouver Dinner Dance!</p>
+<p><a href="http://www.rscds-swws.org/2018-dinnerdance.pdf">Register</a> today for the Vancouver Dinner Dance!</p>
 
+<!--
 <h2>Program</h2>
 %SW_WA_BALL_CRIB%
 <p class="noprint">[<a href="workshop_crib.html">Printable Format</a> | <a href="javascript:crib_toggle_all(true);">Expand All</a> | <a href="javascript:crib_toggle_all(false);">Collapse All</a>]</p>
+-->
 
 <h2>Map</h2>
 <p>St. Luke's Episcopal Church, 426 East Fourth Plan Blvd., Vancouver, Wash.</p>
@@ -43,7 +45,7 @@ for which is below.  </p>
 </div> <!-- Vancouver DD section -->
 
 <!-- Portland Ball -->
-<div style="display: inherit;">
+<div style="display: none;">
 <h1>Workshop and Ball</h1>
 
 <p>Every year, the Portland group puts on a dancing workshop and a ball in
