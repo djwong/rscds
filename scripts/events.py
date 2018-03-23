@@ -195,6 +195,9 @@ class event_queries:
 			if 'crib' in evt:
 				crib_name = 'cribs/' + evt['crib']
 				crib.generate_crib(crib_name, open(crib_name), sys.stdout)
+				sys.stdout.write('<p class="noprint">[<a href="javascript:crib_toggle_all(true);">Expand All</a> | <a href="javascript:crib_toggle_all(false);">Collapse All</a>]</p>\n')
+			elif 'url' in evt:
+				sys.stdout.write('<p>Download a <a href="%s">crib sheet</a> of the dances on the program.</p>\n' % evt['url'])
 			else:
 				print('We are sorry, but there is no posted program yet.  Please check back later.')
 			return
