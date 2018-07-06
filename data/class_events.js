@@ -19,7 +19,7 @@
 {"start": "2018/05/14 19:30", "type": "class", "name": "Portland Class", "location": "Burlingame Water Tower, Portland, Ore."},
 {"start": "2018/05/21 19:30", "type": "dance", "name": "Portland AGM", "location": "Burlingame Water Tower, Portland, Ore."},
 {"start": "2018/05/28 19:30", "type": "class", "name": "Portland Class", "location": "Burlingame Water Tower, Portland, Ore."},
-{"start": "2018/06/04 19:30", "type": "class", "name": "Portland Class", "location": "Burlingame Water Tower, Portland, Ore."},
+{"start": "2018/06/04 19:30", "type": "dance", "name": "Remembrance for Greg Reznick", "location": "Burlingame Water Tower, Portland, Ore."},
 {"start": "2018/06/11 19:30", "type": "class", "name": "Portland Class", "location": "Burlingame Water Tower, Portland, Ore."},
 {"start": "2018/06/18 19:30", "type": "class", "name": "Portland Class", "location": "Burlingame Water Tower, Portland, Ore."},
 {"start": "2018/06/25 19:30", "type": "class", "name": "Portland Class", "location": "Burlingame Water Tower, Portland, Ore."},
