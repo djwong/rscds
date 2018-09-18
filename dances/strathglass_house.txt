@@ -1,0 +1,12 @@
+Name: Strathglass House 
+Format: 8×32S, 3C (4C set)
+Source: Robert Bremner, RSCDS Book 13 
+Youtube: Z7gb3FAquZI
+BARS
+1-2	1s2s3s set;
+3-4	1s2s3s 6 hands round to the left halfway;
+5-8	repeat bars 1-4 to original places;
+9-16	1s cross down below 2s, cast round 3s, lead to the top and cast to finish facing first corners;
+17-24	1s turn corner, partner, corner, partner, finishing in 2nd place on opposite sides;
+25-28	2s1s3s advance and retire;
+29-32	1s turn both hands 1½ times.
