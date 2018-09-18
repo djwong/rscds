@@ -19,3 +19,5 @@
 {"start": "2018/03/10 0:00", "type": "ball", "name": "Portland Workshop", "location": "Portland", "url": "workshop.html"},
 {"start": "2018/03/10 0:00", "type": "ball", "name": "Portland Ball", "location": "Portland", "crib": "portland_ball_2018.txt"},
 {"start": "2018/04/21 18:00", "type": "ball", "name": "Dinner Dance", "location": "Vancouver, Wash.", "local": true, "url": "http://www.rscds-swws.org/2018-dinnerdance.pdf"},
+{"start": "2018/10/27 19:30", "type": "ball", "name": "SWWS Fall Dance", "location": "Vancouver, Wash.", "local": true, "url": "http://www.rscds-swws.org/2018falldanceflyer.pdf"},
+{"start": "2019/03/09 0:00", "type": "ball", "name": "Portland Ball", "location": "Portland"},
