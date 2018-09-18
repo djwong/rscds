@@ -384,7 +384,7 @@ As below, some photos of our travels.
             <img onmouseout="this.width=201" style="float:left" width="201" onmouseover="this.width=400" title="Rural Mabou" src="../images/gg_september_2018_1.jpg"></img>
         </td>
             <td>
-            <img onmouseout="this.width=201" style="float:left" width="201" onmouseover="this.width=400" title="At Inverness" src="../images/gg_september_2018_2jpg"></img>
+            <img onmouseout="this.width=201" style="float:left" width="201" onmouseover="this.width=400" title="At Inverness" src="../images/gg_september_2018_2.jpg"></img>
         </td>
             <td>
             <img onmouseout="this.width=201" style="float:left" width="201" onmouseover="this.width=400" title="Inverness Memorial" src="../images/gg_september_2018_3.jpg"></img>
