@@ -1,22 +1,18 @@
 {{{#!wiki comment
-pubdate = July/August 2018
+pubdate = September/October 2018
 }}}
 
+<<TableOfContents()>>
+
 == New Dance Year, PDX ==
-
-by
-
-'''Holly Gibson'''
+by Holly Gibson
 
 '''E'''very year about this time we marvel that summer is almost over and dancing season is drawing close. It can’t be that time already, we collectively gasp. The good news is, yes it really is time to start dancing again.
 
 One of the best things about being a dancer is not only the dancing but the numerous fringe benefits. There are places I’ve been and people I’ve met all because of our dancing community, and I bet most of you could say the same thing. Each of you is a part of that community and so here’s a reminder that as the season changes and it’s cold and wet outside and you’re tempted to stay in with a good book or watch your favorite TV show, or avoid the traffic on I-5, just remember there’s a roomful of people hoping you’ll join them in the laughter that follows a dance done well (or even, maybe especially, when not), and in the friendship that comes from doing something with a group of people sharing a similar interest. I hope to see you all in a few weeks with your ghillies on ready to dance!
 
 == Popular Scottish Dances and Music ==
-
-by
-
-'''Tom Halpenny'''
+by Tom Halpenny
 
 '''RSCDS''' HQ requested that branches provide a list of dances which are popular amongst dancers, in order to receive input for the 2019 book of 30 popular dances. Our Branch leaders had a discussion of its popular dances. We generated a frequency-sorted list of dances in programmes (April 2010 - June 2018) which can be viewed here.
 http://www.rscds-swws.org/meetings/2018-09-15/c-08-SWWS-Popular-Dances.pdf
@@ -332,10 +328,7 @@ http://www.rscds-swws.org/news/stories/AustralianLadiesF.mp3
 }}}
 
 == Teachers's Corner ==
-
-by
-
-'''Don Gertz''''
+by Don Gertz
 
 '''H'''aving been out of town for most of May and all of June along with the summer off season, I really need my weekly dancing fix!
 
@@ -360,10 +353,7 @@ Some basic guidelines:
 
 
 == Cape Breton, Nova Scotia ==
-
-by
-
-'''Martin MacKenzie'''
+by Martin MacKenzie
 
 '''O'''ur little journey began earlier last year when we had a discussion about the lack of traditional music to be found and experienced during our trip to Scotland the summer of 2016. One of our memories from our stay at the Salutation Hotel in downtown Perth was a wee pub we visited across the street. Though the interactions and culture were much as we expected to experience there, the kind of music that was performed was John Denver and Randy Newman! Quite disappointing to American ears wanting to at least feel like we had escaped from home for a little while.
 
@@ -430,3 +420,6 @@ As below, some photos of our travels.
     </tbody>
     </table>
 }}}
+
+== November Dance Program ==
+%CRIB_portland_nov2018%

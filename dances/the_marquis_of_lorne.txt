@@ -1,0 +1,9 @@
+Name: The Marquis of Lorne
+Format: 8×32S, 3C (4C set)
+Source: MMM 2
+Youtube: pzbnl-eXbbw
+BARS
+ 1- 8	1s followed by 2s lead down the middle, 2s followed by 1s lead up to end 2s in 1st place
+ 9-16	2s+1s+3s circle 6H round & back
+17-24	2s+1s+3s dance Grand Chain (2s crossing to commence)
+25-32	1s set twice, lead down between 3s divide & cast back to 2nd place own sides

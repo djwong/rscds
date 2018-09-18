@@ -1,0 +1,9 @@
+Name: The Ferry Louper
+Format: 8×32J, 3C (4C set)
+Source: Roy Goldring, 24 Graded and Social Dances
+Youtube: WoJpTAq3rR0, 17iQVwJKdgU
+BARS
+ 1- 8	1s+2s+3s chase clockwise to places
+ 9-16	1s+2s dance RH across & LH back
+17-24	1s cast below 3s, dance up to top & cast to 2nd place
+25-32	2s+1s+3s Adv+Ret & turn partner RH

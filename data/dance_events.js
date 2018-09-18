@@ -52,3 +52,4 @@
 {"start": "2018/02/03 19:30", "type": "dance", "name": "Groundhog Day Dance", "location": "Columbia Dance Center, Vancouver, Wash.", "crib": "groundhog_2018.txt", "url": "/files/groundhog_dance_2018.pdf"},
 {"start": "2018/02/10 19:30", "type": "dance", "name": "Portland Dance", "location": "Burlingame Water Tower, Portland, Ore.", "crib": "portland_feb2018.txt"},
 {"start": "2018/05/12 19:30", "type": "dance", "name": "Portland Dance", "location": "Burlingame Water Tower, Portland, Ore.", "url": "/files/may_2018.pdf"},
+{"start": "2018/11/10 19:30", "type": "dance", "name": "Portland Dance", "location": "Burlingame Water Tower, Portland, Ore.", "crib": "portland_nov2018.txt"},
