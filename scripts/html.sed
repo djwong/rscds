@@ -73,6 +73,8 @@ s/%MARGE_CONTACT%//g
 s/%LIZA_CONTACT%//g
 /%LINDA_CONTACT%/r linda.html
 s/%LINDA_CONTACT%//g
+/%RMINTZ_CONTACT%/r rmintz.html
+s/%RMINTZ_CONTACT%//g
 /%ALL_CRIBS%/r has_crib.html
 s/%ALL_CRIBS%//g
 /%GAZETTE_INDEX%/r gazette_index.html
