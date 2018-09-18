@@ -8,7 +8,7 @@ import inspect
 import crib
 import hashlib
 
-EVENT_TYPES = {'class', 'dance', 'workshop', 'ball', 'demo', 'hidden', 'news'}
+EVENT_TYPES = {'class', 'dance', 'workshop', 'ball', 'demo', 'hidden', 'news', 'comment'}
 CALENDAR_TYPES = {'class', 'dance', 'workshop', 'ball', 'demo', 'hidden'}
 
 # Event db schema: The file format is JSON.
@@ -29,6 +29,8 @@ CALENDAR_TYPES = {'class', 'dance', 'workshop', 'ball', 'demo', 'hidden'}
 # cribfile:	Name of a crib file describing the dances for this event.
 # url:		URL describing this event.
 # ready:	Is this event ready for display? (True/False, default is True)
+#
+# Comments have a type of 'comment' and we ignore everything else in the tuple.
 class event_database:
 	'''Load and query events.'''
 	def __init__(self):
@@ -43,6 +45,8 @@ class event_database:
 		self.dbfile = fd.name
 		for entry in raw_data:
 			if len(entry) == 0:
+				continue
+			if entry['type'] == 'comment':
 				continue
 			assert "start" in entry, "All entries must have a start date/time."
 			assert "type" in entry, "All entries must have a type."
