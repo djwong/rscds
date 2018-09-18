@@ -96,5 +96,6 @@
 {"start": "2018/04/07 00:00", "type": "dance", "local": false, "name": "Van. Isle. Workshop and Ball", "location": "Victoria, B.C.", "url": "http://viscds.ca/workshop-and-spring-social/"},
 {"start": "2018/09/07 00:00", "type": "ball", "local": false, "name": "Ft. Worden Ceilidh", "location": "Ft. Worden, Wash.", "url": "http://www.rscds-seattle.org/fort-worden-workshop.html"},
 {"start": "2018/09/08 00:00", "type": "ball", "local": false, "name": "Ft. Worden Ball", "location": "Ft. Worden, Wash.", "url": "http://www.rscds-seattle.org/fort-worden-workshop.html"},
+{"start": "2018/10/06 00:00", "type": "ball", "local": false, "name": "SCD Dinner and Ball in the Oregon Highlands", "location": "Redmond, Ore.", "url": "http://www.rscds-swws.org/2018_redmond_ball.pdf"},
 {"start": "2018/10/26 00:00", "type": "ball", "local": false, "name": "Asilomar Ceilidh", "location": "Pacific Grove, Calif.", "url": "http://asilomar.rscds-sf.org/"},
 {"start": "2018/10/28 00:00", "type": "ball", "local": false, "name": "Asilomar Ball", "location": "Pacific Grove, Calif.", "url": "http://asilomar.rscds-sf.org/"},
