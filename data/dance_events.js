@@ -54,3 +54,4 @@
 {"start": "2018/05/12 19:30", "type": "dance", "name": "Portland Dance", "location": "Burlingame Water Tower, Portland, Ore.", "url": "/files/may_2018.pdf"},
 {"start": "2018/11/10 14:30", "type": "dance", "name": "Portland Mini-Workshop", "location": "Burlingame Water Tower, Portland, Ore.", "url": "/files/fall_dance_2018.pdf"},
 {"start": "2018/11/10 19:30", "type": "dance", "name": "Portland Dance", "location": "Burlingame Water Tower, Portland, Ore.", "crib": "portland_nov2018.txt", "url": "/files/fall_dance_2018.pdf"},
+{"start": "2019/01/12 19:30", "type": "dance", "name": "Portland Dance", "location": "Burlingame Water Tower, Portland, Ore.", "crib": "portland_jan2019.txt"},
