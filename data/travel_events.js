@@ -99,5 +99,5 @@
 {"start": "2018/10/06 00:00", "type": "ball", "local": false, "name": "SCD Dinner and Ball in the Oregon Highlands", "location": "Redmond, Ore.", "url": "http://www.rscds-swws.org/2018_redmond_ball.pdf"},
 {"start": "2018/10/26 00:00", "type": "ball", "local": false, "name": "Asilomar Ceilidh", "location": "Pacific Grove, Calif.", "url": "http://asilomar.rscds-sf.org/"},
 {"start": "2018/10/27 00:00", "type": "ball", "local": false, "name": "Asilomar Ball", "location": "Pacific Grove, Calif.", "url": "http://asilomar.rscds-sf.org/"},
-{"start": "2019/03/23 17:45", "type": "dance", "local": false, "name": "Heather Ball", "location": "Vancouver, B.C.", "url": "http://rscdsvancouver.org/dance/the-heather-ball/"},
+{"start": "2019/03/23 17:45", "type": "dance", "local": false, "name": "Heather Ball", "location": "Vancouver, B.C.", "url": "http://rscdsvancouver.org/dance/the-heather-ball/", "url": "/files/heather_ball_2019.pdf"},
 {"start": "2019/03/24 13:00", "type": "dance", "local": false, "name": "Musicians’ Workshop", "location": "Vancouver, B.C.", "url": "http://rscdsvancouver.org/dance/the-heather-ball/"},
