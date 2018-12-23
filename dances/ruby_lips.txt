@@ -1,0 +1,10 @@
+Name: Ruby Lips
+Format: 8×32S, 3C (4C set)
+Source: S. Scott, Lady In Red Collection
+BARS
+1- 8	1s+2s+3s set 2x then 2s followed by 1s dance NH between 3s and cast up (order 213)
+9-12	1s set advancing end back to back 1M facing down 1W facing up
+13-16	1M+3s, 1W+2s circle 3H round Left drop hands on bar 7and 1s pass RSh to end in 2pl on opposite sides
+17-20	1s set advancing end back to back 1M facing up 1W facing down
+21-24	1M+2s, 1W+3s circle 3H round Left drop hands on bar 7and 1s pass RSh to end in 2pl on own sides
+25-32	2s+1s+3s circle 6H round & back

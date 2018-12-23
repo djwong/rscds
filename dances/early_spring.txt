@@ -1,0 +1,8 @@
+Name: Early Spring
+Format: 3×32S, 3C set
+Source: I Neves, World Wide Wander
+BARS
+1- 8	1M+2M+3M dance RSh round partners then 1s+2s+3s turn RH
+9-16	1L+2L+3L dance LSh round partners then 1s+2s+3s turn LH ending LH joined facing up
+17-24	1s+2s+3s dance Allemande
+25-32	3s + 2s dance Tourbillon

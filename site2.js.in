@@ -237,7 +237,7 @@ var WORKSHOP_FORM_ITEMS = {
 	ball_nonmember_early: 35,
 	ball_nonmember_late: 45,
 	ball_spectator: 5,
-	lunch_guest: 6
+	lunch_guest: 7
 };
 
 function calculate_workshop_total()

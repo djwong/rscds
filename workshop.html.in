@@ -16,7 +16,7 @@ Vancouver Dinner Dance</a>?</p>
 </div>
 
 <!-- Vancouver Dinner Dance (make sure you re-enable the crib below -->
-<div style="display: inherit;">
+<div style="display: none;">
 <h1>Vancouver Dinner Dance</h1>
 
 <p>Thank you all who came to the 37th annual Portland workshop and ball!  The
@@ -45,15 +45,15 @@ for which is below.  </p>
 </div> <!-- Vancouver DD section -->
 
 <!-- Portland Ball -->
-<div style="display: none;">
+<div style="display: inherit;">
 <h1>Workshop and Ball</h1>
 
 <p>Every year, the Portland group puts on a dancing workshop and a ball in
-early March.  The 39th ball is March 10th, 2018 at the Burlingame Water Tower
+early March.  The 40th ball is March 9th, 2019 at the Burlingame Water Tower
 Dance Hall in Portland, Ore.  Check back for more details as they are
 available!  Like us on <a
 href="https://www.facebook.com/events/748270001925490/">Facebook</a>!  We also
-have a <a href="files/workshop_registration_2018.pdf">printable registration
+have a <a href="files/workshop_registration_2019.pdf">printable registration
 form</a> available!</p>
 
 <p>Quick links:</p>
@@ -68,15 +68,16 @@ form</a> available!</p>
 <a id="schedule"></a><h2>Schedule</h2>
 
 <table id="workshop_schedule">
-<tr><td>Registration</td><td>9:00a</td><td>-</td><td>9:30a</td></tr>
+<tr><td>Packet Pick-Up</td><td>9:00a</td><td>-</td><td>9:30a</td></tr>
 <tr><td>Level 1 Class</td><td>9:30a</td><td>-</td><td>11:00a</td></tr>
 <tr><td>Combined Class</td><td>11:15a</td><td>-</td><td>12:15p</td></tr>
 <tr><td>Lunch</td><td>12:15p</td><td>-</td><td>12:45p</td></tr>
 <tr><td>Level 2 Class</td><td>1:00p</td><td>-</td><td>2:30p</td></tr>
-<tr><td>Ball Walk-Through</td><td>2:45p</td><td>-</td><td>4:00p</td></tr>
 <tr><td>Grand March</td><td>7:00p</td></tr>
 <tr><td>Ball</td><td>7:00p</td><td>-</td><td>11:00p</td></tr>
 </table>
+
+<p><b>Note:</b> There will not be a ball walk-through this year.</p>
 
 <p>Bottled water will <u>not</u> be provided. Please bring your own to refill
 as needed.</p>
@@ -84,21 +85,22 @@ as needed.</p>
 <h2>Teachers</h2>
 
 <ul>
-	<li>Rachel Pusey, Santa Clara, Calif.</li>
+	<li>Mel Briscoe, Alexandria, Virginia.</li>
 </ul>
 
 <h2>Musicians</h2>
 
 <ul>
-	<li>Steve Wyrick, fiddle</li>
-	<li>Julie Wyrick, piano</li>
+	<li>Patti Cobb, piano</li>
+	<li>Debbie Benton-Grosjean, fiddle</li>
+	<li>Erik Ievins, cello</li>
 </ul>
 
-<p>from Walnut Creek, Calif.!</p>
+<p>from the San Francisco Bay Area, Calif.!</p>
 
 <a id="program"></a><h2>Ball Program</h2>
 %PORTLAND_BALL_CRIB%
-<p class="noprint">[<a href="workshop_crib.html">Printable Format</a> | <a href="javascript:crib_toggle_all(true);">Expand All</a> | <a href="javascript:crib_toggle_all(false);">Collapse All</a>]</p>
+<p class="noprint">[<a href="/files/workshop_2019.pdf">Printable Format</a> | <a href="javascript:crib_toggle_all(true);">Expand All</a> | <a href="javascript:crib_toggle_all(false);">Collapse All</a>]</p>
 
 <h2>Class Levels</h2>
 
@@ -140,7 +142,7 @@ attending classes regularly for at least two years and...</p>
 <h2>Overnight Accommodations</h2>
 
 <p>Limited housing with our members is available. If interested, email
-Holly Gibson.</p>
+Linda Mae Dennis.</p>
 
 <!--
 <p>Nearest Hotel: <a href="http://www.thelakeshoreinn.com/">Lakeshore Inn</a>,
@@ -152,7 +154,7 @@ Holly Gibson.</p>
 
 <div class="container">
 <div class="one-up">
-%HOLLY_CONTACT%
+%LMAE_CONTACT%
 </div>
 </div>
 </div> <!-- Portland ball section -->
