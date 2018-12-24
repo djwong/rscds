@@ -15,7 +15,7 @@
 {"start": "2019/04/08 19:30", "type": "class", "name": "Portland Class", "location": "Burlingame Water Tower, Portland, Ore."},
 {"start": "2019/04/15 19:30", "type": "class", "name": "Portland Class", "location": "Burlingame Water Tower, Portland, Ore."},
 {"start": "2019/04/22 19:30", "type": "class", "name": "Portland Class", "location": "Burlingame Water Tower, Portland, Ore."},
-{"start": "2019/04/39 19:30", "type": "class", "name": "Portland Class", "location": "Burlingame Water Tower, Portland, Ore."},
+{"start": "2019/04/29 19:30", "type": "class", "name": "Portland Class", "location": "Burlingame Water Tower, Portland, Ore."},
 {"start": "2019/05/06 19:30", "type": "class", "name": "Portland Class", "location": "Burlingame Water Tower, Portland, Ore."},
 {"start": "2019/05/13 19:30", "type": "class", "name": "Portland Class", "location": "Burlingame Water Tower, Portland, Ore."},
 {"start": "2019/05/20 19:30", "type": "dance", "name": "Portland AGM", "location": "Burlingame Water Tower, Portland, Ore."},
