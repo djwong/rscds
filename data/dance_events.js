@@ -55,3 +55,4 @@
 {"start": "2018/11/10 14:30", "type": "dance", "name": "Portland Mini-Workshop", "location": "Burlingame Water Tower, Portland, Ore.", "url": "/files/fall_dance_2018.pdf"},
 {"start": "2018/11/10 19:30", "type": "dance", "name": "Portland Dance", "location": "Burlingame Water Tower, Portland, Ore.", "crib": "portland_nov2018.txt", "url": "/files/fall_dance_2018.pdf"},
 {"start": "2019/01/12 19:30", "type": "dance", "name": "Portland Dance", "location": "Burlingame Water Tower, Portland, Ore.", "crib": "portland_jan2019.txt"},
+{"start": "2019/02/09 19:30", "type": "dance", "name": "Déjà Vu Dance", "location": "Columbia Dance Center, Vancouver, Wash.", "url": "http://www.rscds-swws.org/events.html#Feb9-2019D-j-VuScott"},
