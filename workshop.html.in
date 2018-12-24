@@ -1,8 +1,5 @@
 %HEAD%
 	<title>Workshop and Ball</title>
-<script>
-$(document).ready(crib_show_all);
-</script>
 %BODY%
 %NAVIGATION%
 %OPEN_CONTENT%
@@ -101,8 +98,9 @@ as needed.</p>
 <p>from the San Francisco Bay Area, Calif.!</p>
 
 <a id="program"></a><h2>Ball Program</h2>
-%PORTLAND_BALL_CRIB%
-<p class="noprint">[<a href="/files/workshop_crib_2019.pdf">Printable Format</a> | <a href="javascript:crib_toggle_all(true);">Expand All</a> | <a href="javascript:crib_toggle_all(false);">Collapse All</a>]</p>
+
+<p class="noprint">Please <a href="/files/workshop_crib_2019.pdf">click
+here</a> for a crib of dances.</p>
 
 <h2>Class Levels</h2>
 
