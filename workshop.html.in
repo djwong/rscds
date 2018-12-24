@@ -1,5 +1,8 @@
 %HEAD%
 	<title>Workshop and Ball</title>
+<script>
+$(document).ready(crib_show_all);
+</script>
 %BODY%
 %NAVIGATION%
 %OPEN_CONTENT%
@@ -48,10 +51,9 @@ for which is below.  </p>
 <div style="display: inherit;">
 <h1>Workshop and Ball</h1>
 
-<p>Every year, the Portland group puts on a dancing workshop and a ball in
-early March.  The 40th ball is March 9th, 2019 at the Burlingame Water Tower
-Dance Hall in Portland, Ore.  Check back for more details as they are
-available!  Like us on <a
+<p>Every year, the Portland group puts on a dancing workshop and ball; the 40th
+ball is March 9th, 2019 at the Burlingame Water Tower Dance Hall in Portland,
+Ore.  Check back for more details as they are available!  Like us on <a
 href="https://www.facebook.com/events/748270001925490/">Facebook</a>!  We also
 have a <a href="files/workshop_registration_2019.pdf">printable registration
 form</a> available!</p>
@@ -100,7 +102,7 @@ as needed.</p>
 
 <a id="program"></a><h2>Ball Program</h2>
 %PORTLAND_BALL_CRIB%
-<p class="noprint">[<a href="/files/workshop_2019.pdf">Printable Format</a> | <a href="javascript:crib_toggle_all(true);">Expand All</a> | <a href="javascript:crib_toggle_all(false);">Collapse All</a>]</p>
+<p class="noprint">[<a href="/files/workshop_crib_2019.pdf">Printable Format</a> | <a href="javascript:crib_toggle_all(true);">Expand All</a> | <a href="javascript:crib_toggle_all(false);">Collapse All</a>]</p>
 
 <h2>Class Levels</h2>
 

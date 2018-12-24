@@ -45,6 +45,11 @@ function crib_toggle_all(show)
 	$('tr[id ^= "crib_"]').each(function(a,b) {crib_toggle(b.id, show);});
 }
 
+function crib_show_all()
+{
+	crib_toggle_all(true);
+}
+
 function decryptEmailAddr(addr)
 {
 	var x = addr.replace(/ at /g, "@");

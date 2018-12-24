@@ -1,5 +1,8 @@
 %HEAD%
 	<title>Ball Program</title>
+<script>
+$(document).ready(crib_show_all);
+</script>
 %BODY%
 %NAVIGATION%
 %OPEN_CONTENT%
