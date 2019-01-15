@@ -129,8 +129,11 @@ attending classes regularly for at least two years and...</p>
 </ul>
 
 <a id="register"></a><h2>Registration</h2>
-%WORKSHOP_FORM%
+<p class="noprint">Please click here for the <a href="files/workshop_registration_2019.pdf">registration form</a>.</p>
+<!-- remove the spaces around the '%' to re-enable form
+% WORKSHOP_FORM %
 <p class="noprint">[<a href="workshop_reg.html">Printable Format</a>]</p>
+-->
 
 <a id="directions"></a><h2>Directions</h2>
 
