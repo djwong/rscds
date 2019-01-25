@@ -101,3 +101,4 @@
 {"start": "2018/10/27 00:00", "type": "ball", "local": false, "name": "Asilomar Ball", "location": "Pacific Grove, Calif.", "url": "http://asilomar.rscds-sf.org/"},
 {"start": "2019/03/23 17:45", "type": "dance", "local": false, "name": "Heather Ball", "location": "Vancouver, B.C.", "url": "http://rscdsvancouver.org/dance/the-heather-ball/", "url": "/files/heather_ball_2019.pdf"},
 {"start": "2019/03/24 13:00", "type": "dance", "local": false, "name": "Musicians’ Workshop", "location": "Vancouver, B.C.", "url": "http://rscdsvancouver.org/dance/the-heather-ball/"},
+{"start": "2019/04/06 00:00", "type": "dance", "local": false, "name": "Vancouver Island Workshop and Ball", "location": "Victoria, B.C.", "url": "/files/vanisle_ball_2019.pdf"},
