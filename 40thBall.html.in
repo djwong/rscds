@@ -1,11 +1,13 @@
-
-<html>
-
-<head>
-<meta http-equiv="Content-Language" content="en-us">
-<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-<title>DancieMaetion 2.0</title>
-</head>
+%HEAD%
+	<title>DancieMaetion 2.0</title>
+<style>
+.skinny_box {
+	max-width: none;
+}
+</style>
+%BODY%
+%NAVIGATION%
+%OPEN_CONTENT%
 <script language="javascript">
 	var welcomeCell = null;
 
@@ -58,7 +60,9 @@
 	}
 
 </script>
+<!--
 <body background="images/tileable-metal-textures-4[1].jpg">
+-->
 
 <div align="center">
 
@@ -141,6 +145,5 @@
 
 </div>
 
-</body>
-
-</html>
+%CLOSE_CONTENT%
+%FOOT%
