@@ -7,7 +7,7 @@ TOOLS=$(FONTFORGE) mkdir cp sed python python3
 
 PHP=membership_form.php workshop_form.php
 FANCY_HTML=index.html
-REGULAR_HTML=classes.html party.html workshop.html demo.html events.html about.html members.html dances.html past_programs.html workshop_reg.html members_reg.html workshop_dirs.html workshop_crib.html past_events.html djwong_cribs.html
+REGULAR_HTML=classes.html party.html workshop.html demo.html events.html about.html members.html dances.html past_programs.html workshop_reg.html members_reg.html workshop_dirs.html workshop_crib.html past_events.html djwong_cribs.html 40thBall.html
 GAZETTE_HTML=gazette/index.html gazette/.htaccess
 MEMBER_DIRECTORY=gazette/directory.pdf
 HTML=$(REGULAR_HTML) $(FANCY_HTML) $(GAZETTE_HTML)

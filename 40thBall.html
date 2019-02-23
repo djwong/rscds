@@ -1,0 +1,146 @@
+
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>DancieMaetion 2.0</title>
+</head>
+<script language="javascript">
+	var welcomeCell = null;
+
+	// Show the original content pane; ie. Sponsor/Notes/Logo
+	function showWelcome(){
+		// find the main document table
+		var table = document.getElementById("mytable");
+
+		// in case the first thing the user does is press this button
+		// remember the welcome-cell contents
+		if (welcomeCell == null)
+			welcomeCell = table.rows[0].cells[1].innerHTML;
+
+		// restore the welcome-cell  contents 
+		table.rows[0].cells[1].innerHTML = welcomeCell;
+	}
+
+	function showNoVideoMessage(videoName){
+		// find the main document table
+		var table = document.getElementById("mytable");
+
+		// in case the first thing the user does is press this button
+		// remember the welcome-cell contents
+		if (welcomeCell == null)
+			welcomeCell = table.rows[0].cells[1].innerHTML;
+		
+		// construct the 'no video' message contents
+		var missingImage = "<img border=\"0\" src=\"http://www.DancieMaetion.com/images/dancer_logo_no_video_308x543.png\" width=\"200\">";
+		var missingMessage = "<h4 align=\"center\">There is no DancieMaetion video for \"" + videoName + "\".</h4>";
+		var missingTable = "<table  width=\"100%\" height=\"100%\"><tr><td  align=\"center\">"+missingImage+"</td></tr><tr><td>"+missingMessage+"</td></tr></table>";
+		
+		// present the 'no video' message 
+		table.rows[0].cells[1].innerHTML = missingTable;
+	}
+	
+	// swap out the original welcome-cell with a YouTube frame
+	// and run the video
+	function showVideo(youTubeLink){
+		// find the main document table
+		var table = document.getElementById("mytable");
+
+		// remember the original welcome-cell contents (if it has not been done already)
+		if (welcomeCell == null)
+			welcomeCell = table.rows[0].cells[1].innerHTML;
+
+		// put the YouTUbe frame in place
+		table.rows[0].cells[1].innerHTML = "<iframe id=\"YouTube\" width=\"960\" height=\"540\"  frameborder=\"0\" allowfullscreen></iframe>";
+		// tell the YouTube widget to show our video
+		document.getElementById("YouTube").src = "https://www.youtube.com/embed/" + youTubeLink + "?rel=0";
+	}
+
+</script>
+<body background="images/tileable-metal-textures-4[1].jpg">
+
+<div align="center">
+
+<h1 align="center"><font size="7" color="#990000">40th, Ruby Anniversary Ball</font></h1>
+	<table id="mytable" border="3" width="1200"  height="550">
+		<tr>
+			<td width="20%" align="center" bgcolor="#757575">
+			
+				<table width="100%">
+					<tr>
+						<td>
+							<img onclick="showWelcome()" title="Return to Cover Page." border="0" align="center" src="http://www.danciemaetion.com/images/ic_launcher.png" width="25" height="24" hspace="-5">
+						</td>
+						<td width="80%">
+							<font size="4">Select a Dance to View</font>
+						</td>
+					</tr>
+				</table>
+
+				<ol>
+
+<li><button  onclick="showVideo('XAv8klKff0Q')" style="width: 200px">Laird of Milton's Daughter, The</li>
+<li><button  onclick="showVideo('qzGgK-p5Y8g')" style="width: 200px">Belfast Hornpipe, The</li>
+<li><button  onclick="showVideo('Z0nG1Mfw7P8')" style="width: 200px">Salute to Noel Lillie</li>
+<li><button  onclick="showVideo('a7QP5uTnC34')" style="width: 200px">Blue Bonnets</li>
+<li><button  onclick="showVideo('E6nHv4UQ8OY')" style="width: 200px">Florrie's Fancy</li>
+<li><button  onclick="showVideo('-0zKyxn698s')" style="width: 200px">Falkirk Lass, The</li>
+<li><button  onclick="showVideo('EV6KdPnWSYo')" style="width: 200px">Cranberry Tart, The</li>
+<li><button  onclick="showVideo('28Wot3ljs0Y')" style="width: 200px">Early Spring</li>
+<li><button  onclick="showVideo('zE8VoMKB8yA')" style="width: 200px">Montgomeries' Rant, The</li>
+<h3>Intermission</h3>
+<li><button  onclick="showVideo('hn_iNMnNhbw')" style="width: 200px">Fair Enough</li>
+<li><button  onclick="showVideo('IKh8eEPF2i4')" style="width: 200px">Music Makars, The</li>
+<li><button  onclick="showVideo('YcNEVd65Fm8')" style="width: 200px">Fair Donald</li>
+<li><button  onclick="showVideo('KREkgzivkRw')" style="width: 200px">Red House</li>
+<li><button  onclick="showVideo('IIexYCnVtzw')" style="width: 200px">Ruby Lips</li>
+<li><button  onclick="showVideo('NfreT3R_xrY')" style="width: 200px">Joie de Vivre</li>
+<li><button  onclick="showVideo('3OX65CQyagc')" style="width: 200px">Wind that Shakes the Barley, The</li>
+  
+				</ol>
+			
+			</td>
+			<td width="79%" align="center" valign="top" bgcolor="#757575">
+
+
+<!--The table defined below is essentially the 'Welcome Cell' -->
+<table border="0" width="80%" height="100%">
+	<tr>
+		<td>
+<h2 align="center">RSCDS Portland, OR Branch</h2><h3 align="center">March 9, 2019 at the Burlingame Water Tower Dance Hall</h3>		</td>
+	</tr>
+	<tr>
+		<td align="center">
+			<img border="0" src="http://www.DancieMaetion.com/images/Dancer_logo_holding_hands.png" width="207" height="205">
+		</td>
+	</tr>
+	
+	<tr>
+		<td>
+			<h2 align="center">Videos provided by <a href="http://www.DancieMaetion.com">www.DancieMaetion.com</a>.</h2>
+		</td>
+	</tr>
+</table>
+<!--The end of table defined above is essentially the 'Welcome Cell' -->
+
+
+			</td>
+		</tr>
+	</table>
+	<h3 align="center">
+	Please consider supporting DancieMaetion through a donation to our local RSCDS Branch.  Thank you.
+   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+   <input value="_s-xclick" name="cmd" type="hidden"></input>
+   <input value="2U5D7TKJYCWVG" name="hosted_button_id" type="hidden"></input>
+   <input name="submit" alt="PayPal - The safer, easier way to pay online!" border="0" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" type="image"></input>
+   <img height="1" width="1" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"></img>
+   </form>
+	</h3>
+
+
+</div>
+
+</body>
+
+</html>
