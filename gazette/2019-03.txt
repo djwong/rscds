@@ -81,7 +81,7 @@ All due credit goes to Linda Mae Dennis for having the idea of both a group of d
 {{{#!html
 <table class="image_left">
 <caption class="tagline" align="bottom">Reely?</caption>
-<tr><td><img class="artwork" src="../images/gg_jan_2019_1.jpg" style="float:right" width="268" onmouseover="this.width=641" onmouseout="this.width=268"></img></td></tr>
+<tr><td><img class="artwork" src="../images/gg_mar_2019_1.jpg" style="float:right" width="268" onmouseover="this.width=641" onmouseout="this.width=268"></img></td></tr>
 </table>
 }}}
 
