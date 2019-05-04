@@ -1,3 +1,4 @@
+{"start": "2019/05/03 21:03", "type": "news", "name": "May Ghillie Gazette", "details": "The May/June 2019 edition of the <a href=\"/gazette/2019-05.html\">Ghillie Gazette</a> is out."},
 {"start": "2019/03/11 20:42", "type": "news", "name": "March Ghillie Gazette", "details": "The March/April 2019 edition of the <a href=\"/gazette/2019-03.html\">Ghillie Gazette</a> is out."},
 {"start": "2019/02/22 21:15", "type": "news", "name": "Ball DancieMations", "details": "DancieMaetions for the March ball can be found <a href=\"/40thBall.html\">here</a>."},
 {"start": "2019/01/07 18:55", "type": "news", "name": "January Ghillie Gazette", "details": "The January/February 2019 edition of the <a href=\"/gazette/2019-01.html\">Ghillie Gazette</a> is out."},
